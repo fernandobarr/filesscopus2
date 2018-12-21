@@ -1,0 +1,1808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!-- global - usado para alimentar os campos da parte fixa que não variam 
+		no servico. Um campo fixo alimentado por definicao nesta sessao pode ser 
+		sobreescrito posteriormente pela redefinicao do mesmo campo em um passo especifico -->
+	<global>
+		<!-- parametro campologfixo= usado para indicar que o conteudo será logado 
+			no campo da area fixa identificado neste atributo. Corresponde ao nome do 
+			setter dos objetos LogDados e LogDadosSessao conteudo= usado para logar dados 
+			fixos. O campo de log é prenchido com o que estiver declarado no XML. Permite 
+			uso de formatador para os casos de formatacao condicional. -->
+		
+		<parametro tipo="FIXO" campologfixo="tecnologia" conteudo="000" />
+		<parametro tipo="FIXO" campologfixo="tipoDispositivo" conteudo="000" />
+		<parametro tipo="FIXO" campologfixo="codigoDispositivo" conteudo="" />
+		<parametro tipo="FIXO" campologfixo="codigoOperadora" conteudo="000000000" />
+		<parametro tipo="FIXO" campologfixo="codigoProduto" conteudo="000" /> 
+		<parametro tipo="FIXO" campologfixo="CodigoRetornoTecnico" conteudo="0000000" />
+		<parametro tipo="FIXO" campologfixo="CodigoRetornoNegocio" conteudo="0000000" />
+		<parametro tipo="FIXO" campologfixo="FlagErroNegocio" conteudo="0" />
+		<parametro tipo="FIXO" campologfixo="FlagErroTecnico" conteudo="0" />
+		<!-- <parametro tipo="FIXO" campologfixo="Modulo" conteudo="Cessão de Crédito" /> -->
+	</global>
+
+	<!-- Log De Navegacao - Inclusão dos Dados de Grupo de Carteiras -->
+	<navegacao action="#{cadastroGrupoCarteiraBean.initIncluir}" paginade="" paginapara="cadastroGrupoCarteiraIncluir.jsf">
+		<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01"/>
+		<parametro tipo="FIXO" campologfixo="FlagIndicador" conteudo="00"/>
+		<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraIncluir.jsf"/>
+		<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Inclusão dos Dados de Grupo de Carteiras"/>
+		<naologar>.*jsf_.*</naologar>
+	</navegacao>
+
+    <!-- Log De Navegacao -	Inclusão dos Dados de Grupo de Carteiras (confirmação) -->
+	<navegacao action="#{cadastroGrupoCarteiraBean.initIncluir}" paginade="cadastroGrupoCarteiraIncluirConfirmacao.jsf" paginapara="cadastroGrupoCarteiraIncluir.jsf">
+		<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01"/>
+		<parametro tipo="FIXO" campologfixo="FlagIndicador" conteudo="00"/>
+		<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraIncluirConfirmacao.jsf"/>
+		<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Inclusão dos Dados de Grupo de Carteiras"/>
+		<naologar>.*jsf_.*</naologar>
+	</navegacao>
+	
+	<!-- Log De Navegacao -	Inclusão dos Dados de Grupo de Carteiras (conclusão) -->
+	<navegacao action="#{cadastroGrupoCarteiraBean.initIncluir}" paginade="cadastroGrupoCarteiraIncluirConfirmacao.jsf" paginapara="cadastroGrupoCarteiraIncluirConclusao.jsf">
+		<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01"/>
+		<parametro tipo="FIXO" campologfixo="FlagIndicador" conteudo="00"/>
+		<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraIncluirConclusao.jsf"/>
+		<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Inclusão dos Dados de Grupo de Carteiras"/>
+		<naologar>.*jsf_.*</naologar>
+	</navegacao>
+
+	<!-- **************************************************************************************************** -->	
+	
+	<!-- Log De Navegacao -	Alteração dos Dados de Grupo de Carteiras -->
+	<navegacao action="#{cadastroGrupoCarteiraBean.initAlterar}" paginade="" paginapara="cadastroGrupoCarteiraAlterar.jsf">
+		<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01"/>
+		<parametro tipo="FIXO" campologfixo="FlagIndicador" conteudo="00"/>
+		<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraAlterar.jsf"/>
+		<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Alteração dos Dados de Grupo de Carteiras"/>
+		<naologar>.*jsf_.*</naologar>
+	</navegacao>
+	
+	<!-- Log De Navegacao -	Alteração dos Dados de Grupo de Carteiras (confirmação) -->
+	<navegacao action="#{cadastroGrupoCarteiraBean.initAlterar}" paginade="cadastroGrupoCarteiraAlterar.jsf" paginapara="cadastroGrupoCarteiraAlterarConfirmacao.jsf">
+		<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01"/>
+		<parametro tipo="FIXO" campologfixo="FlagIndicador" conteudo="00"/>
+		<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraAlterarConfirmacao.jsf"/>
+		<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Alteração dos Dados de Grupo de Carteiras"/>
+		<naologar>.*jsf_.*</naologar>
+	</navegacao>
+	
+	<!-- Log De Navegacao -	Alteração dos Dados de Grupo de Carteiras (conclusão) -->
+	<navegacao action="#{cadastroGrupoCarteiraBean.initAlterar}" paginade="cadastroGrupoCarteiraAlterarConfirmacao.jsf" paginapara="cadastroGrupoCarteiraAlterarConclusao.jsf">
+		<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01"/>
+		<parametro tipo="FIXO" campologfixo="FlagIndicador" conteudo="00"/>
+		<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraAlterarConclusao.jsf"/>
+		<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Alteração dos Dados de Grupo de Carteiras"/>
+		<naologar>.*jsf_.*</naologar>
+	</navegacao>	
+	
+    <!-- **************************************************************************************************** -->	
+	
+	<!-- Log De Navegacao -	Exclusão dos Dados de Grupo de Carteiras -->
+	<navegacao action="#{cadastroGrupoCarteiraBean.initExcluir}" paginade="" paginapara="cadastroGrupoCarteiraExcluir.jsf">
+		<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01"/>
+		<parametro tipo="FIXO" campologfixo="FlagIndicador" conteudo="00"/>
+		<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraExcluir.jsf"/>
+		<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Exclusão dos Dados de Grupo de Carteiras"/>
+		<naologar>.*jsf_.*</naologar>
+	</navegacao>
+	
+	<!-- Log De Navegacao -	Exclusão dos Dados de Grupo de Carteiras (confirmação) -->
+	<navegacao action="#{cadastroGrupoCarteiraBean.initExcluir}" paginade="cadastroGrupoCarteiraExcluir.jsf" paginapara="cadastroGrupoCarteiraExcluirConfirmacao.jsf">
+		<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01"/>
+		<parametro tipo="FIXO" campologfixo="FlagIndicador" conteudo="00"/>
+		<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraExcluirConfirmacao.jsf"/>
+		<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Exclusão dos Dados de Grupo de Carteiras"/>
+		<naologar>.*jsf_.*</naologar>
+	</navegacao>
+	
+	<!-- Log De Navegacao -	Exclusão dos Dados de Grupo de Carteiras (conclusão) -->
+	<navegacao action="#{cadastroGrupoCarteiraBean.initExcluir}" paginade="cadastroGrupoCarteiraExcluirConfirmacao.jsf" paginapara="cadastroGrupoCarteiraExcluirConclusao.jsf">
+		<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01"/>
+		<parametro tipo="FIXO" campologfixo="FlagIndicador" conteudo="00"/>
+		<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraExcluirConclusao.jsf"/>
+		<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Exclusão dos Dados de Grupo de Carteiras"/>
+		<naologar>.*jsf_.*</naologar>
+	</navegacao>
+	
+    <!-- **************************************************************************************************** -->
+	
+	<!-- Log De Navegacao -	Extrato CBLC -->
+	<navegacao action="#{extratoBean.navegaExtratoCblc}" paginade="" paginapara="consultaExtratoCBLC.jsf">
+		<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_EXT01"/>
+		<parametro tipo="FIXO" campologfixo="FlagIndicador" conteudo="00"/>
+		<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaExtratoCBLC.jsf"/>
+		<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Extrato CBLC"/>
+		<naologar>.*jsf_.*</naologar>
+	</navegacao>
+
+	<!-- Log De Navegacao -	Extrato CETIP -->
+	<navegacao action="#{extratoBean.navegaExtratoCetip}" paginade="" paginapara="consultaExtratoCetip.jsf">
+		<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_EXT02"/>
+		<parametro tipo="FIXO" campologfixo="FlagIndicador" conteudo="00"/>
+		<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaExtratoCetip.jsf"/>
+		<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Extrato CETIP"/>
+		<naologar>.*jsf_.*</naologar>
+	</navegacao>	
+
+	<!-- Log De Navegacao -	Extrato CETIP -->
+	<navegacao action="#{extratoBean.navegaExtratoSelic}" paginade="" paginapara="consultaExtratoSelic.jsf">
+		<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_EXT03"/>
+		<parametro tipo="FIXO" campologfixo="FlagIndicador" conteudo="00"/>
+		<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaExtratoSelic.jsf"/>
+		<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Extrato SELIC"/>
+		<naologar>.*jsf_.*</naologar>
+	</navegacao>	
+
+    <!-- **************************************************************************************************** -->
+	
+	<!-- Log De Navegacao -	Upload CBLC -->
+	<navegacao action="#{uploadCblcBean.upload}" paginade="" paginapara="uploadCblc.jsf">
+		<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL01"/>
+		<parametro tipo="FIXO" campologfixo="FlagIndicador" conteudo="00"/>
+		<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCblc.jsf"/>
+		<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CBLC"/>
+		<naologar>.*jsf_.*</naologar>
+	</navegacao>
+
+	<!-- Log De Navegacao -	Upload CETIP -->
+	<navegacao action="#{uploadCetipBean.upload}" paginade="" paginapara="uploadCetip.jsf">
+		<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL02"/>
+		<parametro tipo="FIXO" campologfixo="FlagIndicador" conteudo="00"/>
+		<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCetip.jsf"/>
+		<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CETIP"/>
+		<naologar>.*jsf_.*</naologar>
+	</navegacao>
+
+	<!-- Log De Navegacao -	Upload SELIC -->
+	<navegacao action="#{uploadSelicBean.upload}" paginade="" paginapara="uploadSelic.jsf">
+		<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL03"/>
+		<parametro tipo="FIXO" campologfixo="FlagIndicador" conteudo="00"/>
+		<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadSelic.jsf"/>
+		<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload SELIC"/>
+		<naologar>.*jsf_.*</naologar>
+	</navegacao>	
+
+    <!-- **************************************************************************************************** -->	
+	
+	<!-- Log De Navegacao -	Consulta Uploads -->
+	<navegacao action="#{consultaUploadsBean.pesquisa}" paginade="" paginapara="consultaUploads.jsf">
+		<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CUP01"/>
+		<parametro tipo="FIXO" campologfixo="FlagIndicador" conteudo="00"/>
+		<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaUploads.jsf"/>
+		<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Consulta Uploads"/>
+		<naologar>.*jsf_.*</naologar>
+	</navegacao>	
+	
+	<!-- **************************************************************************************************** -->	
+	
+	<!-- Log De Navegacao -	Consulta Uploads -->
+	<navegacao action="#{consultaStatusUploadBean.init}" paginade="" paginapara="consultaStatusUpload.jsf">
+		<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CSU01"/>
+		<parametro tipo="FIXO" campologfixo="FlagIndicador" conteudo="00"/>
+		<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaStatusUpload.jsf"/>
+		<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Consulta Status Upload"/>
+		<naologar>.*jsf_.*</naologar>
+	</navegacao>
+		
+    <!-- **************************************************************************************************** -->		
+	<!-- 2.1.	Inclusão de Grupo de Carteiras -->
+	<classe nome="br.com.bradesco.web.custodia.service.business.clearings.impl.CarteiraServiceImpl">
+
+		<!-- a)	Inclusão dos Dados de Grupo de Carteiras -->
+		<!--  1)	Consultar carteiras disponíveis (ida*)	 -->
+		<metodo nome="consultarListaCarteirasDisponiveisSblf" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.initIncluir" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Incluir Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="02" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="SBLF7300" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXAIGI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraIncluir.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="SBLF7300" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" />
+		</metodo>
+		
+		<!--  2)	Consultar carteiras disponíveis (volta*)	 -->
+		<metodo nome="consultarListaCarteirasDisponiveisSblf" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.initIncluir" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Incluir Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="02" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="SBLF7300" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="02" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXAIGV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraIncluir.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="SBLF7300" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataListaCarteirasDisponiveisSblf" />
+		</metodo>
+		
+		<!-- a)	Inclusão dos Dados de Grupo de Carteiras -->
+		<!--  3)	Registrar carteiras disponíveis localmente (ida*)	 -->
+		<metodo nome="atualizarCarteiras" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.initIncluir" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Incluir Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="03" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXBIGI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraIncluir.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttCartInvesClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataListaCarteirasInvestimento" />
+			<parametro tipo="ENTRADA" ordem="1" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+		</metodo>                                           
+		
+		<!--  4)	Registrar carteiras disponíveis localmente (volta*)	 -->
+		<metodo nome="atualizarCarteiras" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.initIncluir" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Incluir Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="04" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXBIGV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraIncluir.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttCartInvesClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" />
+		</metodo>
+		
+		<!--  5)	Consultar carteiras disponíveis (ida)	 -->
+		<metodo nome="consultarListaCarteirasDisponiveisSblf" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.atualizaListasDeCarteiras" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Alterar Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="02" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="SBLF7300" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="05" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXCAGI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraAlterar.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="SBLF7300" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="codigoUsuario" />
+		</metodo>
+		
+		<!--  6)	Consultar carteiras disponíveis (volta)	 -->
+		<metodo nome="consultarListaCarteirasDisponiveisSblf" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.atualizaListasDeCarteiras" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Alterar Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="02" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="SBLF7300" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="06" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXCAGV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraAlterar.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="SBLF7300" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="listaCarteirasDisponiveisSblf" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataListaCarteirasDisponiveisSblf" />
+		</metodo>
+
+		<!--  7)	Registrar carteiras disponíveis localmente (ida)	 -->
+		<metodo nome="atualizarCarteiras" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.atualizaListasDeCarteiras" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Alterar Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="07" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXDAGI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraAlterar.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttCartInvesClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="carteiraInvestimentoList"     formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataListaCarteirasInvestimentoList" />
+			<parametro tipo="ENTRADA" ordem="1" nome="usuario"     formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+		</metodo>
+		
+		<!--  8)	Registrar carteiras disponíveis localmente (volta)	 -->
+		<metodo nome="atualizarCarteiras" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.atualizaListasDeCarteiras" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Alterar Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="08" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXDAGV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraAlterar.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttCartInvesClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="status"	/>
+		</metodo>
+		
+		
+		<!-- c)	Alteração dos Dados de Grupo de Carteiras (conclusão) -->	
+		<!--  1)	Efetivar grupo de carteiras selecionadas (ida)	 -->
+		<metodo nome="alterarGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.CadastroGrupoCarteiraBean.efetivarAlterar" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Alterar Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="10" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXFAGI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraAlterarConclusao.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttGrpExtrtCartClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoAcao" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoAcao"/>			
+			<parametro tipo="ENTRADA" ordem="0" nome="codigo" formatador="br.com.bradesco.web.ibpf.application.log.aspect.formatters.FormataNumero"/>
+			<parametro tipo="ENTRADA" ordem="1" nome="codigoCarteira" />
+			<parametro tipo="ENTRADA" ordem="1" nome="descricaoCarteira" />
+			<parametro tipo="ENTRADA" ordem="1" nome="codigoCarteiraCblc" />
+			<parametro tipo="ENTRADA" ordem="1" nome="codigoCarteiraCetip" />
+			<parametro tipo="ENTRADA" ordem="1" nome="codigoCarteiraSelic" />
+			<parametro tipo="ENTRADA" ordem="1" nome="codigoCarteiraExterno" />
+			<parametro tipo="ENTRADA" ordem="1" nome="codigoCarteiraSelicBmf" formatador="br.com.bradesco.web.ibpf.application.log.aspect.formatters.FormataNumero"/>
+			<parametro tipo="ENTRADA" ordem="1" nome="codigoCarteiraSelicBovespa" formatador="br.com.bradesco.web.ibpf.application.log.aspect.formatters.FormataNumero"/>
+			<parametro tipo="ENTRADA" ordem="0" nome="numeroFuncionario" formatador="br.com.bradesco.web.ibpf.application.log.aspect.formatters.FormataNumero" />
+		</metodo>
+		
+		<!--  2)	Efetivar grupo de carteiras selecionadas (volta)	 -->
+		<metodo nome="alterarGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.CadastroGrupoCarteiraBean.efetivarAlterar" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Alterar Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="11" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXFAGV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraAlterarConclusao.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttGrpExtrtCartClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="status"	/>
+		</metodo>
+		
+		<!--  5)	Consultar carteiras disponíveis (ida)	 -->
+		<metodo nome="consultarListaCarteirasDisponiveisSblf" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.atualizaListasDeCarteiras" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Excluir Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="02" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="SBLF7300" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="05" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXCEGI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraExcluir.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="SBLF7300" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="codigoUsuario" />
+		</metodo>
+		
+		<!--  6)	Consultar carteiras disponíveis (volta)	 -->
+		<metodo nome="consultarListaCarteirasDisponiveisSblf" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.atualizaListasDeCarteiras" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Excluir Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="02" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="SBLF7300" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="06" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXCEGV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraExcluir.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="SBLF7300" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="listaCarteirasDisponiveisSblf" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataListaCarteirasDisponiveisSblf" />
+		</metodo>
+
+		<!--  7)	Registrar carteiras disponíveis localmente (ida)	 -->
+		<metodo nome="atualizarCarteiras" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.atualizaListasDeCarteiras" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Excluir Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="07" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXDEGI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraAlterar.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttCartInvesClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="carteiraInvestimentoList"     formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataListaCarteirasInvestimentoList" />
+			<parametro tipo="ENTRADA" ordem="1" nome="usuario"     formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+		</metodo>
+		
+		<!--  8)	Registrar carteiras disponíveis localmente (volta)	 -->
+		<metodo nome="atualizarCarteiras" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.atualizaListasDeCarteiras" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Excluir Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="08" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXDEGV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraAlterar.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttCartInvesClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="status"	/>
+		</metodo>
+		
+		<!-- c)	Exclusão dos Dados de Grupo de Carteiras (conclusão) -->	
+		<!--  1)	Efetivar exclusão do grupo de carteiras selecionadas (ida)	 -->
+		<metodo nome="excluirGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.CadastroGrupoCarteiraBean.efetivarExcluir" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Alterar Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="10" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXFEGI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraExcluirConclusao.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttGrpExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoAcao" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoAcao"/>			
+			<parametro tipo="ENTRADA" ordem="0" nome="codigo" formatador="br.com.bradesco.web.ibpf.application.log.aspect.formatters.FormataNumero"/>
+			<parametro tipo="ENTRADA" ordem="0" nome="descricaoCarteira" />
+			<parametro tipo="ENTRADA" ordem="0" nome="numeroFuncionario" />
+			<parametro tipo="ENTRADA" ordem="0" nome="numeroFuncionario" formatador="br.com.bradesco.web.ibpf.application.log.aspect.formatters.FormataNumero" />
+		</metodo>
+		
+		<!--  2)	Efetivar exclusão grupo de carteiras selecionadas (volta)	 -->
+		<metodo nome="excluirGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.CadastroGrupoCarteiraBean.efetivarExcluir" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Alterar Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="11" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXFEGV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraExcluirConclusao.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttGrpExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="status"	/>
+		</metodo>
+
+		<!-- 2.10.	Consulta Uploads -->
+		<!--  1)	Consultar carteiras disponíveis (ida)	 -->
+		<metodo nome="consultarListaCarteirasDisponiveisSblf" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.ConsultaUploadsBean.pesquisa" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Consulta Uploads" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CUP01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="02" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="SBLF7300" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CUPXACUI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaUploads.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="SBLF7300" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="codigoUsuario" />
+		</metodo>
+		
+		<!--  2)	Consultar carteiras disponíveis (volta)	 -->
+		<metodo nome="consultarListaCarteirasDisponiveisSblf" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.ConsultaUploadsBean.pesquisa" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Consulta Uploads" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CUP01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="02" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="SBLF7300" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="02" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CUPXACUV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaUploads.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="SBLF7300" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="listaCarteirasDisponiveisSblf" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataListaCarteirasDisponiveisSblf" />
+		</metodo>
+		
+		<!--  3)	Consultar Carteira Remessa (ida)	 -->
+		<metodo nome="consultarCarteiraRemessa" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.ConsultaUploadsBean.pesquisa" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Consulta Uploads" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CUP01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="03" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CUPXBCUI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaUploads.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="PSELTCTRLLOG" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />		
+			<parametro tipo="ENTRADA" ordem="0" nome="nCmara" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataNumero" />			
+			<parametro tipo="ENTRADA" ordem="1" nome="cTpoExtrt" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="2" nome="dMovtoClerg" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />		
+		</metodo>
+		
+		<!--  4)	Consultar carteiras disponíveis (volta)  -->
+		<metodo nome="consultarCarteiraRemessa" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.ConsultaUploadsBean.pesquisa" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Consulta Uploads" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CUP01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="04" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CUPXBCUV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaUploads.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="PSELTCTRLLOG" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="listaCarteirasRemesa" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataListaCarteirasRemessa" />
+		</metodo>
+		
+		<!-- 2.11.	Consulta Status Upload -->
+		<!--  1)	Visualizar relatório de status upload (ida)	 -->
+		<metodo nome="consultarCarteiraRemessa" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.ConsultaUploadsBean.pesquisa" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Consulta Status Uploads" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CSU01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CSUXASUI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaStatusUploads.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltRegExecClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />	
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoAcao"   formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoAcao" />				
+			<parametro tipo="ENTRADA" ordem="0" nome="nCmara"   formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataNumero" />			
+			<parametro tipo="ENTRADA" ordem="0" nome="cTpoExtrt"   formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="dMovtoClerg"  formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />
+			<parametro tipo="ENTRADA" ordem="0" nome="nRemssMovto" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cFuncBdscoManut"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />				
+		</metodo>
+		
+		<!--  2)	Visualizar relatório de status upload (volta)  -->
+		<metodo nome="consultarCarteiraRemessa" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.ConsultaUploadsBean.pesquisa" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Consulta Status Uploads" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CSU01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="02" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CSUXASUV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaStatusUploads.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltRegExecClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="nCmara" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataNumero"  />
+			<parametro tipo="SAIDA" ordem="0" nome="cTpoExtrt" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoAcao" />
+			<parametro tipo="SAIDA" ordem="0" nome="dMovtoClerg" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataData" />	
+			<parametro tipo="SAIDA" ordem="0" nome="nRemssMovto" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataNumero" />					
+			<parametro tipo="SAIDA" ordem="0" nome="nStaExec" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataNumero" />
+			<parametro tipo="SAIDA" ordem="0" nome="rDesStaExec" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataNumero" />	
+			<parametro tipo="SAIDA" ordem="0" nome="hIniExec" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataData" />	
+			<parametro tipo="SAIDA" ordem="0" nome="hFimExec" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataData" />				
+			<parametro tipo="SAIDA" ordem="0" nome="cFuncBdscoManut" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataNumero" />			
+		</metodo>
+	</classe>
+		
+	<classe nome="br.com.bradesco.web.custodia.service.data.dao.clearings.impl.GrupoCarteiraDAOImpl">
+
+		<!-- c)	Inclusão dos Dados de Grupo de Carteiras (conclusão) -->
+		<!--  1)	Efetivar novo grupo de carteira (ida)	 -->
+		<metodo nome="incluirGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.CadastroGrupoCarteiraBean.efetivarIncluir" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Incluir Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="06" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXDIGI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraIncluirConclusao.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttGrpExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoAcao" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoAcao"/>			
+			<parametro tipo="ENTRADA" ordem="0" nome="descricaoGrupoFundoInvestimento" />
+			<parametro tipo="ENTRADA" ordem="0" nome="codigoUsuario" formatador="br.com.bradesco.web.ibpf.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="codigoFuncionarioBradescoManutencao" formatador="br.com.bradesco.web.ibpf.application.log.aspect.formatters.FormataNumero" />
+		</metodo>
+		
+		<!--  2)	Efetivar novo grupo de carteira (volta)	 -->
+		<metodo nome="incluirGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.CadastroGrupoCarteiraBean.efetivarIncluir" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Incluir Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="07" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXDIGV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraIncluir.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttGrpExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="descricaoGrupoFundoInvestimento" />
+		</metodo>
+		
+		<!-- c)	Inclusão dos Dados de Grupo de Carteiras (conclusão) -->
+		<!--  3)	Efetivar grupo de carteiras selecionadas (ida)	 -->
+		<metodo nome="incluirCarteiraNoGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.CadastroGrupoCarteiraBean.efetivarIncluir" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Incluir Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="08" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXEIGI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraIncluirConclusao.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttGrpExtrtCartClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoAcao" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoAcao"/>			
+			<parametro tipo="ENTRADA" ordem="0" nome="codigo" formatador="br.com.bradesco.web.ibpf.application.log.aspect.formatters.FormataNumero"/>
+			<parametro tipo="ENTRADA" ordem="1" nome="codigoCarteira" />
+			<parametro tipo="ENTRADA" ordem="1" nome="descricaoCarteira" />
+			<parametro tipo="ENTRADA" ordem="1" nome="codigoCarteiraCblc" />
+			<parametro tipo="ENTRADA" ordem="1" nome="codigoCarteiraCetip" />
+			<parametro tipo="ENTRADA" ordem="1" nome="codigoCarteiraSelic" />
+			<parametro tipo="ENTRADA" ordem="1" nome="codigoCarteiraExterno" />
+			<parametro tipo="ENTRADA" ordem="1" nome="codigoCarteiraSelicBmf" formatador="br.com.bradesco.web.ibpf.application.log.aspect.formatters.FormataNumero"/>
+			<parametro tipo="ENTRADA" ordem="1" nome="codigoCarteiraSelicBovespa" formatador="br.com.bradesco.web.ibpf.application.log.aspect.formatters.FormataNumero"/>
+			<parametro tipo="ENTRADA" ordem="0" nome="numeroFuncionario" formatador="br.com.bradesco.web.ibpf.application.log.aspect.formatters.FormataNumero" />
+		</metodo>
+		
+		<!--  4)	Efetivar grupo de carteiras selecionadas (volta)	 -->
+		<metodo nome="incluirCarteiraNoGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.CadastroGrupoCarteiraBean.efetivarIncluir" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Incluir Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="09" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXEIGV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraIncluir.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttGrpExtrtCartClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="status" />
+		</metodo>
+	</classe>
+	
+	
+	<!-- **************************************************************************************************** -->
+	<!-- 2.2.	Alteração de Grupo de Carteiras -->		
+	<!-- a)	Alteração dos Dados de Grupo de Carteiras -->
+	<classe nome="br.com.bradesco.web.custodia.service.business.clearings.impl.GrupoCarteiraServiceImpl">
+		<!--  1)	Consulta grupo de carteira (ida)	 -->
+		<metodo nome="consultarListaGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.preparaInitAlterarExcluir" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Alterar Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXAAGI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraAlterar.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltGrpExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoAcao" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoAcao"/>	
+			<parametro tipo="ENTRADA" ordem="0" nome="codigoUsuario" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="ordem" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataOrdem"/>	
+		</metodo>
+		
+		<!--  2)	Consulta grupo de carteira (volta)	 -->
+		<metodo nome="consultarListaGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.preparaInitAlterarExcluir" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Alterar Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="02" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXAAGV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraAlterar.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltGrpExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="listaCarteiraGrupoCarteira" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataListaGrupoCarteira" />
+		</metodo>
+
+		<!--  3)	Consulta carteiras do grupo de carteira (ida)	 -->
+		<metodo nome="consultarListaCarteirasDoGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.preparaInitAlterarExcluir" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Alterar Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="03" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXBAGI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraAlterar.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltGrpExtrtCartClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoAcao" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoAcao"/>	
+			<parametro tipo="ENTRADA" ordem="0" nome="codigoUsuario" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="ordem" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataOrdem"/>	
+		</metodo>
+		
+		<!--  4)	Consulta carteiras do grupo de carteira (volta)	 -->
+		<metodo nome="consultarListaCarteirasDoGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.preparaInitAlterarExcluir" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Alterar Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="04" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXBAGV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraAlterar.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltGrpExtrtCartClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="listaCarteiraInvestimento" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataListaCarteiraInvestimento" />
+		</metodo>
+		
+		<!-- 2.3.	Exclusão de Grupo de Carteiras -->
+		<!-- a)	Exclusão dos Dados de Grupo de Carteiras -->	
+		<!--  1)	Consulta grupo de carteira (ida)	 -->
+		<metodo nome="consultarListaGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.preparaInitAlterarExcluir" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Excluir Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXAEGI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraExcluir.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltGrpExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoAcao" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoAcao"/>	
+			<parametro tipo="ENTRADA" ordem="0" nome="codigoUsuario" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="ordem" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataOrdem"/>	
+		</metodo>
+		
+		<!--  2)	Consulta grupo de carteira (volta)	 -->
+		<metodo nome="consultarListaGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.preparaInitAlterarExcluir" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Excluir Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="02" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXAEGI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraExcluir.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltGrpExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="listaCarteiraGrupoCarteira" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataListaGrupoCarteira" />
+		</metodo>
+
+		<!--  3)	Consulta carteiras do grupo de carteira (ida)	 -->
+		<metodo nome="consultarListaCarteirasDoGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.preparaInitAlterarExcluir" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Excluir Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="03" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXBEGI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraExcluir.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltGrpExtrtCartClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoAcao" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoAcao"/>	
+			<parametro tipo="ENTRADA" ordem="0" nome="codigoUsuario" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="ordem" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataOrdem"/>	
+		</metodo>
+		
+		<!--  4)	Consulta carteiras do grupo de carteira (volta)	 -->
+		<metodo nome="consultarListaCarteirasDoGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.cadastroGrupoCarteiraBean.preparaInitAlterarExcluir" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Excluir Grupo de Carteiras" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_CGC01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="04" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="CGCXBEGV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="cadastroGrupoCarteiraExcluir.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltGrpExtrtCartClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="listaCarteiraInvestimento" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataListaCarteiraInvestimento" />
+		</metodo>
+
+		<!-- 2.4.	Extrato CBLC -->
+		<!--  1)	Consultar Lista Grupo Carteira (ida*)	 -->
+		<metodo nome="consultarListaGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.ExtratoBean.navegaExtratoCblc" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Extrato CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_EXT01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="EXTXACBI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaExtratoCBLC.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltGrpExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="FIXO" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="FIXO" conteudo="A" />
+			
+		</metodo>
+		
+		<!--  2)	Consultar Lista Grupo Carteira (volta*)	 -->
+		<metodo nome="consultarListaGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.ExtratoBean.navegaExtratoCblc" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Extrato CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_EXT01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="02" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="EXTXACBV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaExtratoCBLC.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltGrpExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataListaGrupoCarteira" />
+		</metodo>
+		
+		<!-- 2.5.	Extrato CETIP -->
+		<!--  1)	Consultar Lista Grupo Carteira (ida*)	 -->
+		<metodo nome="consultarListaGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.ExtratoBean.navegaExtratoCetip" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Extrato CETIP" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_EXT02" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="EXTXACTI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaExtratoCetip.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltGrpExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="FIXO" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="FIXO" conteudo="A" />
+		</metodo>
+		
+		<!--  2)	Consultar Lista Grupo Carteira (volta*)	 -->
+		<metodo nome="consultarListaGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.ExtratoBean.navegaExtratoCetip" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Extrato CETIP" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_EXT02" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="02" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="EXTXACTV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaExtratoCetip.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltGrpExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataListaGrupoCarteira" />
+		</metodo>
+		
+		<!-- 2.6.	Extrato SELIC -->
+		<!--  1)	Consultar Lista Grupo Carteira (ida*)	 -->
+		<metodo nome="consultarListaGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.ExtratoBean.navegaExtratoSelic" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Extrato SELIC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_EXT03" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="EXTXASLI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaExtratoCetip.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltGrpExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="FIXO" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="FIXO" conteudo="A" />
+		</metodo>
+		
+		<!--  2)	Consultar Lista Grupo Carteira (volta*)	 -->
+		<metodo nome="consultarListaGrupoCarteira" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.ExtratoBean.navegaExtratoSelic" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Extrato SELIC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_EXT03" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="02" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="EXTXASLV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaExtratoCetip.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltGrpExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataListaGrupoCarteira" />
+		</metodo>
+	</classe>	
+
+	<classe nome="br.com.bradesco.web.custodia.service.business.clearings.impl.ExtratosServiceImpl">
+		<!--  3)	Consultar Relatório Extrato CBLC (ida*)	 -->
+		<metodo nome="consultarRelatorioExtratoCblc" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.ExtratoBean.pesquisarCblc" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Extrato CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_EXT01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="03" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="EXTXBCBI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaExtratoCBLC.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltMovtoCblcClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="periodoInicialPesquisa" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataDataClearings" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoPesquisa" />
+			<parametro tipo="ENTRADA" ordem="0" nome="periodoFinalPesquisa" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataDataClearings" />
+			<parametro tipo="FIXO" conteudo=" " />
+			<parametro tipo="ENTRADA" ordem="0" nome="codigoPesquisa" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoExtrato" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataTipoExtrato" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoPeriodo" />
+			<parametro tipo="ENTRADA" ordem="0" nome="usuarioLogado" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="mesPesquisa" />
+		</metodo>
+		
+		<!--  4)	Consultar Relatório Extrato CBLC (volta*)	 -->
+		<metodo nome="consultarRelatorioExtratoCblc" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.ExtratoBean.pesquisarCblc" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Extrato CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_EXT01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="04" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="EXTXBCBV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaExtratoCBLC.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltMovtoCblcClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRelatorioCblc" />
+		</metodo>
+		
+		<!--  3)	Consultar Relatório Extrato CETIP (ida*)	 -->
+		<metodo nome="consultarRelatorioExtratoCetip" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.ExtratoBean.pesquisarCetip" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Extrato CETIP" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_EXT02" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="03" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="EXTXBCTI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaExtratoCetip.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="PSELTMOVTOCETIPVINTEUM" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="periodoInicialPesquisa" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataDataClearings" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoPesquisa" />
+			<parametro tipo="ENTRADA" ordem="0" nome="periodoFinalPesquisa" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataDataClearings" />
+			<parametro tipo="FIXO" conteudo=" " />
+			<parametro tipo="ENTRADA" ordem="0" nome="codigoPesquisa" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoPeriodo" />
+			<parametro tipo="ENTRADA" ordem="0" nome="usuarioLogado" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="mesPesquisa" />
+		</metodo>
+		
+		<!--  4)	Consultar Relatório Extrato CETIP (volta*)	 -->
+		<metodo nome="consultarRelatorioExtratoCetip" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.ExtratoBean.pesquisarCetip" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Extrato CETIP" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_EXT02" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="04" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="EXTXBCTV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaExtratoCetip.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="PSELTMOVTOCETIPVINTEUM" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRelatorioCetip" />
+		</metodo>
+		
+		<!--  3)	Consultar Relatório Extrato SELIC (ida*)	 -->
+		<metodo nome="consultarRelatorioExtratoSelic" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.ExtratoBean.pesquisarSelic" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Extrato SELIC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_EXT03" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="03" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="EXTXBSLI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaExtratoSelic.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="PSELTMOVTOSELIC01" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="periodoInicialPesquisa" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataDataClearings" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoPesquisa" />
+			<parametro tipo="ENTRADA" ordem="0" nome="periodoFinalPesquisa" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataDataClearings" />
+			<parametro tipo="FIXO" conteudo=" " />
+			<parametro tipo="ENTRADA" ordem="0" nome="codigoPesquisa" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoPeriodo" />
+			<parametro tipo="ENTRADA" ordem="0" nome="usuarioLogado" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="mesPesquisa" />
+		</metodo>
+		
+		<!--  4)	Consultar Relatório Extrato SELIC (volta*)	 -->
+		<metodo nome="consultarRelatorioExtratoSelic" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.ExtratoBean.pesquisarSelic" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Extrato SELIC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_EXT03" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="04" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="EXTXBSLV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="consultaExtratoSelic.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="PSELTMOVTOSELIC01" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRelatorioSelic" />
+		</metodo>
+	</classe>
+	
+	
+	<!-- **************************************************************************************************** -->	
+	<!-- 2.7.	Upload CBLC -->		
+	<classe nome="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl">
+		<!--  1)	Gerar Remessa Upload (ida)	 -->
+		<metodo nome="gerarRemessaUpload" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.UploadCblcBean.upload" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXACBI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCblc.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoAcao" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoAcao"/>	
+			<parametro tipo="ENTRADA" ordem="0" nome="cTpoExtrt" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="dMovtoClerg" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />			
+			<parametro tipo="ENTRADA" ordem="0" nome="nCmara" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero"/>				
+			<parametro tipo="ENTRADA" ordem="0" nome="qTotMovtoRemss" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cFuncBdscoManu" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero"/>	
+		</metodo>
+		
+		<!--  2)	Gerar Remessa Upload (volta)	 -->
+		<metodo nome="gerarRemessaUpload" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.UploadCblcBean.upload" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="02" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXACBV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCblc.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="nUltRemss" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+		</metodo>		
+	
+		<!--  3)	Gerar Registro Execução (ida)	 -->
+		<metodo nome="gerarRegistroExecucao" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.UploadCblcBean.upload" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="03" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXBCBI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCblc.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoAcao" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoAcao" />	
+			<parametro tipo="ENTRADA" ordem="0" nome="cTpoExtrt" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="dMovtoClerg" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />			
+			<parametro tipo="ENTRADA" ordem="0" nome="nCmara" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />	
+			<parametro tipo="ENTRADA" ordem="0" nome="nStaExe" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />				
+			<parametro tipo="ENTRADA" ordem="0" nome="rDesStaExec" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cFuncBdscoManu" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+		</metodo>
+		
+		<!--  4)	Gerar Registro Execução (volta)	 -->
+		<metodo nome="gerarRegistroExecucao" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.UploadCblcBean.upload" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="04" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXBCBV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCblc.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="status" />
+		</metodo>		
+	
+		<!--  5)	Consulta Sociedade Corretora (ida)	 -->
+		<metodo nome="persisteSociedadeCorretora" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.salvarMovimentosCblc" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="05" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXDCBI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCblc.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltSocCrretClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+		</metodo>
+		
+		<!--  6)	Consulta Sociedade Corretora (volta)	 -->
+		<metodo nome="persisteSociedadeCorretora" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.salvarMovimentosCblc" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="06" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXDCBV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCblc.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltSocCrretClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="listaSociedadeCorretora" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataListaSociedadeCorretora" />
+		</metodo>
+	
+		<!--  7)	Consulta Carteira (ida)	 -->
+		<metodo nome="consultaCarteiraCblc" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.persisteCarteiraCblc" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="07" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXECBI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCblc.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltCartCblcClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+		</metodo>
+		
+		<!--  8)	Consulta Carteira (volta)	 -->
+		<metodo nome="consultaCarteiraCblc" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.persisteCarteiraCblc" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="08" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXECBV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCblc.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pSeltCartCblcClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="listaCarteiraCblc" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataListaCarteiraCblc" />
+		</metodo>
+		
+		<!--  9)	Salvar Carteira CBLC (ida)	 -->
+		<metodo nome="salvarCarteiraCblc" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.persisteCarteiraCblc" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="09" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXFCBI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCblc.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttCartCblcClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="rCartCblc" />	
+			<parametro tipo="ENTRADA" ordem="0" nome="cFuncBdscoManut" />
+			<parametro tipo="ENTRADA" ordem="0" nome="acao" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataAcao" />			
+			<parametro tipo="ENTRADA" ordem="0" nome="nCartCblc" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />	
+		</metodo>
+		
+		<!--  10)	Salvar Carteira CBLC (volta)	 -->
+		<metodo nome="salvarCarteiraCblc" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.persisteCarteiraCblc" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="10" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXFCBV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCblc.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttCartCblcClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="status" />
+		</metodo>
+		
+		<!-- 2.8.	Upload CETIP -->
+		<!--  1)	Gerar Remessa Upload (ida)	 -->
+		<metodo nome="gerarRemessaUpload" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.UploadCetipBean.upload" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CETIP" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL02" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXACTI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCetip.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoAcao" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoAcao"/>	
+			<parametro tipo="ENTRADA" ordem="0" nome="cTpoExtrt" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="dMovtoClerg" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />			
+			<parametro tipo="ENTRADA" ordem="0" nome="nCmara" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero"/>				
+			<parametro tipo="ENTRADA" ordem="0" nome="qTotMovtoRemss" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cFuncBdscoManu" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero"/>	
+		</metodo>
+		
+		<!--  2)	Gerar Remessa Upload (volta)	 -->
+		<metodo nome="gerarRemessaUpload" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.UploadCetipBean.upload" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CETIP" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL02" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="02" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXACTV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCetip.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="nUltRemss" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+		</metodo>		
+	
+		<!--  3)	Gerar Registro Execução (ida)	 -->
+		<metodo nome="gerarRegistroExecucao" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.UploadCetipBean.upload" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CETIP" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL02" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="03" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXBCTI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCetip.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoAcao" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoAcao" />	
+			<parametro tipo="ENTRADA" ordem="0" nome="cTpoExtrt" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="dMovtoClerg" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />			
+			<parametro tipo="ENTRADA" ordem="0" nome="nCmara" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />	
+			<parametro tipo="ENTRADA" ordem="0" nome="nStaExe" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />				
+			<parametro tipo="ENTRADA" ordem="0" nome="rDesStaExec" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cFuncBdscoManu" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+		</metodo>
+		
+		<!--  4)	Gerar Registro Execução (volta)	 -->
+		<metodo nome="gerarRegistroExecucao" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.UploadCetipBean.upload" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CETIP" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL02" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="04" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXBCTV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCetip.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="status" />
+		</metodo>
+		
+		<!-- 2.9.	Upload SELIC -->
+		<!--  1)	Gerar Remessa Upload (ida)	 -->
+		<metodo nome="gerarRemessaUpload" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.UploadSelicBean.upload" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload SELIC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL03" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXASLI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadSelic.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoAcao" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoAcao"/>	
+			<parametro tipo="ENTRADA" ordem="0" nome="cTpoExtrt" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="dMovtoClerg" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />			
+			<parametro tipo="ENTRADA" ordem="0" nome="nCmara" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero"/>				
+			<parametro tipo="ENTRADA" ordem="0" nome="qTotMovtoRemss" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cFuncBdscoManu" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero"/>	
+		</metodo>
+		
+		<!--  2)	Gerar Remessa Upload (volta)	 -->
+		<metodo nome="gerarRemessaUpload" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.UploadSelicBean.upload" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload SELIC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL03" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="02" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXASLV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadSelic.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="nUltRemss" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+		</metodo>		
+	
+		<!--  3)	Gerar Registro Execução (ida)	 -->
+		<metodo nome="gerarRegistroExecucao" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.UploadSelicBean.upload" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload SELIC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL03" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="03" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXBSLI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadSelic.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoAcao" formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoAcao" />	
+			<parametro tipo="ENTRADA" ordem="0" nome="cTpoExtrt" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="dMovtoClerg" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />			
+			<parametro tipo="ENTRADA" ordem="0" nome="nCmara" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />	
+			<parametro tipo="ENTRADA" ordem="0" nome="nStaExe" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />				
+			<parametro tipo="ENTRADA" ordem="0" nome="rDesStaExec" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cFuncBdscoManu" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+		</metodo>
+		
+		<!--  4)	Gerar Registro Execução (volta)	 -->
+		<metodo nome="gerarRegistroExecucao" chamadopor="br.com.bradesco.web.custodia.clearings.view.bean.UploadSelicBean.upload" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload SELIC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL03" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="04" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXBSLV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadSelic.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttExtrtClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="status" />
+		</metodo>
+	</classe>
+	
+	<classe nome="br.com.bradesco.web.custodia.service.data.dao.clearings.impl.UploadDAOImpl">
+		<!--  11)	Gerar Número Movimento CBLC (ida)	 -->
+		<metodo nome="gerarNumeroMovimentoCblc" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.salvarMovimentosCblc" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="11" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXGCBI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCblc.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="PMLTTMOVTOCBLCNROCLERG" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="nRemssMovto"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />	
+			<parametro tipo="ENTRADA" ordem="0" nome="cTpoExtrt"  formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoExtrato" />
+			<parametro tipo="ENTRADA" ordem="0" nome="dMovtoClerg" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />			
+			<parametro tipo="ENTRADA" ordem="0" nome="nCmara" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />	
+		</metodo>
+		
+		<!--  12)	Gerar Número Movimento CBLC (volta)	 -->
+		<metodo nome="gerarNumeroMovimentoCblc" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.salvarMovimentosCblc" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="12" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXGCBV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCblc.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="PMLTTMOVTOCBLCNROCLERG" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="nMovtoCart" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+		</metodo>					
+
+		<!--  13)	Salvar Movimento CBLC (ida)	 -->
+		<metodo nome="salvarMovimentoCblc" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.salvarMovimentosCblc" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="13" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXHCBI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCblc.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttMovtoCblcClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="1" nome="nCmara"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />			
+			<parametro tipo="ENTRADA" ordem="1" nome="cTpoExtrt"   formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="1" nome="dMovtoClerg"  formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />
+			<parametro tipo="ENTRADA" ordem="1" nome="nRemssMovto"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="2" nome="nMovtoCart"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cSocCrret"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="nCartCblc"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cFundoCblc"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cRelatOrigeCblc"  formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataTexto" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cNegocCblc" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cIsinCblc"  />
+			<parametro tipo="ENTRADA" ordem="0" nome="cSitDivddCblc" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cEspecCblc" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cSitMovtoCblc" />
+			<parametro tipo="ENTRADA" ordem="0" nome="vSdoCtdiaCblc"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="vSdoBloqDepCblc"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="rSocCrret" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cCnpjSocCrret" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cFlialCnpjSocCrret"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cCtrlCnpjSocCrret"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="rCartCblc" />
+			<parametro tipo="ENTRADA" ordem="1" nome="cFuncBdscoManut"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="2" nome="nCtrlLog"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cFundoClerg"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />				
+		</metodo>
+		
+		<!--  14)	Salvar Movimento CBLC (volta)  -->
+		<metodo nome="salvarMovimentoCblc" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.salvarMovimentosCblc" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="14" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXHCBV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCblc.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttMovtoCblcClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="status"	/>
+		</metodo>
+
+		<!--  15)	Salvar Lançamentos Previstos CBLC (ida)	 -->
+		<metodo nome="salvarLancamentosPrevistosCblc" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.salvarMovimentosCblc" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="15" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXICBI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCblc.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttLctoPrevtCblc" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="nCmara"   formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataNumeroCamara" />			
+			<parametro tipo="ENTRADA" ordem="1" nome="cTpoExtrt"   formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="1" nome="dMovtoClerg"  formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />
+			<parametro tipo="ENTRADA" ordem="1" nome="nRemssMovto"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="2" nome="nMovtoCart"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="dPrevtLctoCblc"  formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />
+			<parametro tipo="ENTRADA" ordem="0" nome="vLctoCredtPrevt"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="vLctoDebPrevt"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="1" nome="cFuncBdscoManut"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />			
+		</metodo>
+		
+		<!--  16)	Salvar Lançamentos Previstos CBLC (volta)  -->
+		<metodo nome="salvarLancamentosPrevistosCblc" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.salvarMovimentosCblc" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="16" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXICBV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCblc.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttLctoPrevtCblc" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="status"	/>
+		</metodo>
+		
+		<!--  17)	Finalizar Registro Execução (ida)	 -->
+		<metodo nome="finalizarRegistroExecucao" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.finalizarRegistroExecucao" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="17" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXCCBI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCblc.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttLctoPrevtCblc" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoAcao"   formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoAcao"  />			
+			<parametro tipo="ENTRADA" ordem="0" nome="nCmara"   formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataNumeroCamara" />			
+			<parametro tipo="ENTRADA" ordem="0" nome="cTpoExtrt"   formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="dMovtoClerg"  formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />
+			<parametro tipo="ENTRADA" ordem="0" nome="nRemssMovto"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="nStaExec"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="rDesStaExec" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cFuncBdscoManut"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />			
+		</metodo>
+		
+		<!--  18)	Finalizar Registro Execução (volta)  -->
+		<metodo nome="finalizarRegistroExecucao" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.finalizarRegistroExecucao" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CBLC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL01" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="18" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXCCBV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCblc.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttLctoPrevtCblc" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="status"	/>
+		</metodo>
+		
+		<!--  5)	Gerar Número Movimento CETIP (ida)	 -->
+		<metodo nome="gerarNumeroMovimentoCetip" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.salvarMovimentosCetip" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CETIP" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL02" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="05" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXCCTI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCetip.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="PMLTTMOVTOCETIPVINTEUMNROCLERG" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="nRemssMovto"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />	
+			<parametro tipo="ENTRADA" ordem="0" nome="cTpoExtrt"  formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoExtrato" />
+			<parametro tipo="ENTRADA" ordem="0" nome="dMovtoClerg" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />			
+			<parametro tipo="ENTRADA" ordem="0" nome="nCmara" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />	
+		</metodo>
+		
+		<!--  6)	Gerar Número Movimento CETIP (volta)	 -->
+		<metodo nome="gerarNumeroMovimentoCetip" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.salvarMovimentosCetip" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CETIP" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL02" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="06" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXCCTV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCetip.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="PMLTTMOVTOCETIPVINTEUMNROCLERG" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="nMovtoCart" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+		</metodo>					
+
+		<!--  7)	Salvar Movimentos CETIP (ida)	 -->
+		<metodo nome="salvarMovimentosCetip" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.salvarMovimentosCetip" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CETIP" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL02" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="07" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXDCTI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCetip.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="PMLTTMOVTOCETIPVINTEUMCLERG" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="1" nome="nCmara"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />			
+			<parametro tipo="ENTRADA" ordem="1" nome="cTpoExtrt"   formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="1" nome="dMovtoClerg"  formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />
+			<parametro tipo="ENTRADA" ordem="1" nome="nRemssMovto"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="2" nome="nMovtoCart"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="rCetipPart"  />
+			<parametro tipo="ENTRADA" ordem="0" nome="cCetipPart"  />
+			<parametro tipo="ENTRADA" ordem="0" nome="cTpInstFinan" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cInstFinan" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cIsinCetip" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cIdenTitCetip"  />
+			<parametro tipo="ENTRADA" ordem="0" nome="cEmisRegis" />
+			<parametro tipo="ENTRADA" ordem="0" nome="dEmis"   formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />
+			<parametro tipo="ENTRADA" ordem="0" nome="dVcto"   formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cFir"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cTpPosCust"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="qCart"   formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="vNomin"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="vPuCurv"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="dCurv"  formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />
+			<parametro tipo="ENTRADA" ordem="0" nome="vJurVencNaoPag"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="1" nome="vJurProRata"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="2" nome="dResg"  formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cResgAntec"  />	
+			<parametro tipo="ENTRADA" ordem="0" nome="dResgAntecIni"  formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />	
+			<parametro tipo="ENTRADA" ordem="0" nome="cFuncBdscoManut"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />				
+		</metodo>
+		
+		<!--  8)	Salvar Movimentos CETIP (volta)  -->
+		<metodo nome="salvarMovimentosCetip" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.salvarMovimentosCetip" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CETIP" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL02" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="08" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXDCTV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCetip.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="PMLTTMOVTOCETIPVINTEUMCLERG" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="status"	/>
+		</metodo>
+		
+		<!--  9)	Finalizar Registro Execução (ida)	 -->
+		<metodo nome="salvarLancamentosPrevistosCblc" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.finalizarRegistroExecucao" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CETIP" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL02" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="09" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXECTI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCetip.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttRegExecClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoAcao"   formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoAcao"  />			
+			<parametro tipo="ENTRADA" ordem="0" nome="nCmara"   formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataNumeroCamara" />			
+			<parametro tipo="ENTRADA" ordem="0" nome="cTpoExtrt"   formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="dMovtoClerg"  formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />
+			<parametro tipo="ENTRADA" ordem="0" nome="nRemssMovto"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="nStaExec"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="rDesStaExec" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cFuncBdscoManut"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />			
+		</metodo>
+		
+		<!--  10)	Finalizar Registro Execução (volta)  -->
+		<metodo nome="finalizarRegistroExecucao" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.finalizarRegistroExecucao" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload CETIP" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL02" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="10" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXECTV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadCetip.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttRegExecClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="status"	/>
+		</metodo>
+		
+		<!--  5)	Gerar Número Movimento SELIC (ida)	 -->
+		<metodo nome="gerarNumeroMovimentoSelic" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.salvarMovimentosSelic" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload SELIC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL03" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="05" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXCSLI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadSelic.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="PMLTTMOVTOSELICNROCLERG" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="nRemssMovto"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />	
+			<parametro tipo="ENTRADA" ordem="0" nome="cTpoExtrt"  formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoExtrato" />
+			<parametro tipo="ENTRADA" ordem="0" nome="dMovtoClerg" formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />			
+			<parametro tipo="ENTRADA" ordem="0" nome="nCmara" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />	
+		</metodo>
+		
+		<!--  6)	Gerar Número Movimento SELIC (volta)	 -->
+		<metodo nome="gerarNumeroMovimentoSelic" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.salvarMovimentosSelic" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload SELIC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL03" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="06" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXCSLV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadSelic.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="PMLTTMOVTOSELICNROCLERG" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="nMovtoCart" formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+		</metodo>					
+
+		<!--  7)	Salvar Movimentos SELIC (ida)	 -->
+		<metodo nome="salvarMovimentosSelic" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.salvarMovimentosSelic" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload SELIC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL03" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="07" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXDSLI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadSelic.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttMovtoSelicClerg01" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" nome="nCmara"  formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataCamara" />			
+			<parametro tipo="ENTRADA" nome="cTpoExtrt"   formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataTipoExtrato" />
+			<parametro tipo="ENTRADA" ordem="1" nome="dMovtoClerg"  formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />
+			<parametro tipo="ENTRADA" ordem="1" nome="nRemssMovto"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="2" nome="nMovtoCart"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cFundoSelic"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cTitloFedrlSelic"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="dAbertDiaSegui"  formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />
+			<parametro tipo="ENTRADA" ordem="0" nome="hGeracSelic"  formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />
+			<parametro tipo="ENTRADA" ordem="0" nome="dVcto"   formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />
+			<parametro tipo="ENTRADA" ordem="0" nome="vSdoAnterSelic"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="vSdoAtualSelic"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />			
+			<parametro tipo="ENTRADA" ordem="0" nome="vPosicRcoprSelic"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="vPosicRevdaSeli"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="vPosicLiqSelic"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cFuncBdscoManut"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="rSglSelic"  />
+			<parametro tipo="ENTRADA" ordem="2" nome="nCtrlLog"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />	
+			<parametro tipo="ENTRADA" ordem="0" nome="cFundoClerg"  />
+			<parametro tipo="ENTRADA" ordem="0" nome="nCtaTtlarSelic"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />	
+			<parametro tipo="ENTRADA" ordem="0" nome="rTpoCtaSelic"  />
+			<parametro tipo="ENTRADA" ordem="0" nome="rComplTpoCtaSelic"  />			
+			<parametro tipo="ENTRADA" ordem="0" nome="cCnpjCpfCli"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cFlialCnpjCpfCli"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />				
+			<parametro tipo="ENTRADA" ordem="0" nome="cCtrlCnpjCpfCli"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="iCliSelic"  />
+			<parametro tipo="ENTRADA" ordem="0" nome="rTpoCliSelic"  />	
+			<parametro tipo="ENTRADA" ordem="0" nome="cPartcSelic"  />
+			<parametro tipo="ENTRADA" ordem="0" nome="iPartcSelic"  />
+			<parametro tipo="ENTRADA" ordem="0" nome="cTrnsmCmnddSelic"  />	
+			<parametro tipo="ENTRADA" ordem="0" nome="iTrnsmCmnddSelic"  />		
+			<parametro tipo="ENTRADA" ordem="0" nome="cAdmSelic"  />
+			<parametro tipo="ENTRADA" ordem="0" nome="iAdmSelic"  />					
+			<parametro tipo="ENTRADA" ordem="0" nome="iDeptoSelic"  />									
+		</metodo>
+		
+		<!--  8)	Salvar Movimentos SELIC (volta)  -->
+		<metodo nome="salvarMovimentosSelic" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.salvarMovimentosSelic" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload SELIC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL03" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="08" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXDSLV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadSelic.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttMovtoSelicClerg01" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="status"	/>
+		</metodo>
+		
+		<!--  9)	Finalizar Registro Execução (ida)	 -->
+		<metodo nome="salvarLancamentosPrevistosCblc" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.finalizarRegistroExecucao" errobloqueio="0" entrada="1"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload SELIC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL03" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="00" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="09" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXESLI" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadSelic.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttRegExecClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="ENTRADA" ordem="0" nome="tipoAcao"   formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataTipoAcao"  />			
+			<parametro tipo="ENTRADA" ordem="0" nome="nCmara"   formatador="br.com.bradesco.web.custodia.clearings.service.business.utils.FormataNumeroCamara" />			
+			<parametro tipo="ENTRADA" ordem="0" nome="cTpoExtrt"   formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="dMovtoClerg"  formatador="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataData" />
+			<parametro tipo="ENTRADA" ordem="0" nome="nRemssMovto"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="nStaExec"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />
+			<parametro tipo="ENTRADA" ordem="0" nome="rDesStaExec" />
+			<parametro tipo="ENTRADA" ordem="0" nome="cFuncBdscoManut"  formatador="br.com.bradesco.web.custodia.application.log.aspect.formatters.FormataNumero" />			
+		</metodo>
+		
+		<!--  10)	Finalizar Registro Execução (volta)  -->
+		<metodo nome="finalizarRegistroExecucao" chamadopor="br.com.bradesco.web.custodia.service.business.clearings.impl.UploadServiceImpl.finalizarRegistroExecucao" errobloqueio="0"
+			formataex="br.com.bradesco.web.custodia.clearings.log.aspect.formatters.FormataRetornoNegocio">
+			<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Upload SELIC" />
+			<parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="CL_UPL03" />
+			<parametro tipo="FIXO" campologfixo="FlagIndicador"   conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="LocalExcecucao"  conteudo="01" />
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+			<parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="10" />
+			<parametro tipo="FIXO" campologfixo="LayoutEvento" conteudo="UPLXESLV" />
+			<parametro tipo="FIXO" campologfixo="PaginaAtual" conteudo="uploadSelic.jsf"/>
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="pMlttRegExecClerg" />
+			<parametro tipo="FIXO" campologfixo="NumeroLigacao" conteudo="1" />
+			<parametro tipo="SAIDA" ordem="0" nome="status"	/>
+		</metodo>
+	</classe>	
+	
+</config>

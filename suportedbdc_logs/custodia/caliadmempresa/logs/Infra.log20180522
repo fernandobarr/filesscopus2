@@ -1,0 +1,1006 @@
+2018-05-22 10:39:38,147 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 10:39:38,151 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 10:39:38,153 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 10:39:38,159 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 10:39:38,161 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 10:39:38,163 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 10:39:38,165 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 10:39:38,167 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 10:39:38,169 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 10:39:38,171 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 10:39:38,173 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 10:39:38,176 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-05-22 10:39:38,294 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-05-22 10:39:38,388 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-05-22 10:39:38,912 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 10:39:38,914 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 10:39:38,915 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 10:39:38,918 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 10:39:38,920 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 10:39:38,922 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 10:39:38,924 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 10:39:38,926 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 12:45:08,649 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 12:45:08,649 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 12:45:08,649 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 12:45:08,649 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 12:45:08,665 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 12:45:08,680 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 12:45:08,680 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 12:45:08,680 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 12:45:08,680 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 12:45:08,680 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 12:45:08,703 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 12:45:08,711 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-05-22 12:45:08,815 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-05-22 12:45:08,878 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-05-22 12:45:09,152 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 12:45:09,152 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 12:45:09,152 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 12:45:09,152 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 12:45:09,152 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 12:45:09,152 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 12:45:09,168 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 12:45:09,168 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 12:45:46,463 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:45:47,051 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-05-22 12:45:54,417 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:45:57,229 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:46:13,589 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:46:17,497 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:46:19,752 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:46:32,900 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:46:37,271 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:46:41,959 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:46:48,244 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:46:51,391 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:46:53,013 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:47:03,010 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:47:06,589 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:47:08,874 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:47:14,198 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:47:17,514 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:47:21,108 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:47:26,707 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:47:30,029 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:47:31,786 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:48:35,258 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:48:39,968 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:48:42,113 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:49:55,508 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:50:00,057 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:50:02,083 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:51:04,674 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:51:08,492 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:51:09,895 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:51:10,028 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:52:20,882 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:52:24,467 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:52:26,134 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:53:44,431 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:53:49,628 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:53:53,306 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:54:09,485 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:54:56,430 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:54:58,953 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:55:00,661 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:55:54,587 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:55:58,670 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:56:00,803 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:56:13,680 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:56:17,309 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:56:19,067 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:56:30,088 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:56:32,949 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:56:34,519 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:56:53,150 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:56:56,069 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:56:57,837 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:57:03,386 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:57:06,708 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:57:10,452 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:57:15,849 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:57:17,783 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:57:19,706 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:58:05,724 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:58:09,297 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:58:10,614 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:58:37,787 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:58:41,054 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:58:43,369 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:59:15,184 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:59:18,432 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:59:20,514 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:59:45,430 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:59:48,623 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:59:50,128 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:59:56,305 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 12:59:59,796 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:00:01,227 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:00:07,371 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:00:11,883 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:00:20,431 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:00:30,364 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:00:33,423 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:00:35,080 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:02:08,754 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:02:12,402 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:02:14,527 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:02:30,923 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:02:33,604 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:02:35,201 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:03:30,632 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:03:33,782 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:03:35,100 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:04:21,856 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:04:25,481 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:04:27,457 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:04:38,547 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:05:01,120 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:05:04,168 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:05:06,037 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:05:18,997 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:05:21,763 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:05:25,179 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:05:27,519 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:05:32,527 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:05:35,538 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:05:38,443 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:05:43,922 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:05:47,023 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 13:05:48,263 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:38:59,577 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 15:38:59,577 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 15:38:59,577 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 15:38:59,593 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 15:38:59,593 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 15:38:59,593 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 15:38:59,593 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 15:38:59,593 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 15:38:59,593 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 15:38:59,593 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 15:38:59,608 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 15:38:59,608 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-05-22 15:38:59,686 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-05-22 15:38:59,749 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-05-22 15:39:00,040 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 15:39:00,040 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 15:39:00,040 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 15:39:00,040 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 15:39:00,040 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 15:39:00,040 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 15:39:00,040 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 15:39:00,040 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 15:40:01,266 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:40:02,158 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-05-22 15:40:05,390 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /caliadmempresa/faces/js/geral/jquery.js porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-05-22 15:40:17,656 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:40:24,403 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:40:27,886 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:40:47,803 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:40:51,135 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:40:54,942 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:42:54,984 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:44:15,862 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:44:24,313 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:44:29,073 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:44:44,133 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:44:58,893 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+java.lang.NullPointerException
+	at br.com.bradesco.web.custodia.service.data.dao.perfil.impl.PerfilCustodiaDAOImpl.validaNomePerfil(PerfilCustodiaDAOImpl.java:1068)
+	at br.com.bradesco.web.custodia.service.business.perfil.impl.PerfilCustodiaServiceImpl.validaNomePerfil(PerfilCustodiaServiceImpl.java:228)
+	at br.com.bradesco.web.custodia.admperfil.view.bean.AlteracaoPerfilBean.fundosAlteracaoPerfil(AlteracaoPerfilBean.java:409)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:94)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:619)
+	at org.apache.myfaces.el.MethodBindingImpl.invoke(MethodBindingImpl.java:129)
+	at org.apache.myfaces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:63)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:106)
+	at org.ajax4jsf.component.AjaxViewRoot.processEvents(AjaxViewRoot.java:184)
+	at org.ajax4jsf.component.AjaxViewRoot.broadcastEvents(AjaxViewRoot.java:162)
+	at org.ajax4jsf.component.AjaxViewRoot.processApplication(AjaxViewRoot.java:350)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.invokeApplication(BradescoLifecycleImpl.java:449)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.executeLifeCycle(BradescoLifecycleImpl.java:121)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.execute(BradescoLifecycleImpl.java:87)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:106)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:236)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.cryptography.filter.CryptoFilter.doFilter(CryptoFilter.java:143)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:56)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:114)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+2018-05-22 15:44:58,897 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Não foi encontrado o config para o tipo de exceção java.lang.NullPointerException]
+2018-05-22 15:44:58,898 WARN [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - [Nenhuma configuração encontrada para o tipo da exceção java.lang.NullPointerException]
+2018-05-22 15:45:00,758 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+java.lang.NullPointerException
+	at br.com.bradesco.web.custodia.service.data.dao.perfil.impl.PerfilCustodiaDAOImpl.validaNomePerfil(PerfilCustodiaDAOImpl.java:1068)
+	at br.com.bradesco.web.custodia.service.business.perfil.impl.PerfilCustodiaServiceImpl.validaNomePerfil(PerfilCustodiaServiceImpl.java:228)
+	at br.com.bradesco.web.custodia.admperfil.view.bean.AlteracaoPerfilBean.fundosAlteracaoPerfil(AlteracaoPerfilBean.java:409)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:94)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:619)
+	at org.apache.myfaces.el.MethodBindingImpl.invoke(MethodBindingImpl.java:129)
+	at org.apache.myfaces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:63)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:106)
+	at org.ajax4jsf.component.AjaxViewRoot.processEvents(AjaxViewRoot.java:184)
+	at org.ajax4jsf.component.AjaxViewRoot.broadcastEvents(AjaxViewRoot.java:162)
+	at org.ajax4jsf.component.AjaxViewRoot.processApplication(AjaxViewRoot.java:350)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.invokeApplication(BradescoLifecycleImpl.java:449)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.executeLifeCycle(BradescoLifecycleImpl.java:121)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.execute(BradescoLifecycleImpl.java:87)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:106)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:236)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.cryptography.filter.CryptoFilter.doFilter(CryptoFilter.java:143)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:56)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:114)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+2018-05-22 15:45:00,764 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Não foi encontrado o config para o tipo de exceção java.lang.NullPointerException]
+2018-05-22 15:45:00,765 WARN [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - [Nenhuma configuração encontrada para o tipo da exceção java.lang.NullPointerException]
+2018-05-22 15:45:01,326 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+java.lang.NullPointerException
+	at br.com.bradesco.web.custodia.service.data.dao.perfil.impl.PerfilCustodiaDAOImpl.validaNomePerfil(PerfilCustodiaDAOImpl.java:1068)
+	at br.com.bradesco.web.custodia.service.business.perfil.impl.PerfilCustodiaServiceImpl.validaNomePerfil(PerfilCustodiaServiceImpl.java:228)
+	at br.com.bradesco.web.custodia.admperfil.view.bean.AlteracaoPerfilBean.fundosAlteracaoPerfil(AlteracaoPerfilBean.java:409)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:94)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:619)
+	at org.apache.myfaces.el.MethodBindingImpl.invoke(MethodBindingImpl.java:129)
+	at org.apache.myfaces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:63)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:106)
+	at org.ajax4jsf.component.AjaxViewRoot.processEvents(AjaxViewRoot.java:184)
+	at org.ajax4jsf.component.AjaxViewRoot.broadcastEvents(AjaxViewRoot.java:162)
+	at org.ajax4jsf.component.AjaxViewRoot.processApplication(AjaxViewRoot.java:350)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.invokeApplication(BradescoLifecycleImpl.java:449)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.executeLifeCycle(BradescoLifecycleImpl.java:121)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.execute(BradescoLifecycleImpl.java:87)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:106)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:236)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.cryptography.filter.CryptoFilter.doFilter(CryptoFilter.java:143)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:56)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:114)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+2018-05-22 15:45:01,334 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Não foi encontrado o config para o tipo de exceção java.lang.NullPointerException]
+2018-05-22 15:45:01,334 WARN [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - [Nenhuma configuração encontrada para o tipo da exceção java.lang.NullPointerException]
+2018-05-22 15:47:06,324 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:47:27,950 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:47:39,910 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+java.lang.NullPointerException
+	at br.com.bradesco.web.custodia.service.data.dao.perfil.impl.PerfilCustodiaDAOImpl.validaNomePerfil(PerfilCustodiaDAOImpl.java:1068)
+	at br.com.bradesco.web.custodia.service.business.perfil.impl.PerfilCustodiaServiceImpl.validaNomePerfil(PerfilCustodiaServiceImpl.java:228)
+	at br.com.bradesco.web.custodia.admperfil.view.bean.AlteracaoPerfilBean.fundosAlteracaoPerfil(AlteracaoPerfilBean.java:409)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:94)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:619)
+	at org.apache.myfaces.el.MethodBindingImpl.invoke(MethodBindingImpl.java:129)
+	at org.apache.myfaces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:63)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:106)
+	at org.ajax4jsf.component.AjaxViewRoot.processEvents(AjaxViewRoot.java:184)
+	at org.ajax4jsf.component.AjaxViewRoot.broadcastEvents(AjaxViewRoot.java:162)
+	at org.ajax4jsf.component.AjaxViewRoot.processApplication(AjaxViewRoot.java:350)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.invokeApplication(BradescoLifecycleImpl.java:449)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.executeLifeCycle(BradescoLifecycleImpl.java:121)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.execute(BradescoLifecycleImpl.java:87)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:106)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:236)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.cryptography.filter.CryptoFilter.doFilter(CryptoFilter.java:143)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:56)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:114)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+2018-05-22 15:47:39,921 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Não foi encontrado o config para o tipo de exceção java.lang.NullPointerException]
+2018-05-22 15:47:39,922 WARN [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - [Nenhuma configuração encontrada para o tipo da exceção java.lang.NullPointerException]
+2018-05-22 15:47:42,326 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+java.lang.NullPointerException
+	at br.com.bradesco.web.custodia.service.data.dao.perfil.impl.PerfilCustodiaDAOImpl.validaNomePerfil(PerfilCustodiaDAOImpl.java:1068)
+	at br.com.bradesco.web.custodia.service.business.perfil.impl.PerfilCustodiaServiceImpl.validaNomePerfil(PerfilCustodiaServiceImpl.java:228)
+	at br.com.bradesco.web.custodia.admperfil.view.bean.AlteracaoPerfilBean.fundosAlteracaoPerfil(AlteracaoPerfilBean.java:409)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:94)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:619)
+	at org.apache.myfaces.el.MethodBindingImpl.invoke(MethodBindingImpl.java:129)
+	at org.apache.myfaces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:63)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:106)
+	at org.ajax4jsf.component.AjaxViewRoot.processEvents(AjaxViewRoot.java:184)
+	at org.ajax4jsf.component.AjaxViewRoot.broadcastEvents(AjaxViewRoot.java:162)
+	at org.ajax4jsf.component.AjaxViewRoot.processApplication(AjaxViewRoot.java:350)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.invokeApplication(BradescoLifecycleImpl.java:449)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.executeLifeCycle(BradescoLifecycleImpl.java:121)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.execute(BradescoLifecycleImpl.java:87)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:106)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:236)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.cryptography.filter.CryptoFilter.doFilter(CryptoFilter.java:143)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:56)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:114)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+2018-05-22 15:47:42,329 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Não foi encontrado o config para o tipo de exceção java.lang.NullPointerException]
+2018-05-22 15:47:42,329 WARN [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - [Nenhuma configuração encontrada para o tipo da exceção java.lang.NullPointerException]
+2018-05-22 15:47:53,848 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:49:54,034 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:53:45,996 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 15:53:46,011 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 15:53:46,011 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 15:53:46,011 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 15:53:46,011 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 15:53:46,011 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 15:53:46,011 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 15:53:46,011 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 15:53:46,011 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 15:53:46,027 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 15:53:46,027 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 15:53:46,027 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-05-22 15:53:46,121 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-05-22 15:53:46,167 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-05-22 15:53:46,492 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 15:53:46,492 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 15:53:46,492 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 15:53:46,492 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 15:53:46,508 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 15:53:46,508 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 15:53:46,508 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 15:53:46,508 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 15:53:52,563 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:53:54,094 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-05-22 15:54:03,122 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:54:07,333 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:55:32,243 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 15:55:35,395 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+java.lang.NullPointerException
+	at br.com.bradesco.web.custodia.service.data.dao.perfil.impl.PerfilCustodiaDAOImpl.validaNomePerfil(PerfilCustodiaDAOImpl.java:1068)
+	at br.com.bradesco.web.custodia.service.business.perfil.impl.PerfilCustodiaServiceImpl.validaNomePerfil(PerfilCustodiaServiceImpl.java:228)
+	at br.com.bradesco.web.custodia.admperfil.view.bean.AlteracaoPerfilBean.confirmarAlteracaoPerfil(AlteracaoPerfilBean.java:154)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:94)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:619)
+	at org.apache.myfaces.el.MethodBindingImpl.invoke(MethodBindingImpl.java:129)
+	at org.apache.myfaces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:63)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:106)
+	at org.ajax4jsf.component.AjaxViewRoot.processEvents(AjaxViewRoot.java:184)
+	at org.ajax4jsf.component.AjaxViewRoot.broadcastEvents(AjaxViewRoot.java:162)
+	at org.ajax4jsf.component.AjaxViewRoot.processApplication(AjaxViewRoot.java:350)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.invokeApplication(BradescoLifecycleImpl.java:449)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.executeLifeCycle(BradescoLifecycleImpl.java:121)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.execute(BradescoLifecycleImpl.java:87)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:106)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:236)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.cryptography.filter.CryptoFilter.doFilter(CryptoFilter.java:143)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:56)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:114)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+2018-05-22 15:55:35,401 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Não foi encontrado o config para o tipo de exceção java.lang.NullPointerException]
+2018-05-22 15:55:35,401 WARN [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - [Nenhuma configuração encontrada para o tipo da exceção java.lang.NullPointerException]
+2018-05-22 15:55:40,369 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:00:46,625 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:00:46,625 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:00:46,625 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:00:46,625 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:00:46,625 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:00:46,640 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 16:00:46,640 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 16:00:46,640 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 16:00:46,640 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 16:00:46,640 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 16:00:46,640 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 16:00:46,656 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-05-22 16:00:46,750 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-05-22 16:00:46,797 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-05-22 16:00:47,091 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:00:47,091 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:00:47,091 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:00:47,091 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:00:47,091 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:00:47,091 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:00:47,091 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:00:47,107 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:00:53,066 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:00:54,607 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-05-22 16:02:53,134 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:03:02,747 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:03:39,713 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:03:43,697 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:03:55,024 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:03:57,794 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:04:18,039 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:04:20,662 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:04:31,204 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:04:33,673 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:04:38,868 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:04:41,607 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:04:44,788 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:04:45,669 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+java.lang.NullPointerException
+	at br.com.bradesco.web.custodia.service.data.dao.perfil.impl.PerfilCustodiaDAOImpl.validaNomePerfil(PerfilCustodiaDAOImpl.java:1068)
+	at br.com.bradesco.web.custodia.service.business.perfil.impl.PerfilCustodiaServiceImpl.validaNomePerfil(PerfilCustodiaServiceImpl.java:228)
+	at br.com.bradesco.web.custodia.admperfil.view.bean.AlteracaoPerfilBean.concluirAlteracaoPerfil(AlteracaoPerfilBean.java:310)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:94)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:619)
+	at org.apache.myfaces.el.MethodBindingImpl.invoke(MethodBindingImpl.java:129)
+	at org.apache.myfaces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:63)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:106)
+	at org.ajax4jsf.component.AjaxViewRoot.processEvents(AjaxViewRoot.java:184)
+	at org.ajax4jsf.component.AjaxViewRoot.broadcastEvents(AjaxViewRoot.java:162)
+	at org.ajax4jsf.component.AjaxViewRoot.processApplication(AjaxViewRoot.java:350)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.invokeApplication(BradescoLifecycleImpl.java:449)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.executeLifeCycle(BradescoLifecycleImpl.java:121)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.execute(BradescoLifecycleImpl.java:87)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:106)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:236)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.cryptography.filter.CryptoFilter.doFilter(CryptoFilter.java:143)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:56)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:114)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+2018-05-22 16:04:45,671 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Não foi encontrado o config para o tipo de exceção java.lang.NullPointerException]
+2018-05-22 16:04:45,671 WARN [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - [Nenhuma configuração encontrada para o tipo da exceção java.lang.NullPointerException]
+2018-05-22 16:04:55,950 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:08:17,877 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:08:17,877 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:08:17,877 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:08:17,877 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:08:17,877 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:08:17,877 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 16:08:17,877 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 16:08:17,892 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 16:08:17,892 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 16:08:17,892 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 16:08:17,892 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 16:08:17,892 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-05-22 16:08:17,986 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-05-22 16:08:18,033 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-05-22 16:08:18,331 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:08:18,331 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:08:18,331 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:08:18,331 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:08:18,331 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:08:18,331 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:08:18,331 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:08:18,347 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:08:27,187 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:08:28,768 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-05-22 16:09:09,526 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:09:14,158 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:09:32,797 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:09:38,077 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:11:38,766 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:14:56,778 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:14:56,778 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:14:56,778 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:14:56,793 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:14:56,793 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:14:56,793 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 16:14:56,793 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 16:14:56,793 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 16:14:56,793 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 16:14:56,793 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 16:14:56,793 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 16:14:56,809 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-05-22 16:14:56,887 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-05-22 16:14:56,950 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-05-22 16:14:57,263 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:14:57,263 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:14:57,263 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:14:57,306 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:14:57,308 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:14:57,310 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:14:57,312 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:14:57,313 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:15:03,165 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:15:04,766 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-05-22 16:15:27,965 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:16:36,484 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:16:50,405 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:18:07,603 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:18:17,467 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:20:29,863 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:20:34,647 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:20:49,261 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:21:24,414 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:21:26,936 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:21:31,478 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:21:32,553 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+java.lang.NullPointerException
+	at br.com.bradesco.web.custodia.service.data.dao.perfil.impl.PerfilCustodiaDAOImpl.validaNomePerfil(PerfilCustodiaDAOImpl.java:1068)
+	at br.com.bradesco.web.custodia.service.business.perfil.impl.PerfilCustodiaServiceImpl.validaNomePerfil(PerfilCustodiaServiceImpl.java:228)
+	at br.com.bradesco.web.custodia.admperfil.view.bean.AlteracaoPerfilBean.fundosAlteracaoPerfil(AlteracaoPerfilBean.java:411)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:94)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:619)
+	at org.apache.myfaces.el.MethodBindingImpl.invoke(MethodBindingImpl.java:129)
+	at org.apache.myfaces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:63)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:106)
+	at org.ajax4jsf.component.AjaxViewRoot.processEvents(AjaxViewRoot.java:184)
+	at org.ajax4jsf.component.AjaxViewRoot.broadcastEvents(AjaxViewRoot.java:162)
+	at org.ajax4jsf.component.AjaxViewRoot.processApplication(AjaxViewRoot.java:350)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.invokeApplication(BradescoLifecycleImpl.java:449)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.executeLifeCycle(BradescoLifecycleImpl.java:121)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.execute(BradescoLifecycleImpl.java:87)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:106)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:236)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.cryptography.filter.CryptoFilter.doFilter(CryptoFilter.java:143)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:56)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:114)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+2018-05-22 16:21:32,555 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Não foi encontrado o config para o tipo de exceção java.lang.NullPointerException]
+2018-05-22 16:21:32,555 WARN [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - [Nenhuma configuração encontrada para o tipo da exceção java.lang.NullPointerException]
+2018-05-22 16:21:42,297 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:22:04,197 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:22:08,413 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:22:13,185 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:22:19,671 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:22:41,759 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:22:56,826 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:23:05,397 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:23:11,098 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:23:24,265 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:24:08,920 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:24:13,263 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:24:18,881 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:26:19,815 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:30:37,279 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:30:37,279 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:30:37,279 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:30:37,294 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:30:37,294 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF]
+2018-05-22 16:30:37,294 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 16:30:37,294 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 16:30:37,294 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common]
+2018-05-22 16:30:37,294 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 16:30:37,294 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 16:30:37,294 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\common\errorPages]
+2018-05-22 16:30:37,310 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-05-22 16:30:37,404 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-05-22 16:30:37,466 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-05-22 16:30:37,761 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:30:37,761 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:30:37,761 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:30:37,761 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:30:37,761 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:30:37,761 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:30:37,761 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:30:37,777 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\caliadmempresa\WEB-INF\jsp\modal]
+2018-05-22 16:30:48,662 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:30:50,279 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-05-22 16:31:05,833 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:32:19,470 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:32:22,873 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:32:56,346 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:32:59,098 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:33:32,199 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:33:35,196 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:33:47,556 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:34:24,706 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:34:32,378 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:34:35,819 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:34:38,090 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:34:41,834 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:34:46,206 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:35:05,245 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:35:23,970 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:47:59,174 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:48:01,792 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:48:05,716 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:48:07,934 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:48:12,604 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:48:20,643 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-05-22 16:48:46,663 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']

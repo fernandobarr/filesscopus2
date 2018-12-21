@@ -1,0 +1,6 @@
+2018-04-13 08:44:47,057 INFO [br.com.bradesco.web.aq.application.log.impl.LogManagerImpl] - [Loaded LOG CATALOG from EXTERNAL Location [ '/suportedbdc_apl/custodia/calisessaoWS/config/log4j-catalog.xml'].]
+2018-04-13 08:44:47,099 WARN [br.com.bradesco.web.aq.application.alert.config.AlertCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/alert-catalog.xml]]
+2018-04-13 08:44:47,106 WARN [br.com.bradesco.web.aq.application.alert.channel.file.impl.FileEmitterImpl] - [No such file or directory]
+2018-04-13 16:06:36,528 INFO [br.com.bradesco.web.aq.application.log.impl.LogManagerImpl] - [Loaded LOG CATALOG from EXTERNAL Location [ '/suportedbdc_apl/custodia/calisessaoWS/config/log4j-catalog.xml'].]
+2018-04-13 16:06:36,566 WARN [br.com.bradesco.web.aq.application.alert.config.AlertCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/alert-catalog.xml]]
+2018-04-13 16:06:36,574 WARN [br.com.bradesco.web.aq.application.alert.channel.file.impl.FileEmitterImpl] - [No such file or directory]

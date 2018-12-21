@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans default-lazy-init="false" default-dependency-check="none" default-autowire="no">
+
+	<!-- Ejemplo de configuración de conector Mock -->
+ 	<!-- Este conector se usará cuando se quiere simular una comunicación con PDC -->
+    <bean id="connectorMock"  class="br.com.bradesco.web.aq.application.pdc.connector.mock.ControllerMockImpl"
+        abstract="false" singleton="true" lazy-init="true"
+        autowire="default" dependency-check="default">
+        <property name="propertiesFile">
+            <value>connectorMock.properties</value>
+        </property>
+    </bean>
+    
+</beans>

@@ -1,0 +1,8 @@
+2018-08-07 21:35:02,990 WARN [br.com.bradesco.web.aq.application.alert.config.AlertCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/alert-catalog.xml]]
+2018-08-07 21:35:03,005 WARN [br.com.bradesco.web.aq.application.alert.channel.file.impl.FileEmitterImpl] - [No such file or directory]
+2018-08-07 21:35:44,145 WARN [br.com.bradesco.web.aq.application.alert.config.AlertCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/alert-catalog.xml]]
+2018-08-07 21:35:44,161 WARN [br.com.bradesco.web.aq.application.alert.channel.file.impl.FileEmitterImpl] - [No such file or directory]
+2018-08-07 21:37:53,482 WARN [br.com.bradesco.web.aq.application.alert.config.AlertCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/alert-catalog.xml]]
+2018-08-07 21:37:53,497 WARN [br.com.bradesco.web.aq.application.alert.channel.file.impl.FileEmitterImpl] - [No such file or directory]
+2018-08-07 21:39:09,489 WARN [br.com.bradesco.web.aq.application.alert.config.AlertCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/alert-catalog.xml]]
+2018-08-07 21:39:09,503 WARN [br.com.bradesco.web.aq.application.alert.channel.file.impl.FileEmitterImpl] - [No such file or directory]

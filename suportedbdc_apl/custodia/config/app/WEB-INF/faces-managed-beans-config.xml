@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE faces-config SYSTEM "http://java.sun.com/dtd/web-facesconfig_1_1.dtd">
+<faces-config>
+	<!--  MANAGED BEANS -->
+	<managed-bean>
+		<description>
+			Bean para obter propriedades de applications.properties
+		</description>
+		<managed-bean-name>propBean</managed-bean-name>
+		<managed-bean-class>
+			br.com.bradesco.web.custodia.view.bean.PropBean
+		</managed-bean-class>
+		<managed-bean-scope>application</managed-bean-scope>
+		<managed-property>
+			<property-name>config</property-name>
+			<property-class>
+				br.com.bradesco.web.custodia.view.bean.PropConfig
+			</property-class>
+			<value>#{propConfig}</value>
+		</managed-property>
+	</managed-bean>
+</faces-config>

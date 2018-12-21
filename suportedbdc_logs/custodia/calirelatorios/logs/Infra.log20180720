@@ -1,0 +1,94 @@
+2018-07-20 00:32:40,258 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 00:32:47,654 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 7396ms, tamanho 218324]
+2018-07-20 01:32:47,662 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 01:32:55,936 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 8274ms, tamanho 218324]
+2018-07-20 02:32:55,944 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 02:33:03,544 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 7600ms, tamanho 218324]
+2018-07-20 03:33:03,555 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 03:33:10,390 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 6835ms, tamanho 218324]
+2018-07-20 04:33:10,394 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 04:33:18,115 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 7721ms, tamanho 218324]
+2018-07-20 05:33:18,127 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 05:33:26,380 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 8253ms, tamanho 218324]
+2018-07-20 06:33:26,388 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 06:33:33,815 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 7427ms, tamanho 218324]
+2018-07-20 07:33:33,817 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 07:33:42,997 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 9180ms, tamanho 218324]
+2018-07-20 08:33:43,007 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 08:33:52,798 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 9776ms, tamanho 218324]
+2018-07-20 09:33:52,810 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 09:34:00,010 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 7200ms, tamanho 218324]
+2018-07-20 10:34:00,013 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 10:34:06,520 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 6507ms, tamanho 218324]
+2018-07-20 11:34:06,522 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 11:34:15,330 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 8808ms, tamanho 218324]
+2018-07-20 12:34:15,330 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 12:34:25,768 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 10438ms, tamanho 218324]
+2018-07-20 12:39:03,221 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-07-20 12:39:03,223 DEBUG [java.lang.String] - [Construindo uma nova sessão de usuário]
+2018-07-20 12:39:03,224 DEBUG [java.lang.String] - [Construindo uma nova sessão de usuário]
+2018-07-20 12:39:03,225 DEBUG [java.lang.String] - [Inicializando sessão]
+2018-07-20 12:39:03,225 DEBUG [java.lang.String] - [Construindo uma nova sessão de usuário]
+2018-07-20 12:39:03,325 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+br.com.bradesco.web.custodia.service.provider.security.sessao.check.exception.SessionCheckException: Não foi passado número de controle.
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:205)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:73)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+2018-07-20 12:39:03,339 DEBUG [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - [Realizando o handling da exceção com o tipo br.com.bradesco.web.custodia.service.provider.security.sessao.check.exception.SessionCheckException]
+2018-07-20 12:39:03,339 DEBUG [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Handler encontrado sessionCheckExceptionHandler para a exceção br.com.bradesco.web.custodia.service.provider.security.sessao.check.exception.SessionCheckException]
+2018-07-20 12:39:03,339 WARN [br.com.bradesco.web.custodia.service.provider.security.sessao.check.exception.handler.SessionCheckExceptionHandler] - [BradescoApplicationHandler:: Application Exception with Error message Não foi passado número de controle..Não foi passado número de controle.]
+2018-07-20 12:39:03,339 DEBUG [br.com.bradesco.web.custodia.service.provider.security.sessao.check.exception.handler.SessionCheckExceptionHandler] - [Nenhum alerta enviado para o tipo de exceção br.com.bradesco.web.custodia.service.provider.security.sessao.check.exception.SessionCheckException]
+2018-07-20 12:39:03,340 DEBUG [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Liberacao forcada do FacesContext]
+2018-07-20 12:54:32,432 DEBUG [java.lang.String] - [Destruindo sessão]
+2018-07-20 13:34:25,771 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 13:34:33,404 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 7185ms, tamanho 218324]
+2018-07-20 14:34:33,409 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 14:34:40,443 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 7034ms, tamanho 218324]
+2018-07-20 15:34:40,448 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 15:34:47,837 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 7389ms, tamanho 218324]
+2018-07-20 16:34:47,843 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 16:34:55,648 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 7805ms, tamanho 218324]
+2018-07-20 17:34:55,649 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 17:35:02,694 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 7045ms, tamanho 218324]
+2018-07-20 18:35:02,695 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 18:35:09,734 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 7039ms, tamanho 218324]
+2018-07-20 19:35:09,734 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 19:35:16,416 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 6682ms, tamanho 218324]
+2018-07-20 20:35:16,417 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 20:35:23,130 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 6712ms, tamanho 218324]
+2018-07-20 21:35:23,130 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 21:35:30,656 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 7525ms, tamanho 218324]
+2018-07-20 22:35:30,657 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 22:35:38,793 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 8136ms, tamanho 218324]
+2018-07-20 23:35:38,795 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - entrando]
+2018-07-20 23:35:45,656 DEBUG [br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl] - [timing- atualizarListaCotista - saindo: 6860ms, tamanho 218324]

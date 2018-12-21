@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!--
+		global - usado para alimentar os campos da parte fixa que nao variam
+		no servico. Um campo fixo alimentado por definicao nesta sessao pode
+		ser sobreescrito posteriormente pela redefinicao do mesmo campo em um
+		passo especifico
+	-->
+	<global>
+		<!--
+			parametro campologfixo= usado para indicar que o conteudo sera logado
+			no campo da area fixa identificado neste atributo. Corresponde ao
+			nome do setter dos objetos LogDados e LogDadosSessao conteudo= usado
+			para logar dados fixos. O campo de log a prenchido com o que estiver
+			declarado no XML. Permite uso de formatador para os casos de
+			formatacao condicional.
+		-->
+		<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="N/A" />
+		<parametro tipo="FIXO" campologfixo="Modulo" conteudo="Extrato" />
+		<parametro tipo="FIXO" campologfixo="FlagIndicador" conteudo="00" />
+		<parametro tipo="FIXO" campologfixo="CodigoRetornoTecnico" conteudo="0000000"/>	
+		<parametro tipo="FIXO" campologfixo="CodigoRetornoNegocio" conteudo="0000000"/>	
+		<parametro tipo="FIXO" campologfixo="FlagErroNegocio" conteudo="0"/>	
+		<parametro tipo="FIXO" campologfixo="FlagErroTecnico" conteudo="0"/>
+		<!-- <parametro tipo="FIXO" campologfixo="NumeroLigacao"	conteudo="1" /> -->
+		<parametro tipo="FIXO" campologfixo="Mensageminterna" conteudo="" />
+		<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada"	conteudo="N/A" />
+		<parametro tipo="FIXO" campologfixo="CodigoProduto" conteudo="000"/>
+	</global>
+	
+	<!-- INICIO LOGS NAVEGACAO -->
+	
+	<!-- INICIO LOG NEGOCIO -->
+	<classe	nome="br.com.bradesco.web.custodia.service.business.movimentacao.impl.ListagemMovimentacaoServiceImpl">
+	
+		<!-- NEGOCIO -->
+		<!-- ENTRADA - CONSULTA DETALHES VINCULADOS DIAS ANTERIORES -->
+		<metodo nome="obterListaMovimentoAgendado" 
+			chamadopor="br.com.bradesco.web.custodia.movimentacao.view.bean.ConsultarMovimentosAgendadosBean.obterMovimentosAgendados"
+			errobloqueio="0" entrada="1">
+			<!-- <parametro tipo="FIXO" campologfixo="ServicoOperacao" conteudo="NE_SEVA" /> -->
+			<parametro tipo="FIXO" campologfixo="CodigoRotinaAssociada" conteudo="N/A" />
+			<!-- <parametro tipo="FIXO" campologfixo="LocalExcecucao" conteudo="02" /> -->
+			<parametro tipo="FIXO" campologfixo="TransacaoMainframe" conteudo="CCBS0060" />
+			<!-- <parametro tipo="FIXO" campologfixo="NumeroPasso" conteudo="3" /> -->
+			<!-- <parametro tipo="FIXO" campologfixo="LayoutEvento"	conteudo="BIPJSVAC" /> -->			
+			<!-- agência -->
+			<!-- <parametro tipo="ENTRADA" ordem="0" nome="agencia" formatador="br.com.bradesco.web.ibpj.log.aspect.formatters.saldosextratos.FormataNumerosSaldos" mascara="00000"  />
+			conta
+			<parametro tipo="ENTRADA" ordem="0" nome="numConta" formatador="br.com.bradesco.web.ibpj.log.aspect.formatters.saldosextratos.FormataNumerosSaldos" mascara="0000000000000"  /> -->
+			<!-- numero transacao -->
+			<parametro tipo="FIXO" conteudo="000000000" />
+			<!-- codigo da consulta -->
+			<parametro tipo="FIXO" conteudo="03" />
+			
+		</metodo>		
+	</classe>
+    
+	
+	
+</config>

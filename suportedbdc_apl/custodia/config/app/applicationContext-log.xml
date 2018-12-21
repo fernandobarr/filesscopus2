@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="logManager"
+		  class="br.com.bradesco.web.aq.application.log.impl.LogManagerImpl"
+		  lazy-init="true" init-method="init">
+		  	<property name="logManagerConfig"><ref bean="logManagerConfig"/></property>
+		  	<property name="logManagerStatistics"><ref bean="logManagerStatistics"/></property>
+		  	<property name="helpers">
+		  		<map>
+		  		 	 <entry key="PAGINA">
+			         	<ref bean="paginaGerador"/>
+			         </entry>
+			         <entry key="TRANSACAO">
+			         	<ref bean="transacaoGerador"/>
+			         </entry>
+        	   	</map>
+        	</property>
+	</bean>
+	
+	<bean id="logManagerConfig"
+		  class="br.com.bradesco.web.aq.application.log.config.LogManagerConfigBean">
+		  	<property name="configFileName"><value>${logManager.configFileName}</value></property>
+		  	<property name="externalPath"><value>${logManager.configFileName}</value></property>
+		  	<!-- Descomentar no caso de quere a funcionalidade watchDog de reconfiguraçao de Log4j.
+		  		<property name="delay"><value>${logManager.delay}</value></property>
+			-->
+	</bean>
+	
+	<bean id="bradescoLogChangeConfig"
+		  class="br.com.bradesco.web.aq.application.log.config.BradescoLogChangeConfigImpl">
+			<property name="logger"><ref bean="logManager"/></property>
+	</bean>
+	
+	<!-- Geradores -->
+	<bean id="abstractGerador"
+		  class="br.com.bradesco.web.aq.application.log.helper.AbstractGeradorLog"
+	      abstract="true">
+	</bean>
+
+	<bean id="paginaGerador"
+		class="br.com.bradesco.web.custodia.service.provider.log.helper.PaginaGeradorLog"
+		parent="abstractGerador">
+			<property name="logLevel"><ref bean="paginaLogLevel"/></property>
+	</bean>
+	<bean id="transacaoGerador"
+		class="br.com.bradesco.web.custodia.service.provider.log.helper.TransacaoGeradorLog"
+		parent="abstractGerador">
+			<property name="logLevel"><ref bean="transacaoLogLevel"/></property>
+	</bean>
+	
+	<bean id="paginaLogLevel"                                                    
+	  	  class="org.springframework.beans.factory.config.FieldRetrievingFactoryBean">           
+   	   			<property name="staticField">                                                         
+   	                <value>br.com.bradesco.web.aq.application.log.ILogManager.INFO</value>           
+   	  			</property>                                                                           
+ 	</bean>                                                                                      
+	<bean id="transacaoLogLevel"                                                    
+	  	  class="org.springframework.beans.factory.config.FieldRetrievingFactoryBean">           
+		<property name="staticField">                                                         
+			<value>br.com.bradesco.web.aq.application.log.ILogManager.INFO</value>           
+		</property>	
+	</bean>
+	
+</beans>  

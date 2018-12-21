@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <servers>
+    <server>
+      	<id>cali_snapshot</id>
+      	<username>cali_auto</username>
+      	<password>cali_auto</password>
+    </server>
+  </servers>
+  
+	<distributionManagement>
+    	<snapshotRepository>
+        	<id>cali_snapshot</id>
+         	<url>http://artifactory.sp4.scopus.com.br/artifactory/libs-cali-snapshot-local</url>
+      	</snapshotRepository>
+   	</distributionManagement>
+   	
+  <profiles>
+    <profile>
+      <repositories>
+        <repository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>libs-release</name>
+          <url>http://artifactory.sp4.scopus.com.br/artifactory/libs-release</url>
+        </repository>
+        <repository>
+        	<snapshots>
+    	    	<enabled>false</enabled>
+	        </snapshots>
+	    	<id>cali_release</id>
+	    	<url>http://artifactory.sp4.scopus.com.br/artifactory/libs-cali-release-local</url>
+	    </repository>
+	    <repository>
+    		<id>jcenter</id>
+    		<name>jcenter</name>
+    		<url>http://artifactory.sp4.scopus.com.br/artifactory/jcenter</url>
+		</repository>
+	    <repository>
+          <snapshots />
+          <id>snapshots</id>
+          <name>libs-snapshot</name>
+          <url>http://artifactory.sp4.scopus.com.br/artifactory/libs-snapshot</url>
+        </repository>
+        <repository>
+	    	<id>cali_snapshot</id>
+	    	<url>http://artifactory.sp4.scopus.com.br/artifactory/libs-cali-snapshot-local</url>
+		</repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>plugins-release</name>
+          <url>http://artifactory.sp4.scopus.com.br/artifactory/plugins-release</url>
+        </pluginRepository>
+        <pluginRepository>
+          <snapshots />
+          <id>snapshots</id>
+          <name>plugins-snapshot</name>
+          <url>http://artifactory.sp4.scopus.com.br/artifactory/plugins-snapshot</url>
+        </pluginRepository>
+      </pluginRepositories>
+      <id>artifactory</id>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>artifactory</activeProfile>
+  </activeProfiles>
+</settings>

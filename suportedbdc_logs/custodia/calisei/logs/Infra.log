@@ -1,0 +1,4 @@
+2018-10-16 14:35:34,648 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-10-16 17:57:21,911 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-10-23 14:18:52,251 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-10-23 14:37:08,417 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]

@@ -1,0 +1,8 @@
+2018-10-16 14:35:34,574 WARN [br.com.bradesco.web.aq.application.alert.config.AlertCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/alert-catalog.xml]]
+2018-10-16 14:35:34,596 WARN [br.com.bradesco.web.aq.application.alert.channel.file.impl.FileEmitterImpl] - [No such file or directory]
+2018-10-16 17:57:21,851 WARN [br.com.bradesco.web.aq.application.alert.config.AlertCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/alert-catalog.xml]]
+2018-10-16 17:57:21,864 WARN [br.com.bradesco.web.aq.application.alert.channel.file.impl.FileEmitterImpl] - [No such file or directory]
+2018-10-23 14:18:52,181 WARN [br.com.bradesco.web.aq.application.alert.config.AlertCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/alert-catalog.xml]]
+2018-10-23 14:18:52,193 WARN [br.com.bradesco.web.aq.application.alert.channel.file.impl.FileEmitterImpl] - [O sistema não pode encontrar o caminho especificado.]
+2018-10-23 14:37:08,333 WARN [br.com.bradesco.web.aq.application.alert.config.AlertCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/alert-catalog.xml]]
+2018-10-23 14:37:08,346 WARN [br.com.bradesco.web.aq.application.alert.channel.file.impl.FileEmitterImpl] - [O sistema não pode encontrar o caminho especificado.]

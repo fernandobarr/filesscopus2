@@ -1,0 +1,1 @@
+2018-10-10 08:40:11,518 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]

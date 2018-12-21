@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context path="/nib/kit" docBase="" antiResourceLocking="false">
+<Logger className="org.apache.catalina.logger.FileLogger"
+	  prefix="localhost_fidelity_log." suffix=".txt" timestamp="true"/>
+	<Resource name="jdbc/dbCorp" 
+		auth="Container" 
+		type="javax.sql.DataSource" 
+		factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory"
+		driverName="SQLServer"
+		description="SQL Server DataSource"
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+		removeAbandoned="true"
+		removeAbandonedTimeout="60"
+		logAbandoned="true"
+		maxActive="20" 
+		maxIdle="1" 
+		maxWait="10000"
+		url="jdbc:sqlserver://172.16.40.208:57405;instanceName=DES100A;databasename=DBCORP;user=ofcm010;password=ofcm010"/>
+
+	<Resource name="jdbc/OFPJD000" 
+		auth="Container" 
+		type="javax.sql.DataSource" 
+		factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory"
+		driverName="SQLServer"
+		description="SQL Server DataSource"
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+		removeAbandoned="true"
+		removeAbandonedTimeout="60"
+		logAbandoned="true"
+		maxActive="20" 
+		maxIdle="1" 
+		maxWait="10000"
+		url="jdbc:sqlserver://172.16.40.208:57405;instanceName=DES100A;databasename=OFPJD000;user=scopus;password=scopus"/>
+		
+	<Resource name="jdbc/IBPJD003"
+		auth="Container" 
+		type="javax.sql.DataSource" 
+		factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory"
+		driverName="SQLServer"
+		description="SQL Server DataSource"
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+		removeAbandoned="true"
+		removeAbandonedTimeout="60"
+		logAbandoned="true"
+		maxActive="20" 
+		maxIdle="1" 
+		maxWait="10000"
+		url="jdbc:sqlserver://172.16.40.208:57405;instanceName=DES100A;databasename=IBPJD003;user=ibpjd0010;password=ibpjd0010"/>
+
+	
+	<Resource name="jdbc/dbNeCampDS" 
+		auth="Container"  description="SQL Server DataSource" driverName="SQLServer" type="javax.sql.DataSource"
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+		factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory" 
+		logAbandoned="true" removeAbandoned="true" removeAbandonedTimeout="60"
+		maxActive="20"  maxIdle="1"  maxWait="10000" 
+		url="jdbc:sqlserver://172.16.40.208:57405;instanceName=DES100A;databaseName=OFDVD001;user=dev_user;password=user_sql"
+	/>
+
+	<Resource name="jdbc/OFDVD001" 
+		auth="Container"  description="SQL Server DataSource" driverName="SQLServer" type="javax.sql.DataSource"
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+		factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory" 
+		logAbandoned="true" removeAbandoned="true" removeAbandonedTimeout="60"
+		maxActive="20"  maxIdle="1"  maxWait="10000" 
+		url="jdbc:sqlserver://172.16.40.208:57405;instanceName=DES100A;databaseName=OFDVD001;user=dev_user;password=user_sql"
+	/>
+	
+	<Resource auth="Container" description="SQL Server DataSource" 
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" driverName="SQLServer" 
+		factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory" logAbandoned="true" 
+		maxActive="20" maxIdle="1" maxWait="10000" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" 
+		name="jdbc/dbNetPJDS" password="scopus"  
+		url="jdbc:sqlserver://172.16.41.55;instanceName=DES120A;databaseName=OFPJD000;user=scopus;password=scopus" username="scopus"/>
+	
+<!-- 
+			<Resource auth="Container" description="SQL Server DataSource" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" driverName="SQLServer" factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory" logAbandoned="true" maxActive="20" maxIdle="1" maxWait="10000" name="jdbc/config2DS" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:sqlserver://127.0.0.1;databaseName=OFIED000;user=sa;password=Void2010"/>
+			<Resource auth="Container" description="SQL Server DataSource" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" driverName="SQLServer" factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory" logAbandoned="true" maxActive="20" maxIdle="1" maxWait="10000" name="jdbc/dbNeCampDS" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:sqlserver://127.0.0.1;databaseName=OFDVD002;user=sa;password=Void2010"/>
+			<Resource auth="Container" description="SQL Server DataSource" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" driverName="SQLServer" factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory" logAbandoned="true" maxActive="20" maxIdle="1" maxWait="10000" name="jdbc/OFDVD002" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:sqlserver://127.0.0.1;databaseName=OFDVD002;user=sa;password=Void2010"/>
+			<Resource auth="Container" description="SQL Server DataSource" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" driverName="SQLServer" factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory" logAbandoned="true" maxActive="20" maxIdle="1" maxWait="10000" name="jdbc/DBCorpDS" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:sqlserver://127.0.0.1;databaseName=DBCORP;user=sa;password=Void2010"/>
+			<Resource auth="Container" description="SQL Server DataSource" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" driverName="SQLServer" factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory" logAbandoned="true" maxActive="20" maxIdle="1" maxWait="10000" name="jdbc/dbNetPJDS" password="scopus" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:sqlserver://172.16.40.208;instanceName=DES100A;databaseName=OFPJD000;user=scopus;password=scopus" username="scopus"/>
+ -->
+
+</Context>

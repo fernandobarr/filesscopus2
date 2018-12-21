@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "../WebContent/WEB-INF/log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+    <!--  Define um repositorio de armazenamento em arquivo, cujo backup será feito no primeiro dia de cada semana -->
+	<appender name="Aplicacao-rolling" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="/suportedbdc_logs/custodia/calitatransferencia/logs/Aplicacao.log"/>
+		<param name="DatePattern" value="yyyyMMdd"/>
+		<param name="append" value="true"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %p [%c] - [%m]%n"/>
+		</layout>
+	</appender>
+
+<!--  Define um repositorio de armazenamento em arquivo, cujo backup será feito no primeiro dia de cada semana -->
+	<appender name="AQ-rolling" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="/suportedbdc_logs/custodia/calitatransferencia/logs/AWB-AQ-Bradesco.log"/>
+		<param name="DatePattern" value="yyyyMMdd"/>
+		<param name="append" value="true"/>
+		
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %p [%c] - [%m]%n"/>
+		</layout>
+		
+		<!-- define um filtro de armazenamento onde apenas as mensagens com severidade DEBUG serão registradas -->
+		<!-- 
+		<filter class="org.apache.log4j.varia.LevelMatchFilter">
+			<param name="levelToMatch" value="info"/>
+		</filter>
+		<filter class="org.apache.log4j.varia.DenyAllFilter"/>
+		//-->
+	</appender>
+	
+	<appender name="APP-rolling" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="/suportedbdc_logs/custodia/calitatransferencia/logs/AWB-APP-Bradesco.log"/>
+		<param name="DatePattern" value="yyyyMMdd"/>
+		<param name="append" value="true"/>
+		
+		<!-- Layout corporativo de Bradesco. Incluye los siguientes caracteres.
+		
+			%S: Obtiene el identificador de sesión de AQ. Técnica.
+			%U: Obtiene el usuario autenticado en el canal.
+			%I: Obtiene la dirección Ip remota del usuario autenticado en el canal.
+			%N: Número Secuencial Único que identifica la solicitud tratada.
+			
+			Atributos genéricos:
+			
+			%A: Extrae el valor del atributo BradescoPatternConstant.LOGGING_SESSION_ATTRIBUTE_1 del scope 'session'								
+			%B: Extrae el valor del atributo BradescoPatternConstant.LOGGING_SESSION_ATTRIBUTE_2 del scope 'session'
+			%H: Extrae el valor del atributo BradescoPatternConstant.LOGGING_APPLICATION_ATTRIBUTE_1 del scope 'application'
+			%K: Extrae el valor del atributo BradescoPatternConstant.LOGGING_APPLICATION_ATTRIBUTE_2 del scope 'application'
+		
+			El layout consta de dos partes:
+			
+				1. commonLayoutPattern: Layout de Arquitectura. Su valor default es %d %-5p %S %N [%U %I]
+				2. applicationLayoutPattern: A definir por el aplicativo. Por defecto, está vacia.
+				3. Parte cte: %m %n.
+				
+				Por defecto, el layout incluído es %d %-5p %S %N [%U %I] -%m %n
+		 -->
+		
+		<layout class="br.com.bradesco.web.aq.application.log.impl.layout.BradescoPatternLayout">
+			<!-- Ejemplo de definición de commonPatternLayout -->
+			
+			<param name="commonLayoutPattern" value="%-5p %d [%c] [%N %U %S]"/>
+			
+			<!-- Ejemplo de definición de applicationLayoutPattern genérico, donde se usan los atributos genéricos:
+		     %A: atributo de 'session' BradescoPatternConstant.LOGGING_SESSION_ATTRIBUTE_1.
+		     %H: atributo de 'application' BradescoPatternConstant.LOGGING_APPLICATION_ATTRIBUTE_1.
+			-->
+			
+			<param name="applicationLayoutPattern" value="[%A %B]"/>
+		</layout>
+	</appender>
+
+	<!-- <appender name="LogNegocio" class="br.com.bradesco.web.service.provider.log.extension.CanalInternetDailyRollingFileAppender">
+		<param name="FileExtention" value=".log"/>
+		<param name="DatePattern" value="yyyyMMdd"/>
+		<param name="File" value="/suportedbdc_logs/custodia/custodiakit/logs/LogNegocio"/>
+		<param name="append" value="true"/>
+		<layout class="br.com.bradesco.web.service.provider.log.layout.CanalInternetPatternLayout">
+			<param name="commonLayoutPattern" value="%d{yyyy-MM-dd-HH.mm.ss.SSS000}\t%-5p\t%S\t%-40N\t%I\t%q"/>
+            <param name="logNegociosLayoutPattern" value="%(%)%{%}%b%s%L%R%h%k"/>
+			<param name="layoutApi"           value="GLOGEL01"/>
+			<param name="versionApi"          value=" 1.7 "/>
+			<param name="logicalLog"          value="000000000"/>
+			<param name="eventGroup"          value="00002"/>			
+			<param name="eventVersionLayout"  value="00000"/>
+			<param name="dependencyCode"      value="04250"/>
+			<param name="channelCode"         value="014"/>
+			<param name="enterpriseCode"      value="00237"/>			
+		</layout>
+	</appender> -->
+    
+     <!-- <appender name="LogNavegacao" class="br.com.bradesco.web.service.provider.log.extension.CanalInternetDailyRollingFileAppender">
+        <param name="FileExtention" value=".log" />
+        <param name="DatePattern" value="yyyyMMdd" />
+		<param name="Encoding" value="UTF-8"/>
+        <param name="File" value="/suportedbdc_logs/custodia/custodiakit/logs/LogNavegacao" />
+        <param name="append" value="true" />
+        <layout class="br.com.bradesco.web.service.provider.log.layout.CanalInternetPatternLayout">
+            <param name="commonLayoutPattern" value="%d{yyyy-MM-dd-HH.mm.ss.SSS000}\t%-5p\t%S\t%-40N\t%I\t%q" />
+            <param name="layoutApi"           value="GLOGEL01"/>
+            <param name="versionApi"          value="1.7"/>
+            <param name="logicalLog"          value="000000000"/>
+            <param name="eventGroup"          value="00001"/>
+            <param name="eventVersionLayout"  value="00000"/>
+            <param name="dependencyCode"      value="04250"/>
+            <param name="channelCode"         value="014"/>
+            <param name="enterpriseCode"      value="00237"/>
+        </layout>
+    </appender>
+ -->
+	<appender name="Infra-rolling" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="/suportedbdc_logs/custodia/calitatransferencia/logs/Infra.log"/>
+		<param name="DatePattern" value="yyyyMMdd"/>
+		<param name="append" value="true"/>
+		
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %p [%c] - [%m]%n"/>
+		</layout>		
+	</appender>
+	
+	
+	<appender name="Consultas-rolling" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="/suportedbdc_logs/custodia/calitatransferencia/logs/Consultas.log"/>
+		<param name="DatePattern" value="yyyyMMdd"/>
+		<param name="append" value="true"/>
+		
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %p [%c] - [%m]%n"/>
+		</layout>		
+	</appender>
+
+	<appender name="PDC-rolling" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="/suportedbdc_logs/custodia/calitatransferencia/logs/PDCConsultas.log"/>
+		<param name="DatePattern" value="yyyyMMdd"/>
+		<param name="append" value="true"/>
+		
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %p [%c] - [%m]%n"/>
+		</layout>		
+	</appender>
+
+
+	<!-- Define un appender que muestra los mensajes de log por consola -->
+	<appender name="stdout" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %p [%c] - [%m]%n"/>
+		</layout>
+	</appender>
+	
+	<!-- Define el nivel de log de la AWB. -->
+	<logger name="br.com.bradesco.web.aq" additivity="false">
+		<level value="info"/>
+		<appender-ref ref="AQ-rolling"/>
+	</logger>
+
+	<logger name="br.com.bradesco.web.custodia" additivity="false">
+		<level value="info"/>
+		<appender-ref ref="Infra-rolling"/>
+	</logger>
+
+	<logger name="br.com.bradesco.web.custodia.telainicial" additivity="false">
+		<level value="debug"/>
+		<appender-ref ref="Aplicacao-rolling"/>
+	</logger>
+
+	<!-- <logger name="br.com.bradesco.web.service.provider.log.helper.TransacaoGeradorLog" additivity="false">
+		<level value="info"/>
+		<appender-ref ref="LogNegocio"/>
+	</logger>
+    <logger name="br.com.bradesco.web.service.provider.log.helper.PaginaGeradorLog" additivity="false">
+		<level value="info"/>
+		<appender-ref ref="LogNavegacao"/>
+	</logger> -->
+
+	<logger name="javax" additivity="false">
+		<level value="info"/>
+		<appender-ref ref="Infra-rolling"/>
+	</logger>
+	
+	<logger name="org" additivity="false">
+		<level value="info"/>
+		<appender-ref ref="Infra-rolling"/>
+	</logger>
+
+	<logger name="br" additivity="false">
+		<level value="info"/>
+		<appender-ref ref="Infra-rolling"/>
+	</logger>
+
+	<logger name="com" additivity="false">
+		<level value="info"/>
+		<appender-ref ref="Infra-rolling"/>
+	</logger>
+	
+	<logger name="br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener" additivity="false">
+		<level value="debug"/>
+		<appender-ref ref="Infra-rolling"/>
+	</logger>
+	
+	<!-- Establece el nivel 'root' a debug y establece como appender el appender por consola. -->
+	<root>
+		<level value="info"/>
+		<appender-ref ref="Infra-rolling"/>
+	</root>
+
+</log4j:configuration>

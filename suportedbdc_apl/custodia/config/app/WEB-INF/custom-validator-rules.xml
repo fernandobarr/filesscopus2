@@ -1,0 +1,249 @@
+<!DOCTYPE form-validation PUBLIC
+     "-//Apache Software Foundation//DTD Commons Validator Rules Configuration 1.2.0//EN"
+     "http://jakarta.apache.org/commons/dtds/validator_1_2_0.dtd">
+
+<form-validation>
+
+   <global>
+
+      <validator name="requiredSelectOneRadio"
+            classname="br.com.bradesco.web.aq.view.components.arq.UIClientSideValidation.validator.CommonsValidator"
+               method="isSupplied"
+         methodParams="java.lang.String"
+                  msg="errors.required">
+
+         <javascript><![CDATA[
+            function validateRequiredSelectOneRadio(form) {
+            	var isValid = true;
+                var focusField = null;
+                var i = 0;
+                var fields = new Array();
+                oRequired = new requiredSelectOneRadio();
+                
+                var anyChecked = false;
+                
+                for (x in oRequired) {
+                
+                  var aRadio=document.getElementsByName(oRequired[x][0]);
+                  if (aRadio != null) {
+	                  for (var z=0; z<aRadio.length; z++) {
+					  	if (aRadio[z].checked == true) {
+					  		anyChecked = true;
+					  	}
+					  }
+				  }
+			
+                  if (anyChecked == false) {
+                  	if (i == 0) {
+                    	//focusField = field;
+                    }
+                    fields[i++] = oRequired[x][1];
+                  	isValid = false;
+                  }
+                }
+                if (fields.length > 0) {
+                   //focusField.focus();
+                   alert(fields.join('\n'));
+                }
+                return isValid;
+            }
+            
+            // Trim whitespace from left and right sides of s.
+            function trim(s) {
+                return s.replace( /^\s*/, "" ).replace( /\s*$/, "" );
+            }
+            
+            ]]>
+         </javascript>
+
+      </validator>
+      <validator name="requiredSelectLista"
+            classname="br.com.bradesco.web.aq.view.components.arq.UIClientSideValidation.validator.CommonsValidator"
+               method="isSupplied"
+         methodParams="java.lang.String"
+                  msg="errors.lista.required">
+
+         <javascript><![CDATA[
+            function validateRequiredSelectLista(form) {
+            	var isValid = true;
+                var focusField = null;
+                var i = 0;
+                var fields = new Array();
+                oRequired = new requiredSelectLista();
+                
+                var anyChecked = false;
+                
+                for (x in oRequired) {
+                
+                  var aRadio=document.getElementsByName(oRequired[x][0]);
+                  if (aRadio != null) {
+	                  for (var z=0; z<aRadio.length; z++) {
+					  	if (aRadio[z].checked == true) {
+					  		anyChecked = true;
+					  	}
+					  }
+				  }
+			
+                  if (anyChecked == false) {
+                  	if (i == 0) {
+                    	//focusField = field;
+                    }
+                    fields[i++] = oRequired[x][1];
+                  	isValid = false;
+                  }
+                }
+                if (fields.length > 0) {
+                   //focusField.focus();
+                   alert(fields.join('\n'));
+                }
+                return isValid;
+            }
+            
+            // Trim whitespace from left and right sides of s.
+            function trim(s) {
+                return s.replace( /^\s*/, "" ).replace( /\s*$/, "" );
+            }
+            
+            ]]>
+         </javascript>
+
+      </validator>
+      
+      <validator name="checkboxChecked"
+            classname="br.com.bradesco.web.aq.view.components.arq.UIClientSideValidation.validator.CommonsValidator"
+               method="isSupplied"
+         methodParams="java.lang.String"
+                  msg="errors.checkbox.checked.required">
+
+         <javascript><![CDATA[
+            function validateCheckboxChecked(form) {
+                var isValid = true;
+                var focusField = null;
+                var i = 0;
+                var fields = new Array();
+                oRequired = new checkboxChecked();
+                for (x in oRequired) {
+                   var field = form[oRequired[x][0]];
+                   
+                   if (field.type == 'checkbox') {
+                        if (field.checked != true) {
+                        
+                           if (i == 0) {
+                               focusField = field;
+                           }
+                           fields[i++] = oRequired[x][1];
+                           isValid = false;
+                        }
+                    }
+                }
+                if (fields.length > 0) {
+                   focusField.focus();
+                   alert(fields.join('\n'));
+                }
+                return isValid;
+            }
+            
+            // Trim whitespace from left and right sides of s.
+            function trim(s) {
+                return s.replace( /^\s*/, "" ).replace( /\s*$/, "" );
+            }
+            
+            ]]>
+         </javascript>
+
+      </validator>
+
+      <validator name="maxCheckboxesChecked"
+            classname="org.apache.commons.validator.GenericValidator"
+               method="maxLength"
+         methodParams="java.lang.String,int"
+              depends=""
+                  msg="errors.checkbox.maxChecked">
+
+         <javascript><![CDATA[
+            function validateMaxCheckboxesChecked(form) {
+                var isValid = true;
+                var focusField = null;
+                var i = 0;
+                var fields = new Array();
+                oMaxLength = new maxCheckboxesChecked();
+                
+                var numChecked = 0;
+                
+                for (x in oMaxLength) {
+                    
+                    var aCheckbox=document.getElementsByName(oMaxLength[x][0]);
+                    if (aCheckbox != null) {
+	                  for (var z=0; z<aCheckbox.length; z++) {
+					  	if (aCheckbox[z].checked == true) {
+					  		numChecked++;
+					  	}
+					  }
+				  	}
+                    
+                    var iMax = parseInt(parseFloat(oMaxLength[x][2]("max")));
+                    
+                    if (numChecked > iMax) {
+                        fields[i++] = oMaxLength[x][1]; // argumento para o mensagem do erro
+                        isValid = false;
+                    }
+                }
+                if (fields.length > 0) {
+                   alert(fields.join('\n'));
+                }
+                return isValid;
+            }]]>
+         </javascript>
+
+      </validator>
+      
+      <validator name="maskIfEnabled"
+            classname="org.apache.commons.validator.GenericValidator"
+               method="matchRegexp"
+         methodParams="java.lang.String,java.lang.String"
+              depends=""
+                  msg="errors.invalid">
+
+         <javascript><![CDATA[
+            function validateMaskIfEnabled(form) {
+                var isValid = true;
+                var focusField = null;
+                var i = 0;
+                var fields = new Array();
+                oMasked = new maskIfEnabled();
+                for (x in oMasked) {
+                
+                    var field = form[oMasked[x][0]];
+                    
+                    if ((field.type == 'text' || 
+                         field.type == 'textarea' ||
+                         field.type == 'password') && 
+                         (field.value.length > 0) && (field.disabled==false)) {
+                         
+                        if (!matchPattern(field.value, oMasked[x][2]("mask"))) {
+                            if (i == 0) {
+                                focusField = field;
+                            }
+                            fields[i++] = oMasked[x][1];
+                            isValid = false;
+                        }
+                    }
+                }
+                
+                if (fields.length > 0) {
+                   focusField.focus();
+                   alert(fields.join('\n'));
+                }
+                return isValid;
+            }
+
+            function matchPattern(value, mask) {
+               return mask.exec(value);
+            }]]>
+         </javascript>
+
+      </validator>
+
+   </global>
+
+</form-validation>

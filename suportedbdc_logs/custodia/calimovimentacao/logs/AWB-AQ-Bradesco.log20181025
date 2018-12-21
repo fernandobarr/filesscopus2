@@ -1,0 +1,6 @@
+2018-10-25 09:16:11,147 INFO [br.com.bradesco.web.aq.application.log.impl.LogManagerImpl] - [Loaded LOG CATALOG from EXTERNAL Location [ '/suportedbdc_apl/custodia/calimovimentacao/config/log4j-catalog.xml'].]
+2018-10-25 09:16:11,880 WARN [br.com.bradesco.web.aq.application.alert.config.AlertCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/alert-catalog.xml]]
+2018-10-25 09:16:11,973 WARN [br.com.bradesco.web.aq.application.alert.channel.file.impl.FileEmitterImpl] - [O sistema não pode encontrar o caminho especificado.]
+2018-10-25 11:46:56,400 INFO [br.com.bradesco.web.aq.application.log.impl.LogManagerImpl] - [Loaded LOG CATALOG from EXTERNAL Location [ '/suportedbdc_apl/custodia/calimovimentacao/config/log4j-catalog.xml'].]
+2018-10-25 11:46:56,789 WARN [br.com.bradesco.web.aq.application.alert.config.AlertCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/alert-catalog.xml]]
+2018-10-25 11:46:56,805 WARN [br.com.bradesco.web.aq.application.alert.channel.file.impl.FileEmitterImpl] - [O sistema não pode encontrar o caminho especificado.]

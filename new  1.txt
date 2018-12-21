@@ -1,0 +1,21 @@
+FileSystemXmlApplicationContext
+
+ClassPathXmlApplicationContext
+
+bean id="fruit" class="food.Fruit" init-method="init-method" destroy-method"destroy-method"
+property name value
+
+constructor-arg
+
+
+autowire="byType"
+
+autowire="byName"
+
+autowire="byConstructor"
+
+autowire="constructor"
+
+primary="true"
+
+

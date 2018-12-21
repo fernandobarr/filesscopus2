@@ -1,0 +1,9 @@
+Guia da IBM: https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/twbs_jaxwsthinclient.html
+
+1 - Tomcat 7, JAVA 1.7.1 da IBM
+2 - Copiar para tomcat\lib os arquivos "com.ibm.jaxws.thinclient_8.5.0.jar" e "endorsed_apis_8.5.0.jar"
+3 - Copiar para tomcat\conf os arquivos "jaas.config" e "ssl.client.props" (este precisa ser editado conforme caminho instalado), além do diretório etc
+4 - Na configuração de argumentos do tomcat, acrescentar: -XX:MaxPermSize=256m -Djava.security.auth.login.config="C:\Java\apache-tomcat-7.0.82\conf\jaas.config" -Dcom.ibm.SSL.ConfigURL=file:///java/apache-tomcat-7.0.82/conf/ssl.client.props
+5 - No war, retirar do "Deployment Assembly" os arquivos "jaxws.thinclient-8.5.0.jar" e "commons-logging-1.1.1.jar" (este vai entrar em conflito com do "com.ibm.jaxws.thinclient-8.5.0.jar")
+6 - Na dúvida, verificar no diretório de deploy do eclipse/tomcat (exemplo C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calirelatorios\WEB-INF\lib), se os dois jars estão presentes. Arrancar/renomear se necessário.
+

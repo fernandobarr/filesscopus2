@@ -1,0 +1,107 @@
+css.resource.path=
+
+#----------------------------------------------------------------------------------------------------
+# Gestão de Acesso -> Administração de Usuário -> Incluir usuario
+#----------------------------------------------------------------------------------------------------
+AIU.1.texto=User information
+AIU.2.texto=Confirmation
+AIU.3.texto=Conclusion
+
+#----------------------------------------------------------------------------------------------------
+# Gestão de Acesso -> Administração de Usuário -> Consultar, Incluir, Alterar acesso do Usuário aos Fundos do Passivo
+#----------------------------------------------------------------------------------------------------
+AIF.1.texto=User information
+AIF.2.texto=Confirmation
+AIF.3.texto=Conclusion
+
+AIP.1.texto=Profile Information
+AIP.2.texto=Funds
+AIP.3.texto=Confirmation
+AIP.4.texto=Conclusion
+
+AAP.1.texto=Profile Information
+AAP.2.texto=Funds
+AAP.3.texto=Confirmation
+AAP.4.texto=Conclusion
+
+ACU.1.texto=User information
+ACU.2.texto=Confirmation
+ACU.3.texto=Conclusion
+
+#----------------------------------------------------------------------------------------------------
+# Movimentações -> Incluir Movimento
+#----------------------------------------------------------------------------------------------------
+MOV.1.texto=Incluir Movimento
+MOV.2.texto=Confirmation
+MOV.3.texto=Conclusion
+
+#----------------------------------------------------------------------------------------------------
+# Movimentações -> Alterar Movimento
+#----------------------------------------------------------------------------------------------------
+MOA.1.texto=Change Orders Application and Rescue
+MOA.2.texto=Confirmation
+MOA.3.texto=Conclusion
+
+#----------------------------------------------------------------------------------------------------
+# Movimentações -> Importar Movimentos
+#----------------------------------------------------------------------------------------------------
+MOI.1.texto=Import Movements
+MOI.2.texto=Confirmation
+MOI.3.texto=Conclusion
+
+#----------------------------------------------------------------------------------------------------
+# Cadastros -> Incluir Cadastro de Clientes e Cotistas
+#----------------------------------------------------------------------------------------------------
+
+PCA.1.texto=Investor information
+PCA.2.texto=Dados Profissionais e Financeiros
+PCA.3.texto=Dados do Distribuidor
+PCA.4.texto=Confirmation
+PCA.5.texto=Conclusion
+
+PCC.1.texto=Dados do Investidor
+PCC.2.texto=Representante / Custodiante
+PCC.3.texto=Dados Profissionais e Financeiros
+PCC.4.texto=Dados do Distribuidor
+PCC.5.texto=Confirmation
+PCC.6.texto=Conclusion
+
+PCB.1.texto=Dados do Investidor
+PCB.2.texto=Dados Profissionais e Financeiros
+PCB.3.texto=Dados do Distribuidor e Tipo de Investimento
+PCB.4.texto=Confirmation
+PCB.5.texto=Conclusion
+
+PCD.1.texto=Dados do Investidor
+PCD.2.texto=Dados Profissionais e Financeiros
+PCD.3.texto=Confirmation
+PCD.4.texto=Conclusion
+
+PCE.1.texto=Dados do Investidor
+PCE.2.texto=Dados dos Representantes
+PCE.3.texto=Situação Financeira e Tributária
+PCE.4.texto=Dados do Distribuidor
+PCE.5.texto=Confirmation
+PCE.6.texto=Conclusion
+
+PCF.1.texto=Dados do Investidor
+PCF.2.texto=Dados dos Representantes
+PCF.3.texto=Situação Financeira e Tributária
+PCF.4.texto=Dados do Distribuidor
+PCF.5.texto=Confirmation
+PCF.6.texto=Conclusion
+
+#----------------------------------------------------------------------------------------------------
+# Extrato Clearings
+#----------------------------------------------------------------------------------------------------
+IGC.1.texto=Incluir Grupo de Carteira
+IGC.2.texto=Confirmation
+IGC.3.texto=Conclusion
+
+AGC.1.texto=Alterar Grupo de Carteira
+AGC.2.texto=Confirmation
+AGC.3.texto=Conclusion
+
+EGC.1.texto=Excluir Grupo de Carteira
+EGC.2.texto=Confirmation
+EGC.3.texto=Conclusion

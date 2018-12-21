@@ -1,0 +1,45 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+
+172.16.43.93       www.bc2.custodia.des.scopus.com.br
+172.16.43.93		www.bc3.custodia.des.scopus.com.br
+
+192.168.240.63 ds-sv-ap-017
+192.168.240.47 AD-VL-AP-002 PDC-Desenvolvimento002 # PDC - Desenvolvimento: Cluster: wasclusprd1, Node: ad-fl-ap-002 e ad-fl-ap-003, Server: wasasprd1a e wasasprd1b,
+192.168.240.48 AD-VL-AP-003 PDC-Desenvolvimento003 # PDC - Desenvolvimento: Cluster: wasclusprd1, Node: ad-fl-ap-002 e ad-fl-ap-003, Server: wasasprd1a e wasasprd1b,
+
+192.168.224.93 CMZSTSS01
+192.168.242.66 AD-VW-AP-080.redeempresa.bradesco
+
+192.168.242.23 intranet6.unitario.teste.bradesco.com.br
+192.168.240.211 intranet6.integrado.teste.bradesco.com.br
+192.168.228.130 intranet8.unitario.teste.bradesco.com.br
+192.168.242.193 intranet8.integrado.teste.bradesco.com.br
+
+
+
+192.168.245.102 jcotweb.neth.bradesco.com.br
+
+172.16.43.93 www.bc3.custodia.des.scopus.com.br
+172.16.43.93 www.bc2.custodia.des.scopus.com.br
+

@@ -1,0 +1,162 @@
+[ibpjinformerendimentos]
+[ConfigServlet] : **************************************************
+[ConfigServlet] : ibpjinformerendimentos
+[ConfigServlet] : Inicializando
+[InitConfig] : Inicializando atraves de DataSource.
+[InitConfig] : Fim da inicialização.
+[InitConfig] : Iniciando thread de releitura.
+[InitDataSources] : Inicializando.
+[InitConfig] : ReloadInterval desabilitado para este aplicativo.
+[InitConfig] : Finalizando thread de releitura.
+[InitDataSources] : descricao:[Factory de conexões para a base de dados DBCorp compatibilidade IB], factory:[br.com.bradesco.negocio.dbcorp.DBCorpDSDbConnectionFactory] inicializado
+[InitDataSources] : descricao:[Factory de conexões para a base de dados corporativa], factory:[br.com.bradesco.netEmpresa.util.dataAccess.jdbc.DBCorpDSDbConnectionFactory] inicializado
+[InitDataSources] : descricao:[ConnectionFactory para NetEmpresa], factory:[br.com.bradesco.netEmpresa.util.dataAccess.jdbc.NetEmpresaDSDbConnectionFactory] inicializado
+[InitDataSources] : descricao:[ConnectionFactory para DBCorp], factory:[br.com.bradesco.netEmpresa.util.dataAccess.jdbc.DBCorpDSDbConnectionFactory] inicializado
+[InitDataSources] : descricao:[Factory de conexões para a base de dados do NetEmpresa], factory:[br.com.bradesco.netEmpresa.util.dataAccess.jdbc.NetEmpresaDSDbConnectionFactory] inicializado
+[InitDataSources] : Erro inicializacao ConnectionFactory:DS para acessar a base OFPJD001
+[InitDataSources] : Erro ConnectionFactory classe:br.com.bradesco.netEmpresa.util.dataAccess.jdbc.NEEstatDSDbConnectionFactory
+[InitDataSources] : causa:javax.naming.NameNotFoundException
+javax.naming.NameNotFoundException: Name dbNetEstPJDS is not bound in this Context
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:803)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:145)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:814)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at br.com.bradesco.netEmpresa.util.dataAccess.jdbc.NEEstatDSDbConnectionFactory.<init>(NEEstatDSDbConnectionFactory.java:45)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:355)
+	at java.lang.Class.newInstance(Class.java:308)
+	at br.com.bradesco.netEmpresa.util.dataAccess.jdbc.DbConnectionInit.initDataSources(DbConnectionInit.java:52)
+	at br.com.bradesco.netEmpresa.apresentacao.ConfigServlet.init(ConfigServlet.java:112)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1133)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:996)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4834)
+	at org.apache.catalina.core.StandardContext$3.call(StandardContext.java:5155)
+	at org.apache.catalina.core.StandardContext$3.call(StandardContext.java:5150)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+
+[InitDataSources] : descricao:[Factory de conexões para a base de dados do Config], factory:[util.config.ConfigDSConnectionFactory] inicializado
+[InitDataSources] : descricao:[Factory de conexões para a base de dados DBCorp], factory:[br.com.bradesco.netEmpresa.util.dataAccess.jdbc.DBCorpDSDbConnectionFactory] inicializado
+[InitDataSources] : Fim da inicialização.
+[InitMainframeFactory] : Inicializando.
+[InitMainframeFactory] : inicializacao ConnectionFactory:SimuladorMainframe
+[InitMainframeFactory] : Erro classe:br.com.bradesco.netEmpresa.integracao.HXMainframeConnectionFactory
+Causa:
+java.lang.ClassNotFoundException: br.com.bradesco.netEmpresa.integracao.HXMainframeConnectionFactory
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1676)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1521)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:169)
+	at br.com.bradesco.netEmpresa.util.dataAccess.mainframe.MainframeInit.initMainframeFactory(MainframeInit.java:61)
+	at br.com.bradesco.netEmpresa.apresentacao.ConfigServlet.init(ConfigServlet.java:114)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1133)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:996)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4834)
+	at org.apache.catalina.core.StandardContext$3.call(StandardContext.java:5155)
+	at org.apache.catalina.core.StandardContext$3.call(StandardContext.java:5150)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+
+[InitMainframeFactory] : Inicilizada ConnectionFactory:ISD3.0 [util.dataAccess.mainframe.ISDConnectionFactory]
+[InitMainframeFactory] : Inicilizada ConnectionFactory:Servtran [util.dataAccess.mainframe.ServTranConnectionFactory]
+[InitMainframeFactory] : Fim da inicialização.
+[InitHttpFactory] : Inicializando.
+[InitHttpFactory] : Inicilizada ConnectionFactory: WebCanais [util.dataAccess.mainframe.WebCanaisConnectionFactory]
+[InitHttpFactory] : Carregado mapeamento de connectionFactory: ExtratoCCorrente -> WebCanais
+[InitHttpFactory] : Carregado mapeamento de connectionFactory: ExtratoMensal -> WebCanais
+[InitHttpFactory] : Carregado mapeamento de connectionFactory: ExtratoCInvestimento -> WebCanais
+[InitHttpFactory] : Carregado mapeamento de connectionFactory: ExtratoCPoupanca -> WebCanais
+[InitHttpFactory] : Carregado mapeamento de URL: ExtratoCCorrente -> http://10.243.159.75:80/AQWB_WebCanaisWeb_v01/ServletXML
+[InitHttpFactory] : Carregado mapeamento de URL: ExtratoMensal -> http://10.243.159.75:80/AQWB_WebCanaisWeb_v01/ServletXML
+[InitHttpFactory] : Carregado mapeamento de URL: ExtratoCInvestimento -> http://10.243.159.75:80/AQWB_WebCanaisWeb_v01/ServletXML
+[InitHttpFactory] : Carregado mapeamento de URL: ExtratoCPoupanca -> http://10.243.159.75:80/AQWB_WebCanaisWeb_v01/ServletXML
+[InitDAOFactories] : Inicializando.
+[InitDAOFactories] : DAOFactory - descricao:[DAOFactory para acesso ao db corp], factory:[br.com.bradesco.negocio.dbcorp.DBCorpSQLDAOFactory] inicializado
+[InitDAOFactories] : DAOFactory - descricao:[DAO Factory para Filtro], factory:[br.com.bradesco.netEmpresa.negocio.filtro.FiltroSQLDAOFactory] inicializado
+[InitDAOFactories] : DAOFactory - descricao:[DAOFactory para Transacao], factory:[br.com.bradesco.netEmpresa.negocio.transacao.TransacaoSQLDAOFactory] inicializado
+[InitDAOFactories] : DAOFactory - descricao:[DAOFactory para operações de Lote], factory:[br.com.bradesco.netEmpresa.negocio.lote.LoteSQLDAOFactory] inicializado
+[InitDAOFactories] : DAOFactory - descricao:[DAOFactory para Conta], factory:[br.com.bradesco.netEmpresa.negocio.conta.ContaSQLDAOFactory] inicializado
+[InitDAOFactories] : DAOFactory - descricao:[DAOFactory para Procurador], factory:[br.com.bradesco.netEmpresa.negocio.procurador.ProcuradorSQLDAOFactory] inicializado
+[InitDAOFactories] : DAOFactory - descricao:[DAOFactory para SessaoPJWeb], factory:[br.com.bradesco.netEmpresa.negocio.sessaoPJ.SessaoPJWebSQLDAOFactory] inicializado
+[InitDAOFactories] : DAOFactory - descricao:[DAOFactory Transacoes Carrinho], factory:[br.com.bradesco.netEmpresa.negocio.transacaoCarrinho.TransacaoCarrinhoSQLDAOFactory] inicializado
+[InitDAOFactories] : DAOFactory - descricao:[DAOFactory para DBCorp], factory:[br.com.bradesco.negocio.dbcorp.DBCorpSQLDAOFactory] inicializado
+[InitDAOFactories] : DAOFactory - descricao:[DBCorpConnectionFactory], factory:[br.com.bradesco.negocio.dbcorp.DBCorpSQLDAOFactory] inicializado
+[InitDAOFactories] : DAOFactory - descricao:[DAOFactory para Sessao], factory:[br.com.bradesco.netEmpresa.negocio.sessaoPJ.SessaoPJWebSQLDAOFactory] inicializado
+[InitDAOFactories] : DAOFactory - descricao:[DAOFactory para Midia], factory:[br.com.bradesco.netEmpresa.negocio.midia.MidiaSQLDAOFactory] inicializado
+[InitDAOFactories] : DAOFactory - descricao:[InformeRendimentosDAOFactory], factory:[br.com.bradesco.netEmpresa.informeRendimentos.integracao.InformeRendimentosSQLDAOFactory] inicializado
+[InitDAOFactories] : DAOFactory - descricao:[DAOFactory para GrupoEconomico], factory:[br.com.bradesco.netEmpresa.negocio.grupoeconomico.GrupoServicoSQLDAOFactory] inicializado
+[InitDAOFactories] : DAOFactory - descricao:[DAOFactory para PerfilAcesso], factory:[br.com.bradesco.netEmpresa.negocio.perfil.PerfilAcessoSQLDAOFactory] inicializado
+[InitDAOFactories] : DAOFactory - descricao:[br.com.bradesco.netEmpresa.comprovante.integracao.CadastroEMailSQLDAOFactory], factory:[br.com.bradesco.netEmpresa.comprovante.integracao.CadastroEMailSQLDAOFactory] inicializado
+[InitDAOFactories] : DAOFactory - descricao:[DAOFactory para Empresa], factory:[br.com.bradesco.netEmpresa.negocio.empresa.EmpresaSQLDAOFactory] inicializado
+[InitDAOFactories] : DAOFactory - descricao:[DAOFactory para CertificadoEntity], factory:[br.com.bradesco.netEmpresa.negocio.certificado.CertificadoSQLDAOFactory] inicializado
+[InitDAOFactories] : DAOFactory - descricao:[DAOFactory para Personalizacao], factory:[br.com.bradesco.netEmpresa.negocio.personalizacao.PersonalizacaoSQLDAOFactory] inicializado
+[InitDAOFactories] : Fim da inicialização.
+[ConfigServlet] : inicializando componente - descricao:[NetEmpresaEstatisticaDsDbConnectionFactory], classe:[br.com.bradesco.netEmpresa.util.dataAccess.jdbc.NetEmpresaEstatisticaDsDbConnectionFactory]
+[ConfigServlet] : inicializando componente - descricao:[Thread de recarga do DBCorp], classe:[br.com.bradesco.negocio.dbcorp.DBCorpEntityImpl]
+[ConfigServlet] : FIM DA INICIALIZAÇÃO 
+[ConfigServlet] : ibpjinformerendimentos
+[ConfigServlet] : **************************************************
+
+[20160517-104117]: Sessão inválida (-2), CTRL='544808837908129040', IP='172.16.56.141', contextPath='/informeRendimentosne_ni', URI='/informeRendimentosne_ni/ConsultaInformeRendimentosEntrada.do
+[20160517-104117]: Aplicação gerou exceção, CTRL='544808837908129040', IP='172.16.56.141', contextPath='/informeRendimentosne_ni', URI='/informeRendimentosne_ni/ConsultaInformeRendimentosEntrada.do, CTRL='544808837908129040', car='OIR'
+java.lang.IllegalStateException
+	at org.apache.catalina.connector.ResponseFacade.sendRedirect(ResponseFacade.java:463)
+	at br.com.bradesco.netEmpresa.util.struts.NetEmpresaRequestProcessor.processActionPerform(NetEmpresaRequestProcessor.java:1078)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:236)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1196)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:306)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:240)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:541)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:383)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:243)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:188)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:166)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:288)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+[20160517-104138]: Sessão inválida (-2), CTRL='544808837908129040', IP='172.16.56.141', contextPath='/informeRendimentosne_ni', URI='/informeRendimentosne_ni/ConsultaInformeRendimentosEntrada.do
+[20160517-104138]: Aplicação gerou exceção, CTRL='544808837908129040', IP='172.16.56.141', contextPath='/informeRendimentosne_ni', URI='/informeRendimentosne_ni/ConsultaInformeRendimentosEntrada.do, CTRL='544808837908129040', car='OIR'
+java.lang.IllegalStateException
+	at org.apache.catalina.connector.ResponseFacade.sendRedirect(ResponseFacade.java:463)
+	at br.com.bradesco.netEmpresa.util.struts.NetEmpresaRequestProcessor.processActionPerform(NetEmpresaRequestProcessor.java:1078)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:236)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1196)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:306)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:240)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:161)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:541)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:383)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:243)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:188)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:166)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:288)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)

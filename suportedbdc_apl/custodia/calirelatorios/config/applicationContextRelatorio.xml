@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <!-- Definição de bean de acesso a configurações de application.properties -->    
+    <bean id="propBeanConfigRelatorio" class="br.com.bradesco.web.custodia.view.bean.PropConfig">
+            <property name="properties">
+                <map>                   					
+					<entry key="parameter.impostorenda.dias"><value>${parameter.impostorenda.dias}</value></entry>
+					<entry key="parameter.impostorenda.todos.fundos"><value>${parameter.impostorenda.todos.fundos}</value></entry>
+					<entry key="parameter.extratocliente.dias"><value>${parameter.extratocliente.dias}</value></entry>
+					<entry key="parameter.extratocliente.todos.distribuidor"><value>${parameter.extratocliente.todos.distribuidor}</value></entry>
+					<entry key="parameter.extratocliente.todos.gestor"><value>${parameter.extratocliente.todos.gestor}</value></entry>
+					<entry key="parameter.extratocliente.todos.cliente"><value>${parameter.extratocliente.todos.cliente}</value></entry>
+					<entry key="parameter.extratocliente.dias"><value>${parameter.extratocliente.dias}</value></entry>
+					<entry key="parameter.extratocotista.dias"><value>${parameter.extratocotista.dias}</value></entry>
+					<entry key="parameter.extratocotista.todos.fundos"><value>${parameter.extratocotista.todos.fundos}</value></entry>
+					<entry key="parameter.extratocotista.todos.cotistas"><value>${parameter.extratocotista.todos.cotistas}</value></entry>
+					<entry key="parameter.extratosimplificado.dias"><value>${parameter.extratosimplificado.dias}</value></entry>
+					<entry key="parameter.extratosimplificado.todos.fundos"><value>${parameter.extratosimplificado.todos.fundos}</value></entry>
+					<entry key="parameter.extratosimplificado.todos.cotistas"><value>${parameter.extratosimplificado.todos.cotistas}</value></entry>
+					<entry key="parameter.memoriacalculoresgate.dias"><value>${parameter.memoriacalculoresgate.dias}</value></entry>
+					<entry key="parameter.memoriacalculoresgate.todos.fundos"><value>${parameter.memoriacalculoresgate.todos.fundos}</value></entry>
+					<entry key="parameter.memoriacalculoresgate.todos.cotistas"><value>${parameter.memoriacalculoresgate.todos.cotistas}</value></entry>
+					<entry key="parameter.movimentacaobloqueio.dias"><value>${parameter.movimentacaobloqueio.dias}</value></entry>
+					<entry key="parameter.movimentacaobloqueio.todos.fundos"><value>${parameter.movimentacaobloqueio.todos.fundos}</value></entry>
+					<entry key="parameter.movimentacaobloqueio.todos.cotistas"><value>${parameter.movimentacaobloqueio.todos.cotistas}</value></entry>
+					<entry key="parameter.movimentos.dias"><value>${parameter.movimentos.dias}</value></entry>
+					<entry key="parameter.movimentos.todos.fundos"><value>${parameter.movimentos.todos.fundos}</value></entry>
+					<entry key="parameter.movimentos.todos.cotistas"><value>${parameter.movimentos.todos.cotistas}</value></entry>
+					<entry key="parameter.patrimoniodistribuidor.todos.fundos"><value>${parameter.patrimoniodistribuidor.todos.fundos}</value></entry>
+					<entry key="parameter.patrimoniodistribuidor.todos.distribuidor"><value>${parameter.patrimoniodistribuidor.todos.distribuidor}</value></entry>
+					<entry key="parameter.patrimoniooperador.todos.fundos"><value>${parameter.patrimoniooperador.todos.fundos}</value></entry>
+					<entry key="parameter.patrimoniooperador.todos.operador"><value>${parameter.patrimoniooperador.todos.operador}</value></entry>
+					<entry key="parameter.performancefee.dias"><value>${parameter.performancefee.dias}</value></entry>
+					<entry key="parameter.performancefee.todos.fundos"><value>${parameter.performancefee.todos.fundos}</value></entry>
+					<entry key="parameter.posicaobloqueio.todos.fundos"><value>${parameter.posicaobloqueio.todos.fundos}</value></entry>
+					<entry key="parameter.posicaobloqueio.todos.cotistas"><value>${parameter.posicaobloqueio.todos.cotistas}</value></entry>
+					<entry key="parameter.posicaoconsolidada.todos.fundos"><value>${parameter.posicaoconsolidada.todos.fundos}</value></entry>
+					<entry key="parameter.posicaocotista.todos.fundos"><value>${parameter.posicaocotista.todos.fundos}</value></entry>
+					<entry key="parameter.posicaocotista.todos.cotistas"><value>${parameter.posicaocotista.todos.cotistas}</value></entry>
+					<entry key="parameter.posicaodetalhadanota.todos.fundos"><value>${parameter.posicaodetalhadanota.todos.fundos}</value></entry>
+					<entry key="parameter.posicaodetalhadanota.todos.cotistas"><value>${parameter.posicaodetalhadanota.todos.cotistas}</value></entry>
+					<entry key="parameter.rentabilidadefundo.todos.fundos"><value>${parameter.rentabilidadefundo.todos.fundos}</value></entry>
+					<entry key="parameter.saldomedio.todos.fundos"><value>${parameter.saldomedio.todos.fundos}</value></entry>
+					<entry key="parameter.saldomedio.dias"><value>${parameter.saldomedio.dias}</value></entry>
+					<entry key="parameter.saldomedio.todos.cotistas"><value>${parameter.saldomedio.todos.cotistas}</value></entry>
+					<entry key="parameter.tesouraria.dias"><value>${parameter.tesouraria.dias}</value></entry>
+					<entry key="parameter.tesouraria.todos.fundos"><value>${parameter.tesouraria.todos.fundos}</value></entry>
+					<entry key="parameter.tesouraria.todos.cotistas"><value>${parameter.tesouraria.todos.cotistas}</value></entry>
+				</map>
+            </property>
+    </bean>	    
+</beans>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <!-- Definição de bean de acesso a configurações de application.properties -->    
+    <bean id="propBeanConfigRelatorio" class="br.com.bradesco.web.custodia.view.bean.PropConfig">
+            <property name="properties">
+		<map>                   					
+			<entry key="parameter.robo.dias"><value>${parameter.robo.dias}</value></entry>
+			<entry key="parameter.robo.horas"><value>${parameter.robo.horas}</value></entry>
+			<entry key="parameter.robo.minutos"><value>${parameter.robo.dias}</value></entry>
+		</map>
+            </property>
+    </bean>	    
+</beans>

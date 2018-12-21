@@ -1,0 +1,283 @@
+2018-10-31 12:14:45,167 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 12:14:45,195 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 12:14:45,198 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 12:14:45,200 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 12:14:45,203 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 12:14:45,206 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common]
+2018-10-31 12:14:45,207 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common]
+2018-10-31 12:14:45,209 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common]
+2018-10-31 12:14:45,211 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common\errorPages]
+2018-10-31 12:14:45,213 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common\errorPages]
+2018-10-31 12:14:45,214 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common\errorPages]
+2018-10-31 12:14:45,217 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-10-31 12:14:45,385 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-10-31 12:14:45,446 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-10-31 12:14:45,568 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 12:14:45,570 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 12:14:45,572 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 12:14:45,573 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 12:14:45,575 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 12:14:45,577 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 12:14:45,578 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 12:14:45,580 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 12:17:23,901 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 12:17:23,902 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 12:17:23,904 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 12:17:23,906 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 12:17:23,908 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 12:17:23,910 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common]
+2018-10-31 12:17:23,911 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common]
+2018-10-31 12:17:23,913 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common]
+2018-10-31 12:17:23,915 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common\errorPages]
+2018-10-31 12:17:23,916 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common\errorPages]
+2018-10-31 12:17:23,918 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common\errorPages]
+2018-10-31 12:17:23,920 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-10-31 12:17:24,024 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-10-31 12:17:24,089 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-10-31 12:17:24,188 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 12:17:24,190 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 12:17:24,192 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 12:17:24,194 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 12:17:24,196 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 12:17:24,197 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 12:17:24,199 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 12:17:24,202 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 12:18:49,241 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-10-31 12:20:08,207 ERROR [br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService] - []
+java.lang.NullPointerException
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:112)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:73)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1023)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:811)
+2018-10-31 12:25:54,740 ERROR [br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService] - []
+java.lang.NullPointerException
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:112)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:73)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1023)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:811)
+2018-10-31 15:00:49,847 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 15:00:49,863 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 15:00:49,864 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 15:00:49,866 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 15:00:49,867 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 15:00:49,869 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common]
+2018-10-31 15:00:49,870 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common]
+2018-10-31 15:00:49,872 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common]
+2018-10-31 15:00:49,873 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common\errorPages]
+2018-10-31 15:00:49,875 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common\errorPages]
+2018-10-31 15:00:49,877 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common\errorPages]
+2018-10-31 15:00:49,879 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-10-31 15:00:49,999 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-10-31 15:00:50,062 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-10-31 15:00:50,182 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:00:50,184 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:00:50,186 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:00:50,188 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:00:50,190 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:00:50,191 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:00:50,193 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:00:50,195 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:02:49,400 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 15:02:49,402 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 15:02:49,404 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 15:02:49,407 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 15:02:49,409 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 15:02:49,412 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common]
+2018-10-31 15:02:49,414 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common]
+2018-10-31 15:02:49,417 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common]
+2018-10-31 15:02:49,419 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common\errorPages]
+2018-10-31 15:02:49,422 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common\errorPages]
+2018-10-31 15:02:49,424 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common\errorPages]
+2018-10-31 15:02:49,426 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-10-31 15:02:49,604 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-10-31 15:02:49,706 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-10-31 15:02:49,867 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:02:49,869 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:02:49,871 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:02:49,873 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:02:49,876 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:02:49,878 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:02:49,880 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:02:49,883 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:06:55,811 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-10-31 15:58:09,379 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 15:58:09,381 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 15:58:09,383 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 15:58:09,384 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 15:58:09,386 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF]
+2018-10-31 15:58:09,388 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common]
+2018-10-31 15:58:09,389 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common]
+2018-10-31 15:58:09,391 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common]
+2018-10-31 15:58:09,392 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common\errorPages]
+2018-10-31 15:58:09,394 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common\errorPages]
+2018-10-31 15:58:09,395 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\common\errorPages]
+2018-10-31 15:58:09,397 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-10-31 15:58:09,505 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-10-31 15:58:09,567 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-10-31 15:58:09,683 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:58:09,685 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:58:09,686 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:58:09,688 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:58:09,690 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:58:09,691 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:58:09,692 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 15:58:09,693 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fbarros\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calilogin\WEB-INF\jsp\modal]
+2018-10-31 16:00:01,746 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-10-31 16:02:35,582 ERROR [br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService] - []
+java.lang.NullPointerException
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:112)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:73)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1023)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:811)
+2018-10-31 16:03:07,936 ERROR [br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService] - []
+java.lang.NullPointerException
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:112)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:73)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1023)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:811)
+2018-10-31 16:04:13,550 ERROR [br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService] - []
+java.lang.NullPointerException
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:112)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:73)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1023)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:811)

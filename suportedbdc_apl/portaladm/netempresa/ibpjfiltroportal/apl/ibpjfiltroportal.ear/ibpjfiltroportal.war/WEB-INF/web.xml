@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_1461338221132">
+   <display-name>Portal Adm - Net Empresa - Filtros</display-name>
+	<!-- Filtro para definir o char encode -->	
+	<!-- <filter>
+        <filter-name>Filtro</filter-name>
+        <filter-class>br.com.bradesco.netEmpresa.divulgacaoCampanhas.apresentacao.CharEncodeFilter</filter-class>
+    </filter>
+	<filter-mapping>
+        <filter-name>Filtro</filter-name>
+        <url-pattern>*.do</url-pattern>
+    </filter-mapping>  -->
+	<servlet>
+      <servlet-name>AppletScrambler</servlet-name>
+      <servlet-class>util.applet.RecuperaApplet</servlet-class>
+      <load-on-startup>2</load-on-startup>
+   </servlet>   
+   <servlet>
+      <servlet-name>action</servlet-name>
+      <servlet-class>org.apache.struts.action.ActionServlet</servlet-class>
+      <init-param>
+         <param-name>centroCusto</param-name>
+         <param-value>OFSS</param-value>
+      </init-param>
+      <init-param>
+         <param-name>config</param-name>
+         <param-value>/WEB-INF/struts-filtroPortal.xml</param-value>
+      </init-param>      
+      <init-param>
+         <param-name>debug</param-name>
+         <param-value>2</param-value>
+      </init-param>
+<!--       <init-param>
+         <param-name>detail</param-name>
+         <param-value>2</param-value>
+      </init-param> -->
+      
+      <load-on-startup>2</load-on-startup>
+   </servlet>
+   <!-- Standard Action Servlet Mapping -->
+   <servlet-mapping>
+      <servlet-name>action</servlet-name>
+      <url-pattern>*.do</url-pattern>      
+   </servlet-mapping>
+   <servlet-mapping>
+     <servlet-name>AppletScrambler</servlet-name>
+     <url-pattern>*.jar</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping>
+     <servlet-name>AppletScrambler</servlet-name>
+     <url-pattern>*.class</url-pattern>
+   </servlet-mapping>  
+   <!-- Struts Tag Library Descriptors -->
+   <taglib>
+    <taglib-uri>/tags/struts-bean</taglib-uri>
+    <taglib-location>/WEB-INF/struts-bean.tld</taglib-location>
+  </taglib>
+
+  <taglib>
+    <taglib-uri>/tags/struts-html</taglib-uri>
+    <taglib-location>/WEB-INF/struts-html.tld</taglib-location>
+  </taglib>
+
+  <taglib>
+    <taglib-uri>/tags/struts-logic</taglib-uri>
+    <taglib-location>/WEB-INF/struts-logic.tld</taglib-location>
+  </taglib>
+
+  <taglib>
+    <taglib-uri>/tags/struts-nested</taglib-uri>
+    <taglib-location>/WEB-INF/struts-nested.tld</taglib-location>
+  </taglib>
+
+  <taglib>
+    <taglib-uri>/tags/struts-tiles</taglib-uri>
+    <taglib-location>/WEB-INF/struts-tiles.tld</taglib-location>
+  </taglib>
+   <!-- Base de dados do NetEmpresa - SQL -->
+   <!-- Base Net Empresa -->
+   <resource-ref id="ResourceRef_1461338221132">
+		<description>DS para acessar OFPJD000</description>
+		<res-ref-name>jdbc/dbNetPJDS</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+   </resource-ref>  
+	<resource-ref id="ResourceRef_1461338221133">
+		<res-ref-name>jdbc/config2DS</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>CONTAINER</res-auth>
+	</resource-ref>  
+   <resource-ref id="ResourceRef_1461338221134">
+      <res-ref-name>jdbc/DBCorpDS</res-ref-name>
+      <res-type>javax.sql.DataSource</res-type>
+      <res-auth>Container</res-auth>
+   </resource-ref>
+   <!-- Base Sessao -->
+  <resource-ref id="ResourceRef_1461338221135">
+      <res-ref-name>jdbc/sessao</res-ref-name>
+      <res-type>javax.sql.DataSource</res-type>
+      <res-auth>Container</res-auth>
+   </resource-ref>
+   <resource-ref id="ResourceRef_1461338221136">
+      <res-ref-name>jdbc/login</res-ref-name>
+      <res-type>javax.sql.DataSource</res-type>
+      <res-auth>Container</res-auth>
+   </resource-ref>
+   <!-- Diretorio responsavel por informacoes de config -->   
+   <env-entry>
+      <env-entry-name>geral/properties</env-entry-name>
+      <env-entry-value>/suportedbdc_apl/portaladm/netempresa/ibpjfiltroportal/config/configuracao.properties</env-entry-value>
+      <env-entry-type>java.lang.String</env-entry-type>
+   </env-entry> 
+   <env-entry>
+       <env-entry-name>log/propFile</env-entry-name>
+       <env-entry-value>/suportedbdc_apl/portaladm/netempresa/ibpjfiltroportal/config/</env-entry-value>
+       <env-entry-type>java.lang.String</env-entry-type>
+  </env-entry>           
+</web-app>

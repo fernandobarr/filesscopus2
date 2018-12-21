@@ -1,0 +1,1494 @@
+2018-08-17 15:34:55,142 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:34:55,172 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:34:55,172 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:34:55,172 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:34:55,172 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:34:55,187 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common]
+2018-08-17 15:34:55,187 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common]
+2018-08-17 15:34:55,187 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common]
+2018-08-17 15:34:55,187 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:34:55,187 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:34:55,187 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:34:55,187 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-08-17 15:34:55,281 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-08-17 15:34:55,344 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-08-17 15:34:55,672 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:34:55,687 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:34:55,687 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:34:55,687 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:34:55,687 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:34:55,687 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:34:55,687 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:34:55,703 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:34:57,411 INFO [br.com.bradesco.web.custodia.filter.CustodiaExtensionsFilter] - [PropGeral carregado, lendo informações do properties.]
+2018-08-17 15:39:07,269 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:39:07,269 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:39:07,269 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:39:07,269 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:39:07,269 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:39:07,285 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common]
+2018-08-17 15:39:07,285 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common]
+2018-08-17 15:39:07,285 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common]
+2018-08-17 15:39:07,285 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:39:07,285 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:39:07,285 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:39:07,285 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-08-17 15:39:07,394 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-08-17 15:39:07,456 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-08-17 15:39:07,769 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:39:07,769 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:39:07,769 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:39:07,769 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:39:07,769 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:39:07,785 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:39:07,785 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:39:07,785 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:39:09,574 INFO [br.com.bradesco.web.custodia.filter.CustodiaExtensionsFilter] - [PropGeral carregado, lendo informações do properties.]
+2018-08-17 15:41:06,537 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:41:40,243 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-08-17 15:46:28,567 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:46:28,567 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:46:28,567 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:46:28,567 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:46:28,567 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:46:28,582 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calimovimentacao\WEB-INF\jsp\common]
+2018-08-17 15:46:28,582 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calimovimentacao\WEB-INF\jsp\common]
+2018-08-17 15:46:28,582 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calimovimentacao\WEB-INF\jsp\common]
+2018-08-17 15:46:28,582 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calimovimentacao\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:46:28,582 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calimovimentacao\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:46:28,582 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calimovimentacao\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:46:28,598 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-08-17 15:46:28,707 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-08-17 15:46:28,754 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-08-17 15:46:29,098 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:46:29,098 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:46:29,098 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:46:29,145 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:46:29,145 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:46:29,145 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:46:29,145 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:46:29,145 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:46:31,255 INFO [br.com.bradesco.web.custodia.filter.CustodiaExtensionsFilter] - [PropGeral carregado, lendo informações do properties.]
+2018-08-17 15:47:00,647 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:47:00,735 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-08-17 15:47:04,992 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calimovimentacao/faces/js/geral/jquery.js porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 15:47:27,458 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:47:35,865 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:47:36,957 INFO [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - [Iniciando processamento do processo de importação : null]
+2018-08-17 15:47:41,861 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:47:43,514 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:47:45,166 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:47:47,338 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:47:48,980 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:47:50,666 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:47:52,331 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:47:54,032 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:47:56,072 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:47:57,745 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:47:59,346 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:48:00,957 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:48:02,626 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:48:04,213 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:48:06,197 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:48:07,821 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:48:09,393 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:48:10,988 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:48:12,620 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:48:14,244 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:48:15,825 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:48:17,435 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:48:19,093 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:48:20,729 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:48:22,378 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:48:23,975 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:48:25,594 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:48:27,242 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:48:28,840 ERROR [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - []
+javax.xml.ws.soap.SOAPFaultException: com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:626)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy29.incluirMovImportacaoLegado(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.ImportacaoWebServicesImpl.incluirMovimentoImportacao(ImportacaoWebServicesImpl.java:178)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.processarMovimentos(ProcessamentoMovimentosServiceImpl.java:110)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl.run(ProcessamentoMovimentosServiceImpl.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+com.ibm.wsspi.wssecurity.core.SoapSecurityException: CWWSS6520E: Ocorreu uma Exceção durante a construção do contexto de login: javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at com.ibm.wsspi.wssecurity.core.SoapSecurityException.format(SoapSecurityException.java:69)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:382)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.callTokenGenerator(WSSGenerator.java:1251)
+	at com.ibm.ws.wssecurity.core.WSSGenerator.invoke(WSSGenerator.java:448)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorBase.invoke(WSSecurityGeneratorBase.java:129)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler._invoke(WSSecurityGeneratorHandler.java:606)
+	at com.ibm.ws.wssecurity.handler.WSSecurityGeneratorHandler.invoke(WSSecurityGeneratorHandler.java:248)
+	at org.apache.axis2.handlers.AbstractHandler.invoke_stage2(AbstractHandler.java:133)
+	at org.apache.axis2.engine.Phase.invokeHandler(Phase.java:343)
+	at org.apache.axis2.engine.Phase.invoke(Phase.java:313)
+	at org.apache.axis2.engine.AxisEngine.invoke(AxisEngine.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:537)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 8 more
+Caused by: 
+javax.security.auth.login.LoginException: Nenhum LoginModules configurado para system.wss.generate.unt
+	at javax.security.auth.login.LoginContext.init(LoginContext.java:285)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:402)
+	at javax.security.auth.login.LoginContext.<init>(LoginContext.java:479)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator$3.run(CommonTokenGenerator.java:365)
+	at java.security.AccessController.doPrivileged(AccessController.java:330)
+	at com.ibm.ws.wssecurity.wssapi.token.impl.CommonTokenGenerator.invoke(CommonTokenGenerator.java:362)
+	... 25 more
+2018-08-17 15:51:13,125 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:51:13,125 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:51:13,125 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:51:13,125 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:51:13,125 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:51:13,125 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common]
+2018-08-17 15:51:13,125 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common]
+2018-08-17 15:51:13,125 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common]
+2018-08-17 15:51:13,141 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:51:13,141 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:51:13,141 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:51:13,141 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-08-17 15:51:13,234 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-08-17 15:51:13,297 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-08-17 15:51:13,620 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:51:13,620 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:51:13,620 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:51:13,651 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:51:13,651 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:51:13,651 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:51:13,651 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:51:13,651 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:51:15,420 INFO [br.com.bradesco.web.custodia.filter.CustodiaExtensionsFilter] - [PropGeral carregado, lendo informações do properties.]
+2018-08-17 15:51:46,629 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:51:48,608 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-08-17 15:56:05,212 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:56:05,227 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:56:05,227 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:56:05,227 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:56:05,227 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF]
+2018-08-17 15:56:05,227 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common]
+2018-08-17 15:56:05,227 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common]
+2018-08-17 15:56:05,243 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common]
+2018-08-17 15:56:05,243 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:56:05,243 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:56:05,243 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:56:05,243 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-08-17 15:56:05,337 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-08-17 15:56:05,399 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-08-17 15:56:05,712 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:56:05,712 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:56:05,712 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:56:05,727 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:56:05,727 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:56:05,727 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:56:05,727 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:56:05,727 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calimovimentacao\WEB-INF\jsp\modal]
+2018-08-17 15:56:07,490 INFO [br.com.bradesco.web.custodia.filter.CustodiaExtensionsFilter] - [PropGeral carregado, lendo informações do properties.]
+2018-08-17 15:59:21,588 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:59:21,652 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-08-17 15:59:24,831 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calimovimentacao/faces/js/geral/jquery.js porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 15:59:33,711 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:59:39,111 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:59:39,828 INFO [br.com.bradesco.web.custodia.service.business.movimentacao.impl.ProcessamentoMovimentosServiceImpl] - [Iniciando processamento do processo de importação : null]

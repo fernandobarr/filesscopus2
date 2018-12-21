@@ -1,0 +1,141 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+  
+	<parent>
+		<groupId>cali_com_pom</groupId>
+		<artifactId>cali-pom-base</artifactId>
+		<version>1.2.0</version>
+	</parent>
+	  
+	<groupId>br.com.bradesco.web.custodia.aplicacoes</groupId>
+	<artifactId>calipacampanhas</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>Portal - Custodia - Campanhas</name>
+	<description>Aplicativo Campanhas e Informativos para o Portal/Custódia</description>
+	
+	<dependencies>
+	<!-- framework -->
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>1.6</version>
+		</dependency>	
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-digester</groupId>
+			<artifactId>commons-digester</artifactId>
+			<version>1.5</version>
+			<exclusions>
+				<exclusion>
+	            	<groupId>xml-apis</groupId>
+	      			<artifactId>xml-apis</artifactId>
+	        	</exclusion>
+        	</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.0.3</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-validator</groupId>
+			<artifactId>commons-validator</artifactId>
+			<version>1.0.2</version>
+			<exclusions>
+				<exclusion>
+	            	<groupId>xml-apis</groupId>
+	      			<artifactId>xml-apis</artifactId>
+	        	</exclusion>
+        	</exclusions>
+		</dependency>
+					
+		<dependency>
+		    <groupId>javax.servlet</groupId>
+		    <artifactId>servlet-api</artifactId>
+		    <version>2.3</version>
+		    <scope>compile</scope>
+		</dependency>	
+
+		<dependency>
+			<groupId>struts</groupId>
+			<artifactId>struts</artifactId>
+			<version>1.1</version>
+		</dependency>	
+
+	<!--parte scopus/bradesco -->
+	<!-- portaladm geral -->
+		<dependency>
+			<groupId>portaladm_infra_geral</groupId>
+			<artifactId>br-util-base</artifactId>
+			<version>1.0.1</version>
+		</dependency>	
+		<dependency>
+			<groupId>portaladm_infra_geral</groupId>
+			<artifactId>br-util-database</artifactId>
+			<version>1.0.0</version>
+		</dependency>	
+		<dependency>
+			<groupId>portaladm_infra_geral</groupId>
+			<artifactId>br-util-log</artifactId>
+			<version>1.0.0</version>
+		</dependency>	
+		<dependency>
+			<groupId>portaladm_infra_geral</groupId>
+			<artifactId>BRS000A2</artifactId>
+			<version>1.0.0</version>
+		</dependency>			
+		<dependency>
+			<groupId>portaladm_infra_geral</groupId>
+			<artifactId>bradescoWeb20070110_V11</artifactId>
+			<version>1.0.0</version>
+		</dependency>			
+		<dependency>
+			<groupId>portaladm_infra_geral</groupId>
+			<artifactId>util-criptp-email-20041130_v14_PortalAdmin</artifactId>
+			<version>1.0.0</version>
+		</dependency>			
+		<dependency>
+			<groupId>portaladm_infra_geral</groupId>
+			<artifactId>util-format</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+	<!-- portaladm especificas -->
+		<dependency>
+			<groupId>portaladm_infra_esp</groupId>
+			<artifactId>utilLogin</artifactId>
+			<version>1.1.0</version>
+		</dependency>		
+		<dependency>
+			<groupId>portaladm_infra_esp</groupId>
+			<artifactId>utilSessao</artifactId>
+			<version>1.1.0</version>
+		</dependency>						
+ 		<dependency>
+			<groupId>portaladm_infra_esp</groupId>
+			<artifactId>portal-adm</artifactId>
+			<version>1.0.0</version>
+			<classifier>dummy</classifier>
+		</dependency>						
+		<dependency>
+			<groupId>portaladm_infra_esp</groupId>
+			<artifactId>senh-client</artifactId>
+			<version>1.0.0</version>
+			<classifier>dummy</classifier>
+		</dependency> 
+	</dependencies>	
+</project>

@@ -1,0 +1,656 @@
+2018-10-15 09:17:32,347 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:17:32,363 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:17:32,367 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:17:32,399 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:17:32,401 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:17:32,424 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 09:17:32,475 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 09:17:32,487 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 09:17:32,547 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 09:17:32,554 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 09:17:32,558 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 09:17:32,562 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-10-15 09:17:32,873 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-10-15 09:17:33,428 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-10-15 09:17:37,149 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:17:37,170 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:17:37,172 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:17:37,174 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:17:37,211 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:17:37,213 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:17:37,214 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:17:37,215 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:31:16,362 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:31:16,372 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:31:16,377 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:31:16,391 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:31:16,393 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:31:16,407 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 09:31:16,410 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 09:31:16,421 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 09:31:16,433 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 09:31:16,442 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 09:31:16,446 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 09:31:16,451 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-10-15 09:31:16,612 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-10-15 09:31:16,716 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-10-15 09:31:18,471 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:31:18,488 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:31:18,491 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:31:18,493 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:31:18,502 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:31:18,504 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:31:18,505 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:31:18,507 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:37:56,634 INFO [com.ibm.ws.webcontainer.filter.FilterInstanceWrapper] - [PropGeral carregado, lendo informações do properties.]
+2018-10-15 09:37:56,673 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-10-15 09:37:56,752 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-10-15 09:37:57,164 INFO [br.com.bradesco.web.custodia.service.data.dao.movimentacao.impl.InfoMovimentacaoDAOImpl] - [listaTiposLiquidacao = CC - Conta Corrente]
+2018-10-15 09:37:57,164 INFO [br.com.bradesco.web.custodia.service.data.dao.movimentacao.impl.InfoMovimentacaoDAOImpl] - [listaTiposLiquidacao = CE - CETIP]
+2018-10-15 09:37:57,164 INFO [br.com.bradesco.web.custodia.service.data.dao.movimentacao.impl.InfoMovimentacaoDAOImpl] - [listaTiposLiquidacao = TE - TED]
+2018-10-15 09:37:57,164 INFO [br.com.bradesco.web.custodia.service.data.dao.movimentacao.impl.InfoMovimentacaoDAOImpl] - [listaTiposLiquidacao = LI - Sem LiquidaÃ§Ã£o Financeira]
+2018-10-15 09:38:02,369 ERROR [br.com.bradesco.web.custodia.movimentacao.view.bean.CadastroMovimentacaoBean] - [Erro construindo a lista de clearing]
+br.com.bradesco.web.custodia.service.business.movimentacao.exception.MovimentacaoException: Erro na obtenção da lista de tipo clearing.
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.InfoMovimentacaoServiceImpl.obterListaTipoClearing(InfoMovimentacaoServiceImpl.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:307)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:198)
+	at com.sun.proxy.$Proxy35.obterListaTipoClearing(Unknown Source)
+	at br.com.bradesco.web.custodia.movimentacao.view.bean.CadastroMovimentacaoBean.construirSelectClearing(CadastroMovimentacaoBean.java:901)
+	at br.com.bradesco.web.custodia.movimentacao.view.bean.CadastroMovimentacaoBean.init(CadastroMovimentacaoBean.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at org.apache.myfaces.el.MethodBindingImpl.invoke(MethodBindingImpl.java:129)
+	at org.apache.myfaces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:63)
+	at br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener.executarManagedBeanNegocio(RedirectUrlToJsfPhaseListener.java:362)
+	at br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener.afterPhase(RedirectUrlToJsfPhaseListener.java:232)
+	at br.com.bradesco.web.custodia.view.listener.PhaseListenerWrapper.afterPhase(PhaseListenerWrapper.java:30)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.informPhaseListenersAfter(BradescoLifecycleImpl.java:581)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.restoreView(BradescoLifecycleImpl.java:298)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.executeLifeCycle(BradescoLifecycleImpl.java:105)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.execute(BradescoLifecycleImpl.java:87)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:106)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1233)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:782)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:481)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapperImpl.handleRequest(ServletWrapperImpl.java:178)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:136)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:97)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.custodia.filter.CustodiaExtensionsFilter.doFilter(CustodiaExtensionsFilter.java:134)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:236)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.aq.view.cryptography.filter.CryptoFilter.doFilter(CryptoFilter.java:143)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:56)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:114)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:967)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1107)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:4047)
+	at com.ibm.ws.webcontainer.webapp.WebGroup.handleRequest(WebGroup.java:304)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1016)
+	at com.ibm.ws.webcontainer.WSWebContainer.handleRequest(WSWebContainer.java:1817)
+	at com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:213)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:463)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:530)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:316)
+	at com.ibm.ws.http.channel.inbound.impl.HttpICLReadCallback.complete(HttpICLReadCallback.java:88)
+	at com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+	at com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+	at com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+	at com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+	at com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+	at com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+	at com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by: 
+javax.xml.ws.soap.SOAPFaultException: javax.net.ssl.SSLHandshakeException: General SSLEngine problem
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.createSystemException(MethodMarshallerUtils.java:1363)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.MethodMarshallerUtils.demarshalFaultResponse(MethodMarshallerUtils.java:1089)
+	at org.apache.axis2.jaxws.marshaller.impl.alt.DocLitBareMethodMarshaller.demarshalFaultResponse(DocLitBareMethodMarshaller.java:417)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.getFaultResponse(JAXWSProxyHandler.java:632)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.createResponse(JAXWSProxyHandler.java:566)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:432)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invoke(JAXWSProxyHandler.java:213)
+	at com.sun.proxy.$Proxy42.listarClearings(Unknown Source)
+	at br.com.bradesco.web.custodia.service.webservices.movimentacao.impl.InfoMovimentacaoWebServicesImpl.obterListaTipoClearing(InfoMovimentacaoWebServicesImpl.java:48)
+	at br.com.bradesco.web.custodia.service.business.movimentacao.impl.InfoMovimentacaoServiceImpl.obterListaTipoClearing(InfoMovimentacaoServiceImpl.java:58)
+	... 85 more
+Caused by: 
+javax.net.ssl.SSLHandshakeException: General SSLEngine problem
+	at com.ibm.jsse2.D.z(D.java:347)
+	at com.ibm.jsse2.as.b(as.java:399)
+	at com.ibm.jsse2.as.c(as.java:540)
+	at com.ibm.jsse2.as.wrap(as.java:520)
+	at javax.net.ssl.SSLEngine.wrap(SSLEngine.java:13)
+	at com.ibm.ws.ssl.channel.impl.SSLUtils.handleHandshake(SSLUtils.java:811)
+	at com.ibm.ws.ssl.channel.impl.SSLConnectionLink.readyOutbound(SSLConnectionLink.java:828)
+	at com.ibm.ws.ssl.channel.impl.SSLConnectionLink.connect(SSLConnectionLink.java:1133)
+	at com.ibm.wsspi.channel.base.OutboundProtocolLink.connect(OutboundProtocolLink.java:87)
+	at com.ibm.ws.http.channel.outbound.impl.HttpOutboundLink.connect(HttpOutboundLink.java:281)
+	at com.ibm.ws.channel.framework.impl.OutboundVirtualConnectionImpl.connect(OutboundVirtualConnectionImpl.java:79)
+	at com.ibm.ws.websvcs.transport.http.HTTPConnection.doConnect(HTTPConnection.java:484)
+	at com.ibm.ws.websvcs.transport.http.HTTPConnection.connect(HTTPConnection.java:199)
+	at com.ibm.ws.websvcs.transport.http.SOAPOverHTTPSender.setupHTTPConnection(SOAPOverHTTPSender.java:2203)
+	at com.ibm.ws.websvcs.transport.http.SOAPOverHTTPSender.<init>(SOAPOverHTTPSender.java:2149)
+	at com.ibm.ws.websvcs.transport.http.HTTPTransportSender.invoke(HTTPTransportSender.java:372)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:556)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.execute(AxisInvocationController.java:578)
+	at org.apache.axis2.jaxws.core.controller.impl.AxisInvocationController.doInvoke(AxisInvocationController.java:127)
+	at org.apache.axis2.jaxws.core.controller.impl.InvocationControllerImpl.invoke(InvocationControllerImpl.java:93)
+	at org.apache.axis2.jaxws.client.proxy.JAXWSProxyHandler.invokeSEIMethod(JAXWSProxyHandler.java:419)
+	... 89 more
+Caused by: 
+javax.net.ssl.SSLHandshakeException: General SSLEngine problem
+	at com.ibm.jsse2.k.a(k.java:15)
+	at com.ibm.jsse2.as.a(as.java:531)
+	at com.ibm.jsse2.D.a(D.java:262)
+	at com.ibm.jsse2.D.a(D.java:628)
+	at com.ibm.jsse2.E.a(E.java:803)
+	at com.ibm.jsse2.E.a(E.java:447)
+	at com.ibm.jsse2.D.r(D.java:139)
+	at com.ibm.jsse2.D$b.a(D$b.java:4)
+	at com.ibm.jsse2.D$b.run(D$b.java:3)
+	at java.security.AccessController.doPrivileged(AccessController.java:732)
+	at com.ibm.jsse2.D$c.run(D$c.java:2)
+	at com.ibm.ws.ssl.channel.impl.SSLUtils.handleHandshake(SSLUtils.java:898)
+	... 107 more
+Caused by: 
+com.ibm.jsse2.util.h: PKIX path building failed: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=Bradesco Corporate Root CA, O=Banco Bradesco S.A. is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.jsse2.util.f.a(f.java:60)
+	at com.ibm.jsse2.util.f.b(f.java:126)
+	at com.ibm.jsse2.util.e.a(e.java:7)
+	at com.ibm.jsse2.aD.a(aD.java:122)
+	at com.ibm.jsse2.aD.a(aD.java:124)
+	at com.ibm.jsse2.aD.checkServerTrusted(aD.java:112)
+	at com.ibm.ws.ssl.core.WSX509TrustManager.checkServerTrusted(WSX509TrustManager.java:375)
+	at com.ibm.jsse2.aB.checkServerTrusted(aB.java:48)
+	at com.ibm.jsse2.E.a(E.java:844)
+	... 114 more
+Caused by: 
+java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=Bradesco Corporate Root CA, O=Banco Bradesco S.A. is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.engineBuild(PKIXCertPathBuilderImpl.java:422)
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:268)
+	at com.ibm.jsse2.util.f.a(f.java:82)
+	... 122 more
+Caused by: 
+java.security.cert.CertPathValidatorException: The certificate issued by CN=Bradesco Corporate Root CA, O=Banco Bradesco S.A. is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.security.cert.BasicChecker.<init>(BasicChecker.java:111)
+	at com.ibm.security.cert.PKIXCertPathValidatorImpl.engineValidate(PKIXCertPathValidatorImpl.java:199)
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.myValidator(PKIXCertPathBuilderImpl.java:749)
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.buildCertPath(PKIXCertPathBuilderImpl.java:661)
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.buildCertPath(PKIXCertPathBuilderImpl.java:607)
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.buildCertPath(PKIXCertPathBuilderImpl.java:607)
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.buildCertPath(PKIXCertPathBuilderImpl.java:607)
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.engineBuild(PKIXCertPathBuilderImpl.java:368)
+	... 124 more
+Caused by: 
+java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.security.cert.CertPathUtil.findIssuer(CertPathUtil.java:316)
+	at com.ibm.security.cert.BasicChecker.<init>(BasicChecker.java:108)
+	... 131 more
+2018-10-15 09:38:03,024 INFO [br.com.bradesco.web.custodia.view.modal.ModalFundoBean] - [ >> Ordenando lista de Fundos]
+2018-10-15 09:38:03,027 INFO [br.com.bradesco.web.custodia.view.modal.ModalFundoBean] - [ALM 2811 >> Obtendo lista de fundos por perfil]
+2018-10-15 09:38:03,027 INFO [br.com.bradesco.web.custodia.view.modal.ModalFundoBean] - [ALM 2811 >> Inicializando modal fundo]
+2018-10-15 09:38:03,089 INFO [br.com.bradesco.web.custodia.view.modal.ModalEmpresaBean] - [ >> Ordenando lista de Empresas]
+2018-10-15 09:38:08,065 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calimovimentacao/faces/js/geral/jquery.js porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-10-15 09:38:31,114 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-10-15 09:38:31,179 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+br.com.bradesco.web.custodia.service.dadoscotista.exception.DadosCotistaServiceException: Erro na recuperação assíncrona de listagem de cotistas
+	at br.com.bradesco.web.custodia.service.business.dadoscotista.impl.CotistaServiceAsyncImpl.waitObterListaCotistaAssinc(CotistaServiceAsyncImpl.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:307)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:198)
+	at com.sun.proxy.$Proxy43.waitObterListaCotistaAssinc(Unknown Source)
+	at br.com.bradesco.web.custodia.view.modal.ModalCotistaAsyncBean.recuperarListaCotistaPrePopulada(ModalCotistaAsyncBean.java:362)
+	at br.com.bradesco.web.custodia.view.modal.ModalCotistaAsyncBean.readObject(ModalCotistaAsyncBean.java:193)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1230)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2328)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2219)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1720)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:2123)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1714)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:2123)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1714)
+	at java.io.ObjectInputStream.readObjectImpl(ObjectInputStream.java:540)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:475)
+	at java.util.ArrayList.readObject(ArrayList.java:808)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1230)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2328)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2219)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1720)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:2123)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1714)
+	at java.io.ObjectInputStream.readObjectImpl(ObjectInputStream.java:540)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:475)
+	at java.util.ArrayList.readObject(ArrayList.java:808)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1230)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2328)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2219)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1720)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:2123)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1714)
+	at java.io.ObjectInputStream.readObjectImpl(ObjectInputStream.java:540)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:475)
+	at java.util.ArrayList.readObject(ArrayList.java:808)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1230)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2328)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2219)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1720)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:2123)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1714)
+	at java.io.ObjectInputStream.readObjectImpl(ObjectInputStream.java:540)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:475)
+	at java.util.ArrayList.readObject(ArrayList.java:808)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1230)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2328)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2219)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1720)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:2123)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1714)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:2123)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1714)
+	at java.io.ObjectInputStream.readObjectImpl(ObjectInputStream.java:540)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:475)
+	at org.apache.myfaces.renderkit.html.HtmlResponseStateManager.decode64(HtmlResponseStateManager.java:229)
+	at org.apache.myfaces.renderkit.html.HtmlResponseStateManager.getComponentStateToRestore(HtmlResponseStateManager.java:215)
+	at org.ajax4jsf.application.AjaxStateManager.restoreView(AjaxStateManager.java:240)
+	at org.apache.myfaces.application.jsp.JspViewHandlerImpl.restoreView(JspViewHandlerImpl.java:255)
+	at org.ajax4jsf.application.ViewHandlerWrapper.restoreView(ViewHandlerWrapper.java:116)
+	at org.ajax4jsf.application.AjaxViewHandler.restoreView(AjaxViewHandler.java:159)
+	at org.apache.myfaces.application.jsp.JspTilesViewHandlerImpl.restoreView(JspTilesViewHandlerImpl.java:320)
+	at org.ajax4jsf.application.ViewHandlerWrapper.restoreView(ViewHandlerWrapper.java:116)
+	at org.ajax4jsf.application.AjaxViewHandler.restoreView(AjaxViewHandler.java:159)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.restoreView(BradescoLifecycleImpl.java:278)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.executeLifeCycle(BradescoLifecycleImpl.java:105)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.execute(BradescoLifecycleImpl.java:87)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:106)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1233)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:782)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:481)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapperImpl.handleRequest(ServletWrapperImpl.java:178)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:136)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:97)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.custodia.filter.CustodiaExtensionsFilter.doFilter(CustodiaExtensionsFilter.java:134)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:236)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.aq.view.cryptography.filter.CryptoFilter.doFilter(CryptoFilter.java:143)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:56)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:114)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:967)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1107)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:4047)
+	at com.ibm.ws.webcontainer.webapp.WebGroup.handleRequest(WebGroup.java:304)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1016)
+	at com.ibm.ws.webcontainer.WSWebContainer.handleRequest(WSWebContainer.java:1817)
+	at com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:213)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:463)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:530)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:316)
+	at com.ibm.ws.http.channel.inbound.impl.HttpICLReadCallback.complete(HttpICLReadCallback.java:88)
+	at com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+	at com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+	at com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+	at com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+	at com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+	at com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+	at com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by: 
+org.springframework.jdbc.BadSqlGrammarException: CallableStatementCallback; bad SQL grammar [{call perfil.pSelObterCotistaPerfil02()}]; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: Could not find stored procedure 'perfil.pSelObterCotistaPerfil02'.
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:97)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:80)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:952)
+	at org.springframework.jdbc.core.JdbcTemplate.call(JdbcTemplate.java:985)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.executeCallInternal(AbstractJdbcCall.java:368)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.doExecute(AbstractJdbcCall.java:342)
+	at org.springframework.jdbc.core.simple.SimpleJdbcCall.execute(SimpleJdbcCall.java:164)
+	at br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaDAOAsyncImpl.obterListaCotistaAssincInternal(CotistaDAOAsyncImpl.java:301)
+	at br.com.bradesco.web.custodia.service.data.dao.dadoscotista.impl.CotistaListaTask.run(CotistaListaTask.java:79)
+	at org.springframework.scheduling.commonj.DelegatingWork.run(DelegatingWork.java:61)
+	at com.ibm.ws.asynchbeans.J2EEContext.run(J2EEContext.java:1178)
+	at com.ibm.ws.asynchbeans.WorkWithExecutionContextImpl.go(WorkWithExecutionContextImpl.java:199)
+	at com.ibm.ws.asynchbeans.CJWorkItemImpl.run(CJWorkItemImpl.java:236)
+	... 1 more
+Caused by: 
+com.microsoft.sqlserver.jdbc.SQLServerException: Could not find stored procedure 'perfil.pSelObterCotistaPerfil02'.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:216)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1515)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:404)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:350)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:5696)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1715)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:180)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:155)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.execute(SQLServerPreparedStatement.java:332)
+	at com.ibm.ws.rsadapter.jdbc.WSJdbcPreparedStatement.pmiExecute(WSJdbcPreparedStatement.java:1066)
+	at com.ibm.ws.rsadapter.jdbc.WSJdbcPreparedStatement.execute(WSJdbcPreparedStatement.java:637)
+	at org.springframework.jdbc.core.JdbcTemplate$5.doInCallableStatement(JdbcTemplate.java:987)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:936)
+	... 11 more
+2018-10-15 09:38:31,200 WARN [br.com.bradesco.web.custodia.exception.handler.CustodiaExceptionHandler] - [BradescoApplicationHandler:: Application Exception with Error message Erro na recuperação assíncrona de listagem de cotistas.Erro na recuperação assíncrona de listagem de cotistas]
+2018-10-15 09:38:31,226 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+java.io.FileNotFoundException: JSPG0036E: Failed to find resource /appException.jsp
+	at com.ibm.ws.jsp.webcontainerext.AbstractJSPExtensionProcessor.findWrapper(AbstractJSPExtensionProcessor.java:447)
+	at com.ibm.ws.jsp.webcontainerext.AbstractJSPExtensionProcessor.getServletWrapper(AbstractJSPExtensionProcessor.java:338)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1010)
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.dispatch(WebAppRequestDispatcher.java:1404)
+	at com.ibm.ws.webcontainer.webapp.WebAppRequestDispatcher.forward(WebAppRequestDispatcher.java:196)
+	at org.apache.myfaces.context.servlet.ServletExternalContextImpl.dispatch(ServletExternalContextImpl.java:415)
+	at org.apache.myfaces.application.jsp.JspTilesViewHandlerImpl.dispatch(JspTilesViewHandlerImpl.java:233)
+	at org.apache.myfaces.application.jsp.JspTilesViewHandlerImpl.renderView(JspTilesViewHandlerImpl.java:219)
+	at org.ajax4jsf.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:108)
+	at org.ajax4jsf.application.AjaxViewHandler.renderView(AjaxViewHandler.java:216)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.renderView(BradescoLifecycleImpl.java:173)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.render(BradescoLifecycleImpl.java:140)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:107)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1233)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:782)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:481)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapperImpl.handleRequest(ServletWrapperImpl.java:178)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:136)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:97)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.custodia.filter.CustodiaExtensionsFilter.doFilter(CustodiaExtensionsFilter.java:134)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:236)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.aq.view.cryptography.filter.CryptoFilter.doFilter(CryptoFilter.java:143)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:56)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:114)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:967)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1107)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:4047)
+	at com.ibm.ws.webcontainer.webapp.WebGroup.handleRequest(WebGroup.java:304)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1016)
+	at com.ibm.ws.webcontainer.WSWebContainer.handleRequest(WSWebContainer.java:1817)
+	at com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:213)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:463)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:530)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:316)
+	at com.ibm.ws.http.channel.inbound.impl.HttpICLReadCallback.complete(HttpICLReadCallback.java:88)
+	at com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+	at com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+	at com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+	at com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+	at com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+	at com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+	at com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+2018-10-15 09:38:31,226 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Não foi encontrado o config para o tipo de exceção java.io.FileNotFoundException]
+2018-10-15 09:38:31,227 WARN [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - [Nenhuma configuração encontrada para o tipo da exceção java.io.FileNotFoundException]
+2018-10-15 09:38:31,290 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-10-15 09:38:31,402 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+java.lang.NullPointerException
+	at br.com.bradesco.web.custodia.view.modal.ModalCotistaAsyncBean.obterListaCotistaSelecionados(ModalCotistaAsyncBean.java:112)
+	at br.com.bradesco.web.custodia.movimentacao.view.bean.CadastroMovimentacaoBean.atualizarModalFundo(CadastroMovimentacaoBean.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at org.apache.myfaces.el.MethodBindingImpl.invoke(MethodBindingImpl.java:129)
+	at org.apache.myfaces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:63)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:106)
+	at org.ajax4jsf.component.AjaxActionComponent.broadcast(AjaxActionComponent.java:62)
+	at org.ajax4jsf.component.AjaxViewRoot.processEvents(AjaxViewRoot.java:184)
+	at org.ajax4jsf.component.AjaxViewRoot.broadcastEvents(AjaxViewRoot.java:162)
+	at org.ajax4jsf.component.AjaxViewRoot.processApplication(AjaxViewRoot.java:350)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.invokeApplication(BradescoLifecycleImpl.java:449)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.executeLifeCycle(BradescoLifecycleImpl.java:121)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.execute(BradescoLifecycleImpl.java:87)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:106)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1233)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:782)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:481)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapperImpl.handleRequest(ServletWrapperImpl.java:178)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:136)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:97)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.custodia.filter.CustodiaExtensionsFilter.doFilter(CustodiaExtensionsFilter.java:134)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:236)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.aq.view.cryptography.filter.CryptoFilter.doFilter(CryptoFilter.java:143)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:56)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:114)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:967)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1107)
+	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:87)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:949)
+	at com.ibm.ws.webcontainer.WSWebContainer.handleRequest(WSWebContainer.java:1817)
+	at com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:213)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:463)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:530)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:316)
+	at com.ibm.ws.http.channel.inbound.impl.HttpICLReadCallback.complete(HttpICLReadCallback.java:88)
+	at com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+	at com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+	at com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+	at com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+	at com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+	at com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+	at com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+2018-10-15 09:38:31,403 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Não foi encontrado o config para o tipo de exceção java.lang.NullPointerException]
+2018-10-15 09:38:31,403 WARN [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - [Nenhuma configuração encontrada para o tipo da exceção java.lang.NullPointerException]
+2018-10-15 12:00:23,433 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 12:00:23,466 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 12:00:23,469 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 12:00:23,471 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 12:00:23,473 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 12:00:23,475 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 12:00:23,477 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 12:00:23,479 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 12:00:23,481 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 12:00:23,483 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 12:00:23,486 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 12:00:23,536 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-10-15 12:00:23,685 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-10-15 12:00:23,772 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-10-15 12:00:24,454 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 12:00:24,456 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 12:00:24,458 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 12:00:24,460 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 12:00:24,462 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 12:00:24,465 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 12:00:24,466 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 12:00:24,468 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 14:45:36,850 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 14:45:36,853 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 14:45:36,855 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 14:45:36,857 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 14:45:36,859 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 14:45:36,861 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 14:45:36,863 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 14:45:36,866 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 14:45:36,868 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 14:45:36,871 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 14:45:36,873 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 14:45:36,875 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-10-15 14:45:36,984 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-10-15 14:45:37,042 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-10-15 14:45:37,563 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 14:45:37,565 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 14:45:37,567 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 14:45:37,569 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 14:45:37,570 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 14:45:37,572 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 14:45:37,573 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 14:45:37,577 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 15:48:17,017 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 15:48:17,019 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 15:48:17,021 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 15:48:17,023 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 15:48:17,025 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 15:48:17,027 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 15:48:17,030 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 15:48:17,032 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 15:48:17,034 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 15:48:17,036 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 15:48:17,037 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 15:48:17,039 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-10-15 15:48:17,141 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-10-15 15:48:17,194 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-10-15 15:48:17,751 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 15:48:17,753 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 15:48:17,754 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 15:48:17,755 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 15:48:17,756 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 15:48:17,758 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 15:48:17,759 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 15:48:17,760 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calimovimentacao-0_0_1-SNAPSHOT_war.ear\calimovimentacao-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]

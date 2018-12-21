@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <!-- Definição de bean de acesso a configurações de application.properties -->    
+    <bean id="propBeanConfigMovimentacao" class="br.com.bradesco.web.custodia.view.bean.PropConfig">
+            <property name="properties">
+                <map>
+					<entry key="count.tipos.liquidacao"><value>${count.tipos.liquidacao}</value></entry>				
+					<entry key="movimentacao.tipo.liquidacao.cod.0"><value>${movimentacao.tipo.liquidacao.cod.0}</value></entry>
+					<entry key="movimentacao.tipo.liquidacao.cod.1"><value>${movimentacao.tipo.liquidacao.cod.1}</value></entry>
+					<entry key="movimentacao.tipo.liquidacao.cod.2"><value>${movimentacao.tipo.liquidacao.cod.2}</value></entry>
+					<entry key="movimentacao.tipo.liquidacao.cod.3"><value>${movimentacao.tipo.liquidacao.cod.3}</value></entry>
+					<entry key="movimentacao.tipo.liquidacao.desc.0"><value>${movimentacao.tipo.liquidacao.desc.0}</value></entry>
+					<entry key="movimentacao.tipo.liquidacao.desc.1"><value>${movimentacao.tipo.liquidacao.desc.1}</value></entry>
+					<entry key="movimentacao.tipo.liquidacao.desc.2"><value>${movimentacao.tipo.liquidacao.desc.2}</value></entry>
+					<entry key="movimentacao.tipo.liquidacao.desc.3"><value>${movimentacao.tipo.liquidacao.desc.3}</value></entry>
+				</map>
+            </property>
+    </bean>	    
+    
+</beans>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+	<!-- Bean core del componente Gestor de Alertas. Recibe por inyección:
+		
+		 1. Atributo 'alertCatalog'. Inyectado el bean 'alertCatalog' que implementa funciones de acceso
+		    y busqueda de la configuracion para una determinada alerta. Tiene carácter obligatorio.
+		 
+		 2. Atributo 'channelEmitterList'. Inyectado objeto Map conteniendo los default emitters del
+		    sistema. En caso de configurar un nuevo emitter en el sistema, se realizara la inserción
+		    de una nueva entrada en la map:
+		    
+		    	<entry key="<new_emitter_key">
+			         	<ref bean="<emitter_bean_name"/>
+			    </entry>
+			    
+			 El valor '<new_emitter_key>' será el identificador de emitter a usar para en el catálogo de
+			 alertas.   
+	-->	    	
+	
+	<bean id="alertManager"
+		  class="br.com.bradesco.web.aq.application.alert.impl.AlertManagerImpl"
+		  lazy-init="true">
+		  	<property name="logger"><ref bean="logManager"/></property>	
+		  	<property name="alertCatalog"><ref bean="alertCatalog"/></property>
+		  	<property name="alertManagerStatistics"><ref bean="alertManagerStatistics"/></property>
+		  	<property name="channelEmitterList">
+			   <map>
+			        <entry key="fileEmitter">
+			         	<ref bean="fileEmitter"/>
+			         </entry>
+			         <entry key="emailEmitter">
+			         	<ref bean="emailEmitter"/>
+			         </entry>
+			         <!--
+			         <entry key="snmpEmitter">
+			         	<ref bean="snmpEmitter"/>
+			         </entry>
+			         //-->
+        	   </map>
+		    </property>
+	</bean>
+
+
+	<!-- Bean 'alertCatalog' publica operaciones de búsqueda sobre el catálogo de alertas.
+	
+		 1. 'xmlMappingResource'. Propiedad tipo 'Resource' de Spring API. Toma valor String conteniendo
+		    el recurso XML que contiene el catálogo de alertas. Existen dos tipos de configuraciones:
+		    
+		    classpath:<recurso> - El recurso XML que contiene el catálogo de alertas se encuentra
+		    	                  en el classpath del aplicativo.
+		    	                      
+		    file:<path_a_recurso> - El recurso XML que contiene el catalogo de alertas se encuentra
+		    						en el sistema de ficheros. Se debe proporcionar el path completo
+		    						al recurso.    	                      
+	 -->
+	 
+	<bean id="alertCatalog"
+		  class="br.com.bradesco.web.aq.application.alert.config.AlertCatalogImpl"
+		  init-method="init">
+		  	<property name="logger"><ref bean="logManager"/></property>	
+		  	<property name="xmlMappingResource" 
+		  		value="WEB-INF/classes/alert-catalog.xml"/>		
+	</bean>	
+	
+	<!-- Seccion declaración Emitters -->
+	
+	<!--  Emitter especializado en la transmisión de alerta a un fichero contenido en el sistema de ficheros
+	      local.
+	      
+	      1. 'fileConfigBean'. Propiedad que apunta al bean de configuración 'fileConfigBean', que especifica
+	                           el path y el nombre del fichero de destino de las alertas transmitidad. Tiene
+	                           caracter obligatorio.                       
+	 -->                          
+	
+	<bean id="fileEmitter"
+		  class="br.com.bradesco.web.aq.application.alert.channel.file.impl.FileEmitterImpl"
+		  init-method="init"
+		  destroy-method="destroy">
+		  	<property name="fileConfigBean"><ref bean="fileConfigBean"/></property>
+		  	<property name="logger"><ref bean="logManager"/></property>
+	</bean>	
+	
+	<!-- Bean de configuración para el emitter 'fileEmitter'.
+		
+		 1. 'path'. Path del fichero en el que el emitter notifica las alertas. En caso de estar vacio
+		            se crea en el raiz (p. e., C:/<fileName>
+		 2. 'fileName'. Nombre del fichero en el que el emitter notifica las alertas.
+	-->
+	
+	<bean id="fileConfigBean"
+		  class="br.com.bradesco.web.aq.application.alert.channel.file.impl.FileConfigBean">
+		  	<property name="path"><value>${alertManager.fileEmitter.path}</value></property>
+		  	<property name="fileName"><value>${alertManager.fileEmitter.fileName}</value></property>
+	</bean>	
+	
+	<!-- Definição do Email Emitter -->
+	
+	<bean id="emailEmitter" 
+		  class="br.com.bradesco.web.aq.application.alert.channel.email.impl.EmailEmitterImpl"
+		  init-method="init">
+		 	<property name="javaMailSender"><ref bean="javaMailSender"/></property>
+		 	<property name="mailMessageList">
+		      <map>
+			        <entry key="error">
+			         	<ref bean="errorMailMessage"/>
+			         </entry>
+			         <entry key="info">
+			         	<ref bean="infoMailMessage"/>
+			         </entry>
+        	  </map>
+		    </property>
+	</bean>
+	
+	<bean id="javaMailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host"><value>${alertManager.mailEmitter.host}</value></property>
+    	<property name="port"><value>${alertManager.mailEmitter.port}</value></property>
+    	<property name="username"><value>${alertManager.mailEmitter.username}</value></property>
+    	<property name="password"><value>${alertManager.mailEmitter.password}</value></property>
+		<property name="javaMailProperties">
+    		 <props>
+    			<!-- Descomentar en caso de querer obtener un nivel de debug en 
+    			     el bean javaMailSender
+    			--> 
+    			 
+      			<!--<prop key="mail.debug">
+      				  true
+      			    </prop>
+      			    
+      			    <prop key="mail.smtp.auth">
+      				  true
+      			    </prop>
+      			    <prop key="mail.smtp.starttls.enable">
+      				  true
+      			    </prop>
+      			    -->
+    		</props>	
+    	</property>
+    </bean>
+	
+	<bean id="infoMailMessage" 
+    	  class="org.springframework.mail.SimpleMailMessage"
+    	  singleton="false">
+    	  <property name="from"><value>${alertManager.mailEmitter.infoMessage.from}</value></property>
+    	  <property name="subject"><value>${alertManager.mailEmitter.infoMessage.subject}</value></property>
+    	  <property name="to">
+    	  	<list>
+    	  		<value>${alertManager.mailEmitter.infoMessage.to1}</value>
+    	  	</list>
+    	  </property>
+    	  <property name="cc">
+    	  	<list>
+    	  		<value>${alertManager.mailEmitter.infoMessage.cc1}</value>
+    	  	</list>
+    	  </property>
+    </bean>
+
+   <bean id="errorMailMessage" 
+    	  class="org.springframework.mail.SimpleMailMessage"
+    	  singleton="false">
+    	  <property name="from"><value>${alertManager.mailEmitter.errorMessage.from}</value></property>
+    	  <property name="subject"><value>${alertManager.mailEmitter.errorMessage.subject}</value></property>
+    	  <property name="to">
+    	  	<list>
+    	  		<value>${alertManager.mailEmitter.errorMessage.to1}</value>
+    	  	</list>
+    	  </property>
+    	  <property name="cc">
+    	  	<list>
+    	  		<value>${alertManager.mailEmitter.errorMessage.cc1}</value>
+    	  	</list>
+    	  </property>
+    </bean>       
+</beans>  

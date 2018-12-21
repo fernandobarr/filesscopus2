@@ -1,0 +1,125 @@
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+                                   "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+<tiles-definitions>
+    
+    <!-- 
+    *********************************************************************************************
+        Definição para todas as telas de serviços do Novo Internet Banking 
+    *********************************************************************************************
+    -->
+	<definition name="nib.main" path="/WEB-INF/jsp/common/main.jsp">
+    	<put name="body" value="" />
+        <put name="codigoFamiliaServico" value="" />
+        <put name="codigoServico" value="" />
+        <put name="descricaoServico" value="" />
+        <put name="numeroTela" value="" />
+        <put name="nivelCaminhoPao" value="1" />
+        <put name="passo" value="0" />
+		<put name="messageBundle" value=""/>
+    	<put name="praticidade" value="/WEB-INF/jsp/common/praticidade.jsp" />
+		<putList name="css_awb">
+		</putList>
+		<putList name="js_awb">
+			<item value="" link="geral/jquery.js" />
+		</putList>
+		<putList name="css_infra">
+			<item value="" link="geral/estrutura.css" tooltip="screen, print" />
+			<item value="" link="geral/interna.css" tooltip="screen, print" />      
+			<item value="" link="geral/jquery.combo.css" tooltip="screen" />
+			<item value="" link="geral/jquery.jqmodal.css" tooltip="screen" />
+			<item value="" link="geral/jquery.tooltip.css" tooltip="screen" />
+			<item value="" link="geral/jquery.autocomplete.css" tooltip="screen" />
+		</putList>
+		<putList name="js_infra">
+			<item value="" link="geral/jquery.ui.js" />
+			<item value="" link="geral/jquery.combo.js" />
+			<item value="" link="geral/jquery.cookie.min.js" />
+			<item value="" link="geral/jquery.jqmodal.js" />
+			<item value="" link="geral/jquery.tooltip.js" />
+			<item value="" link="geral/currency.js" />
+			<item value="" link="geral/default.js" />
+			<item value="" link="geral/AJAX.js" />
+			<item value="" link="geral/principal.js" />
+			<item value="" link="geral/validacoes.js" />
+		</putList>
+		<putList name="cssIE8">
+			<item value="" link="geral/geral_ie.css" tooltip="screen, print" />
+		</putList>
+		<putList name="jsIE8">
+		</putList>
+		<putList name="css_sei">
+			<item value="" link="geral/estrutura.css" tooltip="screen, print" />
+			<item value="" link="geral/interna.css" tooltip="screen, print" />
+			<item value="" link="geral/impressao.css" tooltip="screen, print" />
+			<item value="" link="sei/print.css" tooltip="print"/>
+			<item value="" link="sei/sei_impressao.css" tooltip="screen, print" />
+		</putList>
+		<putList name="js_sei">
+		</putList>
+		<putList name="css">
+		</putList>
+		<putList name="js">
+		</putList>
+    </definition>
+
+    <!-- 
+    *********************************************************************************************
+        Definição para todas as telas modais do Novo Internet Banking 
+    *********************************************************************************************
+    -->
+	<definition name="nib.modal" path="/WEB-INF/jsp/common/modal.jsp">
+    	<put name="body" value="" />
+        <put name="codigoFamiliaServico" value="" />
+        <put name="codigoServico" value="" />
+        <put name="descricaoServico" value="" />
+        <put name="numeroTela" value="" />
+		<put name="messageBundle" value=""/>
+		<put name="largura" value="674px"/>
+		<put name="focoBotaoFechar" value="false"/>
+		<putList name="css_awb">
+		</putList>
+		<putList name="js_awb">
+			<item value="" link="jquery.js" />
+		</putList>
+		<putList name="css_infra">
+			<item value="" link="geral/estrutura.css" tooltip="screen, print" />
+			<item value="" link="geral/interna.css" tooltip="screen, print" />      
+			<item value="" link="geral/jquery.combo.css" tooltip="screen" />
+			<item value="" link="geral/jquery.jqmodal.css" tooltip="screen" />
+			<item value="" link="geral/jquery.tooltip.css" tooltip="screen" />
+		</putList>
+		<putList name="js_infra">
+			<item value="" link="geral/jquery.ui.js" />
+			<item value="" link="geral/jquery.combo.js" />
+			<item value="" link="geral/jquery.cookie.min.js" />
+			<item value="" link="geral/jquery.jqmodal.js" />
+			<item value="" link="geral/jquery.tooltip.js" />
+			<item value="" link="geral/currency.js" />
+			<item value="" link="geral/default.js" />
+			<item value="" link="geral/validacoes.js" />
+			<item value="" link="geral/AJAX.js" />
+		</putList>
+		<putList name="cssIE8">
+			<item value="" link="geral/geral_ie.css" tooltip="screen, print" />
+		</putList>
+		<putList name="jsIE8">
+		</putList>
+		<putList name="css_sei">
+			<item value="" link="geral/estrutura.css" tooltip="screen, print" />
+			<item value="" link="geral/interna.css" tooltip="screen, print" />
+			<item value="" link="geral/impressao.css" tooltip="screen, print" />
+			<item value="" link="sei/print.css" tooltip="print"/>
+		</putList>
+		<putList name="js_sei">
+		</putList>
+		<putList name="css">
+		</putList>
+		<putList name="js">
+<!-- 			<item value="" link="geral/acessibilidade.js" />
+			<item value="" link="sei/seiMultiplo.js" /> -->
+		</putList>
+    </definition>
+    
+    <definition name="/blank.tiles" path="/WEB-INF/jsp/common/blank.jsp" />
+</tiles-definitions>

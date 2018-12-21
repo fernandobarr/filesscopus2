@@ -1,0 +1,135 @@
+﻿Empresa
+Código do Cliente
+CPF/MF
+Nome
+Tipo de documento
+Número do documento
+Órgão Emissor
+Data de Expedição
+Naturalidade
+Nacionalidade
+Sexo
+Data de Nascimento
+Estado Civil
+Nome do Cônjuge/Companheiro(a)
+CPF/MF do Cônjuge/Companheiro(a)
+Nome do Pai
+Nome da Mãe
+Capacidade Civil
+Representante/Procurador
+CPF/CNPJ/MF
+Vínculo
+CEP
+Endereço
+Número
+Complemento
+Bairro
+Cidade
+Estado
+País
+Celular
+E-mail
+Conhecimento Financeiro do Investidor
+Investidor Qualificado
+Exerce ou exerceu nos últimos 5 anos algum Cargo, Emprego ou Função Pública relevante?
+Cargo ou Função
+Data Início do Exercício
+Data Fim do Exercício
+Empresa / Órgão Público
+CNPJ/MF
+Relacionamento / ligação com Agente Público
+Nome do Relacionado
+CPF/MF
+Cargo ou Função
+Tipo de Relacionamento / Ligação
+Possui alguma nacionalidade além da declarada, alguma residência fiscal além da Brasileira ou visto de residência permanente em outros países, como por exemplo Green Card?
+Nome Completo (sem abreviações)
+CPF/MF
+Tipo
+Data de Emissão
+Número do Documento
+Orgão Emissor
+Data de Expedição
+Naturalidade
+Nacionalidade
+Sexo
+Data de Nascimento
+Estado Civil
+Possui alguma nacionalidade além da declarada?
+País
+Número de Identificação Fiscal (NIF/Tax Identification Number)
+Sua jurisdição não exige o NIF.
+É dispensado do NIF, de acordo com as regras do órgão de administração tributária no exterior.
+Aguardando a emissão do número de Identificação Fiscal, o qual comprometo-me a informar ao Banco tão logo o receba
+Possui visto de residência permanente válido em outros países, como por exemplo, Green Card?
+País
+Número de Identificação Fiscal (NIF/Tax Identification Number)
+Sua jurisdição não exige o NIF.
+É dispensado do NIF, de acordo com as regras do órgão de administração tributária no exterior.
+Aguardando a emissão do número de Identificação Fiscal, o qual comprometo-me a informar ao Banco tão logo o receba.
+Renunciou/Abdicou a Nacionalidade?
+Em quais países?
+Empresa onde trabalha
+Ocupação Profissional
+CEP
+Endereço
+Número
+Complemento
+Bairro
+Cidade
+Estado
+País
+Celular
+E-mail
+Bens Imóveis - Espécie
+Bens Imóveis - Endereço
+Bens Imóveis - UF
+Bens Imóveis - Valor Atual - R$
+Outros Bens e Valores - Tipo
+Outros Bens e Valores - Descrição
+Outros Bens e Valores - Valor Atual - R$
+Patrimônio Total - Data Base
+Patrimônio Total - Valor
+Salário Pró-Labore
+Outros Rendimentos
+Rendimento Total
+Especificar
+Tipo da Conta
+Código do Banco
+Banco
+Agência
+DV
+Conta Principal
+Conta Private
+Situação da Conta
+Conta
+Distribuidor do Fundo que receberá a Aplicação
+CNPJ/MF
+Agente Autônomo (aplicável quando distribuidor for BEM DTVM)
+CNPJ/MF
+Operador
+CPF/CNPJ/MF
+Receber Extrato
+Receber Informe de Rendimento
+Opção para envio de correspondência
+Autoriza o Distribuidor enviar por e-mail extratos e demais informações
+Autoriza a transmissão de Ordens por Representante ou Procurador?
+Em caso de Administrador de Fundos de Investimentos e Carteiras Administradas, opera por Conta de Terceiros?
+Nome Completo
+CPF/CNPJ/MF
+Vinculado ao Intermediário
+O investidor respondeu ao questionário de Suitability
+Motivo:
+Perfil do Investidor:
+Segmento do Investidor
+Fundo
+Cotista Ativo para Movimentação
+Classificação CVM
+Agência
+Conta
+Tipo de Cotista
+Grupo Razão
+Grupo Sub-Grupo Razão
+Razão Contábil
+País
+Observações

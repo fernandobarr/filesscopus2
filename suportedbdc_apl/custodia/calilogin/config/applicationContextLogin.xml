@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <!-- Definição de bean de acesso a configurações de application.properties -->    
+    <bean id="propBeanConfigLogin" class="br.com.bradesco.web.custodia.view.bean.PropConfig">
+            <property name="properties">
+                <map>                   					
+					<entry key="parameter.invalid.password.captcha"><value>${parameter.invalid.password.captcha}</value></entry>
+					<entry key="mailManager.codigoEmpresa"><value>${mailManager.codigoEmpresa}</value></entry>
+					<entry key="mailManager.ignorarErroEnvioMessageQueue"><value>${mailManager.ignorarErroEnvioMessageQueue}</value></entry>
+					<entry key="mailManager.nomeAplicacaoOrigem"><value>${mailManager.nomeAplicacaoOrigem}</value></entry>
+					<entry key="mailManager.renderizarNomeRemetente"><value>${mailManager.renderizarNomeRemetente}</value></entry>
+					<entry key="mailManager.prefixoNomeArquivoAnexo"><value>${mailManager.prefixoNomeArquivoAnexo}</value></entry>
+					<entry key="mailManager.nomeLogicoMensagem"><value>${mailManager.nomeLogicoMensagem}</value></entry>
+				</map>
+            </property>
+    </bean>	    
+</beans>

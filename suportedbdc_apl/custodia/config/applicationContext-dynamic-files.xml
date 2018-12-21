@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="loaderDynamicFiles" class="br.com.bradesco.web.custodia.loader.LoaderDynamicFiles"
+		lazy-init="false" init-method="extractFilesClasspath" singleton="true">
+		<property name="logManager">
+			<ref bean="logManager" />
+		</property>
+		<property name="listaFilesMigracao">
+			<map>
+				<entry key="/WEB-INF/">
+					<list>
+						<value>/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xml</value>
+						<value>/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtd</value>
+						<value>/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xml</value>
+						<value>/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xml</value>
+						<value>/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xml</value>
+					</list>
+				</entry>
+				<entry key="/WEB-INF/jsp/common/">
+					<list>
+						<value>/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsp</value>
+						<value>/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsp</value>
+						<value>/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsp</value>
+					</list>
+				</entry>
+				<entry key="/WEB-INF/jsp/common/errorPages">
+					<list>
+						<value>/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.html</value>
+						<value>/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.html</value>
+						<value>/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.html</value>
+						<value>/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/internal.jsp</value>
+					</list>
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+	<!--<bean id="tilesConfigurer"
+		class="org.springframework.web.servlet.view.tiles.TilesConfigurer">
+		<property name="definitions">
+			<list>
+				<value>/WEB-INF/tiles.xml</value>
+			</list>
+		</property>
+	</bean>-->
+</beans>

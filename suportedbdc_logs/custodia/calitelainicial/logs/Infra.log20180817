@@ -1,0 +1,932 @@
+2018-08-17 08:34:56,539 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 08:34:56,548 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 08:34:56,549 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 08:34:56,552 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 08:34:56,553 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 08:34:56,555 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 08:34:56,557 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 08:34:56,559 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 08:34:56,561 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 08:34:56,562 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 08:34:56,564 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 08:34:56,566 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-08-17 08:34:56,655 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-08-17 08:34:56,700 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-08-17 08:34:57,010 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 08:34:57,012 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 08:34:57,015 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 08:34:57,017 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 08:34:57,019 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 08:34:57,020 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 08:34:57,022 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 08:34:57,024 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 08:35:26,953 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 08:35:27,521 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-08-17 08:35:29,384 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 08:35:29,398 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 08:35:29,415 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 08:35:29,544 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 08:35:30,916 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 08:35:34,481 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 08:35:34,503 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 08:35:56,203 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 08:35:57,344 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 08:35:57,365 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 08:36:02,014 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 08:36:02,045 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 08:36:19,092 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 08:36:19,488 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 08:37:38,461 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 08:37:38,812 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 08:37:42,430 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 08:37:42,454 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 08:42:13,486 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 08:42:14,980 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 08:42:15,005 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 08:43:14,167 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 08:43:14,851 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 08:43:14,878 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 08:45:04,353 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 08:45:05,472 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 08:45:05,507 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 10:10:00,787 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 10:10:01,777 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 10:10:01,797 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 10:10:01,836 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 10:10:01,860 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 10:10:01,934 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 10:10:04,014 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 10:10:04,036 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 10:10:05,902 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 10:10:06,141 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 10:10:06,163 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 10:10:15,365 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 10:10:15,388 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 10:10:38,444 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 10:10:38,472 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 10:39:27,720 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 10:39:28,236 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 10:39:28,258 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 10:40:20,021 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 10:40:20,419 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 10:41:07,568 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 10:41:07,935 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 10:41:11,442 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 10:41:11,465 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 10:41:38,677 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 10:41:38,698 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 10:41:41,819 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 10:41:41,848 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 11:20:27,983 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 11:20:28,041 WARN [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [CTRL: 352160012220145660 Sessão Expirada, Data Inicio: 2018-08-17 10:09:52.187]
+2018-08-17 11:20:28,082 ERROR [br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService] - []
+br.com.bradesco.web.custodia.service.business.sessao.exception.SessaoExpiradaException: CTRL: 352160012220145660 Sessão Expirada, Data Inicio: 2018-08-17 10:09:52.187
+	at br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl.handleErroSessao(SessaoCustodiaServiceImpl.java:287)
+	at br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl.validarSessao(SessaoCustodiaServiceImpl.java:80)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:156)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:73)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+2018-08-17 11:20:28,085 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+br.com.bradesco.web.custodia.service.provider.security.sessao.check.exception.SessionCheckException: Exceção no autoLogin (ex): CTRL: 352160012220145660 Sessão Expirada, Data Inicio: 2018-08-17 10:09:52.187
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:182)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:73)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+br.com.bradesco.web.custodia.service.business.sessao.exception.SessaoExpiradaException: CTRL: 352160012220145660 Sessão Expirada, Data Inicio: 2018-08-17 10:09:52.187
+	at br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl.handleErroSessao(SessaoCustodiaServiceImpl.java:287)
+	at br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl.validarSessao(SessaoCustodiaServiceImpl.java:80)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:156)
+	... 31 more
+2018-08-17 11:20:28,091 WARN [br.com.bradesco.web.custodia.service.provider.security.sessao.check.exception.handler.SessionCheckExceptionHandler] - [BradescoApplicationHandler:: Application Exception with Error message Exceção no autoLogin (ex): CTRL: 352160012220145660 Sessão Expirada, Data Inicio: 2018-08-17 10:09:52.187.Exceção no autoLogin (ex): CTRL: 352160012220145660 Sessão Expirada, Data Inicio: 2018-08-17 10:09:52.187]
+2018-08-17 11:20:36,639 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 11:20:37,971 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 11:20:37,995 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 11:20:38,169 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 11:20:38,192 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 11:20:38,250 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 11:20:40,835 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 11:20:41,137 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 11:20:41,165 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 11:20:59,543 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 11:20:59,569 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 11:27:37,857 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 11:27:37,885 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 11:39:11,921 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 11:39:11,946 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 11:39:18,640 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 11:39:19,142 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 11:39:19,165 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 11:40:13,049 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 11:40:13,769 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 11:40:13,792 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 11:43:48,046 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 11:43:48,318 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 11:43:48,342 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 11:54:33,384 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 11:54:33,692 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 11:54:33,716 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 12:00:41,431 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 12:00:41,431 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 12:00:41,431 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 12:00:41,431 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 12:00:41,431 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 12:00:41,447 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 12:00:41,447 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 12:00:41,447 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 12:00:41,447 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 12:00:41,447 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 12:00:41,447 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 12:00:41,447 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-08-17 12:00:41,572 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-08-17 12:00:41,634 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-08-17 12:00:42,040 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 12:00:42,040 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 12:00:42,040 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 12:00:42,040 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 12:00:42,040 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 12:00:42,040 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 12:00:42,056 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 12:00:42,056 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 12:01:40,273 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 12:01:42,311 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-08-17 12:01:48,686 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 12:01:48,713 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 14:29:46,643 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 14:29:46,659 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 14:29:46,659 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 14:29:46,674 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 14:29:46,674 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 14:29:46,674 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 14:29:46,674 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 14:29:46,674 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 14:29:46,674 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 14:29:46,674 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 14:29:46,674 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 14:29:46,674 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-08-17 14:29:46,768 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-08-17 14:29:46,815 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-08-17 14:29:47,081 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 14:29:47,081 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 14:29:47,096 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 14:29:47,096 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 14:29:47,096 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 14:29:47,096 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 14:29:47,096 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 14:29:47,096 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 14:34:11,452 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 14:34:12,012 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-08-17 14:34:13,921 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 14:34:13,947 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 14:34:13,964 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 14:34:13,986 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 14:34:15,550 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 14:34:20,434 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 14:34:20,456 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 14:34:30,034 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 14:34:30,384 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 14:34:30,405 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 14:34:34,425 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 14:34:34,447 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 14:34:47,915 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 14:34:47,939 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 14:36:05,108 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 14:36:05,135 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 14:36:12,544 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 14:36:12,571 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 14:36:20,749 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 14:36:20,773 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 14:36:23,717 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 14:36:23,740 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 14:37:45,865 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 14:37:45,890 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 15:26:52,591 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:26:52,591 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:26:52,591 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:26:52,591 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:26:52,591 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:26:52,591 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 15:26:52,607 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 15:26:52,607 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 15:26:52,607 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:26:52,607 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:26:52,607 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:26:52,607 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-08-17 15:26:52,716 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-08-17 15:26:52,778 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-08-17 15:26:53,172 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:26:53,174 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:26:53,176 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:26:53,179 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:26:53,180 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:26:53,180 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:26:53,180 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:26:53,180 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:34:34,594 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:34:34,594 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:34:34,594 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:34:34,610 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:34:34,610 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:34:34,610 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 15:34:34,610 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 15:34:34,610 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 15:34:34,610 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:34:34,626 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:34:34,626 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:34:34,626 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-08-17 15:34:34,735 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-08-17 15:34:34,798 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-08-17 15:34:35,159 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:34:35,175 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:34:35,177 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:34:35,243 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:34:35,243 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:34:35,243 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:34:35,243 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:34:35,243 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:38:46,420 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:38:46,436 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:38:46,436 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:38:46,436 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:38:46,436 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:38:46,436 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 15:38:46,436 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 15:38:46,436 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 15:38:46,436 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:38:46,451 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:38:46,451 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:38:46,451 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-08-17 15:38:46,545 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-08-17 15:38:46,608 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-08-17 15:38:46,951 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:38:46,951 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:38:46,967 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:38:46,967 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:38:46,967 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:38:46,967 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:38:46,967 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:38:46,967 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:39:14,150 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:39:15,216 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-08-17 15:39:17,760 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:39:17,788 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 15:39:27,242 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:39:27,243 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:39:27,279 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 15:40:01,397 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:40:17,803 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:40:18,781 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 15:40:19,269 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:41:03,497 ERROR [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Erro na execução automática de MB.método pela classe RedirectUrlToJsfPhaseListener]
+javax.faces.FacesException: Error calling action method of component with id _id0
+	at org.apache.myfaces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:74)
+	at br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener.executarManagedBeanNegocio(RedirectUrlToJsfPhaseListener.java:362)
+	at br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener.afterPhase(RedirectUrlToJsfPhaseListener.java:232)
+	at br.com.bradesco.web.custodia.view.listener.PhaseListenerWrapper.afterPhase(PhaseListenerWrapper.java:30)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.informPhaseListenersAfter(BradescoLifecycleImpl.java:581)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.restoreView(BradescoLifecycleImpl.java:298)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.executeLifeCycle(BradescoLifecycleImpl.java:105)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.execute(BradescoLifecycleImpl.java:87)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:106)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:236)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.cryptography.filter.CryptoFilter.doFilter(CryptoFilter.java:143)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:56)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:114)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+javax.faces.el.EvaluationException: Exception while invoking expression #{dadosAcessoBean.processarConteudoTelaInicial}
+	at org.apache.myfaces.el.MethodBindingImpl.invoke(MethodBindingImpl.java:153)
+	at org.apache.myfaces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:63)
+	... 64 more
+Caused by: 
+java.lang.OutOfMemoryError
+: 
+Espaço de heap Java
+	at 
+java.util.Arrays
+.
+copyOf
+(
+Arrays.java
+:
+2
+2
+8
+2
+)
+	at 
+java.io.ByteArrayOutputStream
+.
+grow
+(
+ByteArrayOutputStream.java
+:
+1
+2
+4
+)
+	at 
+java.io.ByteArrayOutputStream
+.
+ensureCapacity
+(
+ByteArrayOutputStream.java
+:
+1
+0
+4
+)
+	at 
+java.io.ByteArrayOutputStream
+.
+write
+(
+ByteArrayOutputStream.java
+:
+1
+5
+1
+)
+	at 
+br.com.bradesco.web.custodia.service.business.fileserver.impl.FileServerImpl
+.
+copyAndClose
+(
+FileServerImpl.java
+:
+1
+7
+3
+)
+	at 
+br.com.bradesco.web.custodia.service.business.fileserver.impl.FileServerImpl
+.
+obterArquivo
+(
+FileServerImpl.java
+:
+1
+3
+3
+)
+	at 
+br.com.bradesco.web.custodia.telainicial.view.bean.InformativosBean
+.
+init
+(
+InformativosBean.java
+:
+5
+2
+)
+	at 
+br.com.bradesco.web.custodia.telainicial.view.bean.DadosAcessoBean
+.
+processarConteudoTelaInicial
+(
+DadosAcessoBean.java
+:
+1
+2
+4
+)
+	at 
+sun.reflect.NativeMethodAccessorImpl
+.
+invoke0
+(Native Method)
+	at 
+sun.reflect.NativeMethodAccessorImpl
+.
+invoke
+(
+NativeMethodAccessorImpl.java
+:
+9
+4
+)
+	at 
+sun.reflect.DelegatingMethodAccessorImpl
+.
+invoke
+(
+DelegatingMethodAccessorImpl.java
+:
+5
+5
+)
+	at 
+java.lang.reflect.Method
+.
+invoke
+(
+Method.java
+:
+6
+1
+9
+)
+	at 
+org.apache.myfaces.el.MethodBindingImpl
+.
+invoke
+(
+MethodBindingImpl.java
+:
+1
+2
+9
+)
+	... 
+6
+5
+ more
+2018-08-17 15:41:04,263 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+java.lang.RuntimeException: Erro na execução automática de MB.método pela classe RedirectUrlToJsfPhaseListener
+	at br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener.afterPhase(RedirectUrlToJsfPhaseListener.java:293)
+	at br.com.bradesco.web.custodia.view.listener.PhaseListenerWrapper.afterPhase(PhaseListenerWrapper.java:30)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.informPhaseListenersAfter(BradescoLifecycleImpl.java:581)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.restoreView(BradescoLifecycleImpl.java:298)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.executeLifeCycle(BradescoLifecycleImpl.java:105)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.execute(BradescoLifecycleImpl.java:87)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:106)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:236)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at br.com.bradesco.web.aq.view.cryptography.filter.CryptoFilter.doFilter(CryptoFilter.java:143)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:56)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:114)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+javax.faces.FacesException: Error calling action method of component with id _id0
+	at org.apache.myfaces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:74)
+	at br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener.executarManagedBeanNegocio(RedirectUrlToJsfPhaseListener.java:362)
+	at br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener.afterPhase(RedirectUrlToJsfPhaseListener.java:232)
+	... 62 more
+Caused by: 
+javax.faces.el.EvaluationException: Exception while invoking expression #{dadosAcessoBean.processarConteudoTelaInicial}
+	at org.apache.myfaces.el.MethodBindingImpl.invoke(MethodBindingImpl.java:153)
+	at org.apache.myfaces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:63)
+	... 64 more
+Caused by: 
+java.lang.OutOfMemoryError
+: 
+Espaço de heap Java
+	at 
+java.util.Arrays
+.
+copyOf
+(
+Arrays.java
+:
+2
+2
+8
+2
+)
+	at 
+java.io.ByteArrayOutputStream
+.
+grow
+(
+ByteArrayOutputStream.java
+:
+1
+2
+4
+)
+	at 
+java.io.ByteArrayOutputStream
+.
+ensureCapacity
+(
+ByteArrayOutputStream.java
+:
+1
+0
+4
+)
+	at 
+java.io.ByteArrayOutputStream
+.
+write
+(
+ByteArrayOutputStream.java
+:
+1
+5
+1
+)
+	at 
+br.com.bradesco.web.custodia.service.business.fileserver.impl.FileServerImpl
+.
+copyAndClose
+(
+FileServerImpl.java
+:
+1
+7
+3
+)
+	at 
+br.com.bradesco.web.custodia.service.business.fileserver.impl.FileServerImpl
+.
+obterArquivo
+(
+FileServerImpl.java
+:
+1
+3
+3
+)
+	at 
+br.com.bradesco.web.custodia.telainicial.view.bean.InformativosBean
+.
+init
+(
+InformativosBean.java
+:
+5
+2
+)
+	at 
+br.com.bradesco.web.custodia.telainicial.view.bean.DadosAcessoBean
+.
+processarConteudoTelaInicial
+(
+DadosAcessoBean.java
+:
+1
+2
+4
+)
+	at 
+sun.reflect.NativeMethodAccessorImpl
+.
+invoke0
+(Native Method)
+	at 
+sun.reflect.NativeMethodAccessorImpl
+.
+invoke
+(
+NativeMethodAccessorImpl.java
+:
+9
+4
+)
+	at 
+sun.reflect.DelegatingMethodAccessorImpl
+.
+invoke
+(
+DelegatingMethodAccessorImpl.java
+:
+5
+5
+)
+	at 
+java.lang.reflect.Method
+.
+invoke
+(
+Method.java
+:
+6
+1
+9
+)
+	at 
+org.apache.myfaces.el.MethodBindingImpl
+.
+invoke
+(
+MethodBindingImpl.java
+:
+1
+2
+9
+)
+	... 
+6
+5
+ more
+2018-08-17 15:41:04,272 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Não foi encontrado o config para o tipo de exceção java.lang.RuntimeException]
+2018-08-17 15:41:04,272 WARN [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - [Nenhuma configuração encontrada para o tipo da exceção java.lang.RuntimeException]
+2018-08-17 15:45:38,308 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:45:38,308 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:45:38,308 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:45:38,308 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:45:38,323 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:45:38,323 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 15:45:38,323 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 15:45:38,323 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 15:45:38,323 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:45:38,323 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:45:38,323 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:45:38,323 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-08-17 15:45:38,417 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-08-17 15:45:38,480 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-08-17 15:45:38,761 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:45:38,761 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:45:38,761 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:45:38,761 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:45:38,761 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:45:38,777 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:45:38,777 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:45:38,777 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:46:38,260 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:46:39,873 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-08-17 15:46:45,225 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:46:45,253 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 15:46:51,876 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:46:51,903 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 15:47:04,983 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:47:05,010 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 15:47:28,953 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:47:28,980 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 15:47:37,499 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:47:37,528 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 15:50:51,545 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:50:51,545 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:50:51,545 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:50:51,561 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:50:51,561 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:50:51,561 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 15:50:51,561 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 15:50:51,561 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 15:50:51,561 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:50:51,561 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:50:51,576 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:50:51,576 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-08-17 15:50:51,686 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-08-17 15:50:51,748 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-08-17 15:50:52,124 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:50:52,124 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:50:52,124 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:50:52,124 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:50:52,124 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:50:52,124 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:50:52,140 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:50:52,140 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:51:19,452 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:51:20,478 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-08-17 15:51:38,210 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:51:38,237 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 15:55:44,661 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:55:44,661 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:55:44,661 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:55:44,661 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:55:44,677 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 15:55:44,677 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 15:55:44,677 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 15:55:44,677 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 15:55:44,677 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:55:44,677 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:55:44,677 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 15:55:44,692 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-08-17 15:55:44,802 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-08-17 15:55:44,864 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-08-17 15:55:45,228 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:55:45,228 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:55:45,228 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:55:45,244 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:55:45,260 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:55:45,260 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:55:45,260 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:55:45,260 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 15:59:12,836 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:59:13,992 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-08-17 15:59:18,014 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:59:18,043 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 15:59:24,815 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:59:24,840 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 15:59:35,099 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:59:35,123 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 15:59:40,488 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 15:59:40,529 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:14:25,046 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 17:14:25,046 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 17:14:25,046 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 17:14:25,046 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 17:14:25,046 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF]
+2018-08-17 17:14:25,046 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 17:14:25,046 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 17:14:25,046 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common]
+2018-08-17 17:14:25,062 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 17:14:25,062 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 17:14:25,062 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\common\errorPages]
+2018-08-17 17:14:25,062 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-08-17 17:14:25,164 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-08-17 17:14:25,202 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-08-17 17:14:25,468 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 17:14:25,468 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 17:14:25,468 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 17:14:25,483 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 17:14:25,483 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 17:14:25,483 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 17:14:25,483 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 17:14:25,483 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calitelainicial\WEB-INF\jsp\modal]
+2018-08-17 17:20:39,733 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:20:40,166 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-08-17 17:20:44,131 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:20:44,164 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:20:44,431 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:20:44,450 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:20:44,544 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:20:45,941 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:20:45,965 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:20:49,325 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:20:49,628 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:20:49,651 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:20:56,347 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:20:56,369 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:21:13,217 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:21:13,243 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:22:00,046 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:22:00,649 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:22:00,684 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:23:32,377 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:23:32,401 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:25:20,745 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:25:20,770 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:25:29,074 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:25:29,097 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:26:02,731 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:26:02,764 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:26:59,489 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:26:59,514 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:27:50,793 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:27:50,817 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:28:04,144 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:28:04,170 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:28:08,063 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:28:08,087 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:29:36,541 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:29:36,567 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:29:38,129 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:29:38,919 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:29:38,942 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:29:54,798 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:29:54,824 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:36:26,928 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:36:26,955 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-08-17 17:37:47,699 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-08-17 17:37:47,723 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]

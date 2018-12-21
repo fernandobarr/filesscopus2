@@ -1,0 +1,196 @@
+css.resource.path=
+
+#----------------------------------------------------------------------------------------------------
+# Gestão de Acesso -> Administração de Usuário -> Incluir usuario
+#----------------------------------------------------------------------------------------------------
+AIU.1.texto=Dados do Usuário
+AIU.2.texto=Confirmação
+AIU.3.texto=Conclusão
+
+#----------------------------------------------------------------------------------------------------
+# Gestão de Acesso -> Personalização e Segurança -> Gerar nova Chave de Criptografia
+#----------------------------------------------------------------------------------------------------
+TCC.1.texto=Dados de Criptografia
+TCC.2.texto=Confirmação
+TCC.3.texto=Conclusão
+
+#----------------------------------------------------------------------------------------------------
+# Gestão de Acesso -> Administração de Usuário -> Consultar, Incluir, Alterar acesso do Usuário aos Fundos do Passivo
+#----------------------------------------------------------------------------------------------------
+AIF.1.texto=Dados do Usuário
+AIF.2.texto=Confirmação
+AIF.3.texto=Conclusão
+
+AIP.1.texto=Dados do Perfil
+AIP.2.texto=Fundos
+AIP.3.texto=Confirmação
+AIP.4.texto=Conclusão
+
+AAP.1.texto=Dados do Perfil
+AAP.2.texto=Fundos
+AAP.3.texto=Confirmação
+AAP.4.texto=Conclusão
+
+ACU.1.texto=Dados do Usuário
+ACU.2.texto=Confirmação
+ACU.3.texto=Conclusão
+
+#----------------------------------------------------------------------------------------------------
+# Movimentações -> Incluir Movimento
+#----------------------------------------------------------------------------------------------------
+MOV.1.texto=Incluir Ordens de Aplicação e Resgate
+MOV.2.texto=Confirmação
+MOV.3.texto=Conclusão
+
+#----------------------------------------------------------------------------------------------------
+# Movimentações -> Alterar Movimento
+#----------------------------------------------------------------------------------------------------
+MOA.1.texto=Alterar Ordens de Aplicação e Resgate
+MOA.2.texto=Confirmação
+MOA.3.texto=Conclusão
+
+#----------------------------------------------------------------------------------------------------
+# Movimentações -> Importar Movimentos
+#----------------------------------------------------------------------------------------------------
+MOI.1.texto=Importação de Ordens por Arquivo
+MOI.2.texto=Confirmação
+MOI.3.texto=Conclusão
+
+#----------------------------------------------------------------------------------------------------
+# Cadastros -> Incluir Cadastro de Clientes e Cotistas
+#----------------------------------------------------------------------------------------------------
+
+PCA.1.texto=Dados do Investidor
+PCA.2.texto=Dados Profissionais e Financeiros
+PCA.3.texto=Dados do Distribuidor
+PCA.4.texto=Confirmação
+PCA.5.texto=Conclusão
+
+PCC.1.texto=Dados do Investidor
+PCC.2.texto=Representante / Custodiante
+PCC.3.texto=Dados Profissionais e Financeiros
+PCC.4.texto=Dados do Distribuidor
+PCC.5.texto=Confirmação
+PCC.6.texto=Conclusão
+
+PCB.1.texto=Dados do Investidor
+PCB.2.texto=Dados Profissionais e Financeiros
+PCB.3.texto=Dados do Distribuidor e Tipo de Investimento
+PCB.4.texto=Confirmação
+PCB.5.texto=Conclusão
+
+PCD.1.texto=Dados do Investidor
+PCD.2.texto=Dados Profissionais e Financeiros
+PCD.3.texto=Confirmação
+PCD.4.texto=Conclusão
+
+ADM.1.texto=Dados de Cadastro
+ADM.2.texto=Confirmação
+ADM.3.texto=Conclusão
+
+EDC.1.texto=Dados de Cadastro
+EDC.2.texto=Confirmação
+EDC.3.texto=Conclusão
+
+CAD.1.texto=Dados de Cadastro
+CAD.2.texto=Confirmação
+CAD.3.texto=Conclusão
+
+COR.1.texto=Dados de Cadastro
+COR.2.texto=Confirmação
+COR.3.texto=Conclusão
+
+ACL.1.texto=Dados de Cadastro
+ACL.2.texto=Confirmação
+ACL.3.texto=Conclusão
+
+SDD.1.texto=Dados de Cadastro
+SDD.2.texto=Confirmação
+SDD.3.texto=Conclusão
+
+ACL.1.texto=Dados de Cadastro
+ACL.2.texto=Confirmação
+ACL.3.texto=Conclusão
+PCE.1.texto=Dados do Investidor
+PCE.2.texto=Dados dos Representantes
+PCE.3.texto=Situação Financeira e Tributária
+PCE.4.texto=Dados do Distribuidor
+PCE.5.texto=Confirmação
+PCE.6.texto=Conclusão
+
+PCG.1.texto=Dados do Investidor
+PCG.2.texto=Dados do Distribuidor
+PCG.3.texto=Informações Bancárias
+PCG.4.texto=Confirmação
+PCG.5.texto=Conclusão
+
+#----------------------------------------------------------------------------------------------------
+# Extrato Clearings
+#----------------------------------------------------------------------------------------------------
+IGC.1.texto=Incluir Grupo de Carteira
+IGC.2.texto=Confirmação
+IGC.3.texto=Conclusão
+
+AGC.1.texto=Alterar Grupo de Carteira
+AGC.2.texto=Confirmação
+AGC.3.texto=Conclusão
+
+EGC.1.texto=Excluir Grupo de Carteira
+EGC.2.texto=Confirmação
+EGC.3.texto=Conclusão
+
+#----------------------------------------------------------------------------------------------------
+# Gestão de Acesso -> Administração de Usuário -> Incluir Autorização Automática Upload
+#----------------------------------------------------------------------------------------------------
+AAU.1.texto=Dados do Usuário
+AAU.2.texto=Confirmação
+AAU.3.texto=Conclusão
+
+#----------------------------------------------------------------------------------------------------
+# Publicador de arquivos
+#----------------------------------------------------------------------------------------------------
+TGI.1.texto=Incluir Cliente
+TGI.2.texto=Confirmação
+TGI.3.texto=Conclusão
+
+TGA.1.texto=Alterar Cliente
+TGA.2.texto=Confirmação
+TGA.3.texto=Conclusão
+
+TUI.1.texto=Incluir Usuário
+TUI.2.texto=Confirmação
+TUI.3.texto=Conclusão
+
+TUA.1.texto=Alterar Usuário
+TUA.2.texto=Confirmação
+TUA.3.texto=Conclusão
+
+TUP.1.texto=Selecionar Arquivo
+TUP.2.texto=Definições
+TUP.3.texto=Selecionar Usuários
+TUP.4.texto=Confirmação
+TUP.5.texto=Conclusão
+
+TCC.1.texto=Incluir Categoria
+TCC.2.texto=Confirmação
+TCC.3.texto=Conclusão
+
+TCA.1.texto=Alterar Categoria
+TCA.2.texto=Confirmação
+TCA.3.texto=Conclusão
+
+SCI.1.texto=Incluir
+SCI.2.texto=Confirmação
+SCI.3.texto=Conclusão
+
+SCA.1.texto=Alterar
+SCA.2.texto=Confirmação
+SCA.3.texto=Conclusão
+
+PEI.1.texto=Incluir
+PEI.2.texto=Confirmação
+PEI.3.texto=Conclusão
+
+PEA.1.texto=Alterar
+PEA.2.texto=Confirmação
+PEA.3.texto=Conclusão

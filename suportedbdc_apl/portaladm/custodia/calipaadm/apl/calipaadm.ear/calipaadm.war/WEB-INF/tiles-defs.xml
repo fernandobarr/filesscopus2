@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+		"-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+		"http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+<tiles-definitions>
+
+	<definition name="sessaoInvalida" path="/WEB-INF/jsp/sessaoInvalida.jsp" />
+	<definition name="servicoIndisponivel" path="/WEB-INF/jsp/servicoIndisponivel.jsp" />
+	<definition name="erroAutenticacao" path="/WEB-INF/jsp/erroAutenticacao.jsp" />
+	
+	<definition name="erroFormulario" path="/WEB-INF/jsp/servicoIndisponivel.jsp" />
+	<definition name="erroAction" path="/WEB-INF/jsp/servicoIndisponivel.jsp" />
+
+	<definition name="portalAdm.main" path="/WEB-INF/jsp/layout.jsp">
+		<put name="header" value="/WEB-INF/jsp/cabecalho.jsp"/>
+		<put name="body" value="XXX"/>
+		<put name="numTela" value="XXX"/> 
+		<put name="footer" value="/WEB-INF/jsp/rodape.jsp"/>
+	</definition>
+
+	<definition name="portalAdm.popup" path="/WEB-INF/jsp/layoutPopup.jsp">
+		<put name="header" value="/WEB-INF/jsp/cabecalho_popup.jsp"/>
+		<put name="body" value="XXX"/>
+		<put name="numTela" value="XXX"/> 
+		<put name="footer" value="/WEB-INF/jsp/rodape.jsp"/>
+	</definition>
+	
+	<!-- Menu Principal -->
+	<definition name="menuPrincipal" extends="portalAdm.main">
+		<put name="body" value="/WEB-INF/jsp/menuPrincipal.jsp" />
+		<put name="numTela" value="XXX"/>
+		<put name="titulo" value="Menu Administração" />
+	</definition>	
+	
+	<!-- Página inicial - Controle de Menu -->
+	<definition name="controle" extends="portalAdm.main">
+		<put name="body" value="/WEB-INF/jsp/controlemenu/controleMenu.jsp" />
+		<put name="numTela" value="XXX"/>
+		<put name="titulo" value="Controle de Menus" />
+	</definition>
+	<definition name="editarMenu" path="/WEB-INF/jsp/controlemenu/editarMenu.jsp">
+	</definition>
+	<definition name="gravarMenu" extends="portalAdm.main">
+		<put name="body" value="/WEB-INF/jsp/controlemenu/sucessoGravarMenu.jsp" />
+		<put name="numTela" value="XXX"/>
+		<put name="titulo" value="Controle de Menus" />
+	</definition>
+	
+	<!-- Página inicial - Parametrização de Empresas -->
+	<definition name="selecionarEmpresa" extends="portalAdm.main">
+		<put name="body" value="/WEB-INF/jsp/paramempresa/selecionarEmpresa.jsp" />
+		<put name="numTela" value="XXX"/>
+		<put name="titulo" value="Parametrização de Empresas" />
+	</definition>
+	<definition name="gravarEmpresa" extends="portalAdm.main">
+		<put name="body" value="/WEB-INF/jsp/paramempresa/sucessoGravarEmpresa.jsp" />
+		<put name="numTela" value="XXX"/>
+		<put name="titulo" value="Parametrização de Empresas" />
+	</definition>
+
+	<!-- Página inicial - Query Online -->
+	<definition name="queryOnline" extends="portalAdm.main">
+		<put name="body" value="/WEB-INF/jsp/queryonline/queryOnline.jsp" />
+		<put name="numTela" value="XXX"/>
+		<put name="titulo" value="Query Online" />
+	</definition>
+	<definition name="executarQuery" extends="portalAdm.main">
+		<put name="body" value="/WEB-INF/jsp/queryonline/queryOnline.jsp" />
+		<put name="numTela" value="XXX"/>
+		<put name="titulo" value="Query Online" />
+	</definition>
+
+</tiles-definitions>

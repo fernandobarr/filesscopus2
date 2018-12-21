@@ -1,0 +1,31 @@
+#Caminho utilizado para visualização - Estilo,Imagens e JavaScripts
+caminhoEstaticoEstilo=https://www.bc3.custodia.hm1.scopus.com.br/portaladm/site/estilo
+caminhoEstaticoImagem=https://www.bc3.custodia.hm1.scopus.com.br/portaladm/site/imgs
+caminhoEstaticoJavaScript=https://www.bc3.custodia.hm1.scopus.com.br/portaladm/site/js
+caminhoEstaticoTemaJquery=https://www.bc3.custodia.hm1.scopus.com.br/portaladm/site/jquerytema/smoothness
+
+#Caminho físico para armazenamento de arquivos - Publico Alvo, Imagens e Imagens temporarias na visualização no portal
+#dirConteudoImagem=/www/custodia/bc3/portaladm/comum/dirConteudoImagem/
+#dirConteudoImagemTemp=/www/custodia/bc3/portaladm/comum/dirConteudoImagemTemp/
+dirConteudoImagem=/STORAGE/custodia/
+dirConteudoImagemTemp=/www/ne3/portaladm/comum/dirConteudoImagemTemp/
+
+#Caminho onde as imagens serão obtidas para visualização.
+dirConteudoImagemVirtual=https://www.bc3.custodia.hm1.scopus.com.br/portaladm/comum/dirConteudoImagem/
+dirConteudoImagemVirtualTemp=https://www.bc3.custodia.hm1.scopus.com.br/portaladm/comum/dirConteudoImagemTemp/
+
+#dirConteudoArquivo=/www/custodia/bc3/portaladm/comum/dirInformativos
+dirConteudoArquivo=/www/ne3/portaladm/comum/dirInformativos
+dirConteudoArquivoVirtual=https://www.bc3.custodia.hm1.scopus.com.br/portaladm/comum/dirInformativos
+
+urlMenuPortal=https://ints015/portaladm/ExibirMenu.do
+urlEncerrarSessao=https://ints015/portaladm/EncerrarSessao.do
+url.base=https://www.bc2.custodia.hm1.scopus.com.br
+
+tamMaximoBytesUploadImagem=600000
+qtdLinhasExibicao = 2
+
+codigoGrupoFuncionalidade=999
+
+qtdeMinimaMaster=0
+qtdeMaximaMaster=9

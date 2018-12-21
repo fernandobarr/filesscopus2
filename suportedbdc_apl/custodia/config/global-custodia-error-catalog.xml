@@ -1,0 +1,60 @@
+<errorCatalog>
+
+	<error type="br.com.bradesco.web.custodia.exception.CustodiaException"
+		handler="custodiaExceptionHandler">
+		<log-behaviour severity="warn" />
+		<redirect-behaviour path="/appException.jsf" showInModal="false"
+			messageKey="error.message.key" />
+	</error>
+
+	<error
+		type="br.com.bradesco.web.custodia.service.provider.security.sessao.check.exception.SessionCheckException"
+		handler="sessionCheckExceptionHandler">
+		<log-behaviour severity="warn" />
+		<redirect-behaviour path="${url.base}/calilogin/logoff.jsf?CTRL=${CTRL}" showInModal="false"
+		messageKey="error.message.key" />
+	</error>
+	<error
+		type="br.com.bradesco.web.custodia.service.business.sessao.exception.AcessoIndevidoException"
+		handler="sessionCheckExceptionHandler">
+		<log-behaviour severity="warn" />
+		<redirect-behaviour path="${url.base}/calilogin/logoff.jsf?CTRL=${CTRL}" showInModal="false"
+			messageKey="error.message.key" />
+	</error>
+	<error
+		type="br.com.bradesco.web.custodia.service.business.sessao.exception.ControleInvalidoException"
+		handler="sessionCheckExceptionHandler">
+		<log-behaviour severity="warn" />
+		<redirect-behaviour path="${url.base}/calilogin/logoff.jsf?CTRL=${CTRL}" showInModal="false"
+			messageKey="error.message.key" />
+	</error>
+	<error
+		type="br.com.bradesco.web.custodia.service.business.sessao.exception.IpInvalidoException"
+		handler="sessionCheckExceptionHandler">
+		<log-behaviour severity="warn" />
+		<redirect-behaviour path="${url.base}/calilogin/logoff.jsf?CTRL=${CTRL}" showInModal="false"
+			messageKey="error.message.key" />
+	</error>
+	<error
+		type="br.com.bradesco.web.custodia.service.business.sessao.exception.SessaoEncerradaException"
+		handler="sessionCheckExceptionHandler">
+		<log-behaviour severity="warn" />
+		<redirect-behaviour path="${url.base}/calilogin/logoff.jsf?CTRL=${CTRL}" showInModal="false"
+			messageKey="error.message.key" />
+	</error>
+	<error
+		type="br.com.bradesco.web.custodia.service.business.sessao.exception.TempoSessaoExcedidoException"
+		handler="sessionCheckExceptionHandler">
+		<log-behaviour severity="warn" />
+		<redirect-behaviour path="${url.base}/calilogin/logoff.jsf?CTRL=${CTRL}" showInModal="false"
+			messageKey="error.message.key" />
+	</error>
+	<error
+		type="br.com.bradesco.web.custodia.service.business.sessao.exception.SessaoCustodiaServiceException"
+		handler="sessionCheckExceptionHandler">
+		<log-behaviour severity="warn" />
+		<redirect-behaviour path="${url.base}/calilogin/logoff.jsf?CTRL=${CTRL}" showInModal="false"
+			messageKey="error.message.key" />
+	</error>
+
+</errorCatalog>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSourceExtensions>
+  <extendedDSPropertySet resRefOrModuleName="ibpjfiltroportal.war#jdbc/dbNetPJDS"/>
+  <extendedDSPropertySet resRefOrModuleName="ibpjfiltroportal.war#jdbc/config2DS"/>
+  <extendedDSPropertySet resRefOrModuleName="ibpjfiltroportal.war#jdbc/DBCorpDS"/>
+  <extendedDSPropertySet resRefOrModuleName="ibpjfiltroportal.war#jdbc/sessao"/>
+  <extendedDSPropertySet resRefOrModuleName="ibpjfiltroportal.war#jdbc/login"/>
+</dataSourceExtensions>

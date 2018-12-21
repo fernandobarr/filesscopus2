@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <!-- Definição de bean de acesso a configurações de application.properties -->    
+    <bean id="propConfig" class="br.com.bradesco.web.custodia.view.bean.PropConfig">
+            <property name="properties">
+                <map>
+                    <entry key="url.domain"><value>${url.domain}</value></entry>
+                    <entry key="url.base"><value>${url.base}</value></entry>
+                    <!--<entry key="url.base.http"><value>${url.base.http}</value></entry> -->
+					<entry key="url.base.estaticos"><value>${url.base.estaticos}</value></entry>
+					<!--<entry key="url.base.windows"><value>${url.base.windows}</value></entry>
+					<entry key="url.base.vcm"><value>${url.base.vcm}</value></entry>
+                    <entry key="url.base.webta"><value>${url.base.webta}</value></entry>
+					<entry key="url.webta.net.pgit.retorno"><value>${url.webta.net.pgit.retorno}</value></entry>
+					<entry key="url.base.webta.http"><value>${url.base.webta.http}</value></entry>
+					<entry key="url.webta.net.pgit.remessa"><value>${url.webta.net.pgit.remessa}</value></entry>
+                    <entry key="url.pagamentos"><value>${url.pagamentos}</value></entry>
+                    <entry key="url.transferencias"><value>${url.transferencias}</value></entry>-->
+					<entry key="url.personalizacaoSeguranca"><value>${url.personalizacaoSeguranca}</value></entry>
+					<!-- <entry key="url.personalizacaoSeguranca.impressao"><value>${url.personalizacaoSeguranca.impressao}</value></entry>
+					<entry key="url.personalizacaoSeguranca.posicaoFinanceira"><value>${url.personalizacaoSeguranca.posicaoFinanceira}</value></entry>
+					<entry key="url.personalizacaoSeguranca.operacoesMaisUtilizadas"><value>${url.personalizacaoSeguranca.operacoesMaisUtilizadas}</value></entry>
+					<entry key="url.personalizacaoSeguranca.comprovantesPorEmail"><value>${url.personalizacaoSeguranca.comprovantesPorEmail}</value></entry>
+					<entry key="url.personalizacaoSeguranca.email"><value>${url.personalizacaoSeguranca.email}</value></entry>
+					<entry key="url.personalizacaoSeguranca.configurarServicosRecebidosEmail"><value>${url.personalizacaoSeguranca.configurarServicosRecebidosEmail}</value></entry>
+					<entry key="url.saldosextratos"><value>${url.saldosextratos}</value></entry>
+                    <entry key="url.saldosextratos.autenticacao.linha"><value>${url.saldosextratos.autenticacao.linha}</value></entry>-->
+					<entry key="url.sei.salvar"><value>${url.sei.salvar}</value></entry>
+					<entry key="url.sei.email"><value>${url.sei.email}</value></entry>
+					<entry key="url.sei.imprimir"><value>${url.sei.imprimir}</value></entry>
+					<!-- <entry key="url.personalizacaoSeguranca.personalizarAcessos"><value>${url.personalizacaoSeguranca.personalizarAcessos}</value></entry>
+                    <entry key="url.favorecidos.cadastramento"><value>${url.favorecidos.cadastramento}</value></entry>
+                    <entry key="url.favorecidos.lista"><value>${url.favorecidos.lista}</value></entry>
+					<entry key="url.agendamento"><value>${url.agendamento}</value></entry>
+                    <entry key="service.loadStaticResources.diretorio.applet"><value>${service.loadStaticResources.diretorio.applet}</value></entry>
+					<entry key="service.loadStaticResources.diretorio.activex.login"><value>${service.loadStaticResources.diretorio.activex.login}</value></entry> -->
+                    <entry key="securityManager.sessioncheck.ctlName"><value>${securityManager.sessioncheck.ctlName}</value></entry>
+					<entry key="securityManager.sessioncheck.ctlCookieName"><value>${securityManager.sessioncheck.ctlCookieName}</value></entry>
+                    <entry key="service.loadStaticResources.diretorio.imagens"><value>${service.loadStaticResources.diretorio.imagens}</value></entry>
+                    <entry key="service.loadStaticResources.diretorio.pdf"><value>${service.loadStaticResources.diretorio.pdf}</value></entry>
+                    <entry key="service.loadStaticResources.diretorio.css"><value>${service.loadStaticResources.diretorio.css}</value></entry>
+					<entry key="service.loadStaticResources.diretorio.javascripts"><value>${service.loadStaticResources.diretorio.javascripts}</value></entry>
+                    <entry key="service.loadStaticResources.diretorio.htm"><value>${service.loadStaticResources.diretorio.htm}</value></entry>
+                    <!--<entry key="pluginSeguranca.classId"><value>${pluginSeguranca.classId}</value></entry>
+                    <entry key="pluginSeguranca.codeBase"><value>${pluginSeguranca.codeBase}</value></entry>
+                    <entry key="pluginSeguranca.versaoMinima"><value>${pluginSeguranca.versaoMinima}</value></entry>
+					<entry key="url.home"><value>${url.home}</value></entry>
+					<entry key="url.outrosServicos"><value>${url.outrosServicos}</value></entry>
+					<entry key="url.celulares"><value>${url.celulares}</value></entry>
+					<entry key="url.investimentos"><value>${url.investimentos}</value></entry>
+					<entry key="url.cartoes"><value>${url.cartoes}</value></entry>
+					<entry key="url.cartoes.extrato"><value>${url.cartoes.extrato}</value></entry>					
+					<entry key="url.emprestimos"><value>${url.emprestimos}</value></entry>
+					<entry key="url.canaisAtendimento"><value>${url.canaisAtendimento}</value></entry>
+					<entry key="url.mensagensAvisos"><value>${url.mensagensAvisos}</value></entry>
+					<entry key="url.comprovantes"><value>${url.comprovantes}</value></entry>
+					<entry key="url.mapaServicos"><value>${url.mapaServicos}</value></entry>
+					<entry key="url.buscador"><value>${url.buscador}</value></entry>
+					<entry key="url.acessorapido.modal"><value>${url.acessorapido.modal}</value></entry>
+					<entry key="url.acessorapido.codigos"><value>${url.acessorapido.codigos}</value></entry>
+					<entry key="url.acessorapido.codigos"><value>${url.acessorapido.codigos}</value></entry>					
+					<entry key="url.meuBradesco"><value>${url.meuBradesco}</value></entry>
+					<entry key="url.mapaServicos.rodape"><value>${url.mapaServicos.rodape}</value></entry>
+					<entry key="url.infoemail"><value>${url.infoemail}</value></entry>
+                    <entry key="url.faleconosco.varejo"><value>${url.faleconosco.varejo}</value></entry>
+                    <entry key="url.faleconosco.varejo.novajanela"><value>${url.faleconosco.varejo.novajanela}</value></entry>
+                    <entry key="url.faleconosco.prime"><value>${url.faleconosco.prime}</value></entry>
+                    <entry key="url.faleconosco.prime.novajanela"><value>${url.faleconosco.prime.novajanela}</value></entry>
+                    <entry key="url.dispatcher"><value>${url.dispatcher}</value></entry>
+                    <entry key="url.dispatcher.espera"><value>${url.dispatcher.espera}</value></entry>
+					<entry key="url.administracao"><value>${url.administracao}</value></entry>
+					<entry key="url.bancaria.cadastramento.contas"><value>${url.bancaria.cadastramento.contas}</value></entry>
+					<entry key="url.bancaria.descadastramento.contas"><value>${url.bancaria.descadastramento.contas}</value></entry>
+					<entry key="url.bancaria.alteracao.limite"><value>${url.bancaria.alteracao.limite}</value></entry>
+					<entry key="url.interbancaria.cadastramento.contas"><value>${url.interbancaria.cadastramento.contas}</value></entry>
+					<entry key="url.interbancaria.descadastramento.contas"><value>${url.interbancaria.descadastramento.contas}</value></entry>
+					<entry key="url.interbancaria.alteracao.limite"><value>${url.interbancaria.alteracao.limite}</value></entry>
+					<entry key="url.webta.pendentes"><value>${url.webta.pendentes}</value></entry>
+					<entry key="url.webta.pendentesEmpresa"><value>${url.webta.pendentesEmpresa}</value></entry>
+					<entry key="url.webta.autorizadas"><value>${url.webta.autorizadas}</value></entry>
+					<entry key="url.webta.recusadasExpiradas"><value>${url.webta.recusadasExpiradas}</value></entry>
+					<entry key="url.cobranca"><value>${url.cobranca}</value></entry>
+                    <entry key="url.cobranca.relatorios"><value>${url.cobranca.relatorios}</value></entry>
+					<entry key="url.cobranca.manutencao"><value>${url.cobranca.manutencao}</value></entry>
+					<entry key="url.campanhas.base"><value>${url.campanhas.base}</value></entry>
+                    <entry key="url.campanhas.home"><value>${url.campanhas.home}</value></entry>
+                    <entry key="url.campanhas.entretela"><value>${url.campanhas.entretela}</value></entry>
+                    <entry key="url.campanhas.transpromo"><value>${url.campanhas.transpromo}</value></entry>
+                    <entry key="url.campanhas.encerramento"><value>${url.campanhas.encerramento}</value></entry>
+					<entry key="url.campanhas.pesquisa"><value>${url.campanhas.pesquisa}</value></entry>
+					<entry key="url.base.login.autenticador"><value>${url.base.login.autenticador}</value></entry>
+					<entry key="url.autorizacoesPendentesProc"><value>${url.autorizacoesPendentesProc}</value></entry>
+					<entry key="url.autorizacoesPendentesEmpresa"><value>${url.autorizacoesPendentesEmpresa}</value></entry>
+					<entry key="url.autorizacoesRecusadasExpiradas"><value>${url.autorizacoesRecusadasExpiradas}</value></entry>
+                    <entry key="url.cobranca"><value>${url.cobranca}</value></entry>
+					<entry key="url.personalizacaoSeguranca.meusDados"><value>${url.personalizacaoSeguranca.meusDados}</value></entry>
+					<entry key="url.saldos"><value>${url.saldos}</value></entry>
+					<entry key="url.personalizacao.contas"><value>${url.personalizacao.contas}</value></entry>
+					<entry key="url.lancamentosfuturos"><value>${url.lancamentosfuturos}</value></entry>
+					<entry key="url.agendamento.autorizacoes"><value>${url.agendamento.autorizacoes}</value></entry>
+					<entry key="url.saldosextratos.cc.lancamentosfuturos"><value>${url.saldosextratos.cc.lancamentosfuturos}</value></entry>
+					<entry key="url.saldosextratos.cp.lancamentosfuturos"><value>${url.saldosextratos.cp.lancamentosfuturos}</value></entry>
+					<entry key="url.saldosextratos.ci.lancamentosfuturos"><value>${url.saldosextratos.ci.lancamentosfuturos}</value></entry>
+					<entry key="url.saldosextratos.cc.saldos"><value>${url.saldosextratos.cc.saldos}</value></entry>
+					<entry key="url.saldosextratos.cp.saldos"><value>${url.saldosextratos.cp.saldos}</value></entry>
+					<entry key="url.saldosextratos.ci.saldos"><value>${url.saldosextratos.ci.saldos}</value></entry>
+					<entry key="url.dashboardInicial"><value>${url.dashboardInicial}</value></entry>
+                    <entry key="autenticador.webservice.url"><value>${autenticador.webservice.url}</value></entry>
+					<entry key="url.voltarContratacao"><value>${url.voltarContratacao}</value></entry>
+					<entry key="url.autorizacoesAutorizadas"><value>${url.autorizacoesAutorizadas}</value></entry>
+					<entry key="url.alterarCertificadoAcesso"><value>${url.alterarCertificadoAcesso}</value></entry>
+					<entry key="url.perfil.resumoPerfil"><value>${url.perfil.resumoPerfil}</value></entry>
+					<entry key="url.personalizacaoSeguranca.contaspadroes"><value>${url.personalizacaoSeguranca.contaspadroes}</value></entry>
+					<entry key="url.sei.institucional.salvar"><value>${url.sei.institucional.salvar}</value></entry>
+					<entry key="url.sei.institucional.email"><value>${url.sei.institucional.email}</value></entry>
+					<entry key="url.sei.institucional.imprimir"><value>${url.sei.institucional.imprimir}</value></entry>
+					<entry key="url.custodia"><value>${url.custodia}</value></entry>
+					<entry key="url.seguranca"><value>${url.seguranca}</value></entry>
+					<entry key="url.perguntasFrequentes"><value>${url.perguntasFrequentes}</value></entry>
+					<entry key="url.base.applet"><value>${url.base.applet}</value></entry>
+					<entry key="url.dicas.seguranca"><value>${url.dicas.seguranca}</value></entry>
+					<entry key="url.fale.conosco.institucional"><value>${url.fale.conosco.institucional}</value></entry>
+					<entry key="url.atendimento.pessoa.juridica"><value>${url.atendimento.pessoa.juridica}</value></entry>
+                    <entry key="url.personalizacaoSeguranca.personalizarResumoSaldos"><value>${url.personalizacaoSeguranca.personalizarResumoSaldos}</value></entry>
+					<entry key="url.como.usar.brtoken"><value>${url.como.usar.brtoken}</value></entry>
+					<entry key="autenticador.activex.classid"><value>${autenticador.activex.classid}</value></entry>
+					<entry key="autenticador.activex.version"><value>${autenticador.activex.version}</value></entry>
+					<entry key="autenticador.activex.brToken.classid"><value>${autenticador.activex.brToken.classid}</value></entry>
+					<entry key="autenticador.activex.brToken.version"><value>${autenticador.activex.brToken.version}</value></entry>
+					<entry key="duplicidade.mainframe.poll.time.request"><value>${duplicidade.mainframe.poll.time.request}</value></entry>	
+					<entry key="duplicidade.mainframe.poll.timeout"><value>${duplicidade.mainframe.poll.timeout}</value></entry>	
+					<entry key="url.pgit"><value>${url.pgit}</value></entry>
+					<entry key="url.institucional.validacao.token.celular"><value>${url.institucional.validacao.token.celular}</value></entry>
+					<entry key="url.institucional.validacao.token.fisico"><value>${url.institucional.validacao.token.fisico}</value></entry>-->
+					<entry key="cali.sessao.core.lista.ips.servidores"><value>${cali.sessao.core.lista.ips.servidores}</value></entry>
+					<entry key="url.telainicial"><value>${url.telainicial}</value></entry>
+					<entry key="url.menu.ativos"><value>${url.menu.ativos}</value></entry>
+					<entry key="url.menu.caixa.online"><value>${url.menu.caixa.online}</value></entry>
+					<entry key="url.telainicial.conteudoFrame"><value>${url.telainicial.conteudoFrame}</value></entry>
+					<entry key="url.site.institucional"><value>${url.site.institucional}</value></entry>
+					<entry key="url.site.institucional.contratacao"><value>${url.site.institucional.contratacao}</value></entry>
+					<entry key="url.alterarUsuario"><value>${url.alterarUsuario}</value></entry>
+					<entry key="url.logoff"><value>${url.logoff}</value></entry>
+					<entry key="url.logoff.fimSessao"><value>${url.logoff.fimSessao}</value></entry>
+					<entry key="url.menu.gestaoacessos"><value>${url.menu.gestaoacessos}</value></entry>
+					<entry key="url.gestao.acesso"><value>${url.gestao.acesso}</value></entry>
+					<entry key="url.gestao.incluirUsuarios"><value>${url.gestao.incluirUsuarios}</value></entry>
+					<entry key="url.gestao.acessoUsuario"><value>${url.gestao.acessoUsuario}</value></entry>
+					<entry key="url.gestao.consultarLog"><value>${url.gestao.consultarLog}</value></entry>
+					<entry key="url.perfil.incluirPerfil"><value>${url.perfil.incluirPerfil}</value></entry>
+					<entry key="url.perfil.administracaoPerfil"><value>${url.perfil.administracaoPerfil}</value></entry>
+					<entry key="url.passivos.fundos.investimentos"><value>${url.passivos.fundos.investimentos}</value></entry>
+					<entry key="parameter.max.value.modal.cotista"><value>${parameter.max.value.modal.cotista}</value></entry>
+					<entry key="parameter.max.value.modal.fundo"><value>${parameter.max.value.modal.fundo}</value></entry>
+					<entry key="parameter.max.value.modal.distribuidor"><value>${parameter.max.value.modal.distribuidor}</value></entry>
+					<entry key="parameter.max.value.modal.operador"><value>${parameter.max.value.modal.operador}</value></entry>
+					<entry key="parameter.max.value.modal.administrador"><value>${parameter.max.value.modal.administrador}</value></entry>
+					<entry key="url.personalizacaoSeguranca.alterarMeuAcesso"><value>${url.personalizacaoSeguranca.alterarMeuAcesso}</value></entry>
+					<entry key="cali.fileserver.core.directory.file.server"><value>${cali.fileserver.core.directory.file.server}</value></entry>
+					<entry key="url.cali.cadastro"><value>${url.cali.cadastro}</value></entry>
+					<entry key="url.clearings.telainicial"><value>${url.clearings.telainicial}</value></entry>
+					<entry key="url.clearings.upload"><value>${url.clearings.upload}</value></entry>
+					<entry key="url.telainicial.sessao.persistente"><value>${url.telainicial.sessao.persistente}</value></entry>
+					<entry key="campanhas.dirUrlBaseImagem"><value>${campanhas.dirUrlBaseImagem}</value></entry>
+					<entry key="campanhas.dirUrlBaseInformativo"><value>${campanhas.dirUrlBaseInformativo}</value></entry>
+					<entry key="servicos.maisutilizadas.default"><value>${servicos.maisutilizadas.default}</value></entry>
+				</map>
+            </property>
+    </bean>	
+
+	
+    <!-- Definição de serviço de definição de caminho de recursos estáticos -->    
+	<bean id="loadStaticResourcesService" 
+		class="br.com.bradesco.web.custodia.service.provider.loadresources.impl.LoadStaticResourcesServiceCustodiaImpl">
+		<property name="serviceEnabled"><value>${service.loadStaticResources.enable}</value></property>
+
+		<property name="diretorioRemotoImagens"><value>${service.loadStaticResources.diretorio.imagens}</value></property>
+		<property name="diretorioRemotoJavascript"><value>${service.loadStaticResources.diretorio.javascripts}</value></property>
+		<property name="diretorioRemotoCss"><value>${service.loadStaticResources.diretorio.css}</value></property>
+
+		<property name="extensaosValidasImagens"><value>${service.loadStaticResources.extensao.imagens}</value></property>
+		<property name="extensaosValidasJs"><value>${service.loadStaticResources.extensao.javascripts}</value></property>
+		<property name="extensaosValidasCss"><value>${service.loadStaticResources.extensao.css}</value></property>
+	</bean>
+    
+</beans>

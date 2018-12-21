@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<!--
+  - Application context definições no Hibernate
+	-->
+<beans> 
+
+	<!-- ========================= RESOURCE DEFINITIONS ========================= -->  
+	
+
+	<!-- JNDI DataSource for J2EE environments -->
+  	<bean id="calid002DataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiName"><value>jdbc/CALID002</value></property>
+		<property name="resourceRef"><value>true</value></property>
+	</bean>
+ 
+	<!-- Hibernate SessionFactory -->
+
+	<!--<bean id="calid003SessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource"><ref local="calid003DataSource"/></property>
+		<property name="mappingLocations">
+			<list>
+				<value>classpath*:config/*.calid003.hbm.xml</value>
+			</list>
+		</property>
+
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">
+					${dataService.dao.hibernate.config.properties.hibernateDialect}
+				</prop>
+				<prop key="hibernate.show_sql">
+					${dataService.dao.hibernate.config.properties.hibernateShowSql}
+				</prop>-->
+				<!-- Disable the second-level cache-->
+				<!--<prop key="hibernate.cache.use_second_level_cache">
+					${dataService.dao.hibernate.config.properties.hibernateCacheUsedSecondLevelCache}
+				</prop>
+				-->
+				<!-- Enable Hibernate's automatic session context management 				
+				<prop key="current_session_context_class">
+					${dataService.dao.hibernate.config.properties.hibernateCurrentSessionContextClass}
+				</prop>-->
+				
+				<!-- Hibernate Connection Pool -->
+				<!--<prop key="hibernate.connection.provider_class">
+					${dataService.dao.hibernate.config.properties.hibernateConnectionProviderClass}
+				</prop>
+                <prop key="hibernate.connection.pool_size">
+                	${dataService.dao.hibernate.config.properties.hibernateConnectionPoolSize}
+                </prop>
+                <prop key="hibernate.c3p0.min_size">
+                	${dataService.dao.hibernate.config.properties.hibernateC3p0MinSize}
+                </prop>
+                <prop key="hibernate.c3p0.max_size">
+                	${dataService.dao.hibernate.config.properties.hibernateC3p0MaxSize}
+                </prop>
+                <prop key="hibernate.c3p0.timeout">
+                	${dataService.dao.hibernate.config.properties.hibernateC3p0Timeout}
+                </prop>
+                <prop key="hibernate.c3p0.max_statments">
+                	${dataService.dao.hibernate.config.properties.hibernateC3p0MaxStatments}
+                </prop>-->
+                <!-- test and check -->
+                <!--<prop key="hibernate.c3p0.idle_test_period">
+					${dataService.dao.hibernate.config.properties.hibernateC3p0IdleTestPeriod}
+                </prop>
+                <prop key="hibernate.c3p0.acquire_increment">
+                	${dataService.dao.hibernate.config.properties.hibernateC3p0AcquireIncrement}
+                </prop>
+                <prop key="hibernate.c3p0.validate">
+                	${dataService.dao.hibernate.config.properties.hibernateC3p0Validate}
+                </prop>			
+            </props>
+	    </property>
+		<property name="eventListeners">
+			<map>
+				<entry key="merge">
+					<bean class="org.springframework.orm.hibernate3.support.IdTransferringMergeEventListener"/>
+				</entry>
+			</map>
+		</property>
+	</bean>-->
+	
+	
+	<!-- ========================= DAOS OBJECT DEFINITIONS ========================= -->
+
+	<!-- Bases que injectan managers genericos -->	
+	<!--<bean id="calid003DaoBase"
+        class="br.com.bradesco.web.aq.application.dao.hibernate.BradescoHibernateDAOSupport"
+        abstract="true" >
+        <property name="logManager" ref="logManager"/>
+        
+        <property name="sessionFactory">
+            <ref bean="calid003SessionFactory"/>
+        </property>
+    </bean>-->
+	
+  		
+    		
+</beans>

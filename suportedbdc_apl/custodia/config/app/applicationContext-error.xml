@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+	<!-- 
+		 Bean core del componente Gestor de Errores. El atributo handlers es una map que contiene   
+	     indexados los distintos handlers que el bean exceptionManager maneja. Implementa la rutina 
+	     principal de tratamiento de errores (solicitar item de configuración, invocar al handler   
+	     Ejemplo:          
+	                                                                                          
+		    <entry key="<handler_key>">                                                           
+		         <ref bean="<your_handler_bean_id>"/>                                             
+		    </entry>                                                                              
+	-->
+
+	<bean id="exceptionManager"
+		  class="br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl">
+		  	<property name="logger"><ref bean="logManager"/></property>	
+		  	<property name="exceptionCatalog"><ref bean="exceptionCatalog"/></property>
+		  	<property name="exceptionManagerStatistics">
+		  				<ref bean="exceptionManagerStatistics"/>
+		  	</property>
+		  	<property name="defaultExceptionHandler"><ref bean="defaultExceptionHandler"/></property>
+		  	<property name="handlers">
+		  		 <map>
+		  		 	 <entry key="architectureExceptionHandler">
+			         	<ref bean="architectureExceptionHandler"/>
+			         </entry>
+			         <entry key="applicationExceptionHandler">
+			         	<ref bean="applicationExceptionHandler"/>
+			         </entry>
+			         <entry key="custodiaExceptionHandler">
+			         	<ref bean="custodiaExceptionHandler"/>
+			         </entry>
+			         <entry key="sessionCheckExceptionHandler">
+			         	<ref bean="sessionCheckExceptionHandler"/>
+			         </entry>
+        	   	</map>
+		  	</property>
+	</bean>
+	
+	<!-- 
+	     Bean que contiene una colección de items de configuración (IExceptionConfig). Expone métodos
+		 para la búsqueda del item de configuración de una excepción o error dado. Su método init 	  
+		 parsea el Resource indicado por la propiedad xmlMappingResource a objetos Java 			  
+		 xmlMappingResource es una propiedad de tipo Resource del API de Spring. De forma automática  
+		 Spring generar un Resource en base a la localización especificada 							  
+ 																							  
+		 classpath:<resource_qualified_name>					
+		 Realiza búsqueda en el classpath															  
+	-->
+	
+	<bean id="exceptionCatalog"
+		  class="br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl"
+		  init-method="init">
+		  	<property name="logger"><ref bean="logManager"/></property>			  	
+		  	<property name="defaultExceptionConfig"><ref bean="defaultExceptionConfig"/></property>
+		  	<property name="xmlMappingResources">
+		  		<list>
+		  			 <value>WEB-INF/classes/error-catalog.xml</value>
+		  			 <value>file:/suportedbdc_apl/custodia/config/global-custodia-error-catalog.xml</value>
+		  		</list>
+		  	</property>
+	</bean>
+
+	<!-- 
+		 Bean de tipo IExceptionConfig que representa el item de configuración por defecto del catálogo  
+		 de errores. Es la configuración asociada a la excepción de tipo java.lang.Exception             
+		 En caso de no definir alguno de los comportamientos (log, alert, logoff, redirect), los valores 
+		 por defecto se recogen de este bean.															 
+    -->
+
+	<bean id="defaultExceptionConfig"
+		  class="br.com.bradesco.web.aq.application.error.config.ExceptionConfigImpl">
+		  	<property name="requiredLog"><value>${errorManager.config.default.requiredLog}</value></property>
+		  	<property name="requiredLogout"><value>${errorManager.config.default.requiredLogout}</value></property>
+		    <property name="requiredAlert"><value>${errorManager.config.default.requiredAlert}</value></property>
+		  	<property name="exceptionHandler"><value>${errorManager.config.default.exceptionHandler}</value></property>
+		  	<property name="exceptionType"><value>${errorManager.config.default.exceptionType}</value></property>
+		  	<property name="logLevel">
+		  		<ref bean="defaultExceptionConfigLogLevel"/>
+		  	</property>
+		  	<property name="redirectMessageId"><value>${errorManager.config.default.redirectMessageId}</value></property>
+		  	<property name="path"><value>${errorManager.config.default.path}</value></property>
+	</bean>
+	
+	 <!-- 
+	 	  Bean de tipo FieldRetrievingFactoryBean para generar un bean que contenga el contenido de un    
+	 	  atributo de un determinado objeto. En este caso, se utiliza para recuperar el valor de la cte   
+	      br.com.bradesco.web.aq.application.log.ILogManager.ERROR. Es utilizado para establecer la       
+	      criticidad por defecto de la acción de logging y es usado en el bean defaultExceptionConfig.    	
+	      En caso de quere modificar la criticidad por defecto del logging basta con modificar el valor   
+	      de la propiedad staticField. Por ejemplo:														  
+	 																								  
+	       <bean id="defaultExceptionConfigLogLevel"                                                    
+	  		   class="org.springframework.beans.factory.config.FieldRetrievingFactoryBean">           
+   	   			<property name="staticField">                                                         
+   	                <value>br.com.bradesco.web.aq.application.log.ILogManager.FATAL</value>           
+   	  			</property>                                                                           
+ 	     </bean>                                                                                      
+	 																								  
+	 	 Con el ejemplo anterior hemos modificado la criticidad de logging por defecto a FATAL			  
+	 -->																					 
+	 
+	 <bean id="defaultExceptionConfigLogLevel" 
+	 		class="org.springframework.beans.factory.config.FieldRetrievingFactoryBean">
+   			<property name="staticField">
+   					<value>br.com.bradesco.web.aq.application.log.ILogManager.ERROR</value>
+   			</property>
+ 	 </bean>
+	 
+	<bean id="baseExceptionHandler"
+  		  class="br.com.bradesco.web.aq.application.error.handler.AbstractBaseExceptionHandlerImpl"
+  		  abstract="true">
+  		  	<property name="logger"><ref bean="logManager"/></property>
+    		<property name="alertManager"><ref bean="alertManager"/></property>
+    		<property name="coreSecurityManager"><ref bean="securityManager"/></property>
+	</bean>
+
+	<bean id="defaultExceptionHandler" 
+  		  class="br.com.bradesco.web.aq.application.error.handler.DefaultExceptionHandler"
+  		  parent="baseExceptionHandler"/>
+  		  
+  	<bean id="applicationExceptionHandler" 
+  		  class="br.com.bradesco.web.aq.application.error.handler.BradescoApplicationExceptionHandler"
+  		  parent="baseExceptionHandler"/>
+  		  
+  	<bean id="architectureExceptionHandler" 
+  		  class="br.com.bradesco.web.aq.application.error.handler.BradescoArchitectureExceptionHandler"
+  		  parent="baseExceptionHandler"/>	
+  	
+  	<bean id="messageHelperUtils" 
+  		  class="br.com.bradesco.web.aq.application.error.i18n.MessageHelperUtils">
+  		  		<property name="messageHelper"><ref bean="messageHelper"/></property>
+  	</bean>
+  	<bean id="messageHelper" 
+  		  class="br.com.bradesco.web.aq.application.error.i18n.MessageHelperImpl">
+  		  		<property name="logger"><ref bean="logManager"/></property>
+  	</bean>
+  	
+  	<bean id="custodiaExceptionHandler" 
+  		  class="br.com.bradesco.web.custodia.exception.handler.CustodiaExceptionHandler"
+  		  parent="applicationExceptionHandler">
+  		  <property name="config" ref="propConfig"/>
+  		  <property name="sessionManager" ref="sessionManager"/>
+  	</bean>
+  		  
+  	<bean id="sessionCheckExceptionHandler" 
+  		  class="br.com.bradesco.web.custodia.service.provider.security.sessao.check.exception.handler.SessionCheckExceptionHandler"
+  		  parent="custodiaExceptionHandler"/>  	 	  	  
+  		    		  	  
+</beans>  

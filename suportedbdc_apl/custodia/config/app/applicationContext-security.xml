@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:s="http://www.springframework.org/schema/security"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans 
+						   http://www.springframework.org/schema/beans/spring-beans-2.0.xsd 
+						   http://www.springframework.org/schema/security 
+						   http://www.springframework.org/schema/security/spring-security-2.0.1.xsd">
+
+	<!-- =================================================================================== 
+	 ======================= SECURITY MANAGER ========================================== 
+	 =================================================================================== -->
+	 <bean id="securityManager"
+		  class="br.com.bradesco.web.aq.application.security.internet.impl.SecurityManagerImpl">
+		<property name="logger"><ref bean="logManager"/></property>
+		<property name="sessionManager"><ref bean="sessionManager"/></property>
+		<property name="pdcConnector"><ref bean="connectorMock"/></property>
+		<property name="authenticationService"><ref bean="loginService"/></property>
+	</bean>
+
+	<!-- =================================================================================== 
+	 ======================= PROCESSO DE IDENTIFICAÇÃO DE USUÁRIO ====================== 
+	 =================================================================================== -->
+	
+	<!-- ======================== Filtro de Identificação ======================= -->
+	<bean id="identificationSecurityFilter"
+		  class="br.com.bradesco.web.aq.application.security.identification.filter.IdentificationSecurityFilter" >
+		<property name="identificationService"><ref bean="identificationService"/></property>
+		<property name="securityManager"><ref bean="securityManager"/></property>
+		<property name="targetUrl"><value>${securityManager.identification.targetUrl}</value></property>
+		<property name="failureUrl"><value>${securityManager.identification.failureUrl}</value></property>
+	</bean>
+
+	<!-- MockIdentificationServiceImpl -->
+	<bean id="identificationService" 
+		  class="br.com.bradesco.web.aq.application.security.identification.impl.mock.MockIdentificationServiceImpl">			    
+		<property name="parserIdentification">		
+			<bean id="parserIdentificationImpl" 
+				  class="br.com.bradesco.web.aq.application.security.identification.impl.mock.ParserIdentificationImpl"/>
+		</property>
+		<property name="principalMappings">		
+			<map>
+				<entry key="1234-1234567-4">
+					<list>
+						<value>id1:Luis=SENHA4,FRASE</value>
+						<value>id2:Marga=SENHA4,FRASE,TOKEN,TANCODE</value>
+						<value>id3:Paco=SENHA4,TOKEN</value>					 
+					</list>
+				</entry>
+				<entry key="4321-7654321-5">
+					<list>
+						<value>id1:Jorge=SENHA4,FRASE,TOKEN</value>						
+						<value>id2:Laura=SENHA4,FRASE,TANCODE</value>												
+					</list>
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+	<!-- =================================================================================== 
+	 ====================== PROCESSO DE AUTENTICAÇÃO DE USUÁRIO ====================== 
+	 ===================================================================================  --> 
+	<bean id="filterChainProxy"
+		  class="org.springframework.security.util.FilterChainProxy">
+			<s:filter-chain-map path-type="ant">
+			<s:filter-chain pattern="/**/*.js" filters="none" />
+			<s:filter-chain pattern="/**/*.css" filters="none" />
+			<s:filter-chain pattern="/template/**" filters="none" />
+			<s:filter-chain pattern="/**/images/**" filters="none" />
+			<s:filter-chain pattern="/**/unsecure/**" filters="none" />
+			<s:filter-chain pattern="/**" filters="httpSessionContextIntegrationFilter,bradescoFilterManager,requestMethodsFilter,rememberMeProcessingFilter,exceptionTranslationFilter,filterSecurityInterceptor" />
+		</s:filter-chain-map>	
+	</bean>
+	 
+	<bean id="authenticationManager"
+		  class="org.springframework.security.providers.ProviderManager">
+		<property name="providers">
+			<list>
+				<ref local="rememberMeAuthenticationProvider"/> 
+			</list>
+		</property>
+	</bean>
+ 	<bean id="rememberMeAuthenticationProvider"
+	 	  class="br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckAuthenticationProvider" />
+	 
+	<bean id="rememberMeProcessingFilter" 
+		  class="br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter">
+		<property name="logManager"><ref bean="logManager"/></property>
+		<property name="objectManager"><ref bean="objectManager"/></property>
+		<property name="authenticationManager"><ref bean="authenticationManager"/></property>
+		<property name="rememberMeService"><ref bean="rememberMeService"/></property>
+	</bean>
+	 
+	<bean id="rememberMeService" 
+	 	  class="br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService">
+		<property name="logManager"><ref bean="logManager"/></property>
+		<property name="objectManager"><ref bean="objectManager"/></property>
+ 		<property name="securityManager"><ref bean="securityManager"/></property>
+ 		<property name="sessionManager"><ref bean="sessionManager"/></property>
+ 		<property name="ctlName"><value>${securityManager.sessioncheck.ctlName}</value></property>
+ 		<property name="ctlCookieName"><value>${securityManager.sessioncheck.ctlCookieName}</value></property>
+ 		<property name="ctlSegName"><value>${securityManager.sessioncheck.ctlSegName}</value></property>
+	</bean>
+
+	<!-- =================== HTTP SESSION CONTEXT SECURITY ==================== -->
+	<bean id="httpSessionContextIntegrationFilter"
+		  class="org.springframework.security.context.HttpSessionContextIntegrationFilter" />
+	 
+	<!-- BRADESCO Form-based Authentication -->
+	<bean id="authenticationProcessingFilter"
+		  class="br.com.bradesco.web.aq.application.security.authentication.filter.AuthenticationSecurityFilter">
+		<property name="authenticationManager"><ref local="authenticationManager"/></property>
+		<property name="securityManager"><ref bean="securityManager"/></property>
+		<property name="authenticationFailureUrl"><value>${securityManager.authentication.authenticationFailureUrl}</value></property>
+		<property name="defaultTargetUrl"><value>${securityManager.authentication.defaultTargetUrl}</value></property>
+		<property name="filterProcessesUrl"><value>${securityManager.authentication.filterProcessesUrl}</value></property>
+	</bean>
+
+	<!-- Automatically receives AuthenticationEvent messages from providers -->
+	<bean id="loggerListener"
+		  class="org.springframework.security.event.authentication.LoggerListener" />
+
+	<!-- ============== REQUEST METHODS FILTER ======================= -->
+	<bean id="requestMethodsFilter"
+		  class="org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter" />
+	 
+	<!-- ============== SECURITY INTERCEPTORS FILTERS ======================= -->
+	<bean id="exceptionTranslationFilter"
+		  class="org.springframework.security.ui.ExceptionTranslationFilter">
+		<property name="authenticationEntryPoint"><ref local="authenticationProcessingFilterEntryPoint" /></property>
+		<property name="accessDeniedHandler" ref="menuDinamicoAccessDeniedHandler" />
+	</bean>
+	 
+	<!-- Note the order that entries are placed against the objectDefinitionSource is critical.
+		 The FilterSecurityInterceptor will work from the top of the list down to the FIRST pattern that matches the request URL.
+		 Accordingly, you should place MOST SPECIFIC (ie a/b/c/d.*) expressions first, with LEAST SPECIFIC (ie a/.*) expressions last -->
+
+	<bean id="filterSecurityInterceptor"
+		class="br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor">
+		<property name="objectManager"><ref bean="objectManager"/></property>
+		<property name="authenticationManager"><ref bean="authenticationManager"/></property>
+		<property name="accessDecisionManager"><ref local="httpRequestAccessDecisionManager"/></property>
+		<property name="rejectPublicInvocations"><value>true</value></property>
+		<property name="objectDefinitionSource"><ref bean="menuDinamicoFilterInvocationDefinitionSource"/></property>
+	</bean>
+
+	
+	<bean id="authenticationProcessingFilterEntryPoint"
+		  class="org.springframework.security.ui.webapp.AuthenticationProcessingFilterEntryPoint">
+		<property name="loginFormUrl"><value>${securityManager.authentication.loginFormUrl}</value></property>
+		<property name="forceHttps"><value>${securityManager.authentication.forceHttps}</value></property>
+	</bean>
+
+	<bean id="httpRequestAccessDecisionManager"
+		  class="org.springframework.security.vote.AffirmativeBased">
+		<property name="allowIfAllAbstainDecisions"><value>false</value></property>
+		<property name="decisionVoters">
+			<list>
+				<ref bean="roleVoter" />
+			</list>
+		</property>
+	</bean>
+	
+	<!-- Optionally, you can specify a "rolePrefix" property to change 
+	         (or remove) the ROLE_ prefix for role names. -->
+	<bean id="roleVoter" 
+	 	  class="org.springframework.security.vote.RoleVoter" />
+
+</beans>

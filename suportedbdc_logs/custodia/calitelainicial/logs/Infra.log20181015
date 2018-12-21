@@ -1,0 +1,299 @@
+2018-10-15 09:18:05,479 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:18:05,535 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:18:05,536 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:18:05,538 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:18:05,539 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:18:05,541 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 09:18:05,543 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 09:18:05,545 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 09:18:05,546 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 09:18:05,548 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 09:18:05,550 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 09:18:05,552 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-10-15 09:18:05,660 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-10-15 09:18:05,716 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-10-15 09:18:06,534 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:18:06,536 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:18:06,537 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:18:06,538 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:18:06,540 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:18:06,541 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:18:06,543 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:18:06,544 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:25:37,427 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-10-15 09:25:37,525 ERROR [br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService] - []
+java.lang.NullPointerException
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:146)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:73)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:967)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1107)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:4047)
+	at com.ibm.ws.webcontainer.webapp.WebGroup.handleRequest(WebGroup.java:304)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1016)
+	at com.ibm.ws.webcontainer.WSWebContainer.handleRequest(WSWebContainer.java:1817)
+	at com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:213)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:463)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:530)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:316)
+	at com.ibm.ws.http.channel.inbound.impl.HttpICLReadCallback.complete(HttpICLReadCallback.java:88)
+	at com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+	at com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+	at com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+	at com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+	at com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+	at com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+	at com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+2018-10-15 09:25:37,546 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+br.com.bradesco.web.custodia.service.provider.security.sessao.check.exception.SessionCheckException: Exceção no autoLogin (ex): null
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:180)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:73)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:967)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1107)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:4047)
+	at com.ibm.ws.webcontainer.webapp.WebGroup.handleRequest(WebGroup.java:304)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1016)
+	at com.ibm.ws.webcontainer.WSWebContainer.handleRequest(WSWebContainer.java:1817)
+	at com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:213)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:463)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:530)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:316)
+	at com.ibm.ws.http.channel.inbound.impl.HttpICLReadCallback.complete(HttpICLReadCallback.java:88)
+	at com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+	at com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+	at com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+	at com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+	at com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+	at com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+	at com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by: 
+java.lang.NullPointerException
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:146)
+	... 36 more
+2018-10-15 09:25:37,571 WARN [br.com.bradesco.web.custodia.service.provider.security.sessao.check.exception.handler.SessionCheckExceptionHandler] - [BradescoApplicationHandler:: Application Exception with Error message Exceção no autoLogin (ex): null.Exceção no autoLogin (ex): null]
+2018-10-15 09:31:30,818 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:31:30,820 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:31:30,822 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:31:30,824 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:31:30,826 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 09:31:30,828 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 09:31:30,830 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 09:31:30,832 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 09:31:30,835 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 09:31:30,837 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 09:31:30,839 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 09:31:30,841 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-10-15 09:31:30,949 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-10-15 09:31:31,001 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-10-15 09:31:31,577 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:31:31,579 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:31:31,580 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:31:31,582 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:31:31,583 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:31:31,585 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:31:31,588 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:31:31,589 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 09:32:55,892 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-10-15 09:32:55,997 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-10-15 09:33:01,606 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-10-15 09:33:01,651 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-10-15 09:33:01,913 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-10-15 09:33:01,935 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-10-15 09:33:02,130 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-10-15 09:33:03,736 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-10-15 09:33:03,761 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-10-15 09:37:50,724 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-10-15 09:37:51,720 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-10-15 09:37:51,751 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-10-15 09:38:07,924 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-10-15 09:38:07,953 DEBUG [br.com.bradesco.web.custodia.service.provider.filter.RedirectUrlToJsfPhaseListener] - [Identificado acesso direto à URI /calitelainicial/blank.jsf porém não há mapeamento para este acesso. Adicionar nas configurações do RedirectUrlToJsfPhaseListener um mapeamento para "".]
+2018-10-15 11:14:29,225 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-10-15 11:14:30,073 WARN [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [CTRL: 624667984919432888 Sessão Expirada, Data Inicio: 2018-10-15 09:32:52.447]
+2018-10-15 11:14:30,075 ERROR [br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService] - []
+br.com.bradesco.web.custodia.service.business.sessao.exception.SessaoExpiradaException: CTRL: 624667984919432888 Sessão Expirada, Data Inicio: 2018-10-15 09:32:52.447
+	at br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl.handleErroSessao(SessaoCustodiaServiceImpl.java:284)
+	at br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl.validarSessao(SessaoCustodiaServiceImpl.java:80)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:155)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:73)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:967)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1107)
+	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:87)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:949)
+	at com.ibm.ws.webcontainer.WSWebContainer.handleRequest(WSWebContainer.java:1817)
+	at com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:213)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:463)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:530)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:316)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.ready(HttpInboundLink.java:287)
+	at com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:214)
+	at com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:113)
+	at com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+	at com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+	at com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+	at com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+	at com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+	at com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+	at com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+2018-10-15 11:14:30,079 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+br.com.bradesco.web.custodia.service.provider.security.sessao.check.exception.SessionCheckException: Exceção no autoLogin (ex): CTRL: 624667984919432888 Sessão Expirada, Data Inicio: 2018-10-15 09:32:52.447
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:180)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:73)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:967)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1107)
+	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:87)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:949)
+	at com.ibm.ws.webcontainer.WSWebContainer.handleRequest(WSWebContainer.java:1817)
+	at com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:213)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:463)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:530)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:316)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.ready(HttpInboundLink.java:287)
+	at com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:214)
+	at com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:113)
+	at com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+	at com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+	at com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+	at com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+	at com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+	at com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+	at com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)
+Caused by: 
+br.com.bradesco.web.custodia.service.business.sessao.exception.SessaoExpiradaException: CTRL: 624667984919432888 Sessão Expirada, Data Inicio: 2018-10-15 09:32:52.447
+	at br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl.handleErroSessao(SessaoCustodiaServiceImpl.java:284)
+	at br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl.validarSessao(SessaoCustodiaServiceImpl.java:80)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:155)
+	... 37 more
+2018-10-15 11:14:30,126 WARN [br.com.bradesco.web.custodia.service.provider.security.sessao.check.exception.handler.SessionCheckExceptionHandler] - [BradescoApplicationHandler:: Application Exception with Error message Exceção no autoLogin (ex): CTRL: 624667984919432888 Sessão Expirada, Data Inicio: 2018-10-15 09:32:52.447.Exceção no autoLogin (ex): CTRL: 624667984919432888 Sessão Expirada, Data Inicio: 2018-10-15 09:32:52.447]
+2018-10-15 11:59:46,266 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 11:59:46,329 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 11:59:46,391 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 11:59:46,407 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 11:59:46,422 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 11:59:46,563 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 11:59:46,594 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 11:59:46,625 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 11:59:46,828 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 11:59:46,828 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 11:59:46,875 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 11:59:46,891 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-10-15 11:59:47,312 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-10-15 11:59:48,197 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-10-15 11:59:51,428 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 11:59:51,459 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 11:59:51,459 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 11:59:51,491 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 11:59:51,491 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 11:59:51,491 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 11:59:51,491 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 11:59:51,506 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 14:45:16,859 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 14:45:16,862 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 14:45:16,864 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 14:45:16,866 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 14:45:16,867 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 14:45:16,869 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 14:45:16,871 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 14:45:16,872 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 14:45:16,874 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 14:45:16,875 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 14:45:16,877 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 14:45:16,878 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-10-15 14:45:16,976 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-10-15 14:45:17,032 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-10-15 14:45:17,625 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 14:45:17,627 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 14:45:17,628 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 14:45:17,630 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 14:45:17,631 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 14:45:17,632 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 14:45:17,634 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 14:45:17,636 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 15:47:53,029 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 15:47:53,050 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 15:47:53,063 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 15:47:53,097 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 15:47:53,100 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-15 15:47:53,109 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 15:47:53,113 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 15:47:53,123 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-15 15:47:53,133 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 15:47:53,142 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 15:47:53,145 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-15 15:47:53,148 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-10-15 15:47:53,253 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-10-15 15:47:53,341 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-10-15 15:47:54,440 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 15:47:54,442 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 15:47:54,443 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 15:47:54,444 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 15:47:54,446 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 15:47:54,447 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 15:47:54,448 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-15 15:47:54,449 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calitelainicial-0_0_1-SNAPSHOT_war.ear\calitelainicial-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]

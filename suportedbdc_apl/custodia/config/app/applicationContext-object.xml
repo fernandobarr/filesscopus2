@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="objectManager" 
+          class="br.com.bradesco.web.aq.application.object.impl.ObjectManagerImpl">
+           <property name="dataContextHolder"><ref bean="dataContextHolder"/></property>
+		   <property name="logger"><ref bean="logManager"/></property>
+    </bean>
+    <bean id="dataContextHolder" 
+          class="br.com.bradesco.web.aq.application.object.context.DataContextHolderImpl">
+           <property name="dataContextFactory"><ref bean="dataContextFactory"/></property>
+           <property name="logger"><ref bean="logManager"/></property>
+    </bean>
+    <bean id="dataContextFactory" 
+          class="br.com.bradesco.web.aq.application.object.context.DataContextFactoryImpl">   
+          <property name="dataContextHelper"><ref bean="dataContextHelper"/></property>
+    </bean>
+    <bean id="dataContextHelper" 
+          class="br.com.bradesco.web.aq.application.object.context.DataContextHelperImpl">   
+          	<property name="logger"><ref bean="logManager"/></property>
+    </bean>
+    <bean id="dataContext" 
+          class="br.com.bradesco.web.aq.application.object.context.DataContextHttpImpl"
+          singleton="false">
+           <property name="accessorMap">
+           		<map>
+           			<entry>
+           				<key>
+           					<ref bean="br.com.bradesco.web.aq.application.object.ObjectManagerConstants.REQUEST_SCOPE_ID"/>
+           				</key>
+           				<ref bean="requestAccessor"/>
+           			</entry>
+           			<entry>
+           				<key>
+           					<ref bean="br.com.bradesco.web.aq.application.object.ObjectManagerConstants.SESSION_SCOPE_ID"/>
+           				</key>
+           				<ref bean="sessionAccessor"/>
+           			</entry>
+           			<entry>
+           				<key>
+           					<ref bean="br.com.bradesco.web.aq.application.object.ObjectManagerConstants.APPLICATION_SCOPE_ID"/>
+           				</key>
+           				<ref bean="applicationAccessor"/>
+           			</entry>
+           		</map>
+           </property>
+           <property name="defaultScopeId">
+	           <ref bean="br.com.bradesco.web.aq.application.object.ObjectManagerConstants.REQUEST_SCOPE_ID"/>
+           </property>
+           <property name="logger"><ref bean="logManager"/></property>
+    </bean>
+    
+    <!-- Definición de las beans que representan a las CTES que identifican los scopes -->
+    
+    <bean id="br.com.bradesco.web.aq.application.object.ObjectManagerConstants.REQUEST_SCOPE_ID"
+          class="org.springframework.beans.factory.config.FieldRetrievingFactoryBean"/>
+    
+    <bean id="br.com.bradesco.web.aq.application.object.ObjectManagerConstants.SESSION_SCOPE_ID"
+          class="org.springframework.beans.factory.config.FieldRetrievingFactoryBean"/>
+          
+    <bean id="br.com.bradesco.web.aq.application.object.ObjectManagerConstants.APPLICATION_SCOPE_ID"
+          class="org.springframework.beans.factory.config.FieldRetrievingFactoryBean"/>
+          
+    <bean id="abstractAccessor"
+    	  class="br.com.bradesco.web.aq.application.object.accessor.AbstractDataScopeAccessor"
+    	  abstract="true">
+    	  	<property name="logger"><ref bean="logManager"/></property>
+    </bean>      
+          
+    <bean id="sessionAccessor"
+    	  class="br.com.bradesco.web.aq.application.object.accessor.SessionDataScopeAccessor"
+    	  singleton="false"
+    	  parent="abstractAccessor">
+    </bean>
+    
+    <bean id="applicationAccessor"
+    	  class="br.com.bradesco.web.aq.application.object.accessor.ApplicationDataScopeAccessor"
+    	  singleton="false"
+    	  parent="abstractAccessor">
+    </bean>    
+    
+     <bean id="requestAccessor"
+    	  class="br.com.bradesco.web.aq.application.object.accessor.RequestDataScopeAccessor"
+    	  singleton="false"
+    	  parent="abstractAccessor">
+    </bean>    
+    
+    <bean id="applicationInicializer"
+    	  class="br.com.bradesco.web.aq.application.object.inicializer.ApplicationInicializer">
+    	  <property name="initAttributes">
+    	  	 <props>
+      			<prop key="APPLICATION_ID">
+      				  INTERNET_BANKING
+      			</prop>
+    		 </props>	
+    	  </property>
+    <!--  <property name="attributesProvider><ref bean="<your_IAttributesProvider_bean_name>"/></property> -->
+    	  <property name="logger"><ref bean="logManager"/></property>
+    </bean>
+</beans>

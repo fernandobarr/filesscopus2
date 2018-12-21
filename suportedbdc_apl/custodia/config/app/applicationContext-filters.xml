@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+	 <!-- ======================== CONTROLADOR DE FILTROS ======================= -->
+    <bean id="bradescoFilterManager" class="br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager"
+    	singleton="true">
+    	<property name="logger"><ref bean="logManager"/></property>
+        <property name="filterMappings">
+            <props><!--  Mapeo de url-patterns, ordenadas de más restrictivo a menos restrictivo -->
+	            <!-- <prop key="/**">filter1,filter2</prop> --> 
+	            <prop key="/**/exitApp.jsf*">sessionLogoutAppFilter</prop>
+            </props>
+        </property>
+        <!-- Filtros aplicados a todas las URL, antes de la cadena de filtros mapeada, --> 
+        <!-- y en el orden establecido en la lista -->
+        <property name="defaultFilters">
+            <list>
+              <ref local="bradescoRequestInterceptionFilter"/> 		<!-- 1. Filtro de Session -->
+              <ref local="bradescoDataContextInterceptionFilter"/> 	<!-- 2. Filtro de ObjectManager -->
+				<!--
+              <ref local="ipCheckerFilter"/> 						<!- - 3. Filtro de IPs - ->
+              <ref local="sessionTimeoutCheckerFilter"/> 			<!- - 4. Filtro de Session Timeout (por TTL) - ->
+				//-->
+			  <ref local="sessionInterceptionFilter"/> 
+            </list>
+        </property>
+    </bean>
+    
+    <bean id="bradescoPosFilterManager"
+		class="br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager"
+		singleton="true">
+		<property name="logger">
+			<ref bean="logManager" />
+		</property>
+		<property name="filterMappings">
+			<props><!-- Mapeo de url-patterns, ordenadas de más restrictivo a menos 
+					restrictivo -->
+				<!-- <prop key="/**">filter1,filter2</prop> -->
+			</props>
+		</property>
+		<!-- Filtros aplicados a todas las URL, antes de la cadena de filtros mapeada, -->
+		<!-- y en el orden establecido en la lista -->
+		<property name="defaultFilters">
+			<list>
+				<ref local="nullFilter" />
+			</list>
+		</property>
+	</bean>
+
+    <!-- DEFINICIÓN DEL FILTRO DEL GESTOR DE OBJETOS -->
+	
+	<bean id="bradescoDataContextInterceptionFilter" 
+          class="br.com.bradesco.web.aq.view.filters.object.BradescoDataContextInterceptionFilter">
+          <property name="objectManager"><ref bean="objectManager"/></property>
+    </bean>
+          
+	<!-- Definição dos filtros do Gestor de Sessao -->
+	
+	<bean id="bradescoRequestInterceptionFilter" 
+          class="br.com.bradesco.web.aq.view.filters.session.BradescoRequestInterceptionFilter">
+          <property name="sessionManager"><ref bean="sessionManager"/></property>
+    </bean>
+    
+    <bean id="sessionTimeoutCheckerFilter"
+	   	  class="br.com.bradesco.web.aq.view.filters.session.SessionTimeOutCheckerFilter">
+		   	  <property name="sessionManager"><ref bean="sessionManager"/></property>
+		   	  <property name="coreSecurityManager"><ref bean="securityManager"/></property>
+		   	  <property name="failureUrl"><value>${filterManager.timeout.failureUrl}</value></property>
+   	</bean>	
+	   
+	<bean id="ipCheckerFilter"
+	      class="br.com.bradesco.web.aq.view.filters.session.IPCheckerFilter">
+				<property name="sessionManager"><ref bean="sessionManager"/></property>
+				<property name="coreSecurityManager"><ref bean="securityManager"/></property>
+				<property name="failureUrl"><value>${filterManager.ipCheck.failureUrl}</value></property>
+	</bean>      
+
+    <bean id="sessionInterceptionFilter"
+	   	  class="br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter">
+		<property name="logManager"><ref bean="logManager"/></property>
+		<property name="objectManager"><ref bean="objectManager"/></property>
+		<property name="sessionManager"><ref bean="sessionManager"/></property>
+		<property name="ctlName"><value>${securityManager.sessioncheck.ctlName}</value></property>
+   	</bean>
+
+	<!-- ===== filtro de saída da aplicação para limpeza de sessão. ============ -->
+	<!-- TODO IMPORTANTE TODO --> 
+		<!-- <bean id="sessionLogoutAppFilter" 
+          class="br.com.bradesco.web.ibpj.service.provider.security.sessao.encerra.filter.SessionExitAppFilter">
+          <property name="securityManager"><ref bean="securityManager"/></property>
+		  <property name="sessionManager"><ref bean="sessionManager"/></property>
+    </bean> -->
+
+
+	<bean id="nullFilter" 
+          class="br.com.bradesco.web.aq.view.filters.impl.BradescoFilterImpl">
+    </bean>
+	
+</beans>

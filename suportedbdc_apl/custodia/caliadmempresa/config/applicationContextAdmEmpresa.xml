@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <!-- Definição de bean de acesso a configurações de application.properties -->    
+    <bean id="propBeanConfigAdmEmpresa" class="br.com.bradesco.web.custodia.view.bean.PropConfig">
+            <property name="properties">
+                <map>                   					
+					<entry key="servico.codigo.empresa.dac"><value>${servico.codigo.empresa.dac}</value></entry>
+				</map>
+            </property>
+    </bean>	    
+</beans>

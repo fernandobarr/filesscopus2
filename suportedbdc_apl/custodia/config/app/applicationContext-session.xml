@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <bean id="sessionManager" 
+          class="br.com.bradesco.web.aq.application.session.impl.SessionManagerImpl">
+           <property name="logger"><ref bean="logManager"/></property>
+           <property name="objectManager"><ref bean="objectManager"/></property>
+           <property name="sessionFactory"><ref bean="sessionFactory"/></property>
+           <property name="sessionManagerStatistics"><ref bean="sessionManagerStatistics"/></property>
+           <property name="checkIpDecissor"><ref bean="checkIpDecissor"/></property>
+           <property name="sessionPreProcessors">
+           	<list>
+           		<!-- add your preProcessors -->
+      	   	</list>
+           </property>
+           <property name="sessionPostProcessors">
+           	<list>
+         		<!-- add your postProcessors -->
+      	   	</list>
+           </property>
+    </bean>
+
+    <bean id="sessionFactory" 
+          class="br.com.bradesco.web.aq.application.session.impl.SessionFactoryImpl"> 
+          
+       <!-- <property name="attributesProvider">
+       			<ref bean="your_IAttributesProvider_implementation_bean_id"/>
+       		</property> -->     
+          	<property name="initProperties">
+          		 <props>
+      				<prop key="br.com.bradesco.web.aq.application.session.WEB_CHANNEL_SESSION_TTL">
+      						${sessionManager.ttl}
+      			    </prop>
+    			</props>	
+          	</property>
+          	<property name="logger"><ref bean="logManager"/></property>
+    </bean>
+  	
+    <bean id="checkIpDecissor" 
+          class="br.com.bradesco.web.aq.application.session.decissor.CheckIPDecissorXMLImpl"
+          init-method="init">
+	           <property name="ranges">
+	           		<props>
+      					<prop key="Petrobras">
+							212.198.60.11,212.198.60.12,212.198.60.13
+      			    	</prop>
+      			    	<prop key="Bradesco">
+							192.168.7.1, 192.168.7.24
+      			    	</prop>
+      			    	<prop key="Petrobras_2">
+							127.0.0.1
+      			    	</prop>
+      			    	<prop key="Petrobras_3">
+							192.172.90.1, 192.172.90.*
+      			    	</prop>
+    			</props>	
+	           </property>
+	           <property name="logger"><ref bean="logManager"/></property>
+    </bean>
+    
+    <!-- Web Channel Arquitecture session listeners -->
+    
+    <bean id="httpSessionExpiredNotifier" 
+          class="br.com.bradesco.web.aq.application.session.listener.HttpSessionExpiredNotifier">
+    </bean>
+    
+</beans>

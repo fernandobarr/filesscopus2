@@ -1,0 +1,425 @@
+2018-08-07 21:35:03,054 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-08-07 21:35:44,213 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-08-07 21:36:13,700 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+java.lang.IllegalStateException: org.apache.myfaces.webapp.webxml.WebXml.init must be called before!
+	at org.apache.myfaces.webapp.webxml.WebXml.getWebXml(WebXml.java:123)
+	at org.apache.myfaces.application.jsp.JspTilesViewHandlerImpl.getServletMapping(JspTilesViewHandlerImpl.java:254)
+	at org.apache.myfaces.application.jsp.JspTilesViewHandlerImpl.renderView(JspTilesViewHandlerImpl.java:120)
+	at org.ajax4jsf.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:108)
+	at org.ajax4jsf.application.AjaxViewHandler.renderView(AjaxViewHandler.java:216)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.renderView(BradescoLifecycleImpl.java:173)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.render(BradescoLifecycleImpl.java:140)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:191)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1230)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:779)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:478)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapperImpl.handleRequest(ServletWrapperImpl.java:178)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:136)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:97)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:236)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.aq.view.cryptography.filter.CryptoFilter.doFilter(CryptoFilter.java:143)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:56)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:114)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:967)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1107)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:3923)
+	at com.ibm.ws.webcontainer.webapp.WebGroup.handleRequest(WebGroup.java:304)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:986)
+	at com.ibm.ws.webcontainer.WSWebContainer.handleRequest(WSWebContainer.java:1662)
+	at com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:200)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:463)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:530)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:316)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.ready(HttpInboundLink.java:287)
+	at com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:214)
+	at com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:113)
+	at com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+	at com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+	at com.ibm.io.async.AsyncChannelFuture$1.run(AsyncChannelFuture.java:205)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1881)
+2018-08-07 21:36:13,702 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Não foi encontrado o config para o tipo de exceção java.lang.IllegalStateException]
+2018-08-07 21:36:13,702 WARN [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - [Nenhuma configuração encontrada para o tipo da exceção java.lang.IllegalStateException]
+2018-08-07 21:36:18,916 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+java.lang.IllegalStateException: org.apache.myfaces.webapp.webxml.WebXml.init must be called before!
+	at org.apache.myfaces.webapp.webxml.WebXml.getWebXml(WebXml.java:123)
+	at org.apache.myfaces.application.jsp.JspTilesViewHandlerImpl.getServletMapping(JspTilesViewHandlerImpl.java:254)
+	at org.apache.myfaces.application.jsp.JspTilesViewHandlerImpl.renderView(JspTilesViewHandlerImpl.java:120)
+	at org.ajax4jsf.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:108)
+	at org.ajax4jsf.application.AjaxViewHandler.renderView(AjaxViewHandler.java:216)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.renderView(BradescoLifecycleImpl.java:173)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.render(BradescoLifecycleImpl.java:140)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:191)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1230)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:779)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:478)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapperImpl.handleRequest(ServletWrapperImpl.java:178)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:136)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:97)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:236)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.aq.view.cryptography.filter.CryptoFilter.doFilter(CryptoFilter.java:143)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:56)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:114)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:967)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1107)
+	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:87)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:919)
+	at com.ibm.ws.webcontainer.WSWebContainer.handleRequest(WSWebContainer.java:1662)
+	at com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:200)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:463)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:530)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:316)
+	at com.ibm.ws.http.channel.inbound.impl.HttpICLReadCallback.complete(HttpICLReadCallback.java:88)
+	at com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+	at com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+	at com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+	at com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+	at com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+	at com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+	at com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1881)
+2018-08-07 21:36:18,917 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Não foi encontrado o config para o tipo de exceção java.lang.IllegalStateException]
+2018-08-07 21:36:18,917 WARN [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - [Nenhuma configuração encontrada para o tipo da exceção java.lang.IllegalStateException]
+2018-08-07 21:36:21,503 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+java.lang.IllegalStateException: org.apache.myfaces.webapp.webxml.WebXml.init must be called before!
+	at org.apache.myfaces.webapp.webxml.WebXml.getWebXml(WebXml.java:123)
+	at org.apache.myfaces.application.jsp.JspTilesViewHandlerImpl.getServletMapping(JspTilesViewHandlerImpl.java:254)
+	at org.apache.myfaces.application.jsp.JspTilesViewHandlerImpl.renderView(JspTilesViewHandlerImpl.java:120)
+	at org.ajax4jsf.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:108)
+	at org.ajax4jsf.application.AjaxViewHandler.renderView(AjaxViewHandler.java:216)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.renderView(BradescoLifecycleImpl.java:173)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.render(BradescoLifecycleImpl.java:140)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:191)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1230)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:779)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:478)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapperImpl.handleRequest(ServletWrapperImpl.java:178)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:136)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:97)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:236)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.aq.view.cryptography.filter.CryptoFilter.doFilter(CryptoFilter.java:143)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:56)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:114)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:967)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1107)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:3923)
+	at com.ibm.ws.webcontainer.webapp.WebGroup.handleRequest(WebGroup.java:304)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:986)
+	at com.ibm.ws.webcontainer.WSWebContainer.handleRequest(WSWebContainer.java:1662)
+	at com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:200)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:463)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:530)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:316)
+	at com.ibm.ws.http.channel.inbound.impl.HttpICLReadCallback.complete(HttpICLReadCallback.java:88)
+	at com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+	at com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+	at com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+	at com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+	at com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+	at com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+	at com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1881)
+2018-08-07 21:36:21,504 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Não foi encontrado o config para o tipo de exceção java.lang.IllegalStateException]
+2018-08-07 21:36:21,504 WARN [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - [Nenhuma configuração encontrada para o tipo da exceção java.lang.IllegalStateException]
+2018-08-07 21:37:05,957 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+java.lang.IllegalStateException: org.apache.myfaces.webapp.webxml.WebXml.init must be called before!
+	at org.apache.myfaces.webapp.webxml.WebXml.getWebXml(WebXml.java:123)
+	at org.apache.myfaces.application.jsp.JspTilesViewHandlerImpl.getServletMapping(JspTilesViewHandlerImpl.java:254)
+	at org.apache.myfaces.application.jsp.JspTilesViewHandlerImpl.renderView(JspTilesViewHandlerImpl.java:120)
+	at org.ajax4jsf.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:108)
+	at org.ajax4jsf.application.AjaxViewHandler.renderView(AjaxViewHandler.java:216)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.renderView(BradescoLifecycleImpl.java:173)
+	at br.com.bradesco.web.aq.view.lifecycle.BradescoLifecycleImpl.render(BradescoLifecycleImpl.java:140)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:191)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1230)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:779)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:478)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapperImpl.handleRequest(ServletWrapperImpl.java:178)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.invokeTarget(WebAppFilterChain.java:136)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:97)
+	at org.ajax4jsf.webapp.BaseXMLFilter.doXmlFilter(BaseXMLFilter.java:141)
+	at org.ajax4jsf.webapp.BaseFilter.doFilter(BaseFilter.java:281)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:236)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at br.com.bradesco.web.aq.view.cryptography.filter.CryptoFilter.doFilter(CryptoFilter.java:143)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionFilterSecurityInterceptor.doFilter(SessionFilterSecurityInterceptor.java:56)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:114)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:967)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1107)
+	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:87)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:919)
+	at com.ibm.ws.webcontainer.WSWebContainer.handleRequest(WSWebContainer.java:1662)
+	at com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:200)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:463)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:530)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:316)
+	at com.ibm.ws.http.channel.inbound.impl.HttpICLReadCallback.complete(HttpICLReadCallback.java:88)
+	at com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+	at com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+	at com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+	at com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+	at com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+	at com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+	at com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1881)
+2018-08-07 21:37:05,958 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Não foi encontrado o config para o tipo de exceção java.lang.IllegalStateException]
+2018-08-07 21:37:05,958 WARN [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - [Nenhuma configuração encontrada para o tipo da exceção java.lang.IllegalStateException]
+2018-08-07 21:37:53,542 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-08-07 21:39:09,552 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-08-07 21:39:36,825 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) outline is not implemented at line 2. Ignoring declaration.]
+2018-08-07 21:39:36,826 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) outline is not implemented at line 3. Ignoring declaration.]
+2018-08-07 21:39:36,827 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) Ident auto is an invalid or unsupported value for overflow at line 7. Skipping declaration.]
+2018-08-07 21:39:36,841 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) Found !important where an identifier was expected at line 322. Skipping declaration.]
+2018-08-07 21:39:36,841 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) Found !important where an identifier was expected at line 323. Skipping declaration.]
+2018-08-07 21:39:36,841 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) Found !important where an identifier was expected at line 324. Skipping declaration.]
+2018-08-07 21:39:36,841 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) Found !important where an identifier was expected at line 325. Skipping declaration.]
+2018-08-07 21:39:36,858 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) zoom is an unrecognized CSS property at line 558. Ignoring declaration.]
+2018-08-07 21:39:36,864 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) -moz-background-clip is an unrecognized CSS property at line 643. Ignoring declaration.]
+2018-08-07 21:39:36,864 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) -moz-background-inline-policy is an unrecognized CSS property at line 643. Ignoring declaration.]
+2018-08-07 21:39:36,864 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) -moz-background-origin is an unrecognized CSS property at line 643. Ignoring declaration.]
+2018-08-07 21:39:36,864 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) -moz-background-clip is an unrecognized CSS property at line 644. Ignoring declaration.]
+2018-08-07 21:39:36,864 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) -moz-background-inline-policy is an unrecognized CSS property at line 644. Ignoring declaration.]
+2018-08-07 21:39:36,864 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) -moz-background-origin is an unrecognized CSS property at line 644. Ignoring declaration.]
+2018-08-07 21:39:36,868 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) outline-color is not implemented at line 709. Ignoring declaration.]
+2018-08-07 21:39:36,868 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) outline-style is not implemented at line 709. Ignoring declaration.]
+2018-08-07 21:39:36,868 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) outline-width is not implemented at line 709. Ignoring declaration.]
+2018-08-07 21:39:36,870 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) Ident auto is an invalid or unsupported value for overflow at line 746. Skipping declaration.]
+2018-08-07 21:39:36,872 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) Invalid at-rule at line 782. Skipping at-rule.]
+2018-08-07 21:39:36,875 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) overflow-y is an unrecognized CSS property at line 837. Ignoring declaration.]
+2018-08-07 21:39:36,877 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) opacity is an unrecognized CSS property at line 877. Ignoring declaration.]
+2018-08-07 21:39:36,877 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) -moz-opacity is an unrecognized CSS property at line 877. Ignoring declaration.]
+2018-08-07 21:39:36,877 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) filter is an unrecognized CSS property at line 877. Ignoring declaration.]
+2018-08-07 21:39:36,877 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) Found = where ) was expected at line 878. Skipping declaration.]
+2018-08-07 21:39:36,877 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) opacity is an unrecognized CSS property at line 878. Ignoring declaration.]
+2018-08-07 21:39:36,877 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) -moz-opacity is an unrecognized CSS property at line 878. Ignoring declaration.]
+2018-08-07 21:39:36,877 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) filter is an unrecognized CSS property at line 878. Ignoring declaration.]
+2018-08-07 21:39:36,877 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) Found = where ) was expected at line 879. Skipping declaration.]
+2018-08-07 21:39:36,882 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) background-clip is an unrecognized CSS property at line 956. Ignoring declaration.]
+2018-08-07 21:39:36,882 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) background-origin is an unrecognized CSS property at line 956. Ignoring declaration.]
+2018-08-07 21:39:36,883 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/estrutura.css) background-size is an unrecognized CSS property at line 956. Ignoring declaration.]
+2018-08-07 21:39:36,893 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) zoom is an unrecognized CSS property at line 171. Ignoring declaration.]
+2018-08-07 21:39:36,893 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) zoom is an unrecognized CSS property at line 178. Ignoring declaration.]
+2018-08-07 21:39:36,894 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) filter is an unrecognized CSS property at line 178. Ignoring declaration.]
+2018-08-07 21:39:36,894 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found = where ) was expected at line 179. Skipping declaration.]
+2018-08-07 21:39:36,894 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) opacity is an unrecognized CSS property at line 178. Ignoring declaration.]
+2018-08-07 21:39:36,894 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) zoom is an unrecognized CSS property at line 185. Ignoring declaration.]
+2018-08-07 21:39:36,896 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Ident auto is an invalid or unsupported value for line-height at line 225. Skipping declaration.]
+2018-08-07 21:39:36,897 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Value for font-weight must be an identifier or a length at line 231. Skipping declaration.]
+2018-08-07 21:39:36,898 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) opacity is an unrecognized CSS property at line 259. Ignoring declaration.]
+2018-08-07 21:39:36,898 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) filter is an unrecognized CSS property at line 259. Ignoring declaration.]
+2018-08-07 21:39:36,898 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found = where ) was expected at line 260. Skipping declaration.]
+2018-08-07 21:39:36,898 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) -khtml-user-select is an unrecognized CSS property at line 259. Ignoring declaration.]
+2018-08-07 21:39:36,898 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) -moz-user-select is an unrecognized CSS property at line 259. Ignoring declaration.]
+2018-08-07 21:39:36,900 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found !important where an identifier was expected at line 294. Skipping declaration.]
+2018-08-07 21:39:36,901 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Ident auto is an invalid or unsupported value for float at line 330. Skipping declaration.]
+2018-08-07 21:39:36,902 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Ident auto is an invalid or unsupported value for float at line 341. Skipping declaration.]
+2018-08-07 21:39:36,909 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Value hand is not a recognized identifier at line 481. Skipping declaration.]
+2018-08-07 21:39:36,911 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) filter is an unrecognized CSS property at line 506. Ignoring declaration.]
+2018-08-07 21:39:36,911 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found = where ) was expected at line 507. Skipping declaration.]
+2018-08-07 21:39:36,911 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) opacity is an unrecognized CSS property at line 506. Ignoring declaration.]
+2018-08-07 21:39:36,911 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) background-clip is an unrecognized CSS property at line 510. Ignoring declaration.]
+2018-08-07 21:39:36,911 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) background-origin is an unrecognized CSS property at line 510. Ignoring declaration.]
+2018-08-07 21:39:36,911 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) background-size is an unrecognized CSS property at line 510. Ignoring declaration.]
+2018-08-07 21:39:36,917 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found 4 value(s) for background-image when 1 value(s) were expected at line 613. Skipping declaration.]
+2018-08-07 21:39:36,918 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) voice-family is an unrecognized CSS property at line 648. Ignoring declaration.]
+2018-08-07 21:39:36,922 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) opacity is an unrecognized CSS property at line 718. Ignoring declaration.]
+2018-08-07 21:39:36,922 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) filter is an unrecognized CSS property at line 718. Ignoring declaration.]
+2018-08-07 21:39:36,922 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found = where ) was expected at line 719. Skipping declaration.]
+2018-08-07 21:39:36,925 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) zoom is an unrecognized CSS property at line 811. Ignoring declaration.]
+2018-08-07 21:39:36,933 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found ; where one of a hex color, ., [, or : was expected at line 1056. Skipping ruleset.]
+2018-08-07 21:39:36,936 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found / where a comma or a { was expected at line 1112. Skipping ruleset.]
+2018-08-07 21:39:36,936 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found / where a comma or a { was expected at line 1113. Skipping ruleset.]
+2018-08-07 21:39:36,936 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found / where a comma or a { was expected at line 1114. Skipping ruleset.]
+2018-08-07 21:39:36,936 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found / where a comma or a { was expected at line 1115. Skipping ruleset.]
+2018-08-07 21:39:36,938 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) filter is an unrecognized CSS property at line 1201. Ignoring declaration.]
+2018-08-07 21:39:36,939 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found = where ) was expected at line 1202. Skipping declaration.]
+2018-08-07 21:39:36,939 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) opacity is an unrecognized CSS property at line 1201. Ignoring declaration.]
+2018-08-07 21:39:36,940 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) -moz-border-radius is an unrecognized CSS property at line 1243. Ignoring declaration.]
+2018-08-07 21:39:36,940 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) -webkit-border-radius is an unrecognized CSS property at line 1243. Ignoring declaration.]
+2018-08-07 21:39:36,940 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) border-radius is an unrecognized CSS property at line 1243. Ignoring declaration.]
+2018-08-07 21:39:36,940 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) filter is an unrecognized CSS property at line 1255. Ignoring declaration.]
+2018-08-07 21:39:36,941 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found = where ) was expected at line 1256. Skipping declaration.]
+2018-08-07 21:39:36,941 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) opacity is an unrecognized CSS property at line 1255. Ignoring declaration.]
+2018-08-07 21:39:36,941 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) -moz-border-radius is an unrecognized CSS property at line 1272. Ignoring declaration.]
+2018-08-07 21:39:36,942 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) -webkit-border-radius is an unrecognized CSS property at line 1272. Ignoring declaration.]
+2018-08-07 21:39:36,942 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) border-radius is an unrecognized CSS property at line 1272. Ignoring declaration.]
+2018-08-07 21:39:36,942 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) zoom is an unrecognized CSS property at line 1282. Ignoring declaration.]
+2018-08-07 21:39:36,945 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) opacity is an unrecognized CSS property at line 1349. Ignoring declaration.]
+2018-08-07 21:39:36,945 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) filter is an unrecognized CSS property at line 1349. Ignoring declaration.]
+2018-08-07 21:39:36,945 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found = where ) was expected at line 1350. Skipping declaration.]
+2018-08-07 21:39:36,945 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) opacity is an unrecognized CSS property at line 1350. Ignoring declaration.]
+2018-08-07 21:39:36,945 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) filter is an unrecognized CSS property at line 1350. Ignoring declaration.]
+2018-08-07 21:39:36,945 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found = where ) was expected at line 1351. Skipping declaration.]
+2018-08-07 21:39:36,951 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Ident auto is an invalid or unsupported value for overflow at line 1518. Skipping declaration.]
+2018-08-07 21:39:36,951 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) overflow-x is an unrecognized CSS property at line 1517. Ignoring declaration.]
+2018-08-07 21:39:36,960 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found a dimension where ; or } was expected at line 1719. Skipping declaration.]
+2018-08-07 21:39:36,961 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) overflow-x is an unrecognized CSS property at line 1739. Ignoring declaration.]
+2018-08-07 21:39:36,962 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) overflow-x is an unrecognized CSS property at line 1778. Ignoring declaration.]
+2018-08-07 21:39:36,962 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) overflow-y is an unrecognized CSS property at line 1778. Ignoring declaration.]
+2018-08-07 21:39:36,964 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Value for font-size must be an identifier, length, or percentage at line 1851. Skipping declaration.]
+2018-08-07 21:39:36,969 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) zoom is an unrecognized CSS property at line 1984. Ignoring declaration.]
+2018-08-07 21:39:36,975 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) last-child is not a recognized pseudo-class at line 2124. Skipping ruleset.]
+2018-08-07 21:39:36,977 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found * where an identifier was expected at line 2178. Skipping declaration.]
+2018-08-07 21:39:36,977 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) _margin-top is an unrecognized CSS property at line 2177. Ignoring declaration.]
+2018-08-07 21:39:36,978 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) filter is an unrecognized CSS property at line 2200. Ignoring declaration.]
+2018-08-07 21:39:36,978 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found = where ) was expected at line 2201. Skipping declaration.]
+2018-08-07 21:39:36,978 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) opacity is an unrecognized CSS property at line 2200. Ignoring declaration.]
+2018-08-07 21:39:36,978 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) filter is an unrecognized CSS property at line 2213. Ignoring declaration.]
+2018-08-07 21:39:36,978 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found = where ) was expected at line 2214. Skipping declaration.]
+2018-08-07 21:39:36,979 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) opacity is an unrecognized CSS property at line 2213. Ignoring declaration.]
+2018-08-07 21:39:36,980 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) background-clip is an unrecognized CSS property at line 2247. Ignoring declaration.]
+2018-08-07 21:39:36,980 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) background-origin is an unrecognized CSS property at line 2247. Ignoring declaration.]
+2018-08-07 21:39:36,980 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) background-size is an unrecognized CSS property at line 2247. Ignoring declaration.]
+2018-08-07 21:39:36,981 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) filter is an unrecognized CSS property at line 2273. Ignoring declaration.]
+2018-08-07 21:39:36,981 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found = where ) was expected at line 2274. Skipping declaration.]
+2018-08-07 21:39:36,981 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) -moz-opacity is an unrecognized CSS property at line 2273. Ignoring declaration.]
+2018-08-07 21:39:36,981 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) opacity is an unrecognized CSS property at line 2273. Ignoring declaration.]
+2018-08-07 21:39:36,982 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) -khtml-opacity is an unrecognized CSS property at line 2273. Ignoring declaration.]
+2018-08-07 21:39:36,982 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found an identifier where : was expected at line 2278. Skipping declaration.]
+2018-08-07 21:39:36,983 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) filter is an unrecognized CSS property at line 2302. Ignoring declaration.]
+2018-08-07 21:39:36,983 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Found = where ) was expected at line 2303. Skipping declaration.]
+2018-08-07 21:39:36,983 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) opacity is an unrecognized CSS property at line 2302. Ignoring declaration.]
+2018-08-07 21:39:36,985 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Unsupported CSS unit p at line 2355. Skipping declaration.]
+2018-08-07 21:39:36,986 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) background-size is an unrecognized CSS property at line 2383. Ignoring declaration.]
+2018-08-07 21:39:36,988 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Value -moz-use-text-color is not a recognized identifier at line 2440. Skipping declaration.]
+2018-08-07 21:39:36,988 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) border-image is an unrecognized CSS property at line 2440. Ignoring declaration.]
+2018-08-07 21:39:36,988 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) box-sizing is an unrecognized CSS property at line 2443. Ignoring declaration.]
+2018-08-07 21:39:36,989 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) outline is not implemented at line 2448. Ignoring declaration.]
+2018-08-07 21:39:36,990 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Value for background-color must be an identifier or a color at line 2527. Skipping declaration.]
+2018-08-07 21:39:36,991 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Value for background-color must be an identifier or a color at line 2558. Skipping declaration.]
+2018-08-07 21:39:36,991 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Value for background-color must be an identifier or a color at line 2598. Skipping declaration.]
+2018-08-07 21:39:36,992 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) background-size is an unrecognized CSS property at line 2656. Ignoring declaration.]
+2018-08-07 21:39:36,992 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) Value for background-color must be an identifier or a color at line 2672. Skipping declaration.]
+2018-08-07 21:39:36,992 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/geral/interna.css) box-sizing is an unrecognized CSS property at line 2701. Ignoring declaration.]
+2018-08-07 21:39:37,048 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/sei/sei_impressao.css) filter is an unrecognized CSS property at line 0. Ignoring declaration.]
+2018-08-07 21:39:37,048 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/sei/sei_impressao.css) Found = where ) was expected at line 1. Skipping declaration.]
+2018-08-07 21:39:37,048 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/sei/sei_impressao.css) opacity is an unrecognized CSS property at line 0. Ignoring declaration.]
+2018-08-07 21:39:37,048 WARN [br.com.bradesco.web.custodia.sei.log.XRLogSei] - [[org.xhtmlrenderer.css-parse] (http://www.bc3.custodia.des.scopus.com.br/cali/conteudo/css/sei/sei_impressao.css) -moz-opacity is an unrecognized CSS property at line 0. Ignoring declaration.]

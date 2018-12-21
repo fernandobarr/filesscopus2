@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+<!--	<bean id="menuDinamicoDao"
+		  class="br.com.bradesco.web.ibpj.service.data.dao.parametrizacao.menudinamico.impl.hibernate.MenuDinamicoDAOHibernateImpl"
+		  parent="ofpjd000DaoBase">
+	</bean>			-->
+	 
+	<bean id="menuDinamicoService"
+		  class= "br.com.bradesco.web.custodia.service.business.parametrizacao.menudinamico.impl.MenuDinamicoServiceImpl"
+		  lazy-init="true">
+		<property name="logManager"><ref bean="logManager" /></property>	
+	  	<property name="menuDinamicoDao"><ref bean="menuDinamicoDao" /></property>
+		<!--<property name="servicoDao"><ref bean="servicoDao" /></property>-->
+
+		<!-- Mapeamento de perfis do Menu Dinâmico para roles do Spring Security -->
+		<property name="mapPerfilRole">
+			<map>
+				<entry key="1"><value>ROLE_CUSTODIA</value></entry>
+			</map>
+		</property>
+
+		<!-- Roles que por default poderão acessar URLs não configuradas -->
+		<property name="mapPerfilRoleDefault">
+			<list>
+				<value>ROLE_CUSTODIA</value>
+			</list>
+		</property>
+
+		<!-- Mapeamento de itens de menu que não podem ser disponibilizados para determinados tipos de clientes -->
+		<property name="mapExcecaoServicoRole">
+			<map>
+			<!--
+				1. Indicar um item de lista com o valor ROLE caso o item deva ser escondido se o cliente 
+				   possuir o role ROLE.
+
+				    Exemplo: Esconder o item XYZ se o cliente possuir o role ROLE_A:
+				
+        				<entry key="XYZ">
+        					<list>
+        						<value>ROLE_A</value>
+        					</list>
+        				</entry>
+
+
+				2. Indicar um item de lista com o valor !ROLE caso o item deva ser escondido se o cliente 
+				   não possuir o role ROLE.
+
+				   Exemplo: Esconder o item XYZ se o cliente não possuir o role ROLE_A:
+				
+        				<entry key="XYZ">
+        					<list>
+        						<value>!ROLE_A</value>
+        					</list>
+        				</entry>
+
+				3. Indicar um item de lista com vários valores ROLE e !ROLE separados por vírgula caso o item 
+				   deva ser escondido se todas as condições forem verdadeiras (operador E).
+
+				   Exemplo: Esconder o item XYZ se o cliente possuir o role ROLE_A e não possuir o role ROLE_B:
+				
+        				<entry key="XYZ">
+        					<list>
+        						<value>ROLE_A,!ROLE_B</value>
+        					</list>
+        				</entry>
+
+				4. Indicar uma lista com vários itens caso o item deva ser escondido se alguma condição for 
+				   verdadeira (operador OU).
+				
+				   Exemplo: Esconder o item XYZ se o cliente possuir o role ROLE_A ou não possuir o role ROLE_B:
+				
+        				<entry key="XYZ">
+        					<list>
+        						<value>ROLE_A</value>
+        						<value>!ROLE_B</value>
+        					</list>
+        				</entry>
+
+				5. É possível combinar as operações E e OU.
+				
+				   Exemplo: Esconder o item XYZ se o cliente possuir o role ROLE_A e não possuir o role ROLE_B, 
+				            ou ainda se possuir os roles ROLE_C ou ROLE_D:
+				
+        				<entry key="XYZ">
+        					<list>
+        						<value>ROLE_A,!ROLE_B</value>
+        						<value>ROLE_C</value>
+        						<value>ROLE_D</value>
+        					</list>
+        				</entry>
+			-->
+			</map>
+		</property>
+
+	</bean>
+
+	<bean id="menuDinamicoAccessDeniedHandler"
+		  class="br.com.bradesco.web.custodia.service.business.parametrizacao.menudinamico.acesso.exception.handler.MenuDinamicoAccessDeniedHandlerImpl">
+		<property name="errorPage"><value>${url.base.estaticos}/cali/conteudo/html/geral/acessoNaoPermitido.html</value></property>
+		<property name="sessionManager"><ref bean="sessionManager" /></property>
+		<property name="logManager"><ref bean="logManager" /></property>	
+	</bean>
+
+</beans>

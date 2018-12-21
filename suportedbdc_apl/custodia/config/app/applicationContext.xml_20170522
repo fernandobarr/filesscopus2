@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<!-- ======================================================================================= -->  
+<!-- ========================= DEFINICIONES DE NEGOCIO Y SERVICIOS ========================= -->  
+<!-- ======================================================================================= -->  
+
+<beans>	
+	 
+	<bean id="bradescoSpringUtils"
+		  class="br.com.bradesco.web.aq.application.util.spring.BradescoSpringUtils">
+		  	<property name="springUtils"><ref bean="springUtils"/></property>
+	</bean>	  
+	
+	<bean id="springUtils"
+		  class="br.com.bradesco.web.aq.application.util.spring.SpringUtilsImpl"/>
+	 
+	<bean id="bradescoFacesUtils"
+		  class="br.com.bradesco.web.aq.application.util.faces.BradescoFacesUtils">
+		  	<property name="facesUtils"><ref bean="facesUtils"/></property>
+	</bean>	  
+	
+	<bean id="facesUtils"
+		  class="br.com.bradesco.web.aq.application.util.faces.FacesUtilsMyFacesImpl">
+		  <property name="logger"><ref bean="logManager"/></property>	
+	</bean>
+	
+	<!-- ========================= BRADESCO COMMON SERVICES FACTORY ================== -->
+	<bean id="bradescoCommonServices" class="br.com.bradesco.web.aq.application.util.BradescoCommonServiceFactory">
+		<property name="logManager"><ref bean="logManager"/></property>	
+		<property name="alertManager"><ref bean="alertManager"/></property>	
+		<property name="exceptionManager"><ref bean="exceptionManager"/></property>			
+		<property name="objectManager"><ref bean="objectManager"/></property>
+		<property name="sessionManager"><ref bean="sessionManager"/></property>	 	
+		<property name="securityManager"><ref bean="securityManager"/></property>
+		<property name="loadStaticResourcesService"><ref bean="loadStaticResourcesService"/></property>	
+	</bean>
+	
+</beans>

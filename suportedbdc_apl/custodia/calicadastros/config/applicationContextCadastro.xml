@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <!-- Definição de bean de acesso a configurações de application.properties -->    
+    <bean id="propBeanConfigCadastro" class="br.com.bradesco.web.custodia.view.bean.PropConfig">
+            <property name="properties">
+                <map>                   					
+					<entry key="parameter.layout.cadastro"><value>${parameter.layout.cadastro}</value></entry>
+					<entry key="parameter.form.pf.info"><value>${parameter.form.pf.info}</value></entry>
+					<entry key="parameter.form.pf.individual"><value>${parameter.form.pf.individual}</value></entry>
+					<entry key="parameter.form.pf.cotitularidade"><value>${parameter.form.pf.cotitularidade}</value></entry>
+					<entry key="parameter.form.pf.inr"><value>${parameter.form.pf.inr}</value></entry>
+					<entry key="parameter.form.pj"><value>${parameter.form.pj}</value></entry>
+					<entry key="parameter.form.pj.info"><value>${parameter.form.pj.info}</value></entry>
+					<entry key="parameter.form.pj.inr"><value>${parameter.form.pj.inr}</value></entry>
+					<entry key="parameter.form.pj.ci"><value>${parameter.form.pj.ci}</value></entry>
+					<entry key="parameter.form.declaracao.pep"><value>${parameter.form.declaracao.pep}</value></entry>
+				</map>
+            </property>
+    </bean>	    
+</beans>

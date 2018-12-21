@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans> 
+
+	<!-- JNDI DataSource for J2EE environments -->
+  	<bean id="calid004DataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiName"><value>jdbc/CALID004</value></property>
+		<property name="resourceRef"><value>true</value></property>
+	</bean>
+ 
+</beans>

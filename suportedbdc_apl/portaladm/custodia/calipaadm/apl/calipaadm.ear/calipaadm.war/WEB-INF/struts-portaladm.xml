@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE struts-config PUBLIC
+		"-//Apache Software Foundation//DTD Struts Configuration 1.1//EN"
+		"http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+
+	<form-beans>
+		<!-- Formulário referente a página do Menu Principal -->
+		<form-bean name="menuPrincipalForm"
+			type="br.com.bradesco.custodia.portal.portaladm.apresentacao.MenuPrincipalForm" />
+	
+		<!-- Formulário referente a página de Controle de Menu -->
+		<form-bean name="menuForm"
+			type="br.com.bradesco.custodia.portal.portaladm.apresentacao.MenuForm" />
+			
+		<!-- Formulário referente a página de Parametrização de Empresas -->
+		<form-bean name="empresaForm"
+			type="br.com.bradesco.custodia.portal.portaladm.apresentacao.EmpresaForm" />
+			
+		<!-- Formulário referente a página de Parametrização de Empresas -->
+		<form-bean name="queryOnlineForm"
+			type="br.com.bradesco.custodia.portal.portaladm.apresentacao.QueryOnlineForm" />
+			
+	</form-beans>
+	
+	<global-forwards>
+		<forward name="SessaoInvalida" path="sessaoInvalida"/>
+		<forward name="ServicoIndisponivel" path="servicoIndisponivel"/>
+		<forward name="ErroAutenticacao" path="erroAutenticacao"/>
+
+		<!--forward para o caso de erro na validacao de formularios-->
+		<forward name="ErroFormulario" path="erroFormulario"/>
+		
+		<!--forward para o caso de erro de exceptions ocorridos dentro de actions-->
+		<forward name="ErroAction" path="erroAction"/>
+		
+	</global-forwards>
+		
+	<action-mappings>
+		<!-- MENU PRINCIPAL -->
+		<action path="/MenuPrincipal" 
+				name="menuPrincipalForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.portaladm.apresentacao.MenuPrincipalAction">
+			<forward name="menuPrincipal" path="menuPrincipal"/>
+		</action>
+	
+		<!-- CONTROLE DE MENU -->
+		<action path="/SelecionarMenu" 
+				name="menuForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.portaladm.apresentacao.SelecionarMenuAction">
+			<forward name="selecionarMenu" path="controle"/>
+		</action>
+		<action path="/EditarMenu" 
+				name="menuForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.portaladm.apresentacao.EditarMenuAction">
+			<forward name="editarMenu" path="editarMenu"/>
+		</action>
+<!-- 		<action path="/GravarMenu"  -->
+<!-- 				name="menuForm"  -->
+<!-- 				scope="request"  -->
+<!-- 				validate="false" -->
+<!-- 				input="controlemenu/controleMenu.jsp" -->
+<!-- 				type="br.com.bradesco.custodia.portal.portaladm.apresentacao.GravarMenuAction"> -->
+<!-- 			<forward name="gravarMenu" path="gravarMenu"/> -->
+<!-- 		</action> -->
+		<action path="/GravarMenu" 
+				name="menuForm" 
+				scope="request" 
+				validate="false"
+				input="controlemenu/editarMenu.jsp" 
+				type="br.com.bradesco.custodia.portal.portaladm.apresentacao.GravarMenuAction">
+			<forward name="servicoIndisponivel" path="servicoIndisponivel"/>
+			<forward name="gravarMenu" path="gravarMenu"/>
+		</action>
+		
+		<!-- PARAMETRIZAÇÃO DE EMPRESAS -->
+		<action path="/SelecionarEmpresa" 
+				name="empresaForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.portaladm.apresentacao.SelecionarEmpresaAction">
+			<forward name="selecionarEmpresa" path="selecionarEmpresa"/>
+		</action>
+		<action path="/BuscarEmpresa" 
+				name="empresaForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.portaladm.apresentacao.BuscarEmpresaAction">
+<!-- 			<forward name="buscarEmpresa" path="buscarEmpresa"/> -->
+		</action>
+		<action path="/GravarEmpresa" 
+				name="empresaForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.portaladm.apresentacao.GravarEmpresaAction">
+			<forward name="gravarEmpresa" path="gravarEmpresa"/>
+		</action>
+		
+		<!-- QUERY ONLINE -->
+		<action path="/QueryOnline" 
+				name="queryOnlineForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.portaladm.apresentacao.QueryOnlineAction">
+			<forward name="queryOnline" path="queryOnline"/>
+		</action>
+		<action path="/ExecutarQuery" 
+				name="queryOnlineForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.portaladm.apresentacao.ExecutarQueryAction">
+			<forward name="executarQuery" path="executarQuery"/>
+		</action>
+		
+	</action-mappings>
+
+	<controller processorClass="br.com.bradesco.portaladm.apresentacao.AplicacaoPortalRequestProcessor" debug="0"/>
+
+	<message-resources parameter="application" null="false"  />
+	
+	<plug-in className="org.apache.struts.tiles.TilesPlugin">
+		<set-property property="definitions-config" value="/WEB-INF/tiles-defs.xml"/>
+	</plug-in>
+		
+	<plug-in className="br.com.bradesco.custodia.portal.portaladm.util.ConfigPlugin">   
+	</plug-in>
+	
+</struts-config>

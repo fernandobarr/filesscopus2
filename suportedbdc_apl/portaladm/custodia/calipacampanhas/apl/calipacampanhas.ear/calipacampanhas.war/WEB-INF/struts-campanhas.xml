@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE struts-config PUBLIC
+		"-//Apache Software Foundation//DTD Struts Configuration 1.1//EN"
+		"http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+
+	<form-beans>
+		<!-- Formulário referente a página de filtro -->
+		<form-bean name="campanhaForm"
+			type="br.com.bradesco.custodia.portal.campanhas.apresentacao.CampanhaForm" />
+	</form-beans>
+	
+	<global-forwards>
+		<forward name="SessaoInvalida" path="sessaoInvalida"/>
+		<forward name="ServicoIndisponivel" path="servicoIndisponivel"/>
+		<forward name="ErroAutenticacao" path="erroAutenticacao"/>
+
+		<!--forward para o caso de erro na validacao de formularios-->
+		<forward name="ErroFormulario" path="erroFormulario"/>
+		
+		<!--forward para o caso de erro de exceptions ocorridos dentro de actions-->
+		<forward name="ErroAction" path="erroAction"/>
+		
+	</global-forwards>
+		
+	<action-mappings>
+		<!-- MENU DE CAMPANHAS -->
+		<action path="/ExibirMenu" 
+				name="campanhaForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.campanhas.apresentacao.ExibirMenuAction">
+			<forward name="sucesso" path="menu"/>
+		</action>
+		<action path="/IncluirCampanhaEntrada" 
+				name="campanhaForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.campanhas.apresentacao.IncluirCampanhaEntradaAction">
+			<forward name="incluirHomeEntrada" path="incluirHomeEntrada"/>
+			<forward name="incluirInformativoEntrada" path="incluirInformativoEntrada"/>
+			<forward name="incluirDestaqueEntrada" path="incluirDestaqueEntrada"/>
+		</action>
+		<action path="/IncluirCampanhaConfirmar" 
+				name="campanhaForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.campanhas.apresentacao.IncluirCampanhaHomeConfirmarAction">
+			<forward name="incluirHome" path="incluirHomeConfirmar"/>
+			<forward name="incluirCampanhaErro" path="incluirCampanhaErro"/>
+		</action>
+		<action path="/IncluirCampanhaEfetivar" 
+				name="campanhaForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.campanhas.apresentacao.IncluirCampanhaHomeEfetivarAction">
+			<forward name="incluirHome" path="incluirHomeEfetivar"/>
+			<forward name="incluirCampanhaErro" path="incluirCampanhaErro"/>
+		</action>
+		<action path="/IncluirInformativoConfirmar" 
+				name="campanhaForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.campanhas.apresentacao.IncluirInformativoConfirmarAction">
+			<forward name="incluirInformativo" path="incluirInformativoConfirmar"/>
+			<forward name="incluirInformativoErro" path="incluirInformativoErro"/>
+		</action>
+		<action path="/IncluirInformativoEfetivar" 
+				name="campanhaForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.campanhas.apresentacao.IncluirInformativoEfetivarAction">
+			<forward name="incluirInformativo" path="incluirInformativoEfetivar"/>
+			<forward name="incluirInformativoErro" path="incluirInformativoErro"/>
+		</action>
+		<action path="/IncluirDestaqueConfirmar" 
+				name="campanhaForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.campanhas.apresentacao.IncluirDestaqueConfirmarAction">
+			<forward name="incluirDestaque" path="incluirDestaqueConfirmar"/>
+		</action>
+		<action path="/IncluirDestaqueEfetivar" 
+				name="campanhaForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.campanhas.apresentacao.IncluirDestaqueEfetivarAction">
+			<forward name="incluirDestaque" path="incluirDestaqueEfetivar"/>
+		</action>
+
+
+		<action path="/ConsultarCampanha" 
+				name="campanhaForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.campanhas.apresentacao.ConsultarEntradaAction">
+			<forward name="consultarHomeEntrada" path="consultarHomeEntrada"/>
+			<forward name="consultarInformativoEntrada" path="consultarInformativoEntrada"/>
+			<forward name="consultarDestaqueEntrada" path="consultarDestaqueEntrada"/>
+		</action>
+		<action path="/ConsultarCampanhaLista" 
+				name="campanhaForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.campanhas.apresentacao.ConsultarListaAction">
+			<forward name="consultarLista" path="consultarLista"/>
+		</action>
+		<action path="/DetalharCampanha" 
+				name="campanhaForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.campanhas.apresentacao.ConsultarDetalheAction">
+			<forward name="detalharHome" path="detalharHome"/>
+			<forward name="detalharInformativo" path="detalharInformativo"/>
+			<forward name="detalharDestaque" path="detalharDestaque"/>
+		</action>
+		<action path="/AlterarSituacaoEfetivar" 
+				name="campanhaForm" 
+				scope="request" 
+				validate="false"
+				type="br.com.bradesco.custodia.portal.campanhas.apresentacao.AlterarSituacaoEfetivarAction">
+			<forward name="alterarSituacao" path="alterarSituacaoEfetivar"/>
+			<forward name="detalheErro" path="detalheErro"/>
+		</action>
+		<action path="/downloadFileServer" type="br.com.bradesco.custodia.portal.campanhas.apresentacao.DownloadFileServerAction">
+		</action>		
+	</action-mappings>
+
+	<controller processorClass="br.com.bradesco.portaladm.apresentacao.AplicacaoPortalRequestProcessor" debug="0"/>
+
+	<message-resources parameter="application" null="false"  />
+	
+	<plug-in className="org.apache.struts.tiles.TilesPlugin">
+		<set-property property="definitions-config" value="/WEB-INF/tiles-defs.xml"/>
+	</plug-in>
+		
+	<plug-in className="br.com.bradesco.custodia.portal.campanhas.util.ConfigPlugin">   
+	</plug-in>
+	
+</struts-config>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.ejs.models.base.bindings.webappbnd:WebAppBinding xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.ejs.models.base.bindings.webappbnd="webappbnd.xmi" xmi:id="WebAppBinding_1461338221132" virtualHostName="ne12_vh">
+  <webapp href="WEB-INF/web.xml#WebApp_1461338221132"/>
+  <resRefBindings xmi:id="ResourceRefBinding_1461338221132" jndiName="jdbc/ofpjd000_sql">
+    <bindingResourceRef href="WEB-INF/web.xml#ResourceRef_1461338221132"/>
+  </resRefBindings>
+  <resRefBindings xmi:id="ResourceRefBinding_1461338221133" jndiName="jdbc/ofied000_sql">
+    <bindingResourceRef href="WEB-INF/web.xml#ResourceRef_1461338221133"/>
+  </resRefBindings>
+  <resRefBindings xmi:id="ResourceRefBinding_1461338221134" jndiName="jdbc/dbcorp_sql">
+    <bindingResourceRef href="WEB-INF/web.xml#ResourceRef_1461338221134"/>
+  </resRefBindings>
+  <resRefBindings xmi:id="ResourceRefBinding_1461338221135" jndiName="sessao_login_porta_desenv">
+    <bindingResourceRef href="WEB-INF/web.xml#ResourceRef_1461338221135"/>
+  </resRefBindings>
+  <resRefBindings xmi:id="ResourceRefBinding_1461338221136" jndiName="sessao_login_porta_desenv">
+    <bindingResourceRef href="WEB-INF/web.xml#ResourceRef_1461338221136"/>
+  </resRefBindings>
+</com.ibm.ejs.models.base.bindings.webappbnd:WebAppBinding>

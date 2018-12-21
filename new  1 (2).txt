@@ -1,0 +1,7 @@
+# SCOPUS
+# Ambiente local
+#url.domain=172.16.59.85
+url.domain=localhost
+url.base=http://${url.domain}:9080
+url.base.estaticos=http://www.bc3.custodia.des.scopus.com.br
+

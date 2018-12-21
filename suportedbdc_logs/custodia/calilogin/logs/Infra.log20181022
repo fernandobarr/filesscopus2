@@ -1,0 +1,62 @@
+2018-10-22 10:07:48,218 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calilogin-0_0_1-SNAPSHOT_war.ear\calilogin-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-22 10:07:48,312 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calilogin-0_0_1-SNAPSHOT_war.ear\calilogin-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-22 10:07:48,316 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calilogin-0_0_1-SNAPSHOT_war.ear\calilogin-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-22 10:07:48,319 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calilogin-0_0_1-SNAPSHOT_war.ear\calilogin-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-22 10:07:48,322 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calilogin-0_0_1-SNAPSHOT_war.ear\calilogin-0.0.1-SNAPSHOT.war\WEB-INF]
+2018-10-22 10:07:48,324 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calilogin-0_0_1-SNAPSHOT_war.ear\calilogin-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-22 10:07:48,327 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calilogin-0_0_1-SNAPSHOT_war.ear\calilogin-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-22 10:07:48,329 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calilogin-0_0_1-SNAPSHOT_war.ear\calilogin-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common]
+2018-10-22 10:07:48,331 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calilogin-0_0_1-SNAPSHOT_war.ear\calilogin-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-22 10:07:48,333 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calilogin-0_0_1-SNAPSHOT_war.ear\calilogin-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-22 10:07:48,335 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calilogin-0_0_1-SNAPSHOT_war.ear\calilogin-0.0.1-SNAPSHOT.war\WEB-INF\jsp\common\errorPages]
+2018-10-22 10:07:48,337 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-10-22 10:07:48,438 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-10-22 10:07:48,502 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-10-22 10:07:48,909 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calilogin-0_0_1-SNAPSHOT_war.ear\calilogin-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-22 10:07:48,911 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calilogin-0_0_1-SNAPSHOT_war.ear\calilogin-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-22 10:07:48,913 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calilogin-0_0_1-SNAPSHOT_war.ear\calilogin-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-22 10:07:48,914 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calilogin-0_0_1-SNAPSHOT_war.ear\calilogin-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-22 10:07:48,916 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calilogin-0_0_1-SNAPSHOT_war.ear\calilogin-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-22 10:07:48,918 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calilogin-0_0_1-SNAPSHOT_war.ear\calilogin-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-22 10:07:48,919 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calilogin-0_0_1-SNAPSHOT_war.ear\calilogin-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-22 10:07:48,920 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Program Files (x86)\IBM\WebSphere\AppServer\profiles\AppSrv01\installedApps\ENGW498Node01Cell\calilogin-0_0_1-SNAPSHOT_war.ear\calilogin-0.0.1-SNAPSHOT.war\WEB-INF\jsp\modal]
+2018-10-22 11:03:17,512 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-10-22 12:26:08,469 ERROR [br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService] - []
+java.lang.NullPointerException
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:112)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:73)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:195)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:91)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:967)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1107)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:4047)
+	at com.ibm.ws.webcontainer.webapp.WebGroup.handleRequest(WebGroup.java:304)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1016)
+	at com.ibm.ws.webcontainer.WSWebContainer.handleRequest(WSWebContainer.java:1817)
+	at com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:213)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:463)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:530)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:316)
+	at com.ibm.ws.http.channel.inbound.impl.HttpICLReadCallback.complete(HttpICLReadCallback.java:88)
+	at com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+	at com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+	at com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+	at com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+	at com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+	at com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+	at com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1892)

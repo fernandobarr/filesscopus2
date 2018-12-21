@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context path="/nib/kit" docBase="" antiResourceLocking="false">
+		
+<Resource auth="Container" description="SQL Server DataSource" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" driverName="SQLServer" factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory" logAbandoned="true" maxActive="20" maxIdle="1" maxWait="10000" name="jdbc/CALID003" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:sqlserver://172.16.41.55:34322;instanceName=hmcu2014a;databasename=CALID003 ;user=cali0030;password=cali0030"/>
+
+<Resource auth="Container" description="SQL Server DataSource" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" driverName="SQLServer" factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory" logAbandoned="true" maxActive="20" maxIdle="1" maxWait="10000" name="jdbc/CALID004" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:sqlserver://172.16.41.55:34322;instanceName=hmcu2014a;databasename=CALID004;user=cali0030;password=cali0030"/>
+
+<Resource auth="Container" description="SQL Server DataSource" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" driverName="SQLServer" factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory" logAbandoned="true" maxActive="20" maxIdle="1" maxWait="10000" name="jdbc/webproprietaria" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:sqlserver://172.16.41.55:34322;instanceName=hmcu2014a;databasename=BRD_ACT_YMF_COT;user=dev_user;password=user_sql"/>
+	
+</Context>

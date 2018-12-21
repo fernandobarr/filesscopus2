@@ -1,0 +1,6 @@
+Acesso ao File zilla
+
+172.16.43.93
+usuario root
+senha Scopus2017
+porta 22

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+
+	<form-beans>
+		<form-bean name="pesquisaFiltroForm" type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.PesquisaFiltroForm"/>
+		<form-bean name="criacaoClientesForm" type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.CriacaoClientesForm"/>
+		
+		<form-bean name="incluirParametrizacaoForm" type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.IncluirParametrizacaoForm"/>
+		<form-bean name="incluirParametrizacaoContabilForm" type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.IncluirParametrizacaoContabilForm"/>
+		<form-bean name="manutencaoAdministrativoForm" type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ManutencaoAdministrativoForm"/>
+		<form-bean name="manutencaoContabilForm" type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ManutencaoContabilForm"/>
+	</form-beans>
+	
+	<global-forwards>
+    	<forward name="SessaoInvalida" path="sessaoInvalida"/>
+		<forward name="ServicoIndisponivel" path="servicoIndisponivel"/>
+		<forward name="ErroAutenticacao" path="erroAutenticacao"/>
+
+		<!--forward para o caso de erro na validacao de formularios-->
+		<forward name="ErroFormulario" path="erroFormulario"/>
+		
+		<!--forward para o caso de erro de exceptions ocorridos dentro de actions-->
+		<forward name="ErroAction" path="erroAction"/>
+		
+	</global-forwards>
+		
+	<action-mappings>
+		<!-- INICIO GESTAO DE FILTROS -->
+		<action path="/MenuInicial" 
+				type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.MenuInicialAction">
+			<forward name="sucesso" path="menuInicial"/>
+		</action>
+		
+		<action path="/MenuGestaoFiltros" 
+				type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.MenuGestaoFiltrosAction">
+			<forward name="sucesso" path="menuGestaoFiltros"/>
+		</action>
+		
+		<action path="/MenuFiltro" type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.MenuFiltroAction">
+			<forward name="sucessoMenuFiltroImplantacao" path="menuFiltroImplantacao" />
+			<forward name="sucessoMenuFiltroExcecao" path="menuFiltroExcecao" />
+		</action>
+		
+		<action path="/Filtros" type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.FiltrosAction" name="pesquisaFiltroForm">
+			<forward name="sucesso" path="filtros"/>
+		</action>
+		
+		<action path="/AlterarFiltros" type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.AlterarFiltrosAction" name="pesquisaFiltroForm">
+			<forward name="sucesso" path="mensagemAlterarFiltros"/>
+		</action>
+		
+		<action path="/CriacaoClientes" type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.CriacaoClientesAction"
+			name="criacaoClientesForm">
+			<forward name="sucesso" path="criacaoClientes"/>
+		</action>
+		
+		<action path="/InclusaoClientes" type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.InclusaoClientesAction"
+			name="criacaoClientesForm">
+			<forward name="inclusaoCnpjCpf" path="inclusaoClientesCnpjCpf"/>
+			<forward name="inclusaoIntervaloAgencias" path="inclusaoIntervaloAgencias"/>
+			<forward name="inclusaoCargaArquivo" path="inclusaoCargaArquivo"/>
+			<forward name="inclusaoIntervaloContratos" path="inclusaoIntervaloContratos"/>
+		</action>
+		
+		<action path="/InclusaoCnpjCpf" type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.InclusaoCnpjCpfAction"
+			name="criacaoClientesForm">
+			<forward name="sucesso" path="mensagemInclusaoClientes"/>
+		</action>
+		
+		<action path="/InclusaoIntervaloAgencias" name="criacaoClientesForm"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.InclusaoIntervaloAgenciasAction">
+			<forward name="sucesso" path="mensagemInclusaoIntervaloAgencias"/>
+		</action>
+		
+		<action path="/InclusaoCargaArquivo" 
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.InclusaoCargaArquivoAction">
+			<forward name="sucesso" path="mensagemInclusaoCargaArquivo" />
+		</action>
+		
+		<action path="/InclusaoIntervaloContratos" name="criacaoClientesForm"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.InclusaoIntervaloContratosAction">
+			<forward name="sucesso" path="mensagemInclusaoIntervaloContratos"/>
+		</action>
+		
+		
+		<action path="/ManutencaoClientes" type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ManutencaoClientesAction">
+			<forward name="sucesso" path="manutencaoClientes"/>
+		</action>
+		
+		<action path="/ManutencaoConsultaClientes" 
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ManutencaoConsultaClientesAction">
+			<forward name="sucessoManutencaoCnpjCpf" path="manutencaoClientesCnpjCpf"/>
+			<forward name="sucessoManutencaoAgencias" path="manutencaoIntervaloAgencias"/>
+			<forward name="sucessoManutencaoContratos" path="manutencaoIntervaloContratos"/>
+		</action>
+		
+		<action path="/ManutencaoClientesCnpjCpf" 
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ManutencaoClientesCnpjCpfAction">
+			<forward name="sucessoPendentesInclusao" path="manutencaoCnpjCpfPendentesInclusao"/>
+			<forward name="sucessoPendentesExclusao" path="manutencaoCnpjCpfPendentesExclusao"/>
+			<forward name="sucessoIncluidos" path="manutencaoCnpjCpfIncluidos"/>
+			<forward name="sucessoExcluidos" path="manutencaoCnpjCpfExcluidos"/>
+		</action>
+		
+		<action path="/AprovarReprovarCnpjCpf" type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.AprovarReprovarCnpjCpfAction">
+			<forward name="sucessoAprovacao" path="mensagemAprovacaoCnpjCpf" />
+			<forward name="sucessoReprovacao" path="mensagemReprovacaoCnpjCpf" />
+		</action>
+		
+		<action path="/ExcluirCnpjCpf"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ExcluirCnpjCpfAction">
+			<forward name="sucesso" path="mensagemExclusaoCnpjCpf"/>
+		</action>
+		
+		<action path="/ManutencaoIntervaloAgencias" 
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ManutencaoIntervaloAgenciasAction">
+			<forward name="sucessoPendentesInclusao" path="manutencaoAgenciasPendentesInclusao"/>
+			<forward name="sucessoPendentesExclusao" path="manutencaoAgenciasPendentesExclusao"/>
+			<forward name="sucessoIncluidos" path="manutencaoAgenciasIncluidos"/>
+			<forward name="sucessoExcluidos" path="manutencaoAgenciasExcluidos"/>
+		</action>
+		
+		<action path="/AprovarReprovarIntervaloAgencias"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.AprovarReprovarIntervaloAgenciasAction">
+			<forward name="sucessoAprovacao" path="mensagemAprovacaoIntervaloAgencias"/>
+			<forward name="sucessoReprovacao" path="mensagemReprovacaoIntervaloAgencias"/>
+		</action>
+		
+		<action path="/ExcluirIntervaloAgencias"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ExcluirIntervaloAgenciasAction">
+			<forward name="sucesso" path="mensagemExclusaoIntervaloAgencias"/>
+		</action>
+		
+		
+		<action path="/ManutencaoIntervaloContratos" 
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ManutencaoIntervaloContratosAction">
+			<forward name="sucessoPendentesInclusao" path="manutencaoContratosPendentesInclusao"/>
+			<forward name="sucessoPendentesExclusao" path="manutencaoContratosPendentesExclusao"/>
+			<forward name="sucessoIncluidos" path="manutencaoContratosIncluidos"/>
+			<forward name="sucessoExcluidos" path="manutencaoContratosExcluidos"/>
+		</action>
+		
+		<action path="/AprovarReprovarIntervaloContratos"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.AprovarReprovarIntervaloContratosAction">
+			<forward name="sucessoAprovacao" path="mensagemAprovacaoIntervaloContratos"/>
+			<forward name="sucessoReprovacao" path="mensagemReprovacaoIntervaloContratos"/>
+		</action>
+		
+		<action path="/ExcluirIntervaloContratos"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ExcluirIntervaloContratosAction">
+			<forward name="sucesso" path="mensagemExclusaoIntervaloContratos"/>
+		</action>
+		<!-- FIM GESTAO DE FILTROS -->
+		
+		
+		<!-- INICIO MANUTENCAO DE FILTROS -->
+		<action path="/MenuManutencaoFiltros"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.MenuManutencaoFiltrosAction">
+			<forward name="sucesso" path="menuManutencaoFiltros"/>
+		</action>
+		
+		<action path="/MenuManutencaoDispositivoSeguranca"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.MenuManutencaoDispositivoSegurancaAction">
+			<forward name="sucesso" path="menuManutencaoDispositivoSeguranca"/>
+		</action>
+		
+		<!-- Fluxo Contábil -->
+		<action path="/ManutencaoDispositivoSegurancaContabil" name="manutencaoContabilForm"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ManutencaoDispositivoSegurancaContabilAction">
+			<forward name="sucesso" path="manutencaoDispositivoSegurancaContabil"/>
+		</action>
+		
+		<action path="/AlterarDispositivoServicoContabil" name="manutencaoContabilForm"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.AlterarDispositivoServicoContabilAction">
+			<forward name="sucesso" path="alterarDispositivoServicoContabil"/>
+		</action>
+		
+		<action path="/ConfirmarAlterarContabil" name="manutencaoContabilForm"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ConfirmarAlterarContabilAction">
+			<forward name="sucesso" path="mensagemAlteracaoContabil"/>
+		</action>
+		
+		<action path="/ExcluirDispositivoServicoContabil" name="manutencaoContabilForm"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ExcluirDispositivoServicoContabilAction">
+			<forward name="sucesso" path="excluirDispositivoServicoContabil"/>
+		</action>
+		
+		<action path="/IncluirDispositivoServicoContabil" name="incluirParametrizacaoContabilForm"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.IncluirDispositivoServicoContabilAction">
+			<forward name="sucesso" path="incluirDispositivoServicoContabil"/>
+		</action>
+		
+		<action path="/ConfirmarExcluirContabil" name="manutencaoContabilForm"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ConfirmarExcluirDispositivoServicoContabilAction">
+			<forward name="sucesso" path="mensagemExclusaoContabil"/>
+		</action>
+		
+		<action path="/ConfirmarIncluirDispositivoServicoContabil"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ConfirmarIncluirDispositivoServicoContabilAction" 
+			name="incluirParametrizacaoContabilForm">
+			<forward name="sucesso" path="confirmarIncluirDispositivoServicoContabil"/>
+		</action>
+		
+		
+		<!-- Fluxo Não Contábil -->
+		<action path="/ManutencaoDispositivoSegurancaNaoContabil" name="manutencaoAdministrativoForm"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ManutencaoDispositivoSegurancaNaoContabilAction">
+			<forward name="sucesso" path="manutencaoDispositivoSegurancaNaoContabil"/>
+		</action>
+		
+		<action path="/AlterarDispositivoServicoNaoContabil" name="manutencaoAdministrativoForm"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.AlterarDispositivoServicoNaoContabilAction">
+			<forward name="sucesso" path="alterarDispositivoServicoNaoContabil"/>
+		</action>
+		
+		<action path="/ConfirmarAlterarNaoContabil" name="manutencaoAdministrativoForm"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ConfirmarAlterarNaoContabilAction">
+			<forward name="sucesso" path="mensagemAlteracaoNaoContabil"/>
+		</action>
+		
+		<action path="/ExcluirDispositivoServicoNaoContabil" name="manutencaoAdministrativoForm"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ExcluirDispositivoServicoNaoContabilAction">
+			<forward name="sucesso" path="excluirDispositivoServicoNaoContabil"/>
+		</action>
+		
+		<action path="/ConfirmarExcluirNaoContabil" name="manutencaoAdministrativoForm"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ConfirmarExcluirDispositivoServicoNaoContabilAction">
+			<forward name="sucesso" path="mensagemExclusaoNaoContabil"/>
+		</action>
+		
+		<action path="/IncluirDispositivoServicoNaoContabil"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.IncluirDispositivoServicoNaoContabilAction" 
+			name="incluirParametrizacaoForm">
+			<forward name="sucesso" path="incluirDispositivoServicoNaoContabil"/>
+		</action>
+
+		<action path="/ConfirmarIncluirDispositivoServicoNaoContabil"
+			type="br.com.bradesco.netEmpresa.filtroPortal.apresentacao.ConfirmarIncluirDispositivoServicoNaoContabilAction" 
+			name="incluirParametrizacaoForm">
+			<forward name="sucesso" path="confirmarIncluirDispositivoServicoNaoContabil"/>
+		</action>
+		
+		<!-- FIM MANUTENCAO DE FILTROS -->
+	</action-mappings>
+
+	<controller processorClass="br.com.bradesco.portaladm.apresentacao.AplicacaoPortalRequestProcessor" debug="0"/>
+
+	<message-resources parameter="application" null="true"/>
+	
+	<plug-in className="org.apache.struts.tiles.TilesPlugin">
+      <set-property property="definitions-config" value="/WEB-INF/tiles-defs.xml"/>
+    </plug-in>
+		
+	<plug-in className="br.com.bradesco.netEmpresa.filtroPortal.util.ConfigPlugin">   
+    </plug-in>
+	
+</struts-config>

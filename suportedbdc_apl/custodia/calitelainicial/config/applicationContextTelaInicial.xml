@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <!-- Definição de bean de acesso a configurações de application.properties -->    
+    <bean id="propBeanConfigTelaInicial" class="br.com.bradesco.web.custodia.view.bean.PropConfig">
+            <property name="properties">
+                <map>                   					
+					<entry key="servicos.maisutilizadas.default"><value>${servicos.maisutilizadas.default}</value></entry>
+
+					<entry key="campanha.contingencia.nome"><value>${campanha.contingencia.nome}</value></entry>
+					<entry key="campanha.contingencia.url_imagem"><value>${campanha.contingencia.url_imagem}</value></entry>
+					<entry key="campanha.contingencia.alt_imagem"><value>${campanha.contingencia.alt_imagem}</value></entry>
+					<entry key="campanha.contingencia.texto"><value>${campanha.contingencia.texto}</value></entry>
+
+					<entry key="campanha.idioma2.nome"><value>${campanha.idioma2.nome}</value></entry>
+					<entry key="campanha.idioma2.url_imagem"><value>${campanha.idioma2.url_imagem}</value></entry>
+					<entry key="campanha.idioma2.alt_imagem"><value>${campanha.idioma2.alt_imagem}</value></entry>
+					<entry key="campanha.idioma2.texto"><value>${campanha.idioma2.texto}</value></entry>
+				</map>
+            </property>
+    </bean>	    
+</beans>

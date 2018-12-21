@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSourceExtensions>
+  <extendedDSPropertySet resRefOrModuleName="calipacampanhas.war#jdbc/CALID003"/>
+  <extendedDSPropertySet resRefOrModuleName="calipacampanhas.war#jdbc/sessao"/>
+  <extendedDSPropertySet resRefOrModuleName="calipacampanhas.war#jdbc/login"/>
+</dataSourceExtensions>

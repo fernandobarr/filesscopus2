@@ -1,0 +1,8 @@
+2018-10-24 10:21:34,876 INFO [br.com.bradesco.web.aq.application.log.impl.LogManagerImpl] - [Loaded LOG CATALOG from EXTERNAL Location [ '/suportedbdc_apl/custodia/calitelainicial/config/log4j-catalog.xml'].]
+2018-10-24 10:21:35,403 WARN [br.com.bradesco.web.aq.application.alert.config.AlertCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/alert-catalog.xml]]
+2018-10-24 10:21:35,418 WARN [br.com.bradesco.web.aq.application.alert.channel.file.impl.FileEmitterImpl] - [O sistema não pode encontrar o caminho especificado.]
+2018-10-24 12:27:52,880 INFO [br.com.bradesco.web.aq.application.log.impl.LogManagerImpl] - [Loaded LOG CATALOG from EXTERNAL Location [ '/suportedbdc_apl/custodia/calitelainicial/config/log4j-catalog.xml'].]
+2018-10-24 12:27:53,317 WARN [br.com.bradesco.web.aq.application.alert.config.AlertCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/alert-catalog.xml]]
+2018-10-24 12:27:53,339 WARN [br.com.bradesco.web.aq.application.alert.channel.file.impl.FileEmitterImpl] - [O sistema não pode encontrar o caminho especificado.]
+2018-10-24 12:28:03,097 INFO [br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager] - [Inicializando BradescoFilterManager]
+2018-10-24 12:28:03,097 INFO [br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager] - [Finalizando a inicialização do objeto BradescoFilterManager]

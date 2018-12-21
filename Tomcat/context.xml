@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+
+    <!-- Default set of monitored resources -->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    
+    <Resource auth="Container" description="SQL Server DataSource" 
+	driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+	driverName="SQLServer" 
+	factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory" 
+	logAbandoned="true" maxActive="20" maxIdle="1" maxWait="10000" 
+	name="jdbc/CALID003" removeAbandoned="true" removeAbandonedTimeout="60" 
+	type="javax.sql.DataSource"
+	url="jdbc:sqlserver://172.16.41.55\HMCU2014a;databasename=CALID003;user=CALI0030;password=cali0030"/>
+	
+	<Resource auth="Container" description="SQL Server DataSource" 
+	driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+	driverName="SQLServer" 
+	factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory" 
+	logAbandoned="true" maxActive="20" maxIdle="1" maxWait="10000" 
+	name="jdbc/CALID004" removeAbandoned="true" removeAbandonedTimeout="60" 
+	type="javax.sql.DataSource"
+	url="jdbc:sqlserver://172.16.41.55\HMCU2014a;databasename=CALID004;user=CALI0030;password=cali0030"/>
+	
+	<Resource auth="Container" description="SQL Server DataSource" 
+	driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+	driverName="SQLServer" 
+	factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory" 
+	logAbandoned="true" maxActive="20" maxIdle="1" maxWait="10000" 
+	name="jdbc/WEBCOT" removeAbandoned="true" removeAbandonedTimeout="60" 
+	type="javax.sql.DataSource"
+	url="jdbc:sqlserver://172.16.41.55\HMCU2014a;databasename=BRD_ACT_YMF_COT;user=netcot;password=netcot"/>
+	
+	<Resource auth="Container" description="SQL Server DataSource" 
+	driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+	driverName="SQLServer" 
+	factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory" 
+	logAbandoned="true" maxActive="20" maxIdle="1" maxWait="10000" 
+	name="jdbc/OFSOD" removeAbandoned="true" removeAbandonedTimeout="60" 
+	type="javax.sql.DataSource"
+	url="jdbc:sqlserver://172.16.40.208\HM1100B;databasename=OFSOD000;user=scopus;password=scopus"/>
+	
+	<Resource auth="Container" description="SQL Server DataSource" 
+	driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+	driverName="SQLServer" 
+	factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory" 
+	logAbandoned="true" maxActive="20" maxIdle="1" maxWait="10000" 
+	name="jdbc/dbNetPJDS" removeAbandoned="true" removeAbandonedTimeout="60" 
+	type="javax.sql.DataSource"
+	url="jdbc:sqlserver://172.16.41.55:1633;databasename=OFPJD000;user=scopus;password=scopus"/>
+	
+	<Resource auth="Container" description="SQL Server DataSource" 
+	driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+	driverName="SQLServer" 
+	factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory" 
+	logAbandoned="true" maxActive="20" maxIdle="1" maxWait="10000" 
+	name="jdbc/config2DS" removeAbandoned="true" removeAbandonedTimeout="60" 
+	type="javax.sql.DataSource"
+	url="jdbc:sqlserver://172.16.41.55\HM1120B;databasename=OFIED000;user=scopus;password=scopus"/>
+	
+	<Resource auth="Container" description="SQL Server DataSource" 
+	driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+	driverName="SQLServer" 
+	factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory" 
+	logAbandoned="true" maxActive="20" maxIdle="1" maxWait="10000" 
+	name="jdbc/DBCorpDS" removeAbandoned="true" removeAbandonedTimeout="60" 
+	type="javax.sql.DataSource"
+	url="jdbc:sqlserver://172.16.41.55:1633;databasename=OFIED000;user=scopus;password=scopus"/>
+
+
+	<Resource auth="Container" driverClassName="com.ibm.db2.jcc.DB2Driver"
+		name="jdbc/WorklightDS" username="worklight" password="password"
+		type="javax.sql.DataSource" url="jdbc:db2://server:50000/WRKLGHT:currentSchema=WRKSCHM;" />
+	
+	<!--
+			
+    --> 
+       
+	   <Resource name="tm/CotistaTM" 
+		auth="Container"
+		type="commonj.timers.timersManager"
+		factory="de.myfoo.commonj.timers.FooTimerManagerFactory"
+		minThreads="5" 
+		maxThreads="10" />
+
+	 <Resource name="wm/CotistaWM" 
+		auth="Container"
+		type="commonj.work.WorkManager"
+		factory="de.myfoo.commonj.work.FooWorkManagerFactory"
+		minThreads="1" 
+		maxThreads="2" />
+	   
+</Context>

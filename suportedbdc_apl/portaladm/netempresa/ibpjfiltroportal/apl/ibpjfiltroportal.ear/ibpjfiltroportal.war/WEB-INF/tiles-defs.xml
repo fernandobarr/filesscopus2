@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+<tiles-definitions>
+
+	<definition name="sessaoInvalida" path="/WEB-INF/jsp/sessaoInvalida.jsp" />
+    <definition name="servicoIndisponivel" path="/WEB-INF/jsp/servicoIndisponivel.jsp" />
+    <definition name="erroAutenticacao" path="/WEB-INF/jsp/erroAutenticacao.jsp" />
+    
+    <definition name="portalAdm.main" path="/WEB-INF/jsp/layout.jsp">
+        <put name="header" value="/WEB-INF/jsp/cabecalho.jsp"/>
+        <put name="tituloPagina" value=""/>
+        <put name="body" value="XXX"/>
+        <put name="numTela" value="XXX"/> 
+        <put name="footer" value="/WEB-INF/jsp/rodape.jsp"/>
+    </definition>
+
+    <definition name="portalAdm.popup" path="/WEB-INF/jsp/layoutPopup.jsp">
+        <put name="header" value="/WEB-INF/jsp/cabecalho_popup.jsp"/>
+        <put name="body" value="XXX"/>
+        <put name="numTela" value="XXX"/> 
+        <put name="footer" value="/WEB-INF/jsp/rodape.jsp"/>
+    </definition>
+    
+	<!-- Página de Erro de Formulario -->
+    <definition name="erroFormulario" extends="portalAdm.main">
+        <put name="body" value="/WEB-INF/jsp/portalFiltro/ErroFormulario.jsp" />
+        <put name="numTela" value="9517"/>
+    </definition>
+    
+	<!-- Página de Erro de Action -->
+    <definition name="erroAction" extends="portalAdm.main">
+        <put name="body" value="/WEB-INF/jsp/portalFiltro/ErroAction.jsp" />
+        <put name="numTela" value="9518"/>
+    </definition>
+    
+        
+        
+	<!-- Página inicial -->
+	<definition name="menuInicial" extends="portalAdm.main">
+    	<put name="tituloPagina" value="FILTROS"/>
+        <put name="body" value="/WEB-INF/jsp/menuInicial.jsp" />
+        <put name="numTela" value="9000"/> 
+    </definition>
+	
+    <definition name="menuGestaoFiltros" extends="portalAdm.main">
+    	<put name="tituloPagina" value="GESTÃO DE FILTROS"/>
+        <put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/menuGestaoFiltros.jsp" />
+        <put name="numTela" value="9001"/> 
+    </definition>      
+    
+    <definition name="menuFiltroImplantacao" extends="portalAdm.main">
+    	<put name="tituloPagina" value="GESTÃO DE FILTROS DE IMPLANTAÇÃO"/>
+        <put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/menuFiltrosImplantacaoExcecao.jsp" />
+    </definition>
+    
+     <definition name="menuFiltroExcecao" extends="portalAdm.main">
+    	<put name="tituloPagina" value="GESTÃO DE FILTROS DE EXCEÇÃO"/>
+        <put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/menuFiltrosImplantacaoExcecao.jsp" />
+    </definition>
+        
+    <definition name="filtros" extends="portalAdm.main">
+    	<put name="tituloPagina" value="FILTROS"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/filtros.jsp"/>
+    </definition>
+    
+    <definition name="mensagemAlterarFiltros" extends="filtros">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/mensagemSucesso.jsp"/>
+    </definition>
+    
+    <!-- Inicio fluxo Criação de Clientes -->
+    <definition name="criacaoClientes" extends="portalAdm.main">
+    	<put name="tituloPagina" value="CRIAÇÃO DE CLIENTES"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/criacaoClientes.jsp"/>
+    </definition>
+    
+    <definition name="inclusaoClientesCnpjCpf" extends="criacaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/inclusaoClientesCnpjCpf.jsp"/>
+    </definition>
+    
+    <definition name="mensagemInclusaoClientes" extends="portalAdm.main">
+    	<put name="tituloPagina" value="APROVAÇÃO DE CLIENTES"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/mensagemSucesso.jsp"/>
+    </definition>
+    
+    <definition name="inclusaoIntervaloAgencias" extends="criacaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/inclusaoIntervaloAgencias.jsp"/>
+    </definition>
+    
+    <definition name="mensagemInclusaoIntervaloAgencias" extends="criacaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/mensagemInclusaoIntervaloAgencias.jsp"/>
+    </definition>
+    
+    <definition name="inclusaoCargaArquivo" extends="criacaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/inclusaoCargaArquivo.jsp"/>
+    </definition>
+    
+    <definition name="mensagemInclusaoCargaArquivo" extends="mensagemInclusaoClientes">
+    </definition>
+    
+    <definition name="inclusaoIntervaloContratos" extends="criacaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/inclusaoIntervaloContratos.jsp"/>
+    </definition>
+    
+    <definition name="mensagemInclusaoIntervaloContratos" extends="mensagemInclusaoClientes">
+		<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/mensagemInclusaoIntervaloContratos.jsp"/>
+    </definition>
+    <!-- Fim fluxo Criação de Clientes -->
+    
+    
+    <!-- Inicio fluxo Manutenção de Clientes -->
+    <definition name="manutencaoClientes" extends="portalAdm.main">
+    	<put name="tituloPagina" value="MANUTENÇÃO DE CLIENTES"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/manutencaoClientes.jsp"/>
+    </definition>
+    
+    <definition name="manutencaoClientesCnpjCpf" extends="manutencaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/manutencaoClientesCnpjCpf.jsp"/>
+    </definition>
+    
+    <definition name="manutencaoCnpjCpfPendentesInclusao" extends="manutencaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/manutencaoCnpjCpfPendentesInclusao.jsp"/>
+    </definition>
+    
+    <definition name="mensagemAprovacaoCnpjCpf" extends="mensagemInclusaoClientes">
+    </definition>
+    
+    <definition name="mensagemReprovacaoCnpjCpf" extends="mensagemAprovacaoCnpjCpf">
+    	<put name="tituloPagina" value="REPROVAÇÃO DE CLIENTES"/>
+    </definition>
+    
+    <definition name="manutencaoCnpjCpfPendentesExclusao" extends="manutencaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/manutencaoCnpjCpfPendentesExclusao.jsp"/>
+    </definition>
+    
+    <definition name="mensagemExclusaoCnpjCpf" extends="mensagemAprovacaoCnpjCpf">
+    	<put name="tituloPagina" value="EXCLUSÃO DE CLIENTES"/>
+    </definition>
+    
+    <definition name="manutencaoCnpjCpfIncluidos" extends="manutencaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/manutencaoCnpjCpfIncluidos.jsp" />
+    </definition>
+    
+    <definition name="manutencaoCnpjCpfExcluidos" extends="manutencaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/manutencaoCnpjCpfExcluidos.jsp" />
+    </definition>
+    
+    
+    <definition name="manutencaoIntervaloAgencias" extends="manutencaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/manutencaoIntervaloAgencias.jsp"/>
+    </definition>
+    
+    <definition name="manutencaoAgenciasPendentesInclusao" extends="manutencaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/manutencaoAgenciasPendentesInclusao.jsp"/>
+    </definition>
+    
+    <definition name="mensagemAprovacaoIntervaloAgencias" extends="mensagemInclusaoClientes">
+    </definition>
+    
+    <definition name="mensagemReprovacaoIntervaloAgencias" extends="mensagemAprovacaoCnpjCpf">
+    	<put name="tituloPagina" value="REPROVAÇÃO DE CLIENTES"/>
+    </definition>
+    
+    <definition name="manutencaoAgenciasPendentesExclusao" extends="manutencaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/manutencaoAgenciasPendentesExclusao.jsp"/>
+    </definition>
+    
+    <definition name="mensagemExclusaoIntervaloAgencias" extends="mensagemExclusaoCnpjCpf">
+    </definition>
+    
+    <definition name="manutencaoAgenciasIncluidos" extends="manutencaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/manutencaoAgenciasIncluidos.jsp" />
+    </definition>
+    
+    <definition name="manutencaoAgenciasExcluidos" extends="manutencaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/manutencaoAgenciasExcluidos.jsp" />
+    </definition>
+    
+    
+    <definition name="manutencaoIntervaloContratos" extends="manutencaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/manutencaoIntervaloContratos.jsp"/>
+    </definition>
+    
+    <definition name="manutencaoContratosPendentesInclusao" extends="manutencaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/manutencaoContratosPendentesInclusao.jsp"/>
+    </definition>
+    
+    <definition name="mensagemAprovacaoIntervaloContratos" extends="mensagemInclusaoClientes">
+    </definition>
+    
+    <definition name="mensagemReprovacaoIntervaloContratos" extends="mensagemAprovacaoCnpjCpf">
+    	<put name="tituloPagina" value="REPROVAÇÃO DE CLIENTES"/>
+    </definition>
+    
+    <definition name="manutencaoContratosPendentesExclusao" extends="manutencaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/manutencaoContratosPendentesExclusao.jsp"/>
+    </definition>
+    
+    <definition name="mensagemExclusaoIntervaloContratos" extends="mensagemExclusaoCnpjCpf">
+    </definition>
+    
+    <definition name="manutencaoContratosIncluidos" extends="manutencaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/manutencaoContratosIncluidos.jsp" />
+    </definition>
+    
+    <definition name="manutencaoContratosExcluidos" extends="manutencaoClientes">
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/gestao/manutencaoContratosExcluidos.jsp" />
+    </definition>
+    <!-- Fim fluxo Manutenção de Clientes -->
+    
+    
+    <!-- Inicio fluxo manutenção de filtros -->
+    <definition name="menuManutencaoFiltros" extends="portalAdm.main">
+    	<put name="tituloPagina" value="MANUTENÇÃO DE FILTROS"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/manutencao/menuManutencaoFiltros.jsp" />
+    </definition>
+    
+    <definition name="menuManutencaoDispositivoSeguranca" extends="portalAdm.main">
+    	<put name="tituloPagina" value="MANUTENÇÃO DISPOSITIVO DE SEGURANÇA NAS TRANSAÇÕES NET EMPRESA"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/manutencao/menuManutencaoDispositivoSeguranca.jsp" />
+    </definition>
+
+	<!-- Fluxo Contábil -->    
+    <definition name="manutencaoDispositivoSegurancaContabil" extends="portalAdm.main">
+    	<put name="tituloPagina" value="DISPOSITIVO DE SEGURANÇA NAS TRANSAÇÕES NET EMPRESA"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/manutencao/manutencaoDispositivoSegurancaContabil.jsp" />
+    </definition>
+    
+    <definition name="alterarDispositivoServicoContabil" extends="portalAdm.main">
+    	<put name="tituloPagina" value="ALTERAÇÃO"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/manutencao/alterarDispositivoServicoContabil.jsp" />
+    </definition>
+    
+    <definition name="mensagemAlteracaoContabil" extends="portalAdm.main">
+    	<put name="tituloPagina" value="ALTERAÇÃO"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/manutencao/mensagemSucesso.jsp"/>
+    </definition>
+    
+    <definition name="excluirDispositivoServicoContabil" extends="portalAdm.main">
+    	<put name="tituloPagina" value="EXCLUSÃO"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/manutencao/excluirDispositivoServicoContabil.jsp" />
+    </definition>
+    
+     <definition name="incluirDispositivoServicoContabil" extends="portalAdm.main">
+    	<put name="tituloPagina" value="INCLUSÃO"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/manutencao/incluirDispositivoServicoContabil.jsp" />
+    </definition>
+    
+     <definition name="confirmarIncluirDispositivoServicoContabil" extends="portalAdm.main">
+    	<put name="tituloPagina" value="INCLUSÃO"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/manutencao/mensagemSucesso.jsp"/>
+    </definition>
+    
+    <definition name="mensagemExclusaoContabil" extends="portalAdm.main">
+    	<put name="tituloPagina" value="EXCLUSÃO"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/manutencao/mensagemSucesso.jsp"/>
+    </definition>
+    
+    <!-- Fluxo Não Contábil -->    
+    <definition name="manutencaoDispositivoSegurancaNaoContabil" extends="portalAdm.main">
+    	<put name="tituloPagina" value="ADMINISTRAÇÃO"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/manutencao/manutencaoDispositivoSegurancaNaoContabil.jsp" />
+    </definition>
+    
+    <definition name="alterarDispositivoServicoNaoContabil" extends="portalAdm.main">
+    	<put name="tituloPagina" value="ALTERAÇÃO"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/manutencao/alterarDispositivoServicoNaoContabil.jsp" />
+    </definition>
+    
+    <definition name="mensagemAlteracaoNaoContabil" extends="portalAdm.main">
+    	<put name="tituloPagina" value="ALTERAÇÃO"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/manutencao/mensagemSucesso.jsp"/>
+    </definition>
+    
+    <definition name="excluirDispositivoServicoNaoContabil" extends="portalAdm.main">
+    	<put name="tituloPagina" value="EXCLUSÃO"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/manutencao/excluirDispositivoServicoNaoContabil.jsp" />
+    </definition>
+    
+    <definition name="mensagemExclusaoNaoContabil" extends="portalAdm.main">
+    	<put name="tituloPagina" value="EXCLUSÃO"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/manutencao/mensagemSucesso.jsp"/>
+    </definition>
+    
+     <definition name="incluirDispositivoServicoNaoContabil" extends="portalAdm.main">
+    	<put name="tituloPagina" value="INCLUSÃO"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/manutencao/incluirDispositivoServicoNaoContabil.jsp" />
+    </definition>
+    
+    <definition name="confirmarIncluirDispositivoServicoNaoContabil" extends="portalAdm.main">
+    	<put name="tituloPagina" value="INCLUSÃO"/>
+    	<put name="body" value="/WEB-INF/jsp/portalFiltro/manutencao/mensagemSucesso.jsp"/>
+    </definition>
+    <!-- Fim fluxo manutenção de filtros -->
+</tiles-definitions>

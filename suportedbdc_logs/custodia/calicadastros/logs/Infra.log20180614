@@ -1,0 +1,424 @@
+2018-06-14 16:57:21,419 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-06-14 16:57:21,497 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-06-14 16:57:21,633 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF]
+2018-06-14 16:57:21,633 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF]
+2018-06-14 16:57:21,633 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF]
+2018-06-14 16:57:21,633 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF]
+2018-06-14 16:57:21,633 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF]
+2018-06-14 16:57:21,633 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\common]
+2018-06-14 16:57:21,649 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\common]
+2018-06-14 16:57:21,649 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\common]
+2018-06-14 16:57:21,649 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\common\errorPages]
+2018-06-14 16:57:21,649 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\common\errorPages]
+2018-06-14 16:57:21,649 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\common\errorPages]
+2018-06-14 16:57:21,649 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-06-14 16:57:21,955 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 16:57:21,955 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 16:57:21,955 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 16:57:21,955 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 16:57:21,955 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 16:57:21,955 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 16:57:21,955 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 16:57:21,955 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 16:59:09,081 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-06-14 16:59:09,144 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-06-14 16:59:09,269 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF]
+2018-06-14 16:59:09,285 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF]
+2018-06-14 16:59:09,285 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF]
+2018-06-14 16:59:09,285 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF]
+2018-06-14 16:59:09,285 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF]
+2018-06-14 16:59:09,285 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\common]
+2018-06-14 16:59:09,285 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\common]
+2018-06-14 16:59:09,285 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\common]
+2018-06-14 16:59:09,300 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\common\errorPages]
+2018-06-14 16:59:09,300 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\common\errorPages]
+2018-06-14 16:59:09,300 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\common\errorPages]
+2018-06-14 16:59:09,300 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-06-14 16:59:09,699 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 16:59:09,715 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 16:59:09,715 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 16:59:09,746 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 16:59:09,746 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 16:59:09,746 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 16:59:09,762 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 16:59:09,762 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 16:59:52,143 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-06-14 16:59:52,216 ERROR [br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService] - []
+org.springframework.dao.DataAccessResourceFailureException: Error retreiving database metadata; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'
+	at org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory.createMetaDataProvider(CallMetaDataProviderFactory.java:135)
+	at org.springframework.jdbc.core.metadata.CallMetaDataContext.initializeMetaData(CallMetaDataContext.java:265)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compileInternal(AbstractJdbcCall.java:280)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compile(AbstractJdbcCall.java:266)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.checkCompiled(AbstractJdbcCall.java:325)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.doExecute(AbstractJdbcCall.java:340)
+	at org.springframework.jdbc.core.simple.SimpleJdbcCall.execute(SimpleJdbcCall.java:164)
+	at br.com.bradesco.web.custodia.service.data.dao.sessao.impl.SessaoCustodiaDAOImpl.validarSessao(SessaoCustodiaDAOImpl.java:45)
+	at br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl.validarSessao(SessaoCustodiaServiceImpl.java:78)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:156)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:73)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:293)
+	at org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory.createMetaDataProvider(CallMetaDataProviderFactory.java:71)
+	... 41 more
+Caused by: 
+org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:280)
+	... 42 more
+Caused by: 
+org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'
+	at org.apache.tomcat.dbcp.dbcp.BasicDataSource.createConnectionFactory(BasicDataSource.java:1429)
+	at org.apache.tomcat.dbcp.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1371)
+	at org.apache.tomcat.dbcp.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:113)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	... 43 more
+Caused by: 
+java.lang.ClassNotFoundException: com.microsoft.sqlserver.jdbc.SQLServerDriver
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1892)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1735)
+	at org.apache.tomcat.dbcp.dbcp.BasicDataSource.createConnectionFactory(BasicDataSource.java:1420)
+	... 47 more
+2018-06-14 16:59:52,222 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+br.com.bradesco.web.custodia.service.provider.security.sessao.check.exception.SessionCheckException: Exceção no autoLogin (ex): Error retreiving database metadata; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:182)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:73)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+org.springframework.dao.DataAccessResourceFailureException: Error retreiving database metadata; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'
+	at org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory.createMetaDataProvider(CallMetaDataProviderFactory.java:135)
+	at org.springframework.jdbc.core.metadata.CallMetaDataContext.initializeMetaData(CallMetaDataContext.java:265)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compileInternal(AbstractJdbcCall.java:280)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compile(AbstractJdbcCall.java:266)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.checkCompiled(AbstractJdbcCall.java:325)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.doExecute(AbstractJdbcCall.java:340)
+	at org.springframework.jdbc.core.simple.SimpleJdbcCall.execute(SimpleJdbcCall.java:164)
+	at br.com.bradesco.web.custodia.service.data.dao.sessao.impl.SessaoCustodiaDAOImpl.validarSessao(SessaoCustodiaDAOImpl.java:45)
+	at br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl.validarSessao(SessaoCustodiaServiceImpl.java:78)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:156)
+	... 32 more
+Caused by: 
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:293)
+	at org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory.createMetaDataProvider(CallMetaDataProviderFactory.java:71)
+	... 41 more
+Caused by: 
+org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:280)
+	... 42 more
+Caused by: 
+org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'
+	at org.apache.tomcat.dbcp.dbcp.BasicDataSource.createConnectionFactory(BasicDataSource.java:1429)
+	at org.apache.tomcat.dbcp.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1371)
+	at org.apache.tomcat.dbcp.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:113)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	... 43 more
+Caused by: 
+java.lang.ClassNotFoundException: com.microsoft.sqlserver.jdbc.SQLServerDriver
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1892)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1735)
+	at org.apache.tomcat.dbcp.dbcp.BasicDataSource.createConnectionFactory(BasicDataSource.java:1420)
+	... 47 more
+2018-06-14 16:59:52,237 WARN [br.com.bradesco.web.custodia.service.provider.security.sessao.check.exception.handler.SessionCheckExceptionHandler] - [BradescoApplicationHandler:: Application Exception with Error message Exceção no autoLogin (ex): Error retreiving database metadata; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'.Exceção no autoLogin (ex): Error retreiving database metadata; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver']
+2018-06-14 17:00:07,217 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-06-14 17:00:07,222 ERROR [br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService] - []
+org.springframework.dao.DataAccessResourceFailureException: Error retreiving database metadata; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'
+	at org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory.createMetaDataProvider(CallMetaDataProviderFactory.java:135)
+	at org.springframework.jdbc.core.metadata.CallMetaDataContext.initializeMetaData(CallMetaDataContext.java:265)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compileInternal(AbstractJdbcCall.java:280)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compile(AbstractJdbcCall.java:266)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.checkCompiled(AbstractJdbcCall.java:325)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.doExecute(AbstractJdbcCall.java:340)
+	at org.springframework.jdbc.core.simple.SimpleJdbcCall.execute(SimpleJdbcCall.java:164)
+	at br.com.bradesco.web.custodia.service.data.dao.sessao.impl.SessaoCustodiaDAOImpl.validarSessao(SessaoCustodiaDAOImpl.java:45)
+	at br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl.validarSessao(SessaoCustodiaServiceImpl.java:78)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:156)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:73)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:293)
+	at org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory.createMetaDataProvider(CallMetaDataProviderFactory.java:71)
+	... 41 more
+Caused by: 
+org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:280)
+	... 42 more
+Caused by: 
+org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'
+	at org.apache.tomcat.dbcp.dbcp.BasicDataSource.createConnectionFactory(BasicDataSource.java:1429)
+	at org.apache.tomcat.dbcp.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1371)
+	at org.apache.tomcat.dbcp.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:113)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	... 43 more
+Caused by: 
+java.lang.ClassNotFoundException: com.microsoft.sqlserver.jdbc.SQLServerDriver
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1892)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1735)
+	at org.apache.tomcat.dbcp.dbcp.BasicDataSource.createConnectionFactory(BasicDataSource.java:1420)
+	... 47 more
+2018-06-14 17:00:07,225 ERROR [br.com.bradesco.web.custodia.exception.CustodiaExceptionManagerImpl] - []
+br.com.bradesco.web.custodia.service.provider.security.sessao.check.exception.SessionCheckException: Exceção no autoLogin (ex): Error retreiving database metadata; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:182)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.filter.SessionCheckProcessingFilter.doFilter(SessionCheckProcessingFilter.java:73)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at br.com.bradesco.web.aq.view.filters.impl.BradescoFilterManager.doFilter(BradescoFilterManager.java:179)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.myfaces.component.html.util.ExtensionsFilter.doFilter(ExtensionsFilter.java:122)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1176)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:853)
+Caused by: 
+org.springframework.dao.DataAccessResourceFailureException: Error retreiving database metadata; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'
+	at org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory.createMetaDataProvider(CallMetaDataProviderFactory.java:135)
+	at org.springframework.jdbc.core.metadata.CallMetaDataContext.initializeMetaData(CallMetaDataContext.java:265)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compileInternal(AbstractJdbcCall.java:280)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.compile(AbstractJdbcCall.java:266)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.checkCompiled(AbstractJdbcCall.java:325)
+	at org.springframework.jdbc.core.simple.AbstractJdbcCall.doExecute(AbstractJdbcCall.java:340)
+	at org.springframework.jdbc.core.simple.SimpleJdbcCall.execute(SimpleJdbcCall.java:164)
+	at br.com.bradesco.web.custodia.service.data.dao.sessao.impl.SessaoCustodiaDAOImpl.validarSessao(SessaoCustodiaDAOImpl.java:45)
+	at br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl.validarSessao(SessaoCustodiaServiceImpl.java:78)
+	at br.com.bradesco.web.custodia.service.provider.security.sessao.check.impl.SessionCheckService.autoLogin(SessionCheckService.java:156)
+	... 32 more
+Caused by: 
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:293)
+	at org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory.createMetaDataProvider(CallMetaDataProviderFactory.java:71)
+	... 41 more
+Caused by: 
+org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:280)
+	... 42 more
+Caused by: 
+org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'
+	at org.apache.tomcat.dbcp.dbcp.BasicDataSource.createConnectionFactory(BasicDataSource.java:1429)
+	at org.apache.tomcat.dbcp.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1371)
+	at org.apache.tomcat.dbcp.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:113)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	... 43 more
+Caused by: 
+java.lang.ClassNotFoundException: com.microsoft.sqlserver.jdbc.SQLServerDriver
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1892)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1735)
+	at org.apache.tomcat.dbcp.dbcp.BasicDataSource.createConnectionFactory(BasicDataSource.java:1420)
+	... 47 more
+2018-06-14 17:00:07,227 WARN [br.com.bradesco.web.custodia.service.provider.security.sessao.check.exception.handler.SessionCheckExceptionHandler] - [BradescoApplicationHandler:: Application Exception with Error message Exceção no autoLogin (ex): Error retreiving database metadata; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver'.Exceção no autoLogin (ex): Error retreiving database metadata; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.tomcat.dbcp.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.microsoft.sqlserver.jdbc.SQLServerDriver']
+2018-06-14 17:03:42,854 WARN [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Could not open ServletContext resource [/WEB-INF/classes/error-catalog.xml]]
+2018-06-14 17:03:42,900 INFO [br.com.bradesco.web.custodia.application.error.config.CustodiaExceptionCatalogImpl] - [Método init executado com sucesso.]
+2018-06-14 17:03:43,009 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/tiles.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF]
+2018-06-14 17:03:43,010 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/log4j.dtdpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF]
+2018-06-14 17:03:43,012 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/custom-validator-rules.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF]
+2018-06-14 17:03:43,014 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-navigation-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF]
+2018-06-14 17:03:43,015 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/faces-managed-beans-config.xmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF]
+2018-06-14 17:03:43,017 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/blank.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\common]
+2018-06-14 17:03:43,019 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/main.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\common]
+2018-06-14 17:03:43,021 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/modal.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\common]
+2018-06-14 17:03:43,023 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/403.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\common\errorPages]
+2018-06-14 17:03:43,024 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/404.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\common\errorPages]
+2018-06-14 17:03:43,026 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Copiando arquivo:/suportedbdc_apl/custodia/config/app/WEB-INF/jsp/common/errorPages/500.htmlpara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\common\errorPages]
+2018-06-14 17:03:43,032 INFO [br.com.bradesco.web.custodia.loader.LoaderDynamicFiles] - [Arquivo não encontrado para cópia:\suportedbdc_apl\custodia\config\app\WEB-INF\jsp\common\errorPages\internal.jsp (O sistema não pode encontrar o arquivo especificado.)]
+2018-06-14 17:03:43,250 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCotista.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 17:03:43,252 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisFundo.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 17:03:43,254 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisAdministrador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 17:03:43,256 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisOperador.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 17:03:43,258 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisDistribuidor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 17:03:43,260 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisGestor.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 17:03:43,261 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisEmpresa.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 17:03:43,263 INFO [br.com.bradesco.web.custodia.view.loader.LoaderJSP] - [Copiando arquivo:modal/modalSelecionarMaisCliente.jsppara diretório:C:\Users\fcastello\Desktop\Ambientes\Workspaces\WCustodia\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\calicadastros\WEB-INF\jsp\modal]
+2018-06-14 17:03:59,572 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-06-14 17:04:00,061 INFO [br.com.bradesco.web.custodia.service.business.sessao.impl.SessaoCustodiaServiceImpl] - [Carregando lista de IPs válidos: ]
+2018-06-14 17:04:09,638 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-06-14 17:04:09,768 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelListaCotista02 ]
+2018-06-14 17:04:09,768 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Obter Cotista por Nome Razao Social - obterCotistaPorNomeRazaoSocial(String codigoExterno, String nomeRazaoSocial)  : {nome=alexandre randon, cd_Empresa=null}]
+2018-06-14 17:04:13,961 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-06-14 17:04:16,574 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelDetalheCotista02]
+2018-06-14 17:04:16,574 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarCotista(String cdCotista) : {cd_cotista=AGO127718}]
+2018-06-14 17:04:16,956 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelListaClassificacaoANBIMA02]
+2018-06-14 17:04:16,956 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ obterSegmentoCotista(Integer codigo)  : {Codigo=10}]
+2018-06-14 17:04:17,908 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelCOT_CONTA_EXTERNA01]
+2018-06-14 17:04:17,908 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarContaCotista(String cdCotista) : {cd_cotista=AGO127718}]
+2018-06-14 17:04:17,980 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelClienteComplemento01 ]
+2018-06-14 17:04:17,980 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarRepresentanteProcurador(String cdCliente) : {CD_CLIENTE=AGO127718}]
+2018-06-14 17:04:18,054 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelCOT_COTISTA_PUBLICO_ALVO01]
+2018-06-14 17:04:18,054 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarPublicoAlvo(String cdCotista) : {CD_COTISTA=AGO127718}]
+2018-06-14 17:04:18,423 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelCOT_BANCO02]
+2018-06-14 17:04:18,423 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarBanco(Integer cdBanco) : {ID_BANCO=237}]
+2018-06-14 17:04:18,490 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelCOT_CLIENTE01]
+2018-06-14 17:04:18,490 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarCliente(String cpfCnpj)  : {cd_cliente=AGO127718}]
+2018-06-14 17:04:18,565 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelEnderecoCliente01 ]
+2018-06-14 17:04:18,566 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ obterEnderecoCliente(String cdCliente) : {CD_CLIENTE=AGO127718}]
+2018-06-14 17:04:18,714 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: cadastro.pSelTComplCadPssoaWebCtdia01 ]
+2018-06-14 17:04:18,714 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarDadosComplementares(DadosComplementaresPessoa dadosComplementares) : {cTpoComplCadPssoa=1, nCtrlCnpjCpfPssoa=15, nFlialCnpjPssoa=0, nCnpjCpfPssoa=468801000}]
+2018-06-14 17:04:18,829 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelCotitularesCotista01 ]
+2018-06-14 17:04:18,829 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [consultarCotitularCotista(String cdCotista) : {cd_cotista=AGO127718}]
+2018-06-14 17:05:30,907 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-06-14 17:05:31,354 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelListaCotista02 ]
+2018-06-14 17:05:31,354 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Obter Cotista por Nome Razao Social - obterCotistaPorNomeRazaoSocial(String codigoExterno, String nomeRazaoSocial)  : {nome=alexandre randon, cd_Empresa=null}]
+2018-06-14 17:05:37,527 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-06-14 17:05:42,727 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelDetalheCotista02]
+2018-06-14 17:05:42,728 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarCotista(String cdCotista) : {cd_cotista=AGO127718}]
+2018-06-14 17:05:42,821 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelListaClassificacaoANBIMA02]
+2018-06-14 17:05:42,821 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ obterSegmentoCotista(Integer codigo)  : {Codigo=10}]
+2018-06-14 17:05:43,948 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelCOT_CONTA_EXTERNA01]
+2018-06-14 17:05:43,948 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarContaCotista(String cdCotista) : {cd_cotista=AGO127718}]
+2018-06-14 17:05:44,042 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelClienteComplemento01 ]
+2018-06-14 17:05:44,042 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarRepresentanteProcurador(String cdCliente) : {CD_CLIENTE=AGO127718}]
+2018-06-14 17:05:44,495 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelCOT_COTISTA_PUBLICO_ALVO01]
+2018-06-14 17:05:44,495 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarPublicoAlvo(String cdCotista) : {CD_COTISTA=AGO127718}]
+2018-06-14 17:05:45,463 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelCOT_BANCO02]
+2018-06-14 17:05:45,463 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarBanco(Integer cdBanco) : {ID_BANCO=237}]
+2018-06-14 17:05:46,674 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelCOT_CLIENTE01]
+2018-06-14 17:05:46,674 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarCliente(String cpfCnpj)  : {cd_cliente=AGO127718}]
+2018-06-14 17:05:47,993 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelEnderecoCliente01 ]
+2018-06-14 17:05:47,993 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ obterEnderecoCliente(String cdCliente) : {CD_CLIENTE=AGO127718}]
+2018-06-14 17:05:48,066 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: cadastro.pSelTComplCadPssoaWebCtdia01 ]
+2018-06-14 17:05:48,066 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarDadosComplementares(DadosComplementaresPessoa dadosComplementares) : {cTpoComplCadPssoa=1, nCtrlCnpjCpfPssoa=15, nFlialCnpjPssoa=0, nCnpjCpfPssoa=468801000}]
+2018-06-14 17:05:48,079 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelCotitularesCotista01 ]
+2018-06-14 17:05:48,080 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [consultarCotitularCotista(String cdCotista) : {cd_cotista=AGO127718}]
+2018-06-14 17:06:10,601 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-06-14 17:06:10,862 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelListaCotista02 ]
+2018-06-14 17:06:10,862 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Obter Cotista por Nome Razao Social - obterCotistaPorNomeRazaoSocial(String codigoExterno, String nomeRazaoSocial)  : {nome=alexandre randon, cd_Empresa=null}]
+2018-06-14 17:06:14,404 INFO [br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter] - [Inicializando Bradesco Filter 'class br.com.bradesco.web.custodia.service.provider.security.sessao.filter.SessionInterceptionFilter']
+2018-06-14 17:06:16,020 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelDetalheCotista02]
+2018-06-14 17:06:16,020 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarCotista(String cdCotista) : {cd_cotista=AGO127718}]
+2018-06-14 17:06:16,770 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelListaClassificacaoANBIMA02]
+2018-06-14 17:06:16,770 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ obterSegmentoCotista(Integer codigo)  : {Codigo=10}]
+2018-06-14 17:06:17,020 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelCOT_CONTA_EXTERNA01]
+2018-06-14 17:06:17,020 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarContaCotista(String cdCotista) : {cd_cotista=AGO127718}]
+2018-06-14 17:06:17,091 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelClienteComplemento01 ]
+2018-06-14 17:06:17,091 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarRepresentanteProcurador(String cdCliente) : {CD_CLIENTE=AGO127718}]
+2018-06-14 17:06:19,468 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelCOT_COTISTA_PUBLICO_ALVO01]
+2018-06-14 17:06:19,468 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarPublicoAlvo(String cdCotista) : {CD_COTISTA=AGO127718}]
+2018-06-14 17:06:21,087 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelCOT_BANCO02]
+2018-06-14 17:06:21,087 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarBanco(Integer cdBanco) : {ID_BANCO=237}]
+2018-06-14 17:06:21,153 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelCOT_CLIENTE01]
+2018-06-14 17:06:21,154 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarCliente(String cpfCnpj)  : {cd_cliente=AGO127718}]
+2018-06-14 17:06:21,301 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelEnderecoCliente01 ]
+2018-06-14 17:06:21,301 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ obterEnderecoCliente(String cdCliente) : {CD_CLIENTE=AGO127718}]
+2018-06-14 17:06:21,382 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: cadastro.pSelTComplCadPssoaWebCtdia01 ]
+2018-06-14 17:06:21,383 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [ consultarDadosComplementares(DadosComplementaresPessoa dadosComplementares) : {cTpoComplCadPssoa=1, nCtrlCnpjCpfPssoa=15, nFlialCnpjPssoa=0, nCnpjCpfPssoa=468801000}]
+2018-06-14 17:06:21,396 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [Chamando Procedure: webproprietaria.pSelCotitularesCotista01 ]
+2018-06-14 17:06:21,396 INFO [br.com.bradesco.web.custodia.service.data.dao.cadastro.impl.CadastroCustodiaDAOImpl] - [consultarCotitularCotista(String cdCotista) : {cd_cotista=AGO127718}]
